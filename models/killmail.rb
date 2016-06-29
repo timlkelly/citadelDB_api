@@ -17,21 +17,13 @@ class Killmail < ActiveRecord::Base
   end
 
   def citadel_victim?
-    case killmail_data['victim']['shipType']['name']
-    when 'Astrahus', 'Fortizar', 'Keepstar', 'Upwell Palatine Keepstar'
-      true
-    end
+    self.class.valid_citadel_types.include?(killmail_data['victim']['shipType']['name'])
   end
 
   def citadel_attacker?
     killmail_data['attackers'].each do |attacker|
-      next unless attacker['shipType']
-      case attacker['shipType']['name']
-      when 'Astrahus', 'Fortizar', 'Keepstar', 'Upwell Palatine Keepstar'
-        return true
-      end
+     self.class.valid_citadel_types.include?(attacker['shipType'])
     end
-    nil
   end
 
   def generate_citadel_hash
@@ -66,7 +58,7 @@ class Killmail < ActiveRecord::Base
       system: killmail_data['solarSystem']['name'],
       citadel_type: killmail_data['victim']['shipType']['name'],
       corporation: killmail_data['victim']['corporation']['name'],
-      kill_at: killmail_data['killTime']
+      killed_at: killmail_data['killTime']
     }
     if killmail_data['victim']['alliance']
       victim_hash[:alliance] = killmail_data['victim']['alliance']['name']
@@ -74,5 +66,18 @@ class Killmail < ActiveRecord::Base
       victim_hash[:alliance] = nil
     end
     victim_hash
+  end
+
+  def find_or_create_citadel
+    Citadel.find_or_create_by(generate_citadel_hash)
+  end
+
+  def citadel_exists?
+    citadel_data = generate_citadel_hash
+    if Citadel.find_by(citadel_data) == true
+      true
+    else
+      false
+    end
   end
 end

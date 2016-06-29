@@ -120,19 +120,38 @@ describe 'Killmail model' do
     end
   end
 
-  describe 'citadel_exists?' do
-    context 'citadel is already recorded' do
-      it 'returns true' do
+  describe 'find_or_create_citadel' do
+    context 'creates a new citadel' do
+      let(:killmail_fixture) { File.read('./spec/fixtures/astrahus_deathmail.json') }
+      let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
+      
+      it 'returns a citadel instance' do
+        test_citadel = Citadel.new(killmail.generate_citadel_hash)
+        expect(killmail.find_or_create_citadel).to eq test_citadel
       end
     end
-    context 'citadel is not in db' do
-      it 'returns false' do
+    context 'does not create a duplicate citadel' do
+      it '' do
       end
     end
-
   end
 
-  it 'checks if the generated data matches any existing citadels'
+  # describe 'citadel_exists?' do
+  #   context 'citadel is already recorded' do
+  #     let(:killmail_fixture) { File.read('./spec/fixtures/astrahus_deathmail.json') }
+  #     let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
+  #     let(:redundant_killmail) { Killmail.new(killmail_json: killmail_fixture) }
+  #     killmail = Citadel.new 
+  #     killmail.save
+  #     it 'returns true' do
+  #       expect(redundant_killmail.citadel_exists?).to eq true
+  #     end
+  #   end
+  #   context 'citadel is not in db' do
+  #     it 'returns false' do
+  #     end
+  #   end
+  # end
 
   it 'additional kills by same citadel are associated correctly'
 
