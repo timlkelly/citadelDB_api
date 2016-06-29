@@ -1,0 +1,3844 @@
+// 20160629134851
+// https://crest-tq.eveonline.com/killmails/50228036/9a82432a51a6a21af2dfdc23068554a93cf4b437/
+
+{
+  "solarSystem": {
+    "id_str": "30000274",
+    "href": "https://crest-tq.eveonline.com/solarsystems/30000274/",
+    "id": 30000274,
+    "name": "Q-EHMJ"
+  },
+  "killID": 50228036,
+  "killTime": "2015.11.18 02:57:14",
+  "attackers": [
+    {
+      "alliance": {
+        "id_str": "150097440",
+        "href": "https://crest-tq.eveonline.com/alliances/150097440/",
+        "id": 150097440,
+        "name": "Get Off My Lawn",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/150097440_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "19722",
+        "href": "https://crest-tq.eveonline.com/inventory/types/19722/",
+        "id": 19722,
+        "name": "Naglfar",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/19722_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "1831489789",
+        "href": "https://crest-tq.eveonline.com/corporations/1831489789/",
+        "id": 1831489789,
+        "name": "Easy Co.",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/1831489789_128.png"
+        }
+      },
+      "character": {
+        "id_str": "1776917713",
+        "href": "https://crest-tq.eveonline.com/characters/1776917713/",
+        "id": 1776917713,
+        "name": "stupid monkey",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/1776917713_128.jpg"
+        }
+      },
+      "damageDone_str": "148036",
+      "weaponType": {
+        "id_str": "19722",
+        "href": "https://crest-tq.eveonline.com/inventory/types/19722/",
+        "id": 19722,
+        "name": "Naglfar",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/19722_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 2.7,
+      "damageDone": 148036
+    },
+    {
+      "alliance": {
+        "id_str": "150097440",
+        "href": "https://crest-tq.eveonline.com/alliances/150097440/",
+        "id": 150097440,
+        "name": "Get Off My Lawn",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/150097440_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "19722",
+        "href": "https://crest-tq.eveonline.com/inventory/types/19722/",
+        "id": 19722,
+        "name": "Naglfar",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/19722_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98098579",
+        "href": "https://crest-tq.eveonline.com/corporations/98098579/",
+        "id": 98098579,
+        "name": "The Terrifying League Of Dog Fort",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98098579_128.png"
+        }
+      },
+      "character": {
+        "id_str": "211488250",
+        "href": "https://crest-tq.eveonline.com/characters/211488250/",
+        "id": 211488250,
+        "name": "Ashkrall",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/211488250_128.jpg"
+        }
+      },
+      "damageDone_str": "112241",
+      "weaponType": {
+        "id_str": "19722",
+        "href": "https://crest-tq.eveonline.com/inventory/types/19722/",
+        "id": 19722,
+        "name": "Naglfar",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/19722_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": -3.1,
+      "damageDone": 112241
+    },
+    {
+      "alliance": {
+        "id_str": "99004425",
+        "href": "https://crest-tq.eveonline.com/alliances/99004425/",
+        "id": 99004425,
+        "name": "The Bastion",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99004425_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "29988",
+        "href": "https://crest-tq.eveonline.com/inventory/types/29988/",
+        "id": 29988,
+        "name": "Proteus",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/29988_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98235232",
+        "href": "https://crest-tq.eveonline.com/corporations/98235232/",
+        "id": 98235232,
+        "name": "UoC NightWing",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98235232_128.png"
+        }
+      },
+      "character": {
+        "id_str": "94238124",
+        "href": "https://crest-tq.eveonline.com/characters/94238124/",
+        "id": 94238124,
+        "name": "Betti Forde",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/94238124_128.jpg"
+        }
+      },
+      "damageDone_str": "28062",
+      "weaponType": {
+        "id_str": "29988",
+        "href": "https://crest-tq.eveonline.com/inventory/types/29988/",
+        "id": 29988,
+        "name": "Proteus",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/29988_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 4.6,
+      "damageDone": 28062
+    },
+    {
+      "alliance": {
+        "id_str": "150097440",
+        "href": "https://crest-tq.eveonline.com/alliances/150097440/",
+        "id": 150097440,
+        "name": "Get Off My Lawn",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/150097440_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "24702",
+        "href": "https://crest-tq.eveonline.com/inventory/types/24702/",
+        "id": 24702,
+        "name": "Hurricane",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/24702_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98070133",
+        "href": "https://crest-tq.eveonline.com/corporations/98070133/",
+        "id": 98070133,
+        "name": "Void.Tech",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98070133_128.png"
+        }
+      },
+      "character": {
+        "id_str": "727448931",
+        "href": "https://crest-tq.eveonline.com/characters/727448931/",
+        "id": 727448931,
+        "name": "reddawm",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/727448931_128.jpg"
+        }
+      },
+      "damageDone_str": "25785",
+      "weaponType": {
+        "id_str": "21640",
+        "href": "https://crest-tq.eveonline.com/inventory/types/21640/",
+        "id": 21640,
+        "name": "Valkyrie II",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/21640_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": -0.8,
+      "damageDone": 25785
+    },
+    {
+      "alliance": {
+        "id_str": "99004425",
+        "href": "https://crest-tq.eveonline.com/alliances/99004425/",
+        "id": 99004425,
+        "name": "The Bastion",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99004425_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "29988",
+        "href": "https://crest-tq.eveonline.com/inventory/types/29988/",
+        "id": 29988,
+        "name": "Proteus",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/29988_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "1546642544",
+        "href": "https://crest-tq.eveonline.com/corporations/1546642544/",
+        "id": 1546642544,
+        "name": "Quovis",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/1546642544_128.png"
+        }
+      },
+      "character": {
+        "id_str": "94156750",
+        "href": "https://crest-tq.eveonline.com/characters/94156750/",
+        "id": 94156750,
+        "name": "Triipod",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/94156750_128.jpg"
+        }
+      },
+      "damageDone_str": "22589",
+      "weaponType": {
+        "id_str": "2185",
+        "href": "https://crest-tq.eveonline.com/inventory/types/2185/",
+        "id": 2185,
+        "name": "Hammerhead II",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/2185_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 5.0,
+      "damageDone": 22589
+    },
+    {
+      "alliance": {
+        "id_str": "99004425",
+        "href": "https://crest-tq.eveonline.com/alliances/99004425/",
+        "id": 99004425,
+        "name": "The Bastion",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99004425_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "29988",
+        "href": "https://crest-tq.eveonline.com/inventory/types/29988/",
+        "id": 29988,
+        "name": "Proteus",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/29988_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98102485",
+        "href": "https://crest-tq.eveonline.com/corporations/98102485/",
+        "id": 98102485,
+        "name": "Space Exploitation Inc",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98102485_128.png"
+        }
+      },
+      "character": {
+        "id_str": "251530243",
+        "href": "https://crest-tq.eveonline.com/characters/251530243/",
+        "id": 251530243,
+        "name": "Anarchist4000",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/251530243_128.jpg"
+        }
+      },
+      "damageDone_str": "22508",
+      "weaponType": {
+        "id_str": "2185",
+        "href": "https://crest-tq.eveonline.com/inventory/types/2185/",
+        "id": 2185,
+        "name": "Hammerhead II",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/2185_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 1.5,
+      "damageDone": 22508
+    },
+    {
+      "alliance": {
+        "id_str": "99004425",
+        "href": "https://crest-tq.eveonline.com/alliances/99004425/",
+        "id": 99004425,
+        "name": "The Bastion",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99004425_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "29988",
+        "href": "https://crest-tq.eveonline.com/inventory/types/29988/",
+        "id": 29988,
+        "name": "Proteus",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/29988_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98239157",
+        "href": "https://crest-tq.eveonline.com/corporations/98239157/",
+        "id": 98239157,
+        "name": "Deep Structure.",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98239157_128.png"
+        }
+      },
+      "character": {
+        "id_str": "277430685",
+        "href": "https://crest-tq.eveonline.com/characters/277430685/",
+        "id": 277430685,
+        "name": "mojogore",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/277430685_128.jpg"
+        }
+      },
+      "damageDone_str": "18974",
+      "weaponType": {
+        "id_str": "2488",
+        "href": "https://crest-tq.eveonline.com/inventory/types/2488/",
+        "id": 2488,
+        "name": "Warrior II",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/2488_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 4.4,
+      "damageDone": 18974
+    },
+    {
+      "alliance": {
+        "id_str": "99004425",
+        "href": "https://crest-tq.eveonline.com/alliances/99004425/",
+        "id": 99004425,
+        "name": "The Bastion",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99004425_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "29988",
+        "href": "https://crest-tq.eveonline.com/inventory/types/29988/",
+        "id": 29988,
+        "name": "Proteus",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/29988_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98209065",
+        "href": "https://crest-tq.eveonline.com/corporations/98209065/",
+        "id": 98209065,
+        "name": "Kraken Exploration and Janitorial Services",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98209065_128.png"
+        }
+      },
+      "character": {
+        "id_str": "93469930",
+        "href": "https://crest-tq.eveonline.com/characters/93469930/",
+        "id": 93469930,
+        "name": "Maximus Aggression",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/93469930_128.jpg"
+        }
+      },
+      "damageDone_str": "17354",
+      "weaponType": {
+        "id_str": "3082",
+        "href": "https://crest-tq.eveonline.com/inventory/types/3082/",
+        "id": 3082,
+        "name": "250mm Railgun II",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/3082_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 4.5,
+      "damageDone": 17354
+    },
+    {
+      "alliance": {
+        "id_str": "99004425",
+        "href": "https://crest-tq.eveonline.com/alliances/99004425/",
+        "id": 99004425,
+        "name": "The Bastion",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99004425_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "29988",
+        "href": "https://crest-tq.eveonline.com/inventory/types/29988/",
+        "id": 29988,
+        "name": "Proteus",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/29988_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98011082",
+        "href": "https://crest-tq.eveonline.com/corporations/98011082/",
+        "id": 98011082,
+        "name": "Shadow State",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98011082_128.png"
+        }
+      },
+      "character": {
+        "id_str": "1407400425",
+        "href": "https://crest-tq.eveonline.com/characters/1407400425/",
+        "id": 1407400425,
+        "name": "Ben Lite",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/1407400425_128.jpg"
+        }
+      },
+      "damageDone_str": "16603",
+      "weaponType": {
+        "id_str": "29988",
+        "href": "https://crest-tq.eveonline.com/inventory/types/29988/",
+        "id": 29988,
+        "name": "Proteus",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/29988_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 5.0,
+      "damageDone": 16603
+    },
+    {
+      "alliance": {
+        "id_str": "99004425",
+        "href": "https://crest-tq.eveonline.com/alliances/99004425/",
+        "id": 99004425,
+        "name": "The Bastion",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99004425_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "29988",
+        "href": "https://crest-tq.eveonline.com/inventory/types/29988/",
+        "id": 29988,
+        "name": "Proteus",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/29988_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "215154456",
+        "href": "https://crest-tq.eveonline.com/corporations/215154456/",
+        "id": 215154456,
+        "name": "Zervas Aeronautics",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/215154456_128.png"
+        }
+      },
+      "character": {
+        "id_str": "93755120",
+        "href": "https://crest-tq.eveonline.com/characters/93755120/",
+        "id": 93755120,
+        "name": "Prometheos Starfire",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/93755120_128.jpg"
+        }
+      },
+      "damageDone_str": "16193",
+      "weaponType": {
+        "id_str": "29988",
+        "href": "https://crest-tq.eveonline.com/inventory/types/29988/",
+        "id": 29988,
+        "name": "Proteus",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/29988_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 4.9,
+      "damageDone": 16193
+    },
+    {
+      "alliance": {
+        "id_str": "99004425",
+        "href": "https://crest-tq.eveonline.com/alliances/99004425/",
+        "id": 99004425,
+        "name": "The Bastion",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99004425_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "29988",
+        "href": "https://crest-tq.eveonline.com/inventory/types/29988/",
+        "id": 29988,
+        "name": "Proteus",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/29988_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "650311172",
+        "href": "https://crest-tq.eveonline.com/corporations/650311172/",
+        "id": 650311172,
+        "name": "E.M.P. Industries",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/650311172_128.png"
+        }
+      },
+      "character": {
+        "id_str": "90080832",
+        "href": "https://crest-tq.eveonline.com/characters/90080832/",
+        "id": 90080832,
+        "name": "Rhaybeck",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/90080832_128.jpg"
+        }
+      },
+      "damageDone_str": "15496",
+      "weaponType": {
+        "id_str": "29988",
+        "href": "https://crest-tq.eveonline.com/inventory/types/29988/",
+        "id": 29988,
+        "name": "Proteus",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/29988_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 2.5,
+      "damageDone": 15496
+    },
+    {
+      "alliance": {
+        "id_str": "150097440",
+        "href": "https://crest-tq.eveonline.com/alliances/150097440/",
+        "id": 150097440,
+        "name": "Get Off My Lawn",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/150097440_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "22460",
+        "href": "https://crest-tq.eveonline.com/inventory/types/22460/",
+        "id": 22460,
+        "name": "Eris",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/22460_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "1651944986",
+        "href": "https://crest-tq.eveonline.com/corporations/1651944986/",
+        "id": 1651944986,
+        "name": "Wraith.Wing",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/1651944986_128.png"
+        }
+      },
+      "character": {
+        "id_str": "94296936",
+        "href": "https://crest-tq.eveonline.com/characters/94296936/",
+        "id": 94296936,
+        "name": "Westris Ormand",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/94296936_128.jpg"
+        }
+      },
+      "damageDone_str": "15465",
+      "weaponType": {
+        "id_str": "22460",
+        "href": "https://crest-tq.eveonline.com/inventory/types/22460/",
+        "id": 22460,
+        "name": "Eris",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/22460_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 5.0,
+      "damageDone": 15465
+    },
+    {
+      "alliance": {
+        "id_str": "150097440",
+        "href": "https://crest-tq.eveonline.com/alliances/150097440/",
+        "id": 150097440,
+        "name": "Get Off My Lawn",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/150097440_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "23915",
+        "href": "https://crest-tq.eveonline.com/inventory/types/23915/",
+        "id": 23915,
+        "name": "Chimera",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/23915_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98374561",
+        "href": "https://crest-tq.eveonline.com/corporations/98374561/",
+        "id": 98374561,
+        "name": "Delusions of Adequacy",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98374561_128.png"
+        }
+      },
+      "character": {
+        "id_str": "94050845",
+        "href": "https://crest-tq.eveonline.com/characters/94050845/",
+        "id": 94050845,
+        "name": "Skymea",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/94050845_128.jpg"
+        }
+      },
+      "damageDone_str": "14541",
+      "weaponType": {
+        "id_str": "23061",
+        "href": "https://crest-tq.eveonline.com/inventory/types/23061/",
+        "id": 23061,
+        "name": "Einherji I",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/23061_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 4.9,
+      "damageDone": 14541
+    },
+    {
+      "alliance": {
+        "id_str": "99004425",
+        "href": "https://crest-tq.eveonline.com/alliances/99004425/",
+        "id": 99004425,
+        "name": "The Bastion",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99004425_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "29986",
+        "href": "https://crest-tq.eveonline.com/inventory/types/29986/",
+        "id": 29986,
+        "name": "Legion",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/29986_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "215154456",
+        "href": "https://crest-tq.eveonline.com/corporations/215154456/",
+        "id": 215154456,
+        "name": "Zervas Aeronautics",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/215154456_128.png"
+        }
+      },
+      "character": {
+        "id_str": "91560847",
+        "href": "https://crest-tq.eveonline.com/characters/91560847/",
+        "id": 91560847,
+        "name": "Magna Magnum",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/91560847_128.jpg"
+        }
+      },
+      "damageDone_str": "13821",
+      "weaponType": {
+        "id_str": "29986",
+        "href": "https://crest-tq.eveonline.com/inventory/types/29986/",
+        "id": 29986,
+        "name": "Legion",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/29986_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 4.9,
+      "damageDone": 13821
+    },
+    {
+      "alliance": {
+        "id_str": "150097440",
+        "href": "https://crest-tq.eveonline.com/alliances/150097440/",
+        "id": 150097440,
+        "name": "Get Off My Lawn",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/150097440_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "24702",
+        "href": "https://crest-tq.eveonline.com/inventory/types/24702/",
+        "id": 24702,
+        "name": "Hurricane",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/24702_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "773499566",
+        "href": "https://crest-tq.eveonline.com/corporations/773499566/",
+        "id": 773499566,
+        "name": "The Graduates",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/773499566_128.png"
+        }
+      },
+      "character": {
+        "id_str": "927846418",
+        "href": "https://crest-tq.eveonline.com/characters/927846418/",
+        "id": 927846418,
+        "name": "Dingus Rx",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/927846418_128.jpg"
+        }
+      },
+      "damageDone_str": "11514",
+      "weaponType": {
+        "id_str": "21640",
+        "href": "https://crest-tq.eveonline.com/inventory/types/21640/",
+        "id": 21640,
+        "name": "Valkyrie II",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/21640_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 5.0,
+      "damageDone": 11514
+    },
+    {
+      "alliance": {
+        "id_str": "150097440",
+        "href": "https://crest-tq.eveonline.com/alliances/150097440/",
+        "id": 150097440,
+        "name": "Get Off My Lawn",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/150097440_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "23757",
+        "href": "https://crest-tq.eveonline.com/inventory/types/23757/",
+        "id": 23757,
+        "name": "Archon",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/23757_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98374561",
+        "href": "https://crest-tq.eveonline.com/corporations/98374561/",
+        "id": 98374561,
+        "name": "Delusions of Adequacy",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98374561_128.png"
+        }
+      },
+      "character": {
+        "id_str": "323087915",
+        "href": "https://crest-tq.eveonline.com/characters/323087915/",
+        "id": 323087915,
+        "name": "Molly MacBeth",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/323087915_128.jpg"
+        }
+      },
+      "damageDone_str": "11136",
+      "weaponType": {
+        "id_str": "23061",
+        "href": "https://crest-tq.eveonline.com/inventory/types/23061/",
+        "id": 23061,
+        "name": "Einherji I",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/23061_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 5.0,
+      "damageDone": 11136
+    },
+    {
+      "alliance": {
+        "id_str": "150097440",
+        "href": "https://crest-tq.eveonline.com/alliances/150097440/",
+        "id": 150097440,
+        "name": "Get Off My Lawn",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/150097440_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "23757",
+        "href": "https://crest-tq.eveonline.com/inventory/types/23757/",
+        "id": 23757,
+        "name": "Archon",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/23757_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98374561",
+        "href": "https://crest-tq.eveonline.com/corporations/98374561/",
+        "id": 98374561,
+        "name": "Delusions of Adequacy",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98374561_128.png"
+        }
+      },
+      "character": {
+        "id_str": "349297142",
+        "href": "https://crest-tq.eveonline.com/characters/349297142/",
+        "id": 349297142,
+        "name": "Wakahaka",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/349297142_128.jpg"
+        }
+      },
+      "damageDone_str": "9447",
+      "weaponType": {
+        "id_str": "23061",
+        "href": "https://crest-tq.eveonline.com/inventory/types/23061/",
+        "id": 23061,
+        "name": "Einherji I",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/23061_128.png"
+        }
+      },
+      "finalBlow": true,
+      "securityStatus": 3.6,
+      "damageDone": 9447
+    },
+    {
+      "alliance": {
+        "id_str": "150097440",
+        "href": "https://crest-tq.eveonline.com/alliances/150097440/",
+        "id": 150097440,
+        "name": "Get Off My Lawn",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/150097440_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "24702",
+        "href": "https://crest-tq.eveonline.com/inventory/types/24702/",
+        "id": 24702,
+        "name": "Hurricane",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/24702_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "144965822",
+        "href": "https://crest-tq.eveonline.com/corporations/144965822/",
+        "id": 144965822,
+        "name": "Oberon Incorporated",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/144965822_128.png"
+        }
+      },
+      "character": {
+        "id_str": "139881340",
+        "href": "https://crest-tq.eveonline.com/characters/139881340/",
+        "id": 139881340,
+        "name": "Stryker724",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/139881340_128.jpg"
+        }
+      },
+      "damageDone_str": "8162",
+      "weaponType": {
+        "id_str": "24702",
+        "href": "https://crest-tq.eveonline.com/inventory/types/24702/",
+        "id": 24702,
+        "name": "Hurricane",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/24702_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 1.8,
+      "damageDone": 8162
+    },
+    {
+      "alliance": {
+        "id_str": "150097440",
+        "href": "https://crest-tq.eveonline.com/alliances/150097440/",
+        "id": 150097440,
+        "name": "Get Off My Lawn",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/150097440_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "24702",
+        "href": "https://crest-tq.eveonline.com/inventory/types/24702/",
+        "id": 24702,
+        "name": "Hurricane",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/24702_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "230445889",
+        "href": "https://crest-tq.eveonline.com/corporations/230445889/",
+        "id": 230445889,
+        "name": "Mindstar Technology",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/230445889_128.png"
+        }
+      },
+      "character": {
+        "id_str": "1776106607",
+        "href": "https://crest-tq.eveonline.com/characters/1776106607/",
+        "id": 1776106607,
+        "name": "Vertigoe",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/1776106607_128.jpg"
+        }
+      },
+      "damageDone_str": "7120",
+      "weaponType": {
+        "id_str": "24702",
+        "href": "https://crest-tq.eveonline.com/inventory/types/24702/",
+        "id": 24702,
+        "name": "Hurricane",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/24702_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 5.0,
+      "damageDone": 7120
+    },
+    {
+      "alliance": {
+        "id_str": "99004425",
+        "href": "https://crest-tq.eveonline.com/alliances/99004425/",
+        "id": 99004425,
+        "name": "The Bastion",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99004425_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "29988",
+        "href": "https://crest-tq.eveonline.com/inventory/types/29988/",
+        "id": 29988,
+        "name": "Proteus",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/29988_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98380748",
+        "href": "https://crest-tq.eveonline.com/corporations/98380748/",
+        "id": 98380748,
+        "name": "Ultimatum.",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98380748_128.png"
+        }
+      },
+      "character": {
+        "id_str": "151814577",
+        "href": "https://crest-tq.eveonline.com/characters/151814577/",
+        "id": 151814577,
+        "name": "Tauron Torres",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/151814577_128.jpg"
+        }
+      },
+      "damageDone_str": "7058",
+      "weaponType": {
+        "id_str": "29988",
+        "href": "https://crest-tq.eveonline.com/inventory/types/29988/",
+        "id": 29988,
+        "name": "Proteus",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/29988_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 1.5,
+      "damageDone": 7058
+    },
+    {
+      "alliance": {
+        "id_str": "150097440",
+        "href": "https://crest-tq.eveonline.com/alliances/150097440/",
+        "id": 150097440,
+        "name": "Get Off My Lawn",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/150097440_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "24702",
+        "href": "https://crest-tq.eveonline.com/inventory/types/24702/",
+        "id": 24702,
+        "name": "Hurricane",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/24702_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "773499566",
+        "href": "https://crest-tq.eveonline.com/corporations/773499566/",
+        "id": 773499566,
+        "name": "The Graduates",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/773499566_128.png"
+        }
+      },
+      "character": {
+        "id_str": "1674756777",
+        "href": "https://crest-tq.eveonline.com/characters/1674756777/",
+        "id": 1674756777,
+        "name": "Kandrew Dorak",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/1674756777_128.jpg"
+        }
+      },
+      "damageDone_str": "6483",
+      "weaponType": {
+        "id_str": "24702",
+        "href": "https://crest-tq.eveonline.com/inventory/types/24702/",
+        "id": 24702,
+        "name": "Hurricane",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/24702_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 5.0,
+      "damageDone": 6483
+    },
+    {
+      "alliance": {
+        "id_str": "150097440",
+        "href": "https://crest-tq.eveonline.com/alliances/150097440/",
+        "id": 150097440,
+        "name": "Get Off My Lawn",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/150097440_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "24702",
+        "href": "https://crest-tq.eveonline.com/inventory/types/24702/",
+        "id": 24702,
+        "name": "Hurricane",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/24702_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98374561",
+        "href": "https://crest-tq.eveonline.com/corporations/98374561/",
+        "id": 98374561,
+        "name": "Delusions of Adequacy",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98374561_128.png"
+        }
+      },
+      "character": {
+        "id_str": "667130013",
+        "href": "https://crest-tq.eveonline.com/characters/667130013/",
+        "id": 667130013,
+        "name": "Jezi Soleater",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/667130013_128.jpg"
+        }
+      },
+      "damageDone_str": "6156",
+      "weaponType": {
+        "id_str": "24702",
+        "href": "https://crest-tq.eveonline.com/inventory/types/24702/",
+        "id": 24702,
+        "name": "Hurricane",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/24702_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 5.0,
+      "damageDone": 6156
+    },
+    {
+      "alliance": {
+        "id_str": "150097440",
+        "href": "https://crest-tq.eveonline.com/alliances/150097440/",
+        "id": 150097440,
+        "name": "Get Off My Lawn",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/150097440_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "24702",
+        "href": "https://crest-tq.eveonline.com/inventory/types/24702/",
+        "id": 24702,
+        "name": "Hurricane",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/24702_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "773499566",
+        "href": "https://crest-tq.eveonline.com/corporations/773499566/",
+        "id": 773499566,
+        "name": "The Graduates",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/773499566_128.png"
+        }
+      },
+      "character": {
+        "id_str": "141112503",
+        "href": "https://crest-tq.eveonline.com/characters/141112503/",
+        "id": 141112503,
+        "name": "X Saint",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/141112503_128.jpg"
+        }
+      },
+      "damageDone_str": "5717",
+      "weaponType": {
+        "id_str": "24702",
+        "href": "https://crest-tq.eveonline.com/inventory/types/24702/",
+        "id": 24702,
+        "name": "Hurricane",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/24702_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 5.0,
+      "damageDone": 5717
+    },
+    {
+      "alliance": {
+        "id_str": "150097440",
+        "href": "https://crest-tq.eveonline.com/alliances/150097440/",
+        "id": 150097440,
+        "name": "Get Off My Lawn",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/150097440_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "22456",
+        "href": "https://crest-tq.eveonline.com/inventory/types/22456/",
+        "id": 22456,
+        "name": "Sabre",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/22456_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "1298429913",
+        "href": "https://crest-tq.eveonline.com/corporations/1298429913/",
+        "id": 1298429913,
+        "name": "Interstellar Brotherhood of Gravediggers",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/1298429913_128.png"
+        }
+      },
+      "character": {
+        "id_str": "92475299",
+        "href": "https://crest-tq.eveonline.com/characters/92475299/",
+        "id": 92475299,
+        "name": "Eclesian Librasan",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/92475299_128.jpg"
+        }
+      },
+      "damageDone_str": "5522",
+      "weaponType": {
+        "id_str": "22456",
+        "href": "https://crest-tq.eveonline.com/inventory/types/22456/",
+        "id": 22456,
+        "name": "Sabre",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/22456_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": -1.3,
+      "damageDone": 5522
+    },
+    {
+      "alliance": {
+        "id_str": "150097440",
+        "href": "https://crest-tq.eveonline.com/alliances/150097440/",
+        "id": 150097440,
+        "name": "Get Off My Lawn",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/150097440_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "24702",
+        "href": "https://crest-tq.eveonline.com/inventory/types/24702/",
+        "id": 24702,
+        "name": "Hurricane",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/24702_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "230445889",
+        "href": "https://crest-tq.eveonline.com/corporations/230445889/",
+        "id": 230445889,
+        "name": "Mindstar Technology",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/230445889_128.png"
+        }
+      },
+      "character": {
+        "id_str": "1621167701",
+        "href": "https://crest-tq.eveonline.com/characters/1621167701/",
+        "id": 1621167701,
+        "name": "Dirk Morbho",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/1621167701_128.jpg"
+        }
+      },
+      "damageDone_str": "5415",
+      "weaponType": {
+        "id_str": "24702",
+        "href": "https://crest-tq.eveonline.com/inventory/types/24702/",
+        "id": 24702,
+        "name": "Hurricane",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/24702_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 4.9,
+      "damageDone": 5415
+    },
+    {
+      "alliance": {
+        "id_str": "99004425",
+        "href": "https://crest-tq.eveonline.com/alliances/99004425/",
+        "id": 99004425,
+        "name": "The Bastion",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99004425_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "633",
+        "href": "https://crest-tq.eveonline.com/inventory/types/633/",
+        "id": 633,
+        "name": "Celestis",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/633_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "937664582",
+        "href": "https://crest-tq.eveonline.com/corporations/937664582/",
+        "id": 937664582,
+        "name": "Shadow Legion X",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/937664582_128.png"
+        }
+      },
+      "character": {
+        "id_str": "95142372",
+        "href": "https://crest-tq.eveonline.com/characters/95142372/",
+        "id": 95142372,
+        "name": "Darkreligion",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/95142372_128.jpg"
+        }
+      },
+      "damageDone_str": "4772",
+      "weaponType": {
+        "id_str": "2185",
+        "href": "https://crest-tq.eveonline.com/inventory/types/2185/",
+        "id": 2185,
+        "name": "Hammerhead II",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/2185_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 5.0,
+      "damageDone": 4772
+    },
+    {
+      "alliance": {
+        "id_str": "99004425",
+        "href": "https://crest-tq.eveonline.com/alliances/99004425/",
+        "id": 99004425,
+        "name": "The Bastion",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99004425_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "34317",
+        "href": "https://crest-tq.eveonline.com/inventory/types/34317/",
+        "id": 34317,
+        "name": "Confessor",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/34317_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "1020135437",
+        "href": "https://crest-tq.eveonline.com/corporations/1020135437/",
+        "id": 1020135437,
+        "name": "Universalis Imperium",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/1020135437_128.png"
+        }
+      },
+      "character": {
+        "id_str": "837580836",
+        "href": "https://crest-tq.eveonline.com/characters/837580836/",
+        "id": 837580836,
+        "name": "Exartia",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/837580836_128.jpg"
+        }
+      },
+      "damageDone_str": "4527",
+      "weaponType": {
+        "id_str": "3033",
+        "href": "https://crest-tq.eveonline.com/inventory/types/3033/",
+        "id": 3033,
+        "name": "Small Focused Beam Laser II",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/3033_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": -1.1,
+      "damageDone": 4527
+    },
+    {
+      "alliance": {
+        "id_str": "150097440",
+        "href": "https://crest-tq.eveonline.com/alliances/150097440/",
+        "id": 150097440,
+        "name": "Get Off My Lawn",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/150097440_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "24702",
+        "href": "https://crest-tq.eveonline.com/inventory/types/24702/",
+        "id": 24702,
+        "name": "Hurricane",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/24702_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98220673",
+        "href": "https://crest-tq.eveonline.com/corporations/98220673/",
+        "id": 98220673,
+        "name": "Fault Line Industries",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98220673_128.png"
+        }
+      },
+      "character": {
+        "id_str": "1472468042",
+        "href": "https://crest-tq.eveonline.com/characters/1472468042/",
+        "id": 1472468042,
+        "name": "Axinex",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/1472468042_128.jpg"
+        }
+      },
+      "damageDone_str": "2646",
+      "weaponType": {
+        "id_str": "24702",
+        "href": "https://crest-tq.eveonline.com/inventory/types/24702/",
+        "id": 24702,
+        "name": "Hurricane",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/24702_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": -1.0,
+      "damageDone": 2646
+    },
+    {
+      "alliance": {
+        "id_str": "99004425",
+        "href": "https://crest-tq.eveonline.com/alliances/99004425/",
+        "id": 99004425,
+        "name": "The Bastion",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99004425_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "11989",
+        "href": "https://crest-tq.eveonline.com/inventory/types/11989/",
+        "id": 11989,
+        "name": "Oneiros",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/11989_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "937664582",
+        "href": "https://crest-tq.eveonline.com/corporations/937664582/",
+        "id": 937664582,
+        "name": "Shadow Legion X",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/937664582_128.png"
+        }
+      },
+      "character": {
+        "id_str": "1073610502",
+        "href": "https://crest-tq.eveonline.com/characters/1073610502/",
+        "id": 1073610502,
+        "name": "r00tcmdr",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/1073610502_128.jpg"
+        }
+      },
+      "damageDone_str": "2449",
+      "weaponType": {
+        "id_str": "28215",
+        "href": "https://crest-tq.eveonline.com/inventory/types/28215/",
+        "id": 28215,
+        "name": "Bouncer II",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/28215_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 5.0,
+      "damageDone": 2449
+    },
+    {
+      "alliance": {
+        "id_str": "150097440",
+        "href": "https://crest-tq.eveonline.com/alliances/150097440/",
+        "id": 150097440,
+        "name": "Get Off My Lawn",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/150097440_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "24702",
+        "href": "https://crest-tq.eveonline.com/inventory/types/24702/",
+        "id": 24702,
+        "name": "Hurricane",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/24702_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "773499566",
+        "href": "https://crest-tq.eveonline.com/corporations/773499566/",
+        "id": 773499566,
+        "name": "The Graduates",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/773499566_128.png"
+        }
+      },
+      "character": {
+        "id_str": "91871657",
+        "href": "https://crest-tq.eveonline.com/characters/91871657/",
+        "id": 91871657,
+        "name": "Deban Huren",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/91871657_128.jpg"
+        }
+      },
+      "damageDone_str": "2068",
+      "weaponType": {
+        "id_str": "24702",
+        "href": "https://crest-tq.eveonline.com/inventory/types/24702/",
+        "id": 24702,
+        "name": "Hurricane",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/24702_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 1.5,
+      "damageDone": 2068
+    },
+    {
+      "alliance": {
+        "id_str": "150097440",
+        "href": "https://crest-tq.eveonline.com/alliances/150097440/",
+        "id": 150097440,
+        "name": "Get Off My Lawn",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/150097440_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "22456",
+        "href": "https://crest-tq.eveonline.com/inventory/types/22456/",
+        "id": 22456,
+        "name": "Sabre",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/22456_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98291627",
+        "href": "https://crest-tq.eveonline.com/corporations/98291627/",
+        "id": 98291627,
+        "name": "Catastrophic Operations",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98291627_128.png"
+        }
+      },
+      "character": {
+        "id_str": "1403687265",
+        "href": "https://crest-tq.eveonline.com/characters/1403687265/",
+        "id": 1403687265,
+        "name": "baldurk",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/1403687265_128.jpg"
+        }
+      },
+      "damageDone_str": "1989",
+      "weaponType": {
+        "id_str": "22456",
+        "href": "https://crest-tq.eveonline.com/inventory/types/22456/",
+        "id": 22456,
+        "name": "Sabre",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/22456_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": -1.5,
+      "damageDone": 1989
+    },
+    {
+      "alliance": {
+        "id_str": "150097440",
+        "href": "https://crest-tq.eveonline.com/alliances/150097440/",
+        "id": 150097440,
+        "name": "Get Off My Lawn",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/150097440_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "24702",
+        "href": "https://crest-tq.eveonline.com/inventory/types/24702/",
+        "id": 24702,
+        "name": "Hurricane",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/24702_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "144965822",
+        "href": "https://crest-tq.eveonline.com/corporations/144965822/",
+        "id": 144965822,
+        "name": "Oberon Incorporated",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/144965822_128.png"
+        }
+      },
+      "character": {
+        "id_str": "90040191",
+        "href": "https://crest-tq.eveonline.com/characters/90040191/",
+        "id": 90040191,
+        "name": "Lock Breaker",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/90040191_128.jpg"
+        }
+      },
+      "damageDone_str": "1976",
+      "weaponType": {
+        "id_str": "24702",
+        "href": "https://crest-tq.eveonline.com/inventory/types/24702/",
+        "id": 24702,
+        "name": "Hurricane",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/24702_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 1.1,
+      "damageDone": 1976
+    },
+    {
+      "alliance": {
+        "id_str": "99004425",
+        "href": "https://crest-tq.eveonline.com/alliances/99004425/",
+        "id": 99004425,
+        "name": "The Bastion",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99004425_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "29990",
+        "href": "https://crest-tq.eveonline.com/inventory/types/29990/",
+        "id": 29990,
+        "name": "Loki",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/29990_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98011082",
+        "href": "https://crest-tq.eveonline.com/corporations/98011082/",
+        "id": 98011082,
+        "name": "Shadow State",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98011082_128.png"
+        }
+      },
+      "character": {
+        "id_str": "92700509",
+        "href": "https://crest-tq.eveonline.com/characters/92700509/",
+        "id": 92700509,
+        "name": "shawn Haklar",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/92700509_128.jpg"
+        }
+      },
+      "damageDone_str": "1723",
+      "weaponType": {
+        "id_str": "2977",
+        "href": "https://crest-tq.eveonline.com/inventory/types/2977/",
+        "id": 2977,
+        "name": "280mm Howitzer Artillery II",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/2977_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": -0.1,
+      "damageDone": 1723
+    },
+    {
+      "alliance": {
+        "id_str": "99004425",
+        "href": "https://crest-tq.eveonline.com/alliances/99004425/",
+        "id": 99004425,
+        "name": "The Bastion",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99004425_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "29986",
+        "href": "https://crest-tq.eveonline.com/inventory/types/29986/",
+        "id": 29986,
+        "name": "Legion",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/29986_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "1020135437",
+        "href": "https://crest-tq.eveonline.com/corporations/1020135437/",
+        "id": 1020135437,
+        "name": "Universalis Imperium",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/1020135437_128.png"
+        }
+      },
+      "character": {
+        "id_str": "247599334",
+        "href": "https://crest-tq.eveonline.com/characters/247599334/",
+        "id": 247599334,
+        "name": "Kaldiir",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/247599334_128.jpg"
+        }
+      },
+      "damageDone_str": "1712",
+      "weaponType": {
+        "id_str": "29986",
+        "href": "https://crest-tq.eveonline.com/inventory/types/29986/",
+        "id": 29986,
+        "name": "Legion",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/29986_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 3.0,
+      "damageDone": 1712
+    },
+    {
+      "alliance": {
+        "id_str": "99004425",
+        "href": "https://crest-tq.eveonline.com/alliances/99004425/",
+        "id": 99004425,
+        "name": "The Bastion",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99004425_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "11176",
+        "href": "https://crest-tq.eveonline.com/inventory/types/11176/",
+        "id": 11176,
+        "name": "Crow",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/11176_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "1388734985",
+        "href": "https://crest-tq.eveonline.com/corporations/1388734985/",
+        "id": 1388734985,
+        "name": "Multiplex Gaming",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/1388734985_128.png"
+        }
+      },
+      "character": {
+        "id_str": "523887732",
+        "href": "https://crest-tq.eveonline.com/characters/523887732/",
+        "id": 523887732,
+        "name": "Eagle9807",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/523887732_128.jpg"
+        }
+      },
+      "damageDone_str": "1579",
+      "weaponType": {
+        "id_str": "27387",
+        "href": "https://crest-tq.eveonline.com/inventory/types/27387/",
+        "id": 27387,
+        "name": "Caldari Navy Mjolnir Light Missile",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/27387_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 2.9,
+      "damageDone": 1579
+    },
+    {
+      "alliance": {
+        "id_str": "99004425",
+        "href": "https://crest-tq.eveonline.com/alliances/99004425/",
+        "id": 99004425,
+        "name": "The Bastion",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99004425_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "587",
+        "href": "https://crest-tq.eveonline.com/inventory/types/587/",
+        "id": 587,
+        "name": "Rifter",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/587_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98364792",
+        "href": "https://crest-tq.eveonline.com/corporations/98364792/",
+        "id": 98364792,
+        "name": "Maple Moose",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98364792_128.png"
+        }
+      },
+      "character": {
+        "id_str": "95450732",
+        "href": "https://crest-tq.eveonline.com/characters/95450732/",
+        "id": 95450732,
+        "name": "Zelel Nardieu",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/95450732_128.jpg"
+        }
+      },
+      "damageDone_str": "1275",
+      "weaponType": {
+        "id_str": "484",
+        "href": "https://crest-tq.eveonline.com/inventory/types/484/",
+        "id": 484,
+        "name": "125mm Gatling AutoCannon I",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/484_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 1.1,
+      "damageDone": 1275
+    },
+    {
+      "alliance": {
+        "id_str": "99004425",
+        "href": "https://crest-tq.eveonline.com/alliances/99004425/",
+        "id": 99004425,
+        "name": "The Bastion",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99004425_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "22456",
+        "href": "https://crest-tq.eveonline.com/inventory/types/22456/",
+        "id": 22456,
+        "name": "Sabre",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/22456_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98239157",
+        "href": "https://crest-tq.eveonline.com/corporations/98239157/",
+        "id": 98239157,
+        "name": "Deep Structure.",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98239157_128.png"
+        }
+      },
+      "character": {
+        "id_str": "91313356",
+        "href": "https://crest-tq.eveonline.com/characters/91313356/",
+        "id": 91313356,
+        "name": "Prudosta Balakskoy",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/91313356_128.jpg"
+        }
+      },
+      "damageDone_str": "1220",
+      "weaponType": {
+        "id_str": "2873",
+        "href": "https://crest-tq.eveonline.com/inventory/types/2873/",
+        "id": 2873,
+        "name": "125mm Gatling AutoCannon II",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/2873_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": -5.9,
+      "damageDone": 1220
+    },
+    {
+      "alliance": {
+        "id_str": "150097440",
+        "href": "https://crest-tq.eveonline.com/alliances/150097440/",
+        "id": 150097440,
+        "name": "Get Off My Lawn",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/150097440_128.png"
+        }
+      },
+      "damageDone": 869,
+      "corporation": {
+        "id_str": "98421995",
+        "href": "https://crest-tq.eveonline.com/corporations/98421995/",
+        "id": 98421995,
+        "name": "PWT0 Fleet",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98421995_128.png"
+        }
+      },
+      "character": {
+        "id_str": "93977062",
+        "href": "https://crest-tq.eveonline.com/characters/93977062/",
+        "id": 93977062,
+        "name": "Methan Ancest",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/93977062_128.jpg"
+        }
+      },
+      "damageDone_str": "869",
+      "weaponType": {
+        "id_str": "2488",
+        "href": "https://crest-tq.eveonline.com/inventory/types/2488/",
+        "id": 2488,
+        "name": "Warrior II",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/2488_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": -9.8
+    },
+    {
+      "alliance": {
+        "id_str": "150097440",
+        "href": "https://crest-tq.eveonline.com/alliances/150097440/",
+        "id": 150097440,
+        "name": "Get Off My Lawn",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/150097440_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "620",
+        "href": "https://crest-tq.eveonline.com/inventory/types/620/",
+        "id": 620,
+        "name": "Osprey",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/620_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98300916",
+        "href": "https://crest-tq.eveonline.com/corporations/98300916/",
+        "id": 98300916,
+        "name": "Imploding Turtles Rising in Outerspace Gravity",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98300916_128.png"
+        }
+      },
+      "character": {
+        "id_str": "92561810",
+        "href": "https://crest-tq.eveonline.com/characters/92561810/",
+        "id": 92561810,
+        "name": "Demidiar",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/92561810_128.jpg"
+        }
+      },
+      "damageDone_str": "838",
+      "weaponType": {
+        "id_str": "2488",
+        "href": "https://crest-tq.eveonline.com/inventory/types/2488/",
+        "id": 2488,
+        "name": "Warrior II",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/2488_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 5.0,
+      "damageDone": 838
+    },
+    {
+      "alliance": {
+        "id_str": "99004425",
+        "href": "https://crest-tq.eveonline.com/alliances/99004425/",
+        "id": 99004425,
+        "name": "The Bastion",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99004425_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "11987",
+        "href": "https://crest-tq.eveonline.com/inventory/types/11987/",
+        "id": 11987,
+        "name": "Guardian",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/11987_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "177654637",
+        "href": "https://crest-tq.eveonline.com/corporations/177654637/",
+        "id": 177654637,
+        "name": "Polaris Rising",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/177654637_128.png"
+        }
+      },
+      "character": {
+        "id_str": "91956203",
+        "href": "https://crest-tq.eveonline.com/characters/91956203/",
+        "id": 91956203,
+        "name": "Cartras Vokan",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/91956203_128.jpg"
+        }
+      },
+      "damageDone_str": "832",
+      "weaponType": {
+        "id_str": "2488",
+        "href": "https://crest-tq.eveonline.com/inventory/types/2488/",
+        "id": 2488,
+        "name": "Warrior II",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/2488_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 3.0,
+      "damageDone": 832
+    },
+    {
+      "alliance": {
+        "id_str": "99004425",
+        "href": "https://crest-tq.eveonline.com/alliances/99004425/",
+        "id": 99004425,
+        "name": "The Bastion",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99004425_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "11989",
+        "href": "https://crest-tq.eveonline.com/inventory/types/11989/",
+        "id": 11989,
+        "name": "Oneiros",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/11989_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98011082",
+        "href": "https://crest-tq.eveonline.com/corporations/98011082/",
+        "id": 98011082,
+        "name": "Shadow State",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98011082_128.png"
+        }
+      },
+      "character": {
+        "id_str": "90147159",
+        "href": "https://crest-tq.eveonline.com/characters/90147159/",
+        "id": 90147159,
+        "name": "Malenfaas",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/90147159_128.jpg"
+        }
+      },
+      "damageDone_str": "737",
+      "weaponType": {
+        "id_str": "2488",
+        "href": "https://crest-tq.eveonline.com/inventory/types/2488/",
+        "id": 2488,
+        "name": "Warrior II",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/2488_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 5.0,
+      "damageDone": 737
+    },
+    {
+      "alliance": {
+        "id_str": "99004425",
+        "href": "https://crest-tq.eveonline.com/alliances/99004425/",
+        "id": 99004425,
+        "name": "The Bastion",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99004425_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "11987",
+        "href": "https://crest-tq.eveonline.com/inventory/types/11987/",
+        "id": 11987,
+        "name": "Guardian",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/11987_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98011082",
+        "href": "https://crest-tq.eveonline.com/corporations/98011082/",
+        "id": 98011082,
+        "name": "Shadow State",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98011082_128.png"
+        }
+      },
+      "character": {
+        "id_str": "1196274644",
+        "href": "https://crest-tq.eveonline.com/characters/1196274644/",
+        "id": 1196274644,
+        "name": "smotch",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/1196274644_128.jpg"
+        }
+      },
+      "damageDone_str": "725",
+      "weaponType": {
+        "id_str": "2205",
+        "href": "https://crest-tq.eveonline.com/inventory/types/2205/",
+        "id": 2205,
+        "name": "Acolyte II",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/2205_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 5.0,
+      "damageDone": 725
+    },
+    {
+      "alliance": {
+        "id_str": "150097440",
+        "href": "https://crest-tq.eveonline.com/alliances/150097440/",
+        "id": 150097440,
+        "name": "Get Off My Lawn",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/150097440_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "24702",
+        "href": "https://crest-tq.eveonline.com/inventory/types/24702/",
+        "id": 24702,
+        "name": "Hurricane",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/24702_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98220673",
+        "href": "https://crest-tq.eveonline.com/corporations/98220673/",
+        "id": 98220673,
+        "name": "Fault Line Industries",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98220673_128.png"
+        }
+      },
+      "character": {
+        "id_str": "94403460",
+        "href": "https://crest-tq.eveonline.com/characters/94403460/",
+        "id": 94403460,
+        "name": "Kapow Kapow",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/94403460_128.jpg"
+        }
+      },
+      "damageDone_str": "704",
+      "weaponType": {
+        "id_str": "9451",
+        "href": "https://crest-tq.eveonline.com/inventory/types/9451/",
+        "id": 9451,
+        "name": "720mm 'Scout' Artillery I",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/9451_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 2.4,
+      "damageDone": 704
+    },
+    {
+      "alliance": {
+        "id_str": "150097440",
+        "href": "https://crest-tq.eveonline.com/alliances/150097440/",
+        "id": 150097440,
+        "name": "Get Off My Lawn",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/150097440_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "11961",
+        "href": "https://crest-tq.eveonline.com/inventory/types/11961/",
+        "id": 11961,
+        "name": "Huginn",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/11961_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98113842",
+        "href": "https://crest-tq.eveonline.com/corporations/98113842/",
+        "id": 98113842,
+        "name": "Big Diggers",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98113842_128.png"
+        }
+      },
+      "character": {
+        "id_str": "233011605",
+        "href": "https://crest-tq.eveonline.com/characters/233011605/",
+        "id": 233011605,
+        "name": "Arii Smith",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/233011605_128.jpg"
+        }
+      },
+      "damageDone_str": "662",
+      "weaponType": {
+        "id_str": "11961",
+        "href": "https://crest-tq.eveonline.com/inventory/types/11961/",
+        "id": 11961,
+        "name": "Huginn",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/11961_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 5.0,
+      "damageDone": 662
+    },
+    {
+      "alliance": {
+        "id_str": "150097440",
+        "href": "https://crest-tq.eveonline.com/alliances/150097440/",
+        "id": 150097440,
+        "name": "Get Off My Lawn",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/150097440_128.png"
+        }
+      },
+      "damageDone": 579,
+      "corporation": {
+        "id_str": "98374561",
+        "href": "https://crest-tq.eveonline.com/corporations/98374561/",
+        "id": 98374561,
+        "name": "Delusions of Adequacy",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98374561_128.png"
+        }
+      },
+      "character": {
+        "id_str": "91501897",
+        "href": "https://crest-tq.eveonline.com/characters/91501897/",
+        "id": 91501897,
+        "name": "Tison Odunen",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/91501897_128.jpg"
+        }
+      },
+      "damageDone_str": "579",
+      "weaponType": {
+        "id_str": "2969",
+        "href": "https://crest-tq.eveonline.com/inventory/types/2969/",
+        "id": 2969,
+        "name": "720mm Howitzer Artillery II",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/2969_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 3.6
+    },
+    {
+      "alliance": {
+        "id_str": "99004425",
+        "href": "https://crest-tq.eveonline.com/alliances/99004425/",
+        "id": 99004425,
+        "name": "The Bastion",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99004425_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "29988",
+        "href": "https://crest-tq.eveonline.com/inventory/types/29988/",
+        "id": 29988,
+        "name": "Proteus",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/29988_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "215154456",
+        "href": "https://crest-tq.eveonline.com/corporations/215154456/",
+        "id": 215154456,
+        "name": "Zervas Aeronautics",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/215154456_128.png"
+        }
+      },
+      "character": {
+        "id_str": "93637075",
+        "href": "https://crest-tq.eveonline.com/characters/93637075/",
+        "id": 93637075,
+        "name": "Havoc Faux Amatin",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/93637075_128.jpg"
+        }
+      },
+      "damageDone_str": "471",
+      "weaponType": {
+        "id_str": "29988",
+        "href": "https://crest-tq.eveonline.com/inventory/types/29988/",
+        "id": 29988,
+        "name": "Proteus",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/29988_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": -0.5,
+      "damageDone": 471
+    },
+    {
+      "alliance": {
+        "id_str": "99004425",
+        "href": "https://crest-tq.eveonline.com/alliances/99004425/",
+        "id": 99004425,
+        "name": "The Bastion",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99004425_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "11989",
+        "href": "https://crest-tq.eveonline.com/inventory/types/11989/",
+        "id": 11989,
+        "name": "Oneiros",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/11989_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98239157",
+        "href": "https://crest-tq.eveonline.com/corporations/98239157/",
+        "id": 98239157,
+        "name": "Deep Structure.",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98239157_128.png"
+        }
+      },
+      "character": {
+        "id_str": "94615617",
+        "href": "https://crest-tq.eveonline.com/characters/94615617/",
+        "id": 94615617,
+        "name": "Zavier Thalanos",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/94615617_128.jpg"
+        }
+      },
+      "damageDone_str": "339",
+      "weaponType": {
+        "id_str": "2486",
+        "href": "https://crest-tq.eveonline.com/inventory/types/2486/",
+        "id": 2486,
+        "name": "Warrior I",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/2486_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 5.0,
+      "damageDone": 339
+    },
+    {
+      "alliance": {
+        "id_str": "99004425",
+        "href": "https://crest-tq.eveonline.com/alliances/99004425/",
+        "id": 99004425,
+        "name": "The Bastion",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99004425_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "29986",
+        "href": "https://crest-tq.eveonline.com/inventory/types/29986/",
+        "id": 29986,
+        "name": "Legion",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/29986_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98011082",
+        "href": "https://crest-tq.eveonline.com/corporations/98011082/",
+        "id": 98011082,
+        "name": "Shadow State",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98011082_128.png"
+        }
+      },
+      "character": {
+        "id_str": "1627225328",
+        "href": "https://crest-tq.eveonline.com/characters/1627225328/",
+        "id": 1627225328,
+        "name": "Pittsburgh2989",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/1627225328_128.jpg"
+        }
+      },
+      "damageDone_str": "62",
+      "weaponType": {
+        "id_str": "29986",
+        "href": "https://crest-tq.eveonline.com/inventory/types/29986/",
+        "id": 29986,
+        "name": "Legion",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/29986_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 3.8,
+      "damageDone": 62
+    },
+    {
+      "alliance": {
+        "id_str": "99004425",
+        "href": "https://crest-tq.eveonline.com/alliances/99004425/",
+        "id": 99004425,
+        "name": "The Bastion",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99004425_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "29990",
+        "href": "https://crest-tq.eveonline.com/inventory/types/29990/",
+        "id": 29990,
+        "name": "Loki",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/29990_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98313113",
+        "href": "https://crest-tq.eveonline.com/corporations/98313113/",
+        "id": 98313113,
+        "name": "Paragon Trust",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98313113_128.png"
+        }
+      },
+      "character": {
+        "id_str": "1679480235",
+        "href": "https://crest-tq.eveonline.com/characters/1679480235/",
+        "id": 1679480235,
+        "name": "Jed Stevens",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/1679480235_128.jpg"
+        }
+      },
+      "damageDone_str": "13",
+      "weaponType": {
+        "id_str": "2889",
+        "href": "https://crest-tq.eveonline.com/inventory/types/2889/",
+        "id": 2889,
+        "name": "200mm AutoCannon II",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/2889_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 4.1,
+      "damageDone": 13
+    },
+    {
+      "alliance": {
+        "id_str": "99004425",
+        "href": "https://crest-tq.eveonline.com/alliances/99004425/",
+        "id": 99004425,
+        "name": "The Bastion",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99004425_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "29990",
+        "href": "https://crest-tq.eveonline.com/inventory/types/29990/",
+        "id": 29990,
+        "name": "Loki",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/29990_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98380748",
+        "href": "https://crest-tq.eveonline.com/corporations/98380748/",
+        "id": 98380748,
+        "name": "Ultimatum.",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98380748_128.png"
+        }
+      },
+      "character": {
+        "id_str": "614098206",
+        "href": "https://crest-tq.eveonline.com/characters/614098206/",
+        "id": 614098206,
+        "name": "vulan",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/614098206_128.jpg"
+        }
+      },
+      "damageDone_str": "0",
+      "weaponType": {
+        "id_str": "2889",
+        "href": "https://crest-tq.eveonline.com/inventory/types/2889/",
+        "id": 2889,
+        "name": "200mm AutoCannon II",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/2889_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": -0.4,
+      "damageDone": 0
+    },
+    {
+      "alliance": {
+        "id_str": "99004425",
+        "href": "https://crest-tq.eveonline.com/alliances/99004425/",
+        "id": 99004425,
+        "name": "The Bastion",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99004425_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "12021",
+        "href": "https://crest-tq.eveonline.com/inventory/types/12021/",
+        "id": 12021,
+        "name": "Phobos",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/12021_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "1546642544",
+        "href": "https://crest-tq.eveonline.com/corporations/1546642544/",
+        "id": 1546642544,
+        "name": "Quovis",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/1546642544_128.png"
+        }
+      },
+      "character": {
+        "id_str": "1377033726",
+        "href": "https://crest-tq.eveonline.com/characters/1377033726/",
+        "id": 1377033726,
+        "name": "Eliodd",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/1377033726_128.jpg"
+        }
+      },
+      "damageDone_str": "0",
+      "weaponType": {
+        "id_str": "10694",
+        "href": "https://crest-tq.eveonline.com/inventory/types/10694/",
+        "id": 10694,
+        "name": "125mm Prototype Gauss Gun",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/10694_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 4.9,
+      "damageDone": 0
+    },
+    {
+      "alliance": {
+        "id_str": "99004425",
+        "href": "https://crest-tq.eveonline.com/alliances/99004425/",
+        "id": 99004425,
+        "name": "The Bastion",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99004425_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "29986",
+        "href": "https://crest-tq.eveonline.com/inventory/types/29986/",
+        "id": 29986,
+        "name": "Legion",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/29986_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "215154456",
+        "href": "https://crest-tq.eveonline.com/corporations/215154456/",
+        "id": 215154456,
+        "name": "Zervas Aeronautics",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/215154456_128.png"
+        }
+      },
+      "character": {
+        "id_str": "923991358",
+        "href": "https://crest-tq.eveonline.com/characters/923991358/",
+        "id": 923991358,
+        "name": "claga",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/923991358_128.jpg"
+        }
+      },
+      "damageDone_str": "0",
+      "weaponType": {
+        "id_str": "3025",
+        "href": "https://crest-tq.eveonline.com/inventory/types/3025/",
+        "id": 3025,
+        "name": "Heavy Beam Laser II",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/3025_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 2.0,
+      "damageDone": 0
+    },
+    {
+      "alliance": {
+        "id_str": "150097440",
+        "href": "https://crest-tq.eveonline.com/alliances/150097440/",
+        "id": 150097440,
+        "name": "Get Off My Lawn",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/150097440_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "16227",
+        "href": "https://crest-tq.eveonline.com/inventory/types/16227/",
+        "id": 16227,
+        "name": "Ferox",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/16227_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98395924",
+        "href": "https://crest-tq.eveonline.com/corporations/98395924/",
+        "id": 98395924,
+        "name": "Article IV",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98395924_128.png"
+        }
+      },
+      "character": {
+        "id_str": "95577885",
+        "href": "https://crest-tq.eveonline.com/characters/95577885/",
+        "id": 95577885,
+        "name": "Han Audeles",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/95577885_128.jpg"
+        }
+      },
+      "damageDone_str": "0",
+      "weaponType": {
+        "id_str": "7367",
+        "href": "https://crest-tq.eveonline.com/inventory/types/7367/",
+        "id": 7367,
+        "name": "250mm Prototype Gauss Gun",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/7367_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 2.4,
+      "damageDone": 0
+    },
+    {
+      "alliance": {
+        "id_str": "150097440",
+        "href": "https://crest-tq.eveonline.com/alliances/150097440/",
+        "id": 150097440,
+        "name": "Get Off My Lawn",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/150097440_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "11387",
+        "href": "https://crest-tq.eveonline.com/inventory/types/11387/",
+        "id": 11387,
+        "name": "Hyena",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/11387_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "1651944986",
+        "href": "https://crest-tq.eveonline.com/corporations/1651944986/",
+        "id": 1651944986,
+        "name": "Wraith.Wing",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/1651944986_128.png"
+        }
+      },
+      "character": {
+        "id_str": "92168995",
+        "href": "https://crest-tq.eveonline.com/characters/92168995/",
+        "id": 92168995,
+        "name": "Forrae Deren",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/92168995_128.jpg"
+        }
+      },
+      "damageDone_str": "0",
+      "weaponType": {
+        "id_str": "2873",
+        "href": "https://crest-tq.eveonline.com/inventory/types/2873/",
+        "id": 2873,
+        "name": "125mm Gatling AutoCannon II",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/2873_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 5.0,
+      "damageDone": 0
+    },
+    {
+      "alliance": {
+        "id_str": "1727758877",
+        "href": "https://crest-tq.eveonline.com/alliances/1727758877/",
+        "id": 1727758877,
+        "name": "Northern Coalition.",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/1727758877_128.png"
+        }
+      },
+      "damageDone": 0,
+      "corporation": {
+        "id_str": "761955047",
+        "href": "https://crest-tq.eveonline.com/corporations/761955047/",
+        "id": 761955047,
+        "name": "BURN EDEN",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/761955047_128.png"
+        }
+      },
+      "character": {
+        "id_str": "242174575",
+        "href": "https://crest-tq.eveonline.com/characters/242174575/",
+        "id": 242174575,
+        "name": "bR Fortuna",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/242174575_128.jpg"
+        }
+      },
+      "damageDone_str": "0",
+      "weaponType": {
+        "id_str": "2881",
+        "href": "https://crest-tq.eveonline.com/inventory/types/2881/",
+        "id": 2881,
+        "name": "150mm Light AutoCannon II",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/2881_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": -8.9
+    },
+    {
+      "alliance": {
+        "id_str": "150097440",
+        "href": "https://crest-tq.eveonline.com/alliances/150097440/",
+        "id": 150097440,
+        "name": "Get Off My Lawn",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/150097440_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "11174",
+        "href": "https://crest-tq.eveonline.com/inventory/types/11174/",
+        "id": 11174,
+        "name": "Keres",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/11174_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98070133",
+        "href": "https://crest-tq.eveonline.com/corporations/98070133/",
+        "id": 98070133,
+        "name": "Void.Tech",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98070133_128.png"
+        }
+      },
+      "character": {
+        "id_str": "1342581259",
+        "href": "https://crest-tq.eveonline.com/characters/1342581259/",
+        "id": 1342581259,
+        "name": "illyB",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/1342581259_128.jpg"
+        }
+      },
+      "damageDone_str": "0",
+      "weaponType": {
+        "id_str": "3638",
+        "href": "https://crest-tq.eveonline.com/inventory/types/3638/",
+        "id": 3638,
+        "name": "Civilian Gatling Railgun",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/3638_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 3.5,
+      "damageDone": 0
+    },
+    {
+      "alliance": {
+        "id_str": "1727758877",
+        "href": "https://crest-tq.eveonline.com/alliances/1727758877/",
+        "id": 1727758877,
+        "name": "Northern Coalition.",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/1727758877_128.png"
+        }
+      },
+      "damageDone": 0,
+      "corporation": {
+        "id_str": "761955047",
+        "href": "https://crest-tq.eveonline.com/corporations/761955047/",
+        "id": 761955047,
+        "name": "BURN EDEN",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/761955047_128.png"
+        }
+      },
+      "character": {
+        "id_str": "911601594",
+        "href": "https://crest-tq.eveonline.com/characters/911601594/",
+        "id": 911601594,
+        "name": "Orontes Ovasi",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/911601594_128.jpg"
+        }
+      },
+      "damageDone_str": "0",
+      "weaponType": {
+        "id_str": "3162",
+        "href": "https://crest-tq.eveonline.com/inventory/types/3162/",
+        "id": 3162,
+        "name": "Light Electron Blaster II",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/3162_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": -8.7
+    },
+    {
+      "alliance": {
+        "id_str": "150097440",
+        "href": "https://crest-tq.eveonline.com/alliances/150097440/",
+        "id": 150097440,
+        "name": "Get Off My Lawn",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/150097440_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "11995",
+        "href": "https://crest-tq.eveonline.com/inventory/types/11995/",
+        "id": 11995,
+        "name": "Onyx",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/11995_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "1200700876",
+        "href": "https://crest-tq.eveonline.com/corporations/1200700876/",
+        "id": 1200700876,
+        "name": "Jolly Codgers",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/1200700876_128.png"
+        }
+      },
+      "character": {
+        "id_str": "1548001652",
+        "href": "https://crest-tq.eveonline.com/characters/1548001652/",
+        "id": 1548001652,
+        "name": "Peter Perfect",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/1548001652_128.jpg"
+        }
+      },
+      "damageDone_str": "0",
+      "weaponType": {
+        "id_str": "8027",
+        "href": "https://crest-tq.eveonline.com/inventory/types/8027/",
+        "id": 8027,
+        "name": "Prototype 'Arbalest' Rapid Light Missile Launcher",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/8027_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": -0.8,
+      "damageDone": 0
+    }
+  ],
+  "attackerCount": 58,
+  "victim": {
+    "alliance": {
+      "id_str": "1727758877",
+      "href": "https://crest-tq.eveonline.com/alliances/1727758877/",
+      "id": 1727758877,
+      "name": "Northern Coalition.",
+      "icon": {
+        "href": "http://imageserver.eveonline.com/Alliance/1727758877_128.png"
+      }
+    },
+    "damageTaken": 606165,
+    "items": [
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "2048",
+          "href": "https://crest-tq.eveonline.com/inventory/types/2048/",
+          "id": 2048,
+          "name": "Damage Control II",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/2048_128.png"
+          }
+        },
+        "quantityDropped_str": "1",
+        "flag": 155,
+        "singleton_str": "0",
+        "quantityDropped": 1,
+        "flag_str": "155"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "24569",
+          "href": "https://crest-tq.eveonline.com/inventory/types/24569/",
+          "id": 24569,
+          "name": "Capital Remote Armor Repairer I",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/24569_128.png"
+          }
+        },
+        "quantityDestroyed_str": "1",
+        "flag": 29,
+        "flag_str": "29",
+        "singleton_str": "0",
+        "quantityDestroyed": 1
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "11259",
+          "href": "https://crest-tq.eveonline.com/inventory/types/11259/",
+          "id": 11259,
+          "name": "Energized Thermal Membrane II",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/11259_128.png"
+          }
+        },
+        "quantityDropped_str": "1",
+        "flag": 5,
+        "singleton_str": "0",
+        "quantityDropped": 1,
+        "flag_str": "5"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "1335",
+          "href": "https://crest-tq.eveonline.com/inventory/types/1335/",
+          "id": 1335,
+          "name": "Reinforced Bulkheads II",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/1335_128.png"
+          }
+        },
+        "quantityDestroyed_str": "6",
+        "flag": 5,
+        "flag_str": "5",
+        "singleton_str": "0",
+        "quantityDestroyed": 6
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "31374",
+          "href": "https://crest-tq.eveonline.com/inventory/types/31374/",
+          "id": 31374,
+          "name": "Capital Capacitor Control Circuit I",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/31374_128.png"
+          }
+        },
+        "quantityDestroyed_str": "1",
+        "flag": 93,
+        "flag_str": "93",
+        "singleton_str": "0",
+        "quantityDestroyed": 1
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "15729",
+          "href": "https://crest-tq.eveonline.com/inventory/types/15729/",
+          "id": 15729,
+          "name": "Imperial Navy Energized Adaptive Nano Membrane",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/15729_128.png"
+          }
+        },
+        "quantityDropped_str": "1",
+        "flag": 13,
+        "singleton_str": "0",
+        "quantityDropped": 1,
+        "flag_str": "13"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "11648",
+          "href": "https://crest-tq.eveonline.com/inventory/types/11648/",
+          "id": 11648,
+          "name": "Armor Thermal Hardener II",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/11648_128.png"
+          }
+        },
+        "quantityDestroyed_str": "2",
+        "flag": 5,
+        "flag_str": "5",
+        "singleton_str": "0",
+        "quantityDestroyed": 2
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "16275",
+          "href": "https://crest-tq.eveonline.com/inventory/types/16275/",
+          "id": 16275,
+          "name": "Strontium Clathrates",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/16275_128.png"
+          }
+        },
+        "quantityDestroyed_str": "519",
+        "flag": 133,
+        "flag_str": "133",
+        "singleton_str": "0",
+        "quantityDestroyed": 519
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "2032",
+          "href": "https://crest-tq.eveonline.com/inventory/types/2032/",
+          "id": 2032,
+          "name": "Cap Recharger II",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/2032_128.png"
+          }
+        },
+        "quantityDropped_str": "1",
+        "flag": 22,
+        "singleton_str": "0",
+        "quantityDropped": 1,
+        "flag_str": "22"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "4294",
+          "href": "https://crest-tq.eveonline.com/inventory/types/4294/",
+          "id": 4294,
+          "name": "Triage Module II",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/4294_128.png"
+          }
+        },
+        "quantityDropped_str": "1",
+        "flag": 31,
+        "singleton_str": "0",
+        "quantityDropped": 1,
+        "flag_str": "31"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "31374",
+          "href": "https://crest-tq.eveonline.com/inventory/types/31374/",
+          "id": 31374,
+          "name": "Capital Capacitor Control Circuit I",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/31374_128.png"
+          }
+        },
+        "quantityDestroyed_str": "1",
+        "flag": 94,
+        "flag_str": "94",
+        "singleton_str": "0",
+        "quantityDestroyed": 1
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "1248",
+          "href": "https://crest-tq.eveonline.com/inventory/types/1248/",
+          "id": 1248,
+          "name": "Capacitor Flux Coil II",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/1248_128.png"
+          }
+        },
+        "quantityDestroyed_str": "1",
+        "flag": 14,
+        "flag_str": "14",
+        "singleton_str": "0",
+        "quantityDestroyed": 1
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "3504",
+          "href": "https://crest-tq.eveonline.com/inventory/types/3504/",
+          "id": 3504,
+          "name": "Large Cap Battery II",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/3504_128.png"
+          }
+        },
+        "quantityDropped_str": "4",
+        "flag": 5,
+        "singleton_str": "0",
+        "quantityDropped": 4,
+        "flag_str": "5"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "2032",
+          "href": "https://crest-tq.eveonline.com/inventory/types/2032/",
+          "id": 2032,
+          "name": "Cap Recharger II",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/2032_128.png"
+          }
+        },
+        "quantityDestroyed_str": "1",
+        "flag": 19,
+        "flag_str": "19",
+        "singleton_str": "0",
+        "quantityDestroyed": 1
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "16274",
+          "href": "https://crest-tq.eveonline.com/inventory/types/16274/",
+          "id": 16274,
+          "name": "Helium Isotopes",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/16274_128.png"
+          }
+        },
+        "quantityDropped_str": "13180",
+        "flag": 155,
+        "singleton_str": "0",
+        "quantityDropped": 13180,
+        "flag_str": "155"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "1248",
+          "href": "https://crest-tq.eveonline.com/inventory/types/1248/",
+          "id": 1248,
+          "name": "Capacitor Flux Coil II",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/1248_128.png"
+          }
+        },
+        "quantityDropped_str": "2",
+        "flag": 5,
+        "singleton_str": "0",
+        "quantityDropped": 2,
+        "flag_str": "5"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "12219",
+          "href": "https://crest-tq.eveonline.com/inventory/types/12219/",
+          "id": 12219,
+          "name": "Capital Remote Capacitor Transmitter I",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/12219_128.png"
+          }
+        },
+        "quantityDropped_str": "1",
+        "flag": 27,
+        "singleton_str": "0",
+        "quantityDropped": 1,
+        "flag_str": "27"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "27064",
+          "href": "https://crest-tq.eveonline.com/inventory/types/27064/",
+          "id": 27064,
+          "name": "Capital Auxiliary Nano Pump I",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/27064_128.png"
+          }
+        },
+        "quantityDestroyed_str": "1",
+        "flag": 92,
+        "flag_str": "92",
+        "singleton_str": "0",
+        "quantityDestroyed": 1
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "1447",
+          "href": "https://crest-tq.eveonline.com/inventory/types/1447/",
+          "id": 1447,
+          "name": "Capacitor Power Relay II",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/1447_128.png"
+          }
+        },
+        "quantityDropped_str": "1",
+        "flag": 16,
+        "singleton_str": "0",
+        "quantityDropped": 1,
+        "flag_str": "16"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "4403",
+          "href": "https://crest-tq.eveonline.com/inventory/types/4403/",
+          "id": 4403,
+          "name": "Reactive Armor Hardener",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/4403_128.png"
+          }
+        },
+        "quantityDropped_str": "1",
+        "flag": 17,
+        "singleton_str": "0",
+        "quantityDropped": 1,
+        "flag_str": "17"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "1248",
+          "href": "https://crest-tq.eveonline.com/inventory/types/1248/",
+          "id": 1248,
+          "name": "Capacitor Flux Coil II",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/1248_128.png"
+          }
+        },
+        "quantityDropped_str": "1",
+        "flag": 15,
+        "singleton_str": "0",
+        "quantityDropped": 1,
+        "flag_str": "15"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "11249",
+          "href": "https://crest-tq.eveonline.com/inventory/types/11249/",
+          "id": 11249,
+          "name": "Energized Kinetic Membrane II",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/11249_128.png"
+          }
+        },
+        "quantityDropped_str": "1",
+        "flag": 5,
+        "singleton_str": "0",
+        "quantityDropped": 1,
+        "flag_str": "5"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "2032",
+          "href": "https://crest-tq.eveonline.com/inventory/types/2032/",
+          "id": 2032,
+          "name": "Cap Recharger II",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/2032_128.png"
+          }
+        },
+        "quantityDropped_str": "1",
+        "flag": 20,
+        "singleton_str": "0",
+        "quantityDropped": 1,
+        "flag_str": "20"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "20701",
+          "href": "https://crest-tq.eveonline.com/inventory/types/20701/",
+          "id": 20701,
+          "name": "Capital Armor Repairer I",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/20701_128.png"
+          }
+        },
+        "quantityDestroyed_str": "1",
+        "flag": 12,
+        "flag_str": "12",
+        "singleton_str": "0",
+        "quantityDestroyed": 1
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "11219",
+          "href": "https://crest-tq.eveonline.com/inventory/types/11219/",
+          "id": 11219,
+          "name": "Energized EM Membrane II",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/11219_128.png"
+          }
+        },
+        "quantityDestroyed_str": "1",
+        "flag": 5,
+        "flag_str": "5",
+        "singleton_str": "0",
+        "quantityDestroyed": 1
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "11644",
+          "href": "https://crest-tq.eveonline.com/inventory/types/11644/",
+          "id": 11644,
+          "name": "Armor Kinetic Hardener II",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/11644_128.png"
+          }
+        },
+        "quantityDropped_str": "2",
+        "flag": 5,
+        "singleton_str": "0",
+        "quantityDropped": 2,
+        "flag_str": "5"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "11229",
+          "href": "https://crest-tq.eveonline.com/inventory/types/11229/",
+          "id": 11229,
+          "name": "Energized Explosive Membrane II",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/11229_128.png"
+          }
+        },
+        "quantityDropped_str": "1",
+        "flag": 5,
+        "singleton_str": "0",
+        "quantityDropped": 1,
+        "flag_str": "5"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "1447",
+          "href": "https://crest-tq.eveonline.com/inventory/types/1447/",
+          "id": 1447,
+          "name": "Capacitor Power Relay II",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/1447_128.png"
+          }
+        },
+        "quantityDestroyed_str": "2",
+        "flag": 5,
+        "flag_str": "5",
+        "singleton_str": "0",
+        "quantityDestroyed": 2
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "1447",
+          "href": "https://crest-tq.eveonline.com/inventory/types/1447/",
+          "id": 1447,
+          "name": "Capacitor Power Relay II",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/1447_128.png"
+          }
+        },
+        "quantityDropped_str": "1",
+        "flag": 5,
+        "singleton_str": "0",
+        "quantityDropped": 1,
+        "flag_str": "5"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "24569",
+          "href": "https://crest-tq.eveonline.com/inventory/types/24569/",
+          "id": 24569,
+          "name": "Capital Remote Armor Repairer I",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/24569_128.png"
+          }
+        },
+        "quantityDestroyed_str": "1",
+        "flag": 30,
+        "flag_str": "30",
+        "singleton_str": "0",
+        "quantityDestroyed": 1
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "11642",
+          "href": "https://crest-tq.eveonline.com/inventory/types/11642/",
+          "id": 11642,
+          "name": "Armor EM Hardener II",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/11642_128.png"
+          }
+        },
+        "quantityDestroyed_str": "2",
+        "flag": 5,
+        "flag_str": "5",
+        "singleton_str": "0",
+        "quantityDestroyed": 2
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "33476",
+          "href": "https://crest-tq.eveonline.com/inventory/types/33476/",
+          "id": 33476,
+          "name": "Mobile Cynosural Inhibitor",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/33476_128.png"
+          }
+        },
+        "quantityDropped_str": "1",
+        "flag": 5,
+        "singleton_str": "0",
+        "quantityDropped": 1,
+        "flag_str": "5"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "24569",
+          "href": "https://crest-tq.eveonline.com/inventory/types/24569/",
+          "id": 24569,
+          "name": "Capital Remote Armor Repairer I",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/24569_128.png"
+          }
+        },
+        "quantityDropped_str": "1",
+        "flag": 28,
+        "singleton_str": "0",
+        "quantityDropped": 1,
+        "flag_str": "28"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "2032",
+          "href": "https://crest-tq.eveonline.com/inventory/types/2032/",
+          "id": 2032,
+          "name": "Cap Recharger II",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/2032_128.png"
+          }
+        },
+        "quantityDropped_str": "1",
+        "flag": 21,
+        "singleton_str": "0",
+        "quantityDropped": 1,
+        "flag_str": "21"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "20701",
+          "href": "https://crest-tq.eveonline.com/inventory/types/20701/",
+          "id": 20701,
+          "name": "Capital Armor Repairer I",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/20701_128.png"
+          }
+        },
+        "quantityDropped_str": "1",
+        "flag": 11,
+        "singleton_str": "0",
+        "quantityDropped": 1,
+        "flag_str": "11"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "16274",
+          "href": "https://crest-tq.eveonline.com/inventory/types/16274/",
+          "id": 16274,
+          "name": "Helium Isotopes",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/16274_128.png"
+          }
+        },
+        "quantityDropped_str": "5975",
+        "flag": 133,
+        "singleton_str": "0",
+        "quantityDropped": 5975,
+        "flag_str": "133"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "11646",
+          "href": "https://crest-tq.eveonline.com/inventory/types/11646/",
+          "id": 11646,
+          "name": "Armor Explosive Hardener II",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/11646_128.png"
+          }
+        },
+        "quantityDropped_str": "2",
+        "flag": 5,
+        "singleton_str": "0",
+        "quantityDropped": 2,
+        "flag_str": "5"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "11387",
+          "href": "https://crest-tq.eveonline.com/inventory/types/11387/",
+          "id": 11387,
+          "name": "Hyena",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/11387_128.png"
+          }
+        },
+        "flag_str": "90",
+        "items": [
+          {
+            "singleton": 0,
+            "quantityDestroyed": 1,
+            "quantityDestroyed_str": "1",
+            "flag": 12,
+            "flag_str": "12",
+            "singleton_str": "0",
+            "itemType": {
+              "id_str": "2605",
+              "href": "https://crest-tq.eveonline.com/inventory/types/2605/",
+              "id": 2605,
+              "name": "Nanofiber Internal Structure II",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/2605_128.png"
+              }
+            }
+          },
+          {
+            "singleton": 0,
+            "quantityDestroyed": 1,
+            "quantityDestroyed_str": "1",
+            "flag": 21,
+            "flag_str": "21",
+            "singleton_str": "0",
+            "itemType": {
+              "id_str": "3831",
+              "href": "https://crest-tq.eveonline.com/inventory/types/3831/",
+              "id": 3831,
+              "name": "Medium Shield Extender II",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/3831_128.png"
+              }
+            }
+          },
+          {
+            "singleton": 0,
+            "quantityDestroyed": 1,
+            "quantityDestroyed_str": "1",
+            "flag": 92,
+            "flag_str": "92",
+            "singleton_str": "0",
+            "itemType": {
+              "id_str": "31794",
+              "href": "https://crest-tq.eveonline.com/inventory/types/31794/",
+              "id": 31794,
+              "name": "Small Core Defense Field Extender II",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/31794_128.png"
+              }
+            }
+          },
+          {
+            "singleton": 0,
+            "quantityDestroyed": 1,
+            "quantityDestroyed_str": "1",
+            "flag": 20,
+            "flag_str": "20",
+            "singleton_str": "0",
+            "itemType": {
+              "id_str": "5971",
+              "href": "https://crest-tq.eveonline.com/inventory/types/5971/",
+              "id": 5971,
+              "name": "5MN Cold-Gas Enduring Microwarpdrive",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/5971_128.png"
+              }
+            }
+          },
+          {
+            "singleton": 0,
+            "quantityDestroyed": 1,
+            "quantityDestroyed_str": "1",
+            "flag": 93,
+            "flag_str": "93",
+            "singleton_str": "0",
+            "itemType": {
+              "id_str": "31794",
+              "href": "https://crest-tq.eveonline.com/inventory/types/31794/",
+              "id": 31794,
+              "name": "Small Core Defense Field Extender II",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/31794_128.png"
+              }
+            }
+          },
+          {
+            "singleton": 0,
+            "quantityDestroyed": 1,
+            "quantityDestroyed_str": "1",
+            "flag": 11,
+            "flag_str": "11",
+            "singleton_str": "0",
+            "itemType": {
+              "id_str": "1987",
+              "href": "https://crest-tq.eveonline.com/inventory/types/1987/",
+              "id": 1987,
+              "name": "Signal Amplifier II",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/1987_128.png"
+              }
+            }
+          },
+          {
+            "singleton": 0,
+            "quantityDestroyed": 1,
+            "quantityDestroyed_str": "1",
+            "flag": 27,
+            "flag_str": "27",
+            "singleton_str": "0",
+            "itemType": {
+              "id_str": "2873",
+              "href": "https://crest-tq.eveonline.com/inventory/types/2873/",
+              "id": 2873,
+              "name": "125mm Gatling AutoCannon II",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/2873_128.png"
+              }
+            }
+          },
+          {
+            "singleton": 0,
+            "quantityDestroyed": 1,
+            "quantityDestroyed_str": "1",
+            "flag": 28,
+            "flag_str": "28",
+            "singleton_str": "0",
+            "itemType": {
+              "id_str": "2873",
+              "href": "https://crest-tq.eveonline.com/inventory/types/2873/",
+              "id": 2873,
+              "name": "125mm Gatling AutoCannon II",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/2873_128.png"
+              }
+            }
+          },
+          {
+            "singleton": 0,
+            "quantityDestroyed": 1,
+            "quantityDestroyed_str": "1",
+            "flag": 13,
+            "flag_str": "13",
+            "singleton_str": "0",
+            "itemType": {
+              "id_str": "2605",
+              "href": "https://crest-tq.eveonline.com/inventory/types/2605/",
+              "id": 2605,
+              "name": "Nanofiber Internal Structure II",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/2605_128.png"
+              }
+            }
+          },
+          {
+            "singleton": 0,
+            "quantityDestroyed": 1,
+            "quantityDestroyed_str": "1",
+            "flag": 19,
+            "flag_str": "19",
+            "singleton_str": "0",
+            "itemType": {
+              "id_str": "19814",
+              "href": "https://crest-tq.eveonline.com/inventory/types/19814/",
+              "id": 19814,
+              "name": "Phased Scoped Target Painter",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/19814_128.png"
+              }
+            }
+          },
+          {
+            "singleton": 0,
+            "quantityDestroyed": 84,
+            "quantityDestroyed_str": "84",
+            "flag": 5,
+            "flag_str": "5",
+            "singleton_str": "0",
+            "itemType": {
+              "id_str": "28668",
+              "href": "https://crest-tq.eveonline.com/inventory/types/28668/",
+              "id": 28668,
+              "name": "Nanite Repair Paste",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/28668_128.png"
+              }
+            }
+          },
+          {
+            "singleton": 0,
+            "quantityDestroyed": 1,
+            "quantityDestroyed_str": "1",
+            "flag": 22,
+            "flag_str": "22",
+            "singleton_str": "0",
+            "itemType": {
+              "id_str": "2281",
+              "href": "https://crest-tq.eveonline.com/inventory/types/2281/",
+              "id": 2281,
+              "name": "Adaptive Invulnerability Field II",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/2281_128.png"
+              }
+            }
+          }
+        ],
+        "flag": 90,
+        "singleton_str": "0",
+        "quantityDestroyed_str": "1",
+        "quantityDestroyed": 1
+      }
+    ],
+    "damageTaken_str": "606165",
+    "character": {
+      "id_str": "1398939414",
+      "href": "https://crest-tq.eveonline.com/characters/1398939414/",
+      "id": 1398939414,
+      "name": "Skailfsha",
+      "icon": {
+        "href": "http://imageserver.eveonline.com/Character/1398939414_128.jpg"
+      }
+    },
+    "shipType": {
+      "id_str": "23757",
+      "href": "https://crest-tq.eveonline.com/inventory/types/23757/",
+      "id": 23757,
+      "name": "Archon",
+      "icon": {
+        "href": "http://imageserver.eveonline.com/Type/23757_128.png"
+      }
+    },
+    "corporation": {
+      "id_str": "761955047",
+      "href": "https://crest-tq.eveonline.com/corporations/761955047/",
+      "id": 761955047,
+      "name": "BURN EDEN",
+      "icon": {
+        "href": "http://imageserver.eveonline.com/Corporation/761955047_128.png"
+      }
+    },
+    "position": {
+      "y": -5795381222063.044,
+      "x": -1370906948009.2744,
+      "z": 4537250683005.756
+    }
+  },
+  "killID_str": "50228036",
+  "attackerCount_str": "58",
+  "war": {
+    "href": "https://crest-tq.eveonline.com/wars/0/",
+    "id": 0,
+    "id_str": "0"
+  }
+}

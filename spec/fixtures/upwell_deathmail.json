@@ -2,23 +2,922 @@
 // https://crest-tq.eveonline.com/killmails/54088212/743de0ca28509dd416b42b9126fc95df29975486/
 
 {
-  "solarSystem": {
-    "id_str": "31002238",
-    "href": "https://crest-tq.eveonline.com/solarsystems/31002238/",
-    "id": 31002238,
-    "name": "J115405"
-  },
-  "killID": 54088212,
-  "killTime": "2016.05.19 02:20:47",
-  "attackers": [
-    {
-      "shipType": {
-        "id_str": "35834",
-        "href": "https://crest-tq.eveonline.com/inventory/types/35834/",
-        "id": 35834,
-        "name": "Ibis",
+  "package": {
+    "solarSystem": {
+      "id_str": "31002238",
+      "href": "https://crest-tq.eveonline.com/solarsystems/31002238/",
+      "id": 31002238,
+      "name": "J115405"
+    },
+    "killID": 54088212,
+    "killTime": "2016.05.19 02:20:47",
+    "attackers": [
+      {
+        "shipType": {
+          "id_str": "35834",
+          "href": "https://crest-tq.eveonline.com/inventory/types/35834/",
+          "id": 35834,
+          "name": "Ibis",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/35834_128.png"
+          }
+        },
+        "corporation": {
+          "id_str": "98040755",
+          "href": "https://crest-tq.eveonline.com/corporations/98040755/",
+          "id": 98040755,
+          "name": "Hard Knocks Inc.",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Corporation/98040755_128.png"
+          }
+        },
+        "damageDone_str": "445461",
+        "finalBlow": true,
+        "securityStatus": 0.0,
+        "damageDone": 445461
+      }
+    ],
+    "attackerCount": 1,
+    "victim": {
+      "alliance": {
+        "id_str": "99005065",
+        "href": "https://crest-tq.eveonline.com/alliances/99005065/",
+        "id": 99005065,
+        "name": "Hard Knocks Citizens",
         "icon": {
-          "href": "http://imageserver.eveonline.com/Type/35834_128.png"
+          "href": "http://imageserver.eveonline.com/Alliance/99005065_128.png"
+        }
+      },
+      "damageTaken": 445461,
+      "items": [
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "1236",
+            "href": "https://crest-tq.eveonline.com/inventory/types/1236/",
+            "id": 1236,
+            "name": "Overdrive Injector System II",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/1236_128.png"
+            }
+          },
+          "quantityDestroyed_str": "1",
+          "flag": 14,
+          "flag_str": "14",
+          "singleton_str": "0",
+          "quantityDestroyed": 1
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "41332",
+            "href": "https://crest-tq.eveonline.com/inventory/types/41332/",
+            "id": 41332,
+            "name": "Conflagration XL",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/41332_128.png"
+            }
+          },
+          "quantityDestroyed_str": "5",
+          "flag": 5,
+          "flag_str": "5",
+          "singleton_str": "0",
+          "quantityDestroyed": 5
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "41332",
+            "href": "https://crest-tq.eveonline.com/inventory/types/41332/",
+            "id": 41332,
+            "name": "Conflagration XL",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/41332_128.png"
+            }
+          },
+          "quantityDropped_str": "1",
+          "flag": 5,
+          "singleton_str": "0",
+          "quantityDropped": 1,
+          "flag_str": "5"
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "2281",
+            "href": "https://crest-tq.eveonline.com/inventory/types/2281/",
+            "id": 2281,
+            "name": "Adaptive Invulnerability Field II",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/2281_128.png"
+            }
+          },
+          "quantityDestroyed_str": "1",
+          "flag": 21,
+          "flag_str": "21",
+          "singleton_str": "0",
+          "quantityDestroyed": 1
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "1236",
+            "href": "https://crest-tq.eveonline.com/inventory/types/1236/",
+            "id": 1236,
+            "name": "Overdrive Injector System II",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/1236_128.png"
+            }
+          },
+          "quantityDropped_str": "1",
+          "flag": 16,
+          "singleton_str": "0",
+          "quantityDropped": 1,
+          "flag_str": "16"
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "29011",
+            "href": "https://crest-tq.eveonline.com/inventory/types/29011/",
+            "id": 29011,
+            "name": "Scan Resolution Script",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/29011_128.png"
+            }
+          },
+          "quantityDestroyed_str": "2",
+          "flag": 5,
+          "flag_str": "5",
+          "singleton_str": "0",
+          "quantityDestroyed": 2
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "19660",
+            "href": "https://crest-tq.eveonline.com/inventory/types/19660/",
+            "id": 19660,
+            "name": "Festival Launcher",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/19660_128.png"
+            }
+          },
+          "quantityDestroyed_str": "1",
+          "flag": 27,
+          "flag_str": "27",
+          "singleton_str": "0",
+          "quantityDestroyed": 1
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "20845",
+            "href": "https://crest-tq.eveonline.com/inventory/types/20845/",
+            "id": 20845,
+            "name": "Sanshas Gamma XL",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/20845_128.png"
+            }
+          },
+          "quantityDestroyed_str": "2",
+          "flag": 5,
+          "flag_str": "5",
+          "singleton_str": "0",
+          "quantityDestroyed": 2
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "20845",
+            "href": "https://crest-tq.eveonline.com/inventory/types/20845/",
+            "id": 20845,
+            "name": "Sanshas Gamma XL",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/20845_128.png"
+            }
+          },
+          "quantityDropped_str": "4",
+          "flag": 5,
+          "singleton_str": "0",
+          "quantityDropped": 4,
+          "flag_str": "5"
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "1335",
+            "href": "https://crest-tq.eveonline.com/inventory/types/1335/",
+            "id": 1335,
+            "name": "Reinforced Bulkheads II",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/1335_128.png"
+            }
+          },
+          "quantityDestroyed_str": "2",
+          "flag": 5,
+          "flag_str": "5",
+          "singleton_str": "0",
+          "quantityDestroyed": 2
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "1335",
+            "href": "https://crest-tq.eveonline.com/inventory/types/1335/",
+            "id": 1335,
+            "name": "Reinforced Bulkheads II",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/1335_128.png"
+            }
+          },
+          "quantityDropped_str": "5",
+          "flag": 5,
+          "singleton_str": "0",
+          "quantityDropped": 5,
+          "flag_str": "5"
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "29001",
+            "href": "https://crest-tq.eveonline.com/inventory/types/29001/",
+            "id": 29001,
+            "name": "Tracking Speed Script",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/29001_128.png"
+            }
+          },
+          "quantityDropped_str": "3",
+          "flag": 5,
+          "singleton_str": "0",
+          "quantityDropped": 3,
+          "flag_str": "5"
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "11648",
+            "href": "https://crest-tq.eveonline.com/inventory/types/11648/",
+            "id": 11648,
+            "name": "Armor Thermal Hardener II",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/11648_128.png"
+            }
+          },
+          "quantityDropped_str": "1",
+          "flag": 5,
+          "singleton_str": "0",
+          "quantityDropped": 1,
+          "flag_str": "5"
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "16275",
+            "href": "https://crest-tq.eveonline.com/inventory/types/16275/",
+            "id": 16275,
+            "name": "Strontium Clathrates",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/16275_128.png"
+            }
+          },
+          "quantityDestroyed_str": "2666",
+          "flag": 133,
+          "flag_str": "133",
+          "singleton_str": "0",
+          "quantityDestroyed": 2666
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "41330",
+            "href": "https://crest-tq.eveonline.com/inventory/types/41330/",
+            "id": 41330,
+            "name": "Scorch XL",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/41330_128.png"
+            }
+          },
+          "quantityDropped_str": "3",
+          "flag": 5,
+          "singleton_str": "0",
+          "quantityDropped": 3,
+          "flag_str": "5"
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "2605",
+            "href": "https://crest-tq.eveonline.com/inventory/types/2605/",
+            "id": 2605,
+            "name": "Nanofiber Internal Structure II",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/2605_128.png"
+            }
+          },
+          "quantityDestroyed_str": "1",
+          "flag": 13,
+          "flag_str": "13",
+          "singleton_str": "0",
+          "quantityDestroyed": 1
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "32993",
+            "href": "https://crest-tq.eveonline.com/inventory/types/32993/",
+            "id": 32993,
+            "name": "Sodium Firework CXIV",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/32993_128.png"
+            }
+          },
+          "quantityDestroyed_str": "6",
+          "flag": 5,
+          "flag_str": "5",
+          "singleton_str": "0",
+          "quantityDestroyed": 6
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "20026",
+            "href": "https://crest-tq.eveonline.com/inventory/types/20026/",
+            "id": 20026,
+            "name": "Sanshas Radio XL",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/20026_128.png"
+            }
+          },
+          "quantityDestroyed_str": "2",
+          "flag": 5,
+          "flag_str": "5",
+          "singleton_str": "0",
+          "quantityDestroyed": 2
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "20026",
+            "href": "https://crest-tq.eveonline.com/inventory/types/20026/",
+            "id": 20026,
+            "name": "Sanshas Radio XL",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/20026_128.png"
+            }
+          },
+          "quantityDropped_str": "4",
+          "flag": 5,
+          "singleton_str": "0",
+          "quantityDropped": 4,
+          "flag_str": "5"
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "19660",
+            "href": "https://crest-tq.eveonline.com/inventory/types/19660/",
+            "id": 19660,
+            "name": "Festival Launcher",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/19660_128.png"
+            }
+          },
+          "quantityDropped_str": "1",
+          "flag": 29,
+          "singleton_str": "0",
+          "quantityDropped": 1,
+          "flag_str": "29"
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "25894",
+            "href": "https://crest-tq.eveonline.com/inventory/types/25894/",
+            "id": 25894,
+            "name": "Large Trimark Armor Pump I",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/25894_128.png"
+            }
+          },
+          "quantityDestroyed_str": "1",
+          "flag": 92,
+          "flag_str": "92",
+          "singleton_str": "0",
+          "quantityDestroyed": 1
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "8641",
+            "href": "https://crest-tq.eveonline.com/inventory/types/8641/",
+            "id": 8641,
+            "name": "Large S95a Scoped Remote Shield Booster",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/8641_128.png"
+            }
+          },
+          "quantityDropped_str": "1",
+          "flag": 31,
+          "singleton_str": "0",
+          "quantityDropped": 1,
+          "flag_str": "31"
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "1236",
+            "href": "https://crest-tq.eveonline.com/inventory/types/1236/",
+            "id": 1236,
+            "name": "Overdrive Injector System II",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/1236_128.png"
+            }
+          },
+          "quantityDropped_str": "1",
+          "flag": 15,
+          "singleton_str": "0",
+          "quantityDropped": 1,
+          "flag_str": "15"
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "1236",
+            "href": "https://crest-tq.eveonline.com/inventory/types/1236/",
+            "id": 1236,
+            "name": "Overdrive Injector System II",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/1236_128.png"
+            }
+          },
+          "quantityDestroyed_str": "1",
+          "flag": 17,
+          "flag_str": "17",
+          "singleton_str": "0",
+          "quantityDestroyed": 1
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "2303",
+            "href": "https://crest-tq.eveonline.com/inventory/types/2303/",
+            "id": 2303,
+            "name": "Thermal Dissipation Field II",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/2303_128.png"
+            }
+          },
+          "quantityDropped_str": "1",
+          "flag": 22,
+          "singleton_str": "0",
+          "quantityDropped": 1,
+          "flag_str": "22"
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "35657",
+            "href": "https://crest-tq.eveonline.com/inventory/types/35657/",
+            "id": 35657,
+            "name": "100MN Y-S8 Compact Afterburner",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/35657_128.png"
+            }
+          },
+          "quantityDestroyed_str": "1",
+          "flag": 19,
+          "flag_str": "19",
+          "singleton_str": "0",
+          "quantityDestroyed": 1
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "20030",
+            "href": "https://crest-tq.eveonline.com/inventory/types/20030/",
+            "id": 20030,
+            "name": "Sanshas Infrared XL",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/20030_128.png"
+            }
+          },
+          "quantityDestroyed_str": "4",
+          "flag": 5,
+          "flag_str": "5",
+          "singleton_str": "0",
+          "quantityDestroyed": 4
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "20030",
+            "href": "https://crest-tq.eveonline.com/inventory/types/20030/",
+            "id": 20030,
+            "name": "Sanshas Infrared XL",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/20030_128.png"
+            }
+          },
+          "quantityDropped_str": "2",
+          "flag": 5,
+          "singleton_str": "0",
+          "quantityDropped": 2,
+          "flag_str": "5"
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "2605",
+            "href": "https://crest-tq.eveonline.com/inventory/types/2605/",
+            "id": 2605,
+            "name": "Nanofiber Internal Structure II",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/2605_128.png"
+            }
+          },
+          "quantityDropped_str": "1",
+          "flag": 12,
+          "singleton_str": "0",
+          "quantityDropped": 1,
+          "flag_str": "12"
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "33571",
+            "href": "https://crest-tq.eveonline.com/inventory/types/33571/",
+            "id": 33571,
+            "name": "Sodium Firework",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/33571_128.png"
+            }
+          },
+          "quantityDestroyed_str": "42",
+          "flag": 27,
+          "flag_str": "27",
+          "singleton_str": "0",
+          "quantityDestroyed": 42
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "28999",
+            "href": "https://crest-tq.eveonline.com/inventory/types/28999/",
+            "id": 28999,
+            "name": "Optimal Range Script",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/28999_128.png"
+            }
+          },
+          "quantityDestroyed_str": "1",
+          "flag": 5,
+          "flag_str": "5",
+          "singleton_str": "0",
+          "quantityDestroyed": 1
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "25894",
+            "href": "https://crest-tq.eveonline.com/inventory/types/25894/",
+            "id": 25894,
+            "name": "Large Trimark Armor Pump I",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/25894_128.png"
+            }
+          },
+          "quantityDestroyed_str": "1",
+          "flag": 93,
+          "flag_str": "93",
+          "singleton_str": "0",
+          "quantityDestroyed": 1
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "8641",
+            "href": "https://crest-tq.eveonline.com/inventory/types/8641/",
+            "id": 8641,
+            "name": "Large S95a Scoped Remote Shield Booster",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/8641_128.png"
+            }
+          },
+          "quantityDropped_str": "1",
+          "flag": 30,
+          "singleton_str": "0",
+          "quantityDropped": 1,
+          "flag_str": "30"
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "21254",
+            "href": "https://crest-tq.eveonline.com/inventory/types/21254/",
+            "id": 21254,
+            "name": "Blood Multifrequency XL",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/21254_128.png"
+            }
+          },
+          "quantityDestroyed_str": "1",
+          "flag": 5,
+          "flag_str": "5",
+          "singleton_str": "0",
+          "quantityDestroyed": 1
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "21254",
+            "href": "https://crest-tq.eveonline.com/inventory/types/21254/",
+            "id": 21254,
+            "name": "Blood Multifrequency XL",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/21254_128.png"
+            }
+          },
+          "quantityDropped_str": "2",
+          "flag": 5,
+          "singleton_str": "0",
+          "quantityDropped": 2,
+          "flag_str": "5"
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "20032",
+            "href": "https://crest-tq.eveonline.com/inventory/types/20032/",
+            "id": 20032,
+            "name": "Sanshas Standard XL",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/20032_128.png"
+            }
+          },
+          "quantityDestroyed_str": "3",
+          "flag": 5,
+          "flag_str": "5",
+          "singleton_str": "0",
+          "quantityDestroyed": 3
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "20032",
+            "href": "https://crest-tq.eveonline.com/inventory/types/20032/",
+            "id": 20032,
+            "name": "Sanshas Standard XL",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/20032_128.png"
+            }
+          },
+          "quantityDropped_str": "3",
+          "flag": 5,
+          "singleton_str": "0",
+          "quantityDropped": 3,
+          "flag_str": "5"
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "25894",
+            "href": "https://crest-tq.eveonline.com/inventory/types/25894/",
+            "id": 25894,
+            "name": "Large Trimark Armor Pump I",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/25894_128.png"
+            }
+          },
+          "quantityDestroyed_str": "1",
+          "flag": 94,
+          "flag_str": "94",
+          "singleton_str": "0",
+          "quantityDestroyed": 1
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "2301",
+            "href": "https://crest-tq.eveonline.com/inventory/types/2301/",
+            "id": 2301,
+            "name": "EM Ward Field II",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/2301_128.png"
+            }
+          },
+          "quantityDropped_str": "1",
+          "flag": 20,
+          "singleton_str": "0",
+          "quantityDropped": 1,
+          "flag_str": "20"
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "11644",
+            "href": "https://crest-tq.eveonline.com/inventory/types/11644/",
+            "id": 11644,
+            "name": "Armor Kinetic Hardener II",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/11644_128.png"
+            }
+          },
+          "quantityDropped_str": "1",
+          "flag": 5,
+          "singleton_str": "0",
+          "quantityDropped": 1,
+          "flag_str": "5"
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "2048",
+            "href": "https://crest-tq.eveonline.com/inventory/types/2048/",
+            "id": 2048,
+            "name": "Damage Control II",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/2048_128.png"
+            }
+          },
+          "quantityDropped_str": "1",
+          "flag": 18,
+          "singleton_str": "0",
+          "quantityDropped": 1,
+          "flag_str": "18"
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "19660",
+            "href": "https://crest-tq.eveonline.com/inventory/types/19660/",
+            "id": 19660,
+            "name": "Festival Launcher",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/19660_128.png"
+            }
+          },
+          "quantityDestroyed_str": "1",
+          "flag": 28,
+          "flag_str": "28",
+          "singleton_str": "0",
+          "quantityDestroyed": 1
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "2605",
+            "href": "https://crest-tq.eveonline.com/inventory/types/2605/",
+            "id": 2605,
+            "name": "Nanofiber Internal Structure II",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/2605_128.png"
+            }
+          },
+          "quantityDropped_str": "1",
+          "flag": 11,
+          "singleton_str": "0",
+          "quantityDropped": 1,
+          "flag_str": "11"
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "29009",
+            "href": "https://crest-tq.eveonline.com/inventory/types/29009/",
+            "id": 29009,
+            "name": "Targeting Range Script",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/29009_128.png"
+            }
+          },
+          "quantityDestroyed_str": "3",
+          "flag": 5,
+          "flag_str": "5",
+          "singleton_str": "0",
+          "quantityDestroyed": 3
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "33572",
+            "href": "https://crest-tq.eveonline.com/inventory/types/33572/",
+            "id": 33572,
+            "name": "Barium Firework",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/33572_128.png"
+            }
+          },
+          "quantityDropped_str": "42",
+          "flag": 29,
+          "singleton_str": "0",
+          "quantityDropped": 42,
+          "flag_str": "29"
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "32995",
+            "href": "https://crest-tq.eveonline.com/inventory/types/32995/",
+            "id": 32995,
+            "name": "Copper Firework CXIV",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/32995_128.png"
+            }
+          },
+          "quantityDestroyed_str": "41",
+          "flag": 28,
+          "flag_str": "28",
+          "singleton_str": "0",
+          "quantityDestroyed": 41
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "33573",
+            "href": "https://crest-tq.eveonline.com/inventory/types/33573/",
+            "id": 33573,
+            "name": "Copper Firework",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/33573_128.png"
+            }
+          },
+          "quantityDropped_str": "7",
+          "flag": 5,
+          "singleton_str": "0",
+          "quantityDropped": 7,
+          "flag_str": "5"
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "20847",
+            "href": "https://crest-tq.eveonline.com/inventory/types/20847/",
+            "id": 20847,
+            "name": "Sanshas Multifrequency XL",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/20847_128.png"
+            }
+          },
+          "quantityDropped_str": "12",
+          "flag": 5,
+          "singleton_str": "0",
+          "quantityDropped": 12,
+          "flag_str": "5"
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "21246",
+            "href": "https://crest-tq.eveonline.com/inventory/types/21246/",
+            "id": 21246,
+            "name": "Blood Standard XL",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/21246_128.png"
+            }
+          },
+          "quantityDestroyed_str": "2",
+          "flag": 5,
+          "flag_str": "5",
+          "singleton_str": "0",
+          "quantityDestroyed": 2
+        },
+        {
+          "singleton": 0,
+          "itemType": {
+            "id_str": "21246",
+            "href": "https://crest-tq.eveonline.com/inventory/types/21246/",
+            "id": 21246,
+            "name": "Blood Standard XL",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/21246_128.png"
+            }
+          },
+          "quantityDropped_str": "4",
+          "flag": 5,
+          "singleton_str": "0",
+          "quantityDropped": 4,
+          "flag_str": "5"
+        }
+      ],
+      "damageTaken_str": "445461",
+      "character": {
+        "id_str": "1976679673",
+        "href": "https://crest-tq.eveonline.com/characters/1976679673/",
+        "id": 1976679673,
+        "name": "Heift",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/1976679673_128.jpg"
+        }
+      },
+      "shipType": {
+        "id_str": "19720",
+        "href": "https://crest-tq.eveonline.com/inventory/types/19720/",
+        "id": 19720,
+        "name": "Upwell Palatine Keepstar",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/19720_128.png"
         }
       },
       "corporation": {
@@ -30,915 +929,18 @@
           "href": "http://imageserver.eveonline.com/Corporation/98040755_128.png"
         }
       },
-      "damageDone_str": "445461",
-      "finalBlow": true,
-      "securityStatus": 0.0,
-      "damageDone": 445461
+      "position": {
+        "y": -209104669.92547914,
+        "x": -11435444417.018526,
+        "z": 50986958477.30674
+      }
+    },
+    "killID_str": "54088212",
+    "attackerCount_str": "1",
+    "war": {
+      "href": "https://crest-tq.eveonline.com/wars/0/",
+      "id": 0,
+      "id_str": "0"
     }
-  ],
-  "attackerCount": 1,
-  "victim": {
-    "alliance": {
-      "id_str": "99005065",
-      "href": "https://crest-tq.eveonline.com/alliances/99005065/",
-      "id": 99005065,
-      "name": "Hard Knocks Citizens",
-      "icon": {
-        "href": "http://imageserver.eveonline.com/Alliance/99005065_128.png"
-      }
-    },
-    "damageTaken": 445461,
-    "items": [
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "1236",
-          "href": "https://crest-tq.eveonline.com/inventory/types/1236/",
-          "id": 1236,
-          "name": "Overdrive Injector System II",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/1236_128.png"
-          }
-        },
-        "quantityDestroyed_str": "1",
-        "flag": 14,
-        "flag_str": "14",
-        "singleton_str": "0",
-        "quantityDestroyed": 1
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "41332",
-          "href": "https://crest-tq.eveonline.com/inventory/types/41332/",
-          "id": 41332,
-          "name": "Conflagration XL",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/41332_128.png"
-          }
-        },
-        "quantityDestroyed_str": "5",
-        "flag": 5,
-        "flag_str": "5",
-        "singleton_str": "0",
-        "quantityDestroyed": 5
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "41332",
-          "href": "https://crest-tq.eveonline.com/inventory/types/41332/",
-          "id": 41332,
-          "name": "Conflagration XL",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/41332_128.png"
-          }
-        },
-        "quantityDropped_str": "1",
-        "flag": 5,
-        "singleton_str": "0",
-        "quantityDropped": 1,
-        "flag_str": "5"
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "2281",
-          "href": "https://crest-tq.eveonline.com/inventory/types/2281/",
-          "id": 2281,
-          "name": "Adaptive Invulnerability Field II",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/2281_128.png"
-          }
-        },
-        "quantityDestroyed_str": "1",
-        "flag": 21,
-        "flag_str": "21",
-        "singleton_str": "0",
-        "quantityDestroyed": 1
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "1236",
-          "href": "https://crest-tq.eveonline.com/inventory/types/1236/",
-          "id": 1236,
-          "name": "Overdrive Injector System II",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/1236_128.png"
-          }
-        },
-        "quantityDropped_str": "1",
-        "flag": 16,
-        "singleton_str": "0",
-        "quantityDropped": 1,
-        "flag_str": "16"
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "29011",
-          "href": "https://crest-tq.eveonline.com/inventory/types/29011/",
-          "id": 29011,
-          "name": "Scan Resolution Script",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/29011_128.png"
-          }
-        },
-        "quantityDestroyed_str": "2",
-        "flag": 5,
-        "flag_str": "5",
-        "singleton_str": "0",
-        "quantityDestroyed": 2
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "19660",
-          "href": "https://crest-tq.eveonline.com/inventory/types/19660/",
-          "id": 19660,
-          "name": "Festival Launcher",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/19660_128.png"
-          }
-        },
-        "quantityDestroyed_str": "1",
-        "flag": 27,
-        "flag_str": "27",
-        "singleton_str": "0",
-        "quantityDestroyed": 1
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "20845",
-          "href": "https://crest-tq.eveonline.com/inventory/types/20845/",
-          "id": 20845,
-          "name": "Sanshas Gamma XL",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/20845_128.png"
-          }
-        },
-        "quantityDestroyed_str": "2",
-        "flag": 5,
-        "flag_str": "5",
-        "singleton_str": "0",
-        "quantityDestroyed": 2
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "20845",
-          "href": "https://crest-tq.eveonline.com/inventory/types/20845/",
-          "id": 20845,
-          "name": "Sanshas Gamma XL",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/20845_128.png"
-          }
-        },
-        "quantityDropped_str": "4",
-        "flag": 5,
-        "singleton_str": "0",
-        "quantityDropped": 4,
-        "flag_str": "5"
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "1335",
-          "href": "https://crest-tq.eveonline.com/inventory/types/1335/",
-          "id": 1335,
-          "name": "Reinforced Bulkheads II",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/1335_128.png"
-          }
-        },
-        "quantityDestroyed_str": "2",
-        "flag": 5,
-        "flag_str": "5",
-        "singleton_str": "0",
-        "quantityDestroyed": 2
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "1335",
-          "href": "https://crest-tq.eveonline.com/inventory/types/1335/",
-          "id": 1335,
-          "name": "Reinforced Bulkheads II",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/1335_128.png"
-          }
-        },
-        "quantityDropped_str": "5",
-        "flag": 5,
-        "singleton_str": "0",
-        "quantityDropped": 5,
-        "flag_str": "5"
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "29001",
-          "href": "https://crest-tq.eveonline.com/inventory/types/29001/",
-          "id": 29001,
-          "name": "Tracking Speed Script",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/29001_128.png"
-          }
-        },
-        "quantityDropped_str": "3",
-        "flag": 5,
-        "singleton_str": "0",
-        "quantityDropped": 3,
-        "flag_str": "5"
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "11648",
-          "href": "https://crest-tq.eveonline.com/inventory/types/11648/",
-          "id": 11648,
-          "name": "Armor Thermal Hardener II",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/11648_128.png"
-          }
-        },
-        "quantityDropped_str": "1",
-        "flag": 5,
-        "singleton_str": "0",
-        "quantityDropped": 1,
-        "flag_str": "5"
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "16275",
-          "href": "https://crest-tq.eveonline.com/inventory/types/16275/",
-          "id": 16275,
-          "name": "Strontium Clathrates",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/16275_128.png"
-          }
-        },
-        "quantityDestroyed_str": "2666",
-        "flag": 133,
-        "flag_str": "133",
-        "singleton_str": "0",
-        "quantityDestroyed": 2666
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "41330",
-          "href": "https://crest-tq.eveonline.com/inventory/types/41330/",
-          "id": 41330,
-          "name": "Scorch XL",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/41330_128.png"
-          }
-        },
-        "quantityDropped_str": "3",
-        "flag": 5,
-        "singleton_str": "0",
-        "quantityDropped": 3,
-        "flag_str": "5"
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "2605",
-          "href": "https://crest-tq.eveonline.com/inventory/types/2605/",
-          "id": 2605,
-          "name": "Nanofiber Internal Structure II",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/2605_128.png"
-          }
-        },
-        "quantityDestroyed_str": "1",
-        "flag": 13,
-        "flag_str": "13",
-        "singleton_str": "0",
-        "quantityDestroyed": 1
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "32993",
-          "href": "https://crest-tq.eveonline.com/inventory/types/32993/",
-          "id": 32993,
-          "name": "Sodium Firework CXIV",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/32993_128.png"
-          }
-        },
-        "quantityDestroyed_str": "6",
-        "flag": 5,
-        "flag_str": "5",
-        "singleton_str": "0",
-        "quantityDestroyed": 6
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "20026",
-          "href": "https://crest-tq.eveonline.com/inventory/types/20026/",
-          "id": 20026,
-          "name": "Sanshas Radio XL",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/20026_128.png"
-          }
-        },
-        "quantityDestroyed_str": "2",
-        "flag": 5,
-        "flag_str": "5",
-        "singleton_str": "0",
-        "quantityDestroyed": 2
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "20026",
-          "href": "https://crest-tq.eveonline.com/inventory/types/20026/",
-          "id": 20026,
-          "name": "Sanshas Radio XL",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/20026_128.png"
-          }
-        },
-        "quantityDropped_str": "4",
-        "flag": 5,
-        "singleton_str": "0",
-        "quantityDropped": 4,
-        "flag_str": "5"
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "19660",
-          "href": "https://crest-tq.eveonline.com/inventory/types/19660/",
-          "id": 19660,
-          "name": "Festival Launcher",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/19660_128.png"
-          }
-        },
-        "quantityDropped_str": "1",
-        "flag": 29,
-        "singleton_str": "0",
-        "quantityDropped": 1,
-        "flag_str": "29"
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "25894",
-          "href": "https://crest-tq.eveonline.com/inventory/types/25894/",
-          "id": 25894,
-          "name": "Large Trimark Armor Pump I",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/25894_128.png"
-          }
-        },
-        "quantityDestroyed_str": "1",
-        "flag": 92,
-        "flag_str": "92",
-        "singleton_str": "0",
-        "quantityDestroyed": 1
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "8641",
-          "href": "https://crest-tq.eveonline.com/inventory/types/8641/",
-          "id": 8641,
-          "name": "Large S95a Scoped Remote Shield Booster",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/8641_128.png"
-          }
-        },
-        "quantityDropped_str": "1",
-        "flag": 31,
-        "singleton_str": "0",
-        "quantityDropped": 1,
-        "flag_str": "31"
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "1236",
-          "href": "https://crest-tq.eveonline.com/inventory/types/1236/",
-          "id": 1236,
-          "name": "Overdrive Injector System II",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/1236_128.png"
-          }
-        },
-        "quantityDropped_str": "1",
-        "flag": 15,
-        "singleton_str": "0",
-        "quantityDropped": 1,
-        "flag_str": "15"
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "1236",
-          "href": "https://crest-tq.eveonline.com/inventory/types/1236/",
-          "id": 1236,
-          "name": "Overdrive Injector System II",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/1236_128.png"
-          }
-        },
-        "quantityDestroyed_str": "1",
-        "flag": 17,
-        "flag_str": "17",
-        "singleton_str": "0",
-        "quantityDestroyed": 1
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "2303",
-          "href": "https://crest-tq.eveonline.com/inventory/types/2303/",
-          "id": 2303,
-          "name": "Thermal Dissipation Field II",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/2303_128.png"
-          }
-        },
-        "quantityDropped_str": "1",
-        "flag": 22,
-        "singleton_str": "0",
-        "quantityDropped": 1,
-        "flag_str": "22"
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "35657",
-          "href": "https://crest-tq.eveonline.com/inventory/types/35657/",
-          "id": 35657,
-          "name": "100MN Y-S8 Compact Afterburner",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/35657_128.png"
-          }
-        },
-        "quantityDestroyed_str": "1",
-        "flag": 19,
-        "flag_str": "19",
-        "singleton_str": "0",
-        "quantityDestroyed": 1
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "20030",
-          "href": "https://crest-tq.eveonline.com/inventory/types/20030/",
-          "id": 20030,
-          "name": "Sanshas Infrared XL",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/20030_128.png"
-          }
-        },
-        "quantityDestroyed_str": "4",
-        "flag": 5,
-        "flag_str": "5",
-        "singleton_str": "0",
-        "quantityDestroyed": 4
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "20030",
-          "href": "https://crest-tq.eveonline.com/inventory/types/20030/",
-          "id": 20030,
-          "name": "Sanshas Infrared XL",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/20030_128.png"
-          }
-        },
-        "quantityDropped_str": "2",
-        "flag": 5,
-        "singleton_str": "0",
-        "quantityDropped": 2,
-        "flag_str": "5"
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "2605",
-          "href": "https://crest-tq.eveonline.com/inventory/types/2605/",
-          "id": 2605,
-          "name": "Nanofiber Internal Structure II",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/2605_128.png"
-          }
-        },
-        "quantityDropped_str": "1",
-        "flag": 12,
-        "singleton_str": "0",
-        "quantityDropped": 1,
-        "flag_str": "12"
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "33571",
-          "href": "https://crest-tq.eveonline.com/inventory/types/33571/",
-          "id": 33571,
-          "name": "Sodium Firework",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/33571_128.png"
-          }
-        },
-        "quantityDestroyed_str": "42",
-        "flag": 27,
-        "flag_str": "27",
-        "singleton_str": "0",
-        "quantityDestroyed": 42
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "28999",
-          "href": "https://crest-tq.eveonline.com/inventory/types/28999/",
-          "id": 28999,
-          "name": "Optimal Range Script",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/28999_128.png"
-          }
-        },
-        "quantityDestroyed_str": "1",
-        "flag": 5,
-        "flag_str": "5",
-        "singleton_str": "0",
-        "quantityDestroyed": 1
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "25894",
-          "href": "https://crest-tq.eveonline.com/inventory/types/25894/",
-          "id": 25894,
-          "name": "Large Trimark Armor Pump I",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/25894_128.png"
-          }
-        },
-        "quantityDestroyed_str": "1",
-        "flag": 93,
-        "flag_str": "93",
-        "singleton_str": "0",
-        "quantityDestroyed": 1
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "8641",
-          "href": "https://crest-tq.eveonline.com/inventory/types/8641/",
-          "id": 8641,
-          "name": "Large S95a Scoped Remote Shield Booster",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/8641_128.png"
-          }
-        },
-        "quantityDropped_str": "1",
-        "flag": 30,
-        "singleton_str": "0",
-        "quantityDropped": 1,
-        "flag_str": "30"
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "21254",
-          "href": "https://crest-tq.eveonline.com/inventory/types/21254/",
-          "id": 21254,
-          "name": "Blood Multifrequency XL",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/21254_128.png"
-          }
-        },
-        "quantityDestroyed_str": "1",
-        "flag": 5,
-        "flag_str": "5",
-        "singleton_str": "0",
-        "quantityDestroyed": 1
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "21254",
-          "href": "https://crest-tq.eveonline.com/inventory/types/21254/",
-          "id": 21254,
-          "name": "Blood Multifrequency XL",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/21254_128.png"
-          }
-        },
-        "quantityDropped_str": "2",
-        "flag": 5,
-        "singleton_str": "0",
-        "quantityDropped": 2,
-        "flag_str": "5"
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "20032",
-          "href": "https://crest-tq.eveonline.com/inventory/types/20032/",
-          "id": 20032,
-          "name": "Sanshas Standard XL",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/20032_128.png"
-          }
-        },
-        "quantityDestroyed_str": "3",
-        "flag": 5,
-        "flag_str": "5",
-        "singleton_str": "0",
-        "quantityDestroyed": 3
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "20032",
-          "href": "https://crest-tq.eveonline.com/inventory/types/20032/",
-          "id": 20032,
-          "name": "Sanshas Standard XL",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/20032_128.png"
-          }
-        },
-        "quantityDropped_str": "3",
-        "flag": 5,
-        "singleton_str": "0",
-        "quantityDropped": 3,
-        "flag_str": "5"
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "25894",
-          "href": "https://crest-tq.eveonline.com/inventory/types/25894/",
-          "id": 25894,
-          "name": "Large Trimark Armor Pump I",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/25894_128.png"
-          }
-        },
-        "quantityDestroyed_str": "1",
-        "flag": 94,
-        "flag_str": "94",
-        "singleton_str": "0",
-        "quantityDestroyed": 1
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "2301",
-          "href": "https://crest-tq.eveonline.com/inventory/types/2301/",
-          "id": 2301,
-          "name": "EM Ward Field II",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/2301_128.png"
-          }
-        },
-        "quantityDropped_str": "1",
-        "flag": 20,
-        "singleton_str": "0",
-        "quantityDropped": 1,
-        "flag_str": "20"
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "11644",
-          "href": "https://crest-tq.eveonline.com/inventory/types/11644/",
-          "id": 11644,
-          "name": "Armor Kinetic Hardener II",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/11644_128.png"
-          }
-        },
-        "quantityDropped_str": "1",
-        "flag": 5,
-        "singleton_str": "0",
-        "quantityDropped": 1,
-        "flag_str": "5"
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "2048",
-          "href": "https://crest-tq.eveonline.com/inventory/types/2048/",
-          "id": 2048,
-          "name": "Damage Control II",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/2048_128.png"
-          }
-        },
-        "quantityDropped_str": "1",
-        "flag": 18,
-        "singleton_str": "0",
-        "quantityDropped": 1,
-        "flag_str": "18"
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "19660",
-          "href": "https://crest-tq.eveonline.com/inventory/types/19660/",
-          "id": 19660,
-          "name": "Festival Launcher",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/19660_128.png"
-          }
-        },
-        "quantityDestroyed_str": "1",
-        "flag": 28,
-        "flag_str": "28",
-        "singleton_str": "0",
-        "quantityDestroyed": 1
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "2605",
-          "href": "https://crest-tq.eveonline.com/inventory/types/2605/",
-          "id": 2605,
-          "name": "Nanofiber Internal Structure II",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/2605_128.png"
-          }
-        },
-        "quantityDropped_str": "1",
-        "flag": 11,
-        "singleton_str": "0",
-        "quantityDropped": 1,
-        "flag_str": "11"
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "29009",
-          "href": "https://crest-tq.eveonline.com/inventory/types/29009/",
-          "id": 29009,
-          "name": "Targeting Range Script",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/29009_128.png"
-          }
-        },
-        "quantityDestroyed_str": "3",
-        "flag": 5,
-        "flag_str": "5",
-        "singleton_str": "0",
-        "quantityDestroyed": 3
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "33572",
-          "href": "https://crest-tq.eveonline.com/inventory/types/33572/",
-          "id": 33572,
-          "name": "Barium Firework",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/33572_128.png"
-          }
-        },
-        "quantityDropped_str": "42",
-        "flag": 29,
-        "singleton_str": "0",
-        "quantityDropped": 42,
-        "flag_str": "29"
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "32995",
-          "href": "https://crest-tq.eveonline.com/inventory/types/32995/",
-          "id": 32995,
-          "name": "Copper Firework CXIV",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/32995_128.png"
-          }
-        },
-        "quantityDestroyed_str": "41",
-        "flag": 28,
-        "flag_str": "28",
-        "singleton_str": "0",
-        "quantityDestroyed": 41
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "33573",
-          "href": "https://crest-tq.eveonline.com/inventory/types/33573/",
-          "id": 33573,
-          "name": "Copper Firework",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/33573_128.png"
-          }
-        },
-        "quantityDropped_str": "7",
-        "flag": 5,
-        "singleton_str": "0",
-        "quantityDropped": 7,
-        "flag_str": "5"
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "20847",
-          "href": "https://crest-tq.eveonline.com/inventory/types/20847/",
-          "id": 20847,
-          "name": "Sanshas Multifrequency XL",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/20847_128.png"
-          }
-        },
-        "quantityDropped_str": "12",
-        "flag": 5,
-        "singleton_str": "0",
-        "quantityDropped": 12,
-        "flag_str": "5"
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "21246",
-          "href": "https://crest-tq.eveonline.com/inventory/types/21246/",
-          "id": 21246,
-          "name": "Blood Standard XL",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/21246_128.png"
-          }
-        },
-        "quantityDestroyed_str": "2",
-        "flag": 5,
-        "flag_str": "5",
-        "singleton_str": "0",
-        "quantityDestroyed": 2
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "21246",
-          "href": "https://crest-tq.eveonline.com/inventory/types/21246/",
-          "id": 21246,
-          "name": "Blood Standard XL",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/21246_128.png"
-          }
-        },
-        "quantityDropped_str": "4",
-        "flag": 5,
-        "singleton_str": "0",
-        "quantityDropped": 4,
-        "flag_str": "5"
-      }
-    ],
-    "damageTaken_str": "445461",
-    "character": {
-      "id_str": "1976679673",
-      "href": "https://crest-tq.eveonline.com/characters/1976679673/",
-      "id": 1976679673,
-      "name": "Heift",
-      "icon": {
-        "href": "http://imageserver.eveonline.com/Character/1976679673_128.jpg"
-      }
-    },
-    "shipType": {
-      "id_str": "19720",
-      "href": "https://crest-tq.eveonline.com/inventory/types/19720/",
-      "id": 19720,
-      "name": "Upwell Palatine Keepstar",
-      "icon": {
-        "href": "http://imageserver.eveonline.com/Type/19720_128.png"
-      }
-    },
-    "corporation": {
-      "id_str": "98040755",
-      "href": "https://crest-tq.eveonline.com/corporations/98040755/",
-      "id": 98040755,
-      "name": "Hard Knocks Inc.",
-      "icon": {
-        "href": "http://imageserver.eveonline.com/Corporation/98040755_128.png"
-      }
-    },
-    "position": {
-      "y": -209104669.92547914,
-      "x": -11435444417.018526,
-      "z": 50986958477.30674
-    }
-  },
-  "killID_str": "54088212",
-  "attackerCount_str": "1",
-  "war": {
-    "href": "https://crest-tq.eveonline.com/wars/0/",
-    "id": 0,
-    "id_str": "0"
   }
 }
