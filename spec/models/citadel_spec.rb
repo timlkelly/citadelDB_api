@@ -1,15 +1,9 @@
 require 'spec_helper'
 include WithRollback
 
-# let(:killmail_fixture) {  }
-it 'loaddss and shit' do
-  pp JSON.parse(File.read('../fixtures/stuff.json'))
-end
-
 describe 'Citadel model' do
   let(:valid_attributes) do 
     { 
-      kill_ids: [],
       system: 'Y-4CFK',
       nearest_celestial: '6NJ stargate',
       citadel_type: 'Astrahus',
@@ -30,13 +24,7 @@ describe 'Citadel model' do
       Citadel.all.map(&:destroy)  
       expect(Citadel.count).to eq(0)
       Citadel.create(valid_attributes)
-      expect(Citadel.find_by(kill_ids: 48)).to be_present
+      expect(Citadel.find_by(system: 'Y-4CFK')).to be_present
     end
-  end
-
-  xit 'killmail has relevant citadel data' do
-  end
-
-  xit 'killmail can be parsed' do
   end
 end
