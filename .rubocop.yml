@@ -1,0 +1,25 @@
+AllCops:
+  TargetRubyVersion: 2.2.3
+  Exclude:
+    - 'db/schema.rb'
+    - 'db/migrate/**/*'
+    - './Rakefile'
+    - './config/environments.rb'
+
+Style/Documentation:
+  Enabled: false
+
+Style/SymbolProc:
+  Enabled: false
+
+Metrics/LineLength:
+  Enabled: false
+
+Style/AndOr:
+  Enabled: false
+
+ParameterLists:
+  CountKeywordArgs: false
+
+NumericLiterals:
+  Enabled: false

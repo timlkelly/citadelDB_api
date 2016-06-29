@@ -1,0 +1,11 @@
+development:
+  adapter: postgresql
+  database: citadel_dev
+  
+test: 
+  adapter: postgresql
+  database: citadel_test
+  
+production:
+  adapter: postgresql
+  database: citadel_db
