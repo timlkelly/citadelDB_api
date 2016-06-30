@@ -1,0 +1,1592 @@
+// 20160629133723
+// https://crest-tq.eveonline.com/killmails/54838323/098dc0ea410c6f58c52b93ebcb439784f1b75d43/
+
+{
+  "solarSystem": {
+    "id_str": "31000432",
+    "href": "https://crest-tq.eveonline.com/solarsystems/31000432/",
+    "id": 31000432,
+    "name": "J103408"
+  },
+  "killID": 54838323,
+  "killTime": "2016.06.28 02:59:40",
+  "attackers": [
+    {
+      "alliance": {
+        "id_str": "99003294",
+        "href": "https://crest-tq.eveonline.com/alliances/99003294/",
+        "id": 99003294,
+        "name": "Upholders",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99003294_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "12019",
+        "href": "https://crest-tq.eveonline.com/inventory/types/12019/",
+        "id": 12019,
+        "name": "Sacrilege",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/12019_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98400028",
+        "href": "https://crest-tq.eveonline.com/corporations/98400028/",
+        "id": 98400028,
+        "name": "Static-Noise",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98400028_128.png"
+        }
+      },
+      "character": {
+        "id_str": "94381233",
+        "href": "https://crest-tq.eveonline.com/characters/94381233/",
+        "id": 94381233,
+        "name": "Kylar Kakari",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/94381233_128.jpg"
+        }
+      },
+      "damageDone_str": "1179019",
+      "weaponType": {
+        "id_str": "25715",
+        "href": "https://crest-tq.eveonline.com/inventory/types/25715/",
+        "id": 25715,
+        "name": "Heavy Assault Missile Launcher II",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/25715_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 3.2,
+      "damageDone": 1179019
+    },
+    {
+      "alliance": {
+        "id_str": "99003294",
+        "href": "https://crest-tq.eveonline.com/alliances/99003294/",
+        "id": 99003294,
+        "name": "Upholders",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99003294_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "12019",
+        "href": "https://crest-tq.eveonline.com/inventory/types/12019/",
+        "id": 12019,
+        "name": "Sacrilege",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/12019_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98400028",
+        "href": "https://crest-tq.eveonline.com/corporations/98400028/",
+        "id": 98400028,
+        "name": "Static-Noise",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98400028_128.png"
+        }
+      },
+      "character": {
+        "id_str": "90725649",
+        "href": "https://crest-tq.eveonline.com/characters/90725649/",
+        "id": 90725649,
+        "name": "Klaxor Gaterau",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/90725649_128.jpg"
+        }
+      },
+      "damageDone_str": "1125392",
+      "weaponType": {
+        "id_str": "2185",
+        "href": "https://crest-tq.eveonline.com/inventory/types/2185/",
+        "id": 2185,
+        "name": "Hammerhead II",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/2185_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 2.7,
+      "damageDone": 1125392
+    },
+    {
+      "alliance": {
+        "id_str": "99003294",
+        "href": "https://crest-tq.eveonline.com/alliances/99003294/",
+        "id": 99003294,
+        "name": "Upholders",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99003294_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "33470",
+        "href": "https://crest-tq.eveonline.com/inventory/types/33470/",
+        "id": 33470,
+        "name": "Stratios",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/33470_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98400028",
+        "href": "https://crest-tq.eveonline.com/corporations/98400028/",
+        "id": 98400028,
+        "name": "Static-Noise",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98400028_128.png"
+        }
+      },
+      "character": {
+        "id_str": "95351766",
+        "href": "https://crest-tq.eveonline.com/characters/95351766/",
+        "id": 95351766,
+        "name": "satin antteo",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/95351766_128.jpg"
+        }
+      },
+      "damageDone_str": "1003663",
+      "weaponType": {
+        "id_str": "2446",
+        "href": "https://crest-tq.eveonline.com/inventory/types/2446/",
+        "id": 2446,
+        "name": "Ogre II",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/2446_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": -0.2,
+      "damageDone": 1003663
+    },
+    {
+      "alliance": {
+        "id_str": "99003294",
+        "href": "https://crest-tq.eveonline.com/alliances/99003294/",
+        "id": 99003294,
+        "name": "Upholders",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99003294_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "33470",
+        "href": "https://crest-tq.eveonline.com/inventory/types/33470/",
+        "id": 33470,
+        "name": "Stratios",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/33470_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98400028",
+        "href": "https://crest-tq.eveonline.com/corporations/98400028/",
+        "id": 98400028,
+        "name": "Static-Noise",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98400028_128.png"
+        }
+      },
+      "character": {
+        "id_str": "91146978",
+        "href": "https://crest-tq.eveonline.com/characters/91146978/",
+        "id": 91146978,
+        "name": "Aurorah Akika",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/91146978_128.jpg"
+        }
+      },
+      "damageDone_str": "859985",
+      "weaponType": {
+        "id_str": "28286",
+        "href": "https://crest-tq.eveonline.com/inventory/types/28286/",
+        "id": 28286,
+        "name": "'Integrated' Ogre",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/28286_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": -0.9,
+      "damageDone": 859985
+    },
+    {
+      "alliance": {
+        "id_str": "99003294",
+        "href": "https://crest-tq.eveonline.com/alliances/99003294/",
+        "id": 99003294,
+        "name": "Upholders",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99003294_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "12019",
+        "href": "https://crest-tq.eveonline.com/inventory/types/12019/",
+        "id": 12019,
+        "name": "Sacrilege",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/12019_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98400028",
+        "href": "https://crest-tq.eveonline.com/corporations/98400028/",
+        "id": 98400028,
+        "name": "Static-Noise",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98400028_128.png"
+        }
+      },
+      "character": {
+        "id_str": "94565260",
+        "href": "https://crest-tq.eveonline.com/characters/94565260/",
+        "id": 94565260,
+        "name": "Kyp Kolson",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/94565260_128.jpg"
+        }
+      },
+      "damageDone_str": "705991",
+      "weaponType": {
+        "id_str": "2679",
+        "href": "https://crest-tq.eveonline.com/inventory/types/2679/",
+        "id": 2679,
+        "name": "Scourge Rage Heavy Assault Missile",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/2679_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": -0.4,
+      "damageDone": 705991
+    },
+    {
+      "alliance": {
+        "id_str": "99003294",
+        "href": "https://crest-tq.eveonline.com/alliances/99003294/",
+        "id": 99003294,
+        "name": "Upholders",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99003294_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "12019",
+        "href": "https://crest-tq.eveonline.com/inventory/types/12019/",
+        "id": 12019,
+        "name": "Sacrilege",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/12019_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98400028",
+        "href": "https://crest-tq.eveonline.com/corporations/98400028/",
+        "id": 98400028,
+        "name": "Static-Noise",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98400028_128.png"
+        }
+      },
+      "character": {
+        "id_str": "93121504",
+        "href": "https://crest-tq.eveonline.com/characters/93121504/",
+        "id": 93121504,
+        "name": "Killigrew Boirelle",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/93121504_128.jpg"
+        }
+      },
+      "damageDone_str": "536590",
+      "weaponType": {
+        "id_str": "27413",
+        "href": "https://crest-tq.eveonline.com/inventory/types/27413/",
+        "id": 27413,
+        "name": "Caldari Navy Scourge Heavy Assault Missile",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/27413_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": -0.2,
+      "damageDone": 536590
+    },
+    {
+      "alliance": {
+        "id_str": "99003294",
+        "href": "https://crest-tq.eveonline.com/alliances/99003294/",
+        "id": 99003294,
+        "name": "Upholders",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99003294_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "33472",
+        "href": "https://crest-tq.eveonline.com/inventory/types/33472/",
+        "id": 33472,
+        "name": "Nestor",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/33472_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98400028",
+        "href": "https://crest-tq.eveonline.com/corporations/98400028/",
+        "id": 98400028,
+        "name": "Static-Noise",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98400028_128.png"
+        }
+      },
+      "character": {
+        "id_str": "90120220",
+        "href": "https://crest-tq.eveonline.com/characters/90120220/",
+        "id": 90120220,
+        "name": "Bo Rothrock",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/90120220_128.jpg"
+        }
+      },
+      "damageDone_str": "478916",
+      "weaponType": {
+        "id_str": "28215",
+        "href": "https://crest-tq.eveonline.com/inventory/types/28215/",
+        "id": 28215,
+        "name": "Bouncer II",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/28215_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 0.8,
+      "damageDone": 478916
+    },
+    {
+      "alliance": {
+        "id_str": "99006117",
+        "href": "https://crest-tq.eveonline.com/alliances/99006117/",
+        "id": 99006117,
+        "name": "Ember Sands",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99006117_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "17843",
+        "href": "https://crest-tq.eveonline.com/inventory/types/17843/",
+        "id": 17843,
+        "name": "Vexor Navy Issue",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/17843_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98444832",
+        "href": "https://crest-tq.eveonline.com/corporations/98444832/",
+        "id": 98444832,
+        "name": "Hole Rollers",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98444832_128.png"
+        }
+      },
+      "character": {
+        "id_str": "647853131",
+        "href": "https://crest-tq.eveonline.com/characters/647853131/",
+        "id": 647853131,
+        "name": "Ophilia IV",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/647853131_128.jpg"
+        }
+      },
+      "damageDone_str": "456863",
+      "weaponType": {
+        "id_str": "17843",
+        "href": "https://crest-tq.eveonline.com/inventory/types/17843/",
+        "id": 17843,
+        "name": "Vexor Navy Issue",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/17843_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 4.3,
+      "damageDone": 456863
+    },
+    {
+      "alliance": {
+        "id_str": "99006117",
+        "href": "https://crest-tq.eveonline.com/alliances/99006117/",
+        "id": 99006117,
+        "name": "Ember Sands",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99006117_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "17843",
+        "href": "https://crest-tq.eveonline.com/inventory/types/17843/",
+        "id": 17843,
+        "name": "Vexor Navy Issue",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/17843_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98293472",
+        "href": "https://crest-tq.eveonline.com/corporations/98293472/",
+        "id": 98293472,
+        "name": "POS Party",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98293472_128.png"
+        }
+      },
+      "character": {
+        "id_str": "409770668",
+        "href": "https://crest-tq.eveonline.com/characters/409770668/",
+        "id": 409770668,
+        "name": "Sin Dekko",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/409770668_128.jpg"
+        }
+      },
+      "damageDone_str": "304740",
+      "weaponType": {
+        "id_str": "2446",
+        "href": "https://crest-tq.eveonline.com/inventory/types/2446/",
+        "id": 2446,
+        "name": "Ogre II",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/2446_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": -1.0,
+      "damageDone": 304740
+    },
+    {
+      "alliance": {
+        "id_str": "99006117",
+        "href": "https://crest-tq.eveonline.com/alliances/99006117/",
+        "id": 99006117,
+        "name": "Ember Sands",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99006117_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "17843",
+        "href": "https://crest-tq.eveonline.com/inventory/types/17843/",
+        "id": 17843,
+        "name": "Vexor Navy Issue",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/17843_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98293472",
+        "href": "https://crest-tq.eveonline.com/corporations/98293472/",
+        "id": 98293472,
+        "name": "POS Party",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98293472_128.png"
+        }
+      },
+      "character": {
+        "id_str": "93093864",
+        "href": "https://crest-tq.eveonline.com/characters/93093864/",
+        "id": 93093864,
+        "name": "Celine Harbinger",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/93093864_128.jpg"
+        }
+      },
+      "damageDone_str": "244094",
+      "weaponType": {
+        "id_str": "31868",
+        "href": "https://crest-tq.eveonline.com/inventory/types/31868/",
+        "id": 31868,
+        "name": "Imperial Navy Curator",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/31868_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 4.0,
+      "damageDone": 244094
+    },
+    {
+      "alliance": {
+        "id_str": "99003294",
+        "href": "https://crest-tq.eveonline.com/alliances/99003294/",
+        "id": 99003294,
+        "name": "Upholders",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99003294_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "12005",
+        "href": "https://crest-tq.eveonline.com/inventory/types/12005/",
+        "id": 12005,
+        "name": "Ishtar",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/12005_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98400028",
+        "href": "https://crest-tq.eveonline.com/corporations/98400028/",
+        "id": 98400028,
+        "name": "Static-Noise",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98400028_128.png"
+        }
+      },
+      "character": {
+        "id_str": "90805563",
+        "href": "https://crest-tq.eveonline.com/characters/90805563/",
+        "id": 90805563,
+        "name": "CelticTerror",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/90805563_128.jpg"
+        }
+      },
+      "damageDone_str": "241500",
+      "weaponType": {
+        "id_str": "2446",
+        "href": "https://crest-tq.eveonline.com/inventory/types/2446/",
+        "id": 2446,
+        "name": "Ogre II",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/2446_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": -1.3,
+      "damageDone": 241500
+    },
+    {
+      "alliance": {
+        "id_str": "99003294",
+        "href": "https://crest-tq.eveonline.com/alliances/99003294/",
+        "id": 99003294,
+        "name": "Upholders",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99003294_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "33470",
+        "href": "https://crest-tq.eveonline.com/inventory/types/33470/",
+        "id": 33470,
+        "name": "Stratios",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/33470_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98400028",
+        "href": "https://crest-tq.eveonline.com/corporations/98400028/",
+        "id": 98400028,
+        "name": "Static-Noise",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98400028_128.png"
+        }
+      },
+      "character": {
+        "id_str": "93347298",
+        "href": "https://crest-tq.eveonline.com/characters/93347298/",
+        "id": 93347298,
+        "name": "Jelerakk",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/93347298_128.jpg"
+        }
+      },
+      "damageDone_str": "234008",
+      "weaponType": {
+        "id_str": "2446",
+        "href": "https://crest-tq.eveonline.com/inventory/types/2446/",
+        "id": 2446,
+        "name": "Ogre II",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/2446_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 0.3,
+      "damageDone": 234008
+    },
+    {
+      "alliance": {
+        "id_str": "99003294",
+        "href": "https://crest-tq.eveonline.com/alliances/99003294/",
+        "id": 99003294,
+        "name": "Upholders",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99003294_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "12005",
+        "href": "https://crest-tq.eveonline.com/inventory/types/12005/",
+        "id": 12005,
+        "name": "Ishtar",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/12005_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98400028",
+        "href": "https://crest-tq.eveonline.com/corporations/98400028/",
+        "id": 98400028,
+        "name": "Static-Noise",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98400028_128.png"
+        }
+      },
+      "character": {
+        "id_str": "93826108",
+        "href": "https://crest-tq.eveonline.com/characters/93826108/",
+        "id": 93826108,
+        "name": "Saangre",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/93826108_128.jpg"
+        }
+      },
+      "damageDone_str": "226239",
+      "weaponType": {
+        "id_str": "2446",
+        "href": "https://crest-tq.eveonline.com/inventory/types/2446/",
+        "id": 2446,
+        "name": "Ogre II",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/2446_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 2.3,
+      "damageDone": 226239
+    },
+    {
+      "alliance": {
+        "id_str": "99003294",
+        "href": "https://crest-tq.eveonline.com/alliances/99003294/",
+        "id": 99003294,
+        "name": "Upholders",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99003294_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "29988",
+        "href": "https://crest-tq.eveonline.com/inventory/types/29988/",
+        "id": 29988,
+        "name": "Proteus",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/29988_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98400028",
+        "href": "https://crest-tq.eveonline.com/corporations/98400028/",
+        "id": 98400028,
+        "name": "Static-Noise",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98400028_128.png"
+        }
+      },
+      "character": {
+        "id_str": "94695285",
+        "href": "https://crest-tq.eveonline.com/characters/94695285/",
+        "id": 94695285,
+        "name": "capinhoes Anneto",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/94695285_128.jpg"
+        }
+      },
+      "damageDone_str": "219672",
+      "weaponType": {
+        "id_str": "29988",
+        "href": "https://crest-tq.eveonline.com/inventory/types/29988/",
+        "id": 29988,
+        "name": "Proteus",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/29988_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 4.8,
+      "damageDone": 219672
+    },
+    {
+      "alliance": {
+        "id_str": "99003294",
+        "href": "https://crest-tq.eveonline.com/alliances/99003294/",
+        "id": 99003294,
+        "name": "Upholders",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99003294_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "33470",
+        "href": "https://crest-tq.eveonline.com/inventory/types/33470/",
+        "id": 33470,
+        "name": "Stratios",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/33470_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98400028",
+        "href": "https://crest-tq.eveonline.com/corporations/98400028/",
+        "id": 98400028,
+        "name": "Static-Noise",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98400028_128.png"
+        }
+      },
+      "character": {
+        "id_str": "93265880",
+        "href": "https://crest-tq.eveonline.com/characters/93265880/",
+        "id": 93265880,
+        "name": "Kraesk",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/93265880_128.jpg"
+        }
+      },
+      "damageDone_str": "213973",
+      "weaponType": {
+        "id_str": "2446",
+        "href": "https://crest-tq.eveonline.com/inventory/types/2446/",
+        "id": 2446,
+        "name": "Ogre II",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/2446_128.png"
+        }
+      },
+      "finalBlow": true,
+      "securityStatus": -0.7,
+      "damageDone": 213973
+    },
+    {
+      "alliance": {
+        "id_str": "99006117",
+        "href": "https://crest-tq.eveonline.com/alliances/99006117/",
+        "id": 99006117,
+        "name": "Ember Sands",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99006117_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "17843",
+        "href": "https://crest-tq.eveonline.com/inventory/types/17843/",
+        "id": 17843,
+        "name": "Vexor Navy Issue",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/17843_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98293472",
+        "href": "https://crest-tq.eveonline.com/corporations/98293472/",
+        "id": 98293472,
+        "name": "POS Party",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98293472_128.png"
+        }
+      },
+      "character": {
+        "id_str": "744737979",
+        "href": "https://crest-tq.eveonline.com/characters/744737979/",
+        "id": 744737979,
+        "name": "Krosis Voxtur",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/744737979_128.jpg"
+        }
+      },
+      "damageDone_str": "213655",
+      "weaponType": {
+        "id_str": "31894",
+        "href": "https://crest-tq.eveonline.com/inventory/types/31894/",
+        "id": 31894,
+        "name": "Republic Fleet Bouncer",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/31894_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 2.8,
+      "damageDone": 213655
+    },
+    {
+      "alliance": {
+        "id_str": "99003294",
+        "href": "https://crest-tq.eveonline.com/alliances/99003294/",
+        "id": 99003294,
+        "name": "Upholders",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99003294_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "22442",
+        "href": "https://crest-tq.eveonline.com/inventory/types/22442/",
+        "id": 22442,
+        "name": "Eos",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/22442_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98400028",
+        "href": "https://crest-tq.eveonline.com/corporations/98400028/",
+        "id": 98400028,
+        "name": "Static-Noise",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98400028_128.png"
+        }
+      },
+      "character": {
+        "id_str": "90120327",
+        "href": "https://crest-tq.eveonline.com/characters/90120327/",
+        "id": 90120327,
+        "name": "Nauticus Maximi",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/90120327_128.jpg"
+        }
+      },
+      "damageDone_str": "204727",
+      "weaponType": {
+        "id_str": "2446",
+        "href": "https://crest-tq.eveonline.com/inventory/types/2446/",
+        "id": 2446,
+        "name": "Ogre II",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/2446_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 0.9,
+      "damageDone": 204727
+    },
+    {
+      "alliance": {
+        "id_str": "99003294",
+        "href": "https://crest-tq.eveonline.com/alliances/99003294/",
+        "id": 99003294,
+        "name": "Upholders",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99003294_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "33470",
+        "href": "https://crest-tq.eveonline.com/inventory/types/33470/",
+        "id": 33470,
+        "name": "Stratios",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/33470_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98400028",
+        "href": "https://crest-tq.eveonline.com/corporations/98400028/",
+        "id": 98400028,
+        "name": "Static-Noise",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98400028_128.png"
+        }
+      },
+      "character": {
+        "id_str": "1600608438",
+        "href": "https://crest-tq.eveonline.com/characters/1600608438/",
+        "id": 1600608438,
+        "name": "Alskari",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/1600608438_128.jpg"
+        }
+      },
+      "damageDone_str": "196966",
+      "weaponType": {
+        "id_str": "2446",
+        "href": "https://crest-tq.eveonline.com/inventory/types/2446/",
+        "id": 2446,
+        "name": "Ogre II",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/2446_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": -1.8,
+      "damageDone": 196966
+    },
+    {
+      "alliance": {
+        "id_str": "99003294",
+        "href": "https://crest-tq.eveonline.com/alliances/99003294/",
+        "id": 99003294,
+        "name": "Upholders",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99003294_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "11989",
+        "href": "https://crest-tq.eveonline.com/inventory/types/11989/",
+        "id": 11989,
+        "name": "Oneiros",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/11989_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98400028",
+        "href": "https://crest-tq.eveonline.com/corporations/98400028/",
+        "id": 98400028,
+        "name": "Static-Noise",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98400028_128.png"
+        }
+      },
+      "character": {
+        "id_str": "90713158",
+        "href": "https://crest-tq.eveonline.com/characters/90713158/",
+        "id": 90713158,
+        "name": "Arthur Mondo",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/90713158_128.jpg"
+        }
+      },
+      "damageDone_str": "165259",
+      "weaponType": {
+        "id_str": "2205",
+        "href": "https://crest-tq.eveonline.com/inventory/types/2205/",
+        "id": 2205,
+        "name": "Acolyte II",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/2205_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 0.5,
+      "damageDone": 165259
+    },
+    {
+      "alliance": {
+        "id_str": "99003294",
+        "href": "https://crest-tq.eveonline.com/alliances/99003294/",
+        "id": 99003294,
+        "name": "Upholders",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99003294_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "33470",
+        "href": "https://crest-tq.eveonline.com/inventory/types/33470/",
+        "id": 33470,
+        "name": "Stratios",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/33470_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98400028",
+        "href": "https://crest-tq.eveonline.com/corporations/98400028/",
+        "id": 98400028,
+        "name": "Static-Noise",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98400028_128.png"
+        }
+      },
+      "character": {
+        "id_str": "93720636",
+        "href": "https://crest-tq.eveonline.com/characters/93720636/",
+        "id": 93720636,
+        "name": "Saangrita Hova",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/93720636_128.jpg"
+        }
+      },
+      "damageDone_str": "150090",
+      "weaponType": {
+        "id_str": "2446",
+        "href": "https://crest-tq.eveonline.com/inventory/types/2446/",
+        "id": 2446,
+        "name": "Ogre II",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/2446_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": -0.6,
+      "damageDone": 150090
+    },
+    {
+      "alliance": {
+        "id_str": "99006117",
+        "href": "https://crest-tq.eveonline.com/alliances/99006117/",
+        "id": 99006117,
+        "name": "Ember Sands",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99006117_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "17843",
+        "href": "https://crest-tq.eveonline.com/inventory/types/17843/",
+        "id": 17843,
+        "name": "Vexor Navy Issue",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/17843_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98293472",
+        "href": "https://crest-tq.eveonline.com/corporations/98293472/",
+        "id": 98293472,
+        "name": "POS Party",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98293472_128.png"
+        }
+      },
+      "character": {
+        "id_str": "327812229",
+        "href": "https://crest-tq.eveonline.com/characters/327812229/",
+        "id": 327812229,
+        "name": "Master Kyublai",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/327812229_128.jpg"
+        }
+      },
+      "damageDone_str": "139714",
+      "weaponType": {
+        "id_str": "2185",
+        "href": "https://crest-tq.eveonline.com/inventory/types/2185/",
+        "id": 2185,
+        "name": "Hammerhead II",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/2185_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": -1.1,
+      "damageDone": 139714
+    },
+    {
+      "alliance": {
+        "id_str": "99003294",
+        "href": "https://crest-tq.eveonline.com/alliances/99003294/",
+        "id": 99003294,
+        "name": "Upholders",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99003294_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "33470",
+        "href": "https://crest-tq.eveonline.com/inventory/types/33470/",
+        "id": 33470,
+        "name": "Stratios",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/33470_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98400028",
+        "href": "https://crest-tq.eveonline.com/corporations/98400028/",
+        "id": 98400028,
+        "name": "Static-Noise",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98400028_128.png"
+        }
+      },
+      "character": {
+        "id_str": "1596505732",
+        "href": "https://crest-tq.eveonline.com/characters/1596505732/",
+        "id": 1596505732,
+        "name": "Anaeas",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/1596505732_128.jpg"
+        }
+      },
+      "damageDone_str": "139248",
+      "weaponType": {
+        "id_str": "2478",
+        "href": "https://crest-tq.eveonline.com/inventory/types/2478/",
+        "id": 2478,
+        "name": "Berserker II",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/2478_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 1.8,
+      "damageDone": 139248
+    },
+    {
+      "alliance": {
+        "id_str": "99003294",
+        "href": "https://crest-tq.eveonline.com/alliances/99003294/",
+        "id": 99003294,
+        "name": "Upholders",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99003294_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "11987",
+        "href": "https://crest-tq.eveonline.com/inventory/types/11987/",
+        "id": 11987,
+        "name": "Guardian",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/11987_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98400028",
+        "href": "https://crest-tq.eveonline.com/corporations/98400028/",
+        "id": 98400028,
+        "name": "Static-Noise",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98400028_128.png"
+        }
+      },
+      "character": {
+        "id_str": "167099548",
+        "href": "https://crest-tq.eveonline.com/characters/167099548/",
+        "id": 167099548,
+        "name": "Turandis",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/167099548_128.jpg"
+        }
+      },
+      "damageDone_str": "122134",
+      "weaponType": {
+        "id_str": "2456",
+        "href": "https://crest-tq.eveonline.com/inventory/types/2456/",
+        "id": 2456,
+        "name": "Hobgoblin II",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/2456_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 2.9,
+      "damageDone": 122134
+    },
+    {
+      "alliance": {
+        "id_str": "99006117",
+        "href": "https://crest-tq.eveonline.com/alliances/99006117/",
+        "id": 99006117,
+        "name": "Ember Sands",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99006117_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "17843",
+        "href": "https://crest-tq.eveonline.com/inventory/types/17843/",
+        "id": 17843,
+        "name": "Vexor Navy Issue",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/17843_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98293472",
+        "href": "https://crest-tq.eveonline.com/corporations/98293472/",
+        "id": 98293472,
+        "name": "POS Party",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98293472_128.png"
+        }
+      },
+      "character": {
+        "id_str": "94706817",
+        "href": "https://crest-tq.eveonline.com/characters/94706817/",
+        "id": 94706817,
+        "name": "jack spam",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/94706817_128.jpg"
+        }
+      },
+      "damageDone_str": "95541",
+      "weaponType": {
+        "id_str": "23525",
+        "href": "https://crest-tq.eveonline.com/inventory/types/23525/",
+        "id": 23525,
+        "name": "Curator I",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/23525_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 5.0,
+      "damageDone": 95541
+    },
+    {
+      "alliance": {
+        "id_str": "99006117",
+        "href": "https://crest-tq.eveonline.com/alliances/99006117/",
+        "id": 99006117,
+        "name": "Ember Sands",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99006117_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "17843",
+        "href": "https://crest-tq.eveonline.com/inventory/types/17843/",
+        "id": 17843,
+        "name": "Vexor Navy Issue",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/17843_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98293472",
+        "href": "https://crest-tq.eveonline.com/corporations/98293472/",
+        "id": 98293472,
+        "name": "POS Party",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98293472_128.png"
+        }
+      },
+      "character": {
+        "id_str": "92573290",
+        "href": "https://crest-tq.eveonline.com/characters/92573290/",
+        "id": 92573290,
+        "name": "Eveline Vos",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/92573290_128.jpg"
+        }
+      },
+      "damageDone_str": "66148",
+      "weaponType": {
+        "id_str": "17843",
+        "href": "https://crest-tq.eveonline.com/inventory/types/17843/",
+        "id": 17843,
+        "name": "Vexor Navy Issue",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/17843_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": -1.5,
+      "damageDone": 66148
+    },
+    {
+      "alliance": {
+        "id_str": "99006117",
+        "href": "https://crest-tq.eveonline.com/alliances/99006117/",
+        "id": 99006117,
+        "name": "Ember Sands",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99006117_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "11989",
+        "href": "https://crest-tq.eveonline.com/inventory/types/11989/",
+        "id": 11989,
+        "name": "Oneiros",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/11989_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98444832",
+        "href": "https://crest-tq.eveonline.com/corporations/98444832/",
+        "id": 98444832,
+        "name": "Hole Rollers",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98444832_128.png"
+        }
+      },
+      "character": {
+        "id_str": "1059529684",
+        "href": "https://crest-tq.eveonline.com/characters/1059529684/",
+        "id": 1059529684,
+        "name": "Luna Nakano",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/1059529684_128.jpg"
+        }
+      },
+      "damageDone_str": "34162",
+      "weaponType": {
+        "id_str": "2488",
+        "href": "https://crest-tq.eveonline.com/inventory/types/2488/",
+        "id": 2488,
+        "name": "Warrior II",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/2488_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 0.6,
+      "damageDone": 34162
+    },
+    {
+      "alliance": {
+        "id_str": "99003294",
+        "href": "https://crest-tq.eveonline.com/alliances/99003294/",
+        "id": 99003294,
+        "name": "Upholders",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99003294_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "11987",
+        "href": "https://crest-tq.eveonline.com/inventory/types/11987/",
+        "id": 11987,
+        "name": "Guardian",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/11987_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98400028",
+        "href": "https://crest-tq.eveonline.com/corporations/98400028/",
+        "id": 98400028,
+        "name": "Static-Noise",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98400028_128.png"
+        }
+      },
+      "character": {
+        "id_str": "90623220",
+        "href": "https://crest-tq.eveonline.com/characters/90623220/",
+        "id": 90623220,
+        "name": "Ji Miromme",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/90623220_128.jpg"
+        }
+      },
+      "damageDone_str": "33517",
+      "weaponType": {
+        "id_str": "2488",
+        "href": "https://crest-tq.eveonline.com/inventory/types/2488/",
+        "id": 2488,
+        "name": "Warrior II",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/2488_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 4.0,
+      "damageDone": 33517
+    },
+    {
+      "alliance": {
+        "id_str": "99003294",
+        "href": "https://crest-tq.eveonline.com/alliances/99003294/",
+        "id": 99003294,
+        "name": "Upholders",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99003294_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "11987",
+        "href": "https://crest-tq.eveonline.com/inventory/types/11987/",
+        "id": 11987,
+        "name": "Guardian",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/11987_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98400028",
+        "href": "https://crest-tq.eveonline.com/corporations/98400028/",
+        "id": 98400028,
+        "name": "Static-Noise",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98400028_128.png"
+        }
+      },
+      "character": {
+        "id_str": "267251626",
+        "href": "https://crest-tq.eveonline.com/characters/267251626/",
+        "id": 267251626,
+        "name": "Mehra Oni",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/267251626_128.jpg"
+        }
+      },
+      "damageDone_str": "27951",
+      "weaponType": {
+        "id_str": "2185",
+        "href": "https://crest-tq.eveonline.com/inventory/types/2185/",
+        "id": 2185,
+        "name": "Hammerhead II",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/2185_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 4.8,
+      "damageDone": 27951
+    },
+    {
+      "alliance": {
+        "id_str": "99003294",
+        "href": "https://crest-tq.eveonline.com/alliances/99003294/",
+        "id": 99003294,
+        "name": "Upholders",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99003294_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "29984",
+        "href": "https://crest-tq.eveonline.com/inventory/types/29984/",
+        "id": 29984,
+        "name": "Tengu",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/29984_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98400028",
+        "href": "https://crest-tq.eveonline.com/corporations/98400028/",
+        "id": 98400028,
+        "name": "Static-Noise",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98400028_128.png"
+        }
+      },
+      "character": {
+        "id_str": "93011897",
+        "href": "https://crest-tq.eveonline.com/characters/93011897/",
+        "id": 93011897,
+        "name": "Jynx en Daire",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/93011897_128.jpg"
+        }
+      },
+      "damageDone_str": "10523",
+      "weaponType": {
+        "id_str": "2404",
+        "href": "https://crest-tq.eveonline.com/inventory/types/2404/",
+        "id": 2404,
+        "name": "Light Missile Launcher II",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/2404_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 0.0,
+      "damageDone": 10523
+    },
+    {
+      "alliance": {
+        "id_str": "99006117",
+        "href": "https://crest-tq.eveonline.com/alliances/99006117/",
+        "id": 99006117,
+        "name": "Ember Sands",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99006117_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "12017",
+        "href": "https://crest-tq.eveonline.com/inventory/types/12017/",
+        "id": 12017,
+        "name": "Devoter",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/12017_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98293472",
+        "href": "https://crest-tq.eveonline.com/corporations/98293472/",
+        "id": 98293472,
+        "name": "POS Party",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98293472_128.png"
+        }
+      },
+      "character": {
+        "id_str": "94328582",
+        "href": "https://crest-tq.eveonline.com/characters/94328582/",
+        "id": 94328582,
+        "name": "Keskora Yaari",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/94328582_128.jpg"
+        }
+      },
+      "damageDone_str": "0",
+      "weaponType": {
+        "id_str": "4248",
+        "href": "https://crest-tq.eveonline.com/inventory/types/4248/",
+        "id": 4248,
+        "name": "Warp Disruption Field Generator II",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/4248_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": -1.4,
+      "damageDone": 0
+    }
+  ],
+  "attackerCount": 30,
+  "victim": {
+    "alliance": {
+      "id_str": "99005627",
+      "href": "https://crest-tq.eveonline.com/alliances/99005627/",
+      "id": 99005627,
+      "name": "No Forks Given",
+      "icon": {
+        "href": "http://imageserver.eveonline.com/Alliance/99005627_128.png"
+      }
+    },
+    "damageTaken": 9630280,
+    "items": [
+      
+    ],
+    "damageTaken_str": "9630280",
+    "shipType": {
+      "id_str": "35833",
+      "href": "https://crest-tq.eveonline.com/inventory/types/35833/",
+      "id": 35833,
+      "name": "Fortizar",
+      "icon": {
+        "href": "http://imageserver.eveonline.com/Type/35833_128.png"
+      }
+    },
+    "corporation": {
+      "id_str": "98145480",
+      "href": "https://crest-tq.eveonline.com/corporations/98145480/",
+      "id": 98145480,
+      "name": "The Ghost Brigades",
+      "icon": {
+        "href": "http://imageserver.eveonline.com/Corporation/98145480_128.png"
+      }
+    },
+    "position": {
+      "y": 29595292716.928177,
+      "x": 4077231184136.3384,
+      "z": -3807424959923.1465
+    }
+  },
+  "killID_str": "54838323",
+  "attackerCount_str": "30",
+  "war": {
+    "href": "https://crest-tq.eveonline.com/wars/0/",
+    "id": 0,
+    "id_str": "0"
+  }
+}
