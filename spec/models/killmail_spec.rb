@@ -92,9 +92,9 @@ describe 'Killmail model' do
       let(:target) do
         {
           system: 'E8-YS9',
-          nearest_celestial_y: -3528973131527.2695,
-          nearest_celestial_x: 1455528965291.3196,
-          nearest_celestial_z: -307958392850.36145,
+          nearest_celestial_y_s: -3528973131527.2695,
+          nearest_celestial_x_s: 1455528965291.3196,
+          nearest_celestial_z_s: -307958392850.36145,
           citadel_type: 'Astrahus',
           corporation: 'Forge Industrial Command',
           alliance: 'FUBAR.',
@@ -111,9 +111,9 @@ describe 'Killmail model' do
       let(:target) do
         {
           system: 'Jaschercis',
-          nearest_celestial_y: 116721448927.0,
-          nearest_celestial_x: -808460360514.0,
-          nearest_celestial_z: -615629639132.0,
+          nearest_celestial_y_s: 116721448927.0,
+          nearest_celestial_x_s: -808460360514.0,
+          nearest_celestial_z_s: -615629639132.0,
           citadel_type: 'Astrahus',
           corporation: 'Tokenada Technical Enterprises',
           alliance: nil,
@@ -179,69 +179,40 @@ describe 'Killmail model' do
     end
   end
 
-  describe 'generate_killmail_hash' do
-    context 'creates a hash of relevant killmail data' do
-      let(:killmail_fixture) { File.read('./spec/fixtures/astrahus_killmail.json') }
-      let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
-      let(:target) do 
-        {
-          citadel_id: killmail.find_or_create_citadel.id,
-          killmail_id: killmail.killmail_data['killID']
-        }
-      end
-      temporarily do 
-        it 'returns a hash' do
-          expect(killmail.generate_killmail_hash).to eq(target)
-        end
-      end
-    end
-  end
-
-  describe 'create_killmail' do
+  describe 'save_if_relevant' do
     let(:killmail_fixture) { File.read('./spec/fixtures/astrahus_killmail.json') }
+    let(:ship_killmail_fixture) { File.read('./spec/fixtures/ship_killmail.json') }
     let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
-    context 'stores correct data' do
-      it 'is accurate' do
+    let(:killmail2) { Killmail.new(killmail_json: killmail_fixture) }
+    context 'new killmail' do
+      it 'saves to db' do
         temporarily do
           citadel = killmail.find_or_create_citadel
-          test_killmail = killmail.create_killmail
-          expect(test_killmail.citadel_id).to eq(citadel.id)
-          expect(test_killmail.killmail_id).to eq(killmail.killmail_data['killID'])
-          expect(test_killmail.killmail_json).to eq()
+          killmail.save_if_relevant
+          expect(killmail.citadel_id).to eq(citadel.id)
+          expect(killmail.killmail_id).to eq(killmail.killmail_data['killID'])
+          expect(killmail.killmail_json).to eq(killmail.killmail_json)
+        end
+      end
+      context 'duplicate killmail' do
+        it 'does not save' do
+          temporarily do
+            killmail.save_if_relevant
+            killmail2.save_if_relevant
+            expect(Killmail.count).to eq(1)
+          end
+        end
+      end
+      context 'not relevant report' do
+        let(:ship_killmail) { Killmail.new(killmail_json: ship_killmail_fixture) }
+        it 'does not save' do
+          temporarily do
+            expect do
+              expect(ship_killmail.save_if_relevant).to be_falsey
+            end.to change(Killmail, :count).by 0
+          end
         end
       end
     end
   end
-
-  # describe 'associations' do
-  #   let(:citadel_hash) do
-  #     {
-  #       system: 'E8-YS9',
-  #       nearest_celestial_y: -3528973131527.2695,
-  #       nearest_celestial_x: 1455528965291.3196,
-  #       nearest_celestial_z: -307958392850.36145,
-  #       citadel_type: 'Astrahus',
-  #       corporation: 'Forge Industrial Command',
-  #       alliance: 'FUBAR.',
-  #       killed_at: nil
-  #     }
-  #   end
-  #   let(:killmail) { Killmail.new }
-
-  #   context 'an existing citadel records another killmail' do
-  #     it 'associates kill to existing citadel correctly' do
-  #       temporarily do
-  #         allow(killmail).to receive(:generate_citadel_hash) { citadel_hash }
-  #         citadel = Citadel.create(citadel_hash)
-        
-
-
-  #       end
-  #     end
-  #   end
-  # end
-
-  
-
-  it 'additional relevant killmail does not add to Citadel db'
 end

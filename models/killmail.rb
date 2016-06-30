@@ -41,20 +41,24 @@ class Killmail < ActiveRecord::Base
   def create_attacker_hash
     attacker_hash = {}
     killmail_data['attackers'].each do |attacker|
-      next unless self.class.valid_citadel_types.include?(attacker['shipType']['name'])
-      attacker_hash = {
-        system: killmail_data['solarSystem']['name'],
-        nearest_celestial_y_s: killmail_data['victim']['position']['y'],
-        nearest_celestial_x_s: killmail_data['victim']['position']['x'],
-        nearest_celestial_z_s: killmail_data['victim']['position']['z'],
-        citadel_type: attacker['shipType']['name'],
-        corporation: attacker['corporation']['name'],
-        killed_at: nil
-      }
-      if attacker['alliance']
-        attacker_hash[:alliance] = attacker['alliance']['name']
+      if attacker['shipType']
+        next unless self.class.valid_citadel_types.include?(attacker['shipType']['name'])
+        attacker_hash = {
+          system: killmail_data['solarSystem']['name'],
+          nearest_celestial_y_s: killmail_data['victim']['position']['y'],
+          nearest_celestial_x_s: killmail_data['victim']['position']['x'],
+          nearest_celestial_z_s: killmail_data['victim']['position']['z'],
+          citadel_type: attacker['shipType']['name'],
+          corporation: attacker['corporation']['name'],
+          killed_at: nil
+        }
+        if attacker['alliance']
+          attacker_hash[:alliance] = attacker['alliance']['name']
+        else
+          attacker_hash[:alliance] = nil
+        end
       else
-        attacker_hash[:alliance] = nil
+        return false
       end
     end
     attacker_hash
@@ -80,22 +84,15 @@ class Killmail < ActiveRecord::Base
 
   def find_or_create_citadel
     citadel = Citadel.where(generate_citadel_hash).first
-    unless citadel 
+    unless citadel
       citadel = Citadel.create(generate_citadel_hash)
     end
     citadel
   end
 
-  def generate_killmail_hash
-    kill_hash = {
-      citadel_id: find_or_create_citadel.id,
-      killmail_id: killmail_data['killID'],
-    }
-
+  def save_if_relevant
+    self.citadel_id = find_or_create_citadel.id
+    self.killmail_id = killmail_data['killID']
+    save
   end
-
-  def create_killmail
-    Killmail.create(generate_killmail_hash)
-  end
-
 end
