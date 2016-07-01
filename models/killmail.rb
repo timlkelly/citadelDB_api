@@ -67,9 +67,12 @@ class Killmail < ActiveRecord::Base
   def create_victim_hash
     victim_hash = {
       system: killmail_data['solarSystem']['name'],
-      nearest_celestial_y_s: killmail_data['victim']['position']['y'],
-      nearest_celestial_x_s: killmail_data['victim']['position']['x'],
-      nearest_celestial_z_s: killmail_data['victim']['position']['z'],
+      # nearest_celestial_y_s: killmail_data['victim']['position']['y'],
+      # nearest_celestial_x_s: killmail_data['victim']['position']['x'],
+      # nearest_celestial_z_s: killmail_data['victim']['position']['z'],
+      nearest_celestial_y_s: nil,
+      nearest_celestial_x_s: nil,
+      nearest_celestial_z_s: nil,
       citadel_type: killmail_data['victim']['shipType']['name'],
       corporation: killmail_data['victim']['corporation']['name'],
       killed_at: killmail_data['killTime']

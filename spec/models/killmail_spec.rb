@@ -177,6 +177,13 @@ describe 'Killmail model' do
         end
       end
     end
+    context 'it receives a null package' do
+      let(:killmail_fixture) { File.read('./spec/fixtures/null_package.json') }
+      let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
+      it 'doesnt freak out' do
+        killmail.find_or_create_citadel
+      end
+    end
   end
 
   describe 'save_if_relevant' do
@@ -215,4 +222,8 @@ describe 'Killmail model' do
       end
     end
   end
+
+  it 'doesn\'t freak out with package:null'
+
+  it 'doesn\'t create duplicate citadels with different attacker coordinates'
 end

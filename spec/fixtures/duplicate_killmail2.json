@@ -1,0 +1,119 @@
+// 20160701155653
+// https://crest-tq.eveonline.com/killmails/54894006/fbc94e5298dedb4d2e9db527d6a9f405ae96682e/
+
+{
+  "solarSystem": {
+    "id_str": "30003691",
+    "href": "https://crest-tq.eveonline.com/solarsystems/30003691/",
+    "id": 30003691,
+    "name": "FIO1-8"
+  },
+  "killID": 54894006,
+  "killTime": "2016.07.01 20:35:59",
+  "attackers": [
+    {
+      "shipType": {
+        "id_str": "35833",
+        "href": "https://crest-tq.eveonline.com/inventory/types/35833/",
+        "id": 35833,
+        "name": "Fortizar",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/35833_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "1230876195",
+        "href": "https://crest-tq.eveonline.com/corporations/1230876195/",
+        "id": 1230876195,
+        "name": "Pwn 'N Play",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/1230876195_128.png"
+        }
+      },
+      "damageDone_str": "440",
+      "finalBlow": true,
+      "securityStatus": 0.0,
+      "damageDone": 440
+    }
+  ],
+  "attackerCount": 1,
+  "victim": {
+    "damageTaken": 440,
+    "items": [
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "27196",
+          "href": "https://crest-tq.eveonline.com/inventory/types/27196/",
+          "id": 27196,
+          "name": "Poteque 'Prospector' Archaeology AC-905",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/27196_128.png"
+          }
+        },
+        "quantityDestroyed_str": "1",
+        "flag": 89,
+        "flag_str": "89",
+        "singleton_str": "0",
+        "quantityDestroyed": 1
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "27260",
+          "href": "https://crest-tq.eveonline.com/inventory/types/27260/",
+          "id": 27260,
+          "name": "Poteque 'Prospector' Environmental Analysis EY-1005",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/27260_128.png"
+          }
+        },
+        "quantityDestroyed_str": "1",
+        "flag": 89,
+        "flag_str": "89",
+        "singleton_str": "0",
+        "quantityDestroyed": 1
+      }
+    ],
+    "damageTaken_str": "440",
+    "character": {
+      "id_str": "96380417",
+      "href": "https://crest-tq.eveonline.com/characters/96380417/",
+      "id": 96380417,
+      "name": "Animatie Amphal",
+      "icon": {
+        "href": "http://imageserver.eveonline.com/Character/96380417_128.jpg"
+      }
+    },
+    "shipType": {
+      "id_str": "670",
+      "href": "https://crest-tq.eveonline.com/inventory/types/670/",
+      "id": 670,
+      "name": "Capsule",
+      "icon": {
+        "href": "http://imageserver.eveonline.com/Type/670_128.png"
+      }
+    },
+    "corporation": {
+      "id_str": "98453375",
+      "href": "https://crest-tq.eveonline.com/corporations/98453375/",
+      "id": 98453375,
+      "name": "Longship Expeditions",
+      "icon": {
+        "href": "http://imageserver.eveonline.com/Corporation/98453375_128.png"
+      }
+    },
+    "position": {
+      "y": -54870179359.69699,
+      "x": 810066507766.4688,
+      "z": 992591755984.725
+    }
+  },
+  "killID_str": "54894006",
+  "attackerCount_str": "1",
+  "war": {
+    "href": "https://crest-tq.eveonline.com/wars/0/",
+    "id": 0,
+    "id_str": "0"
+  }
+}

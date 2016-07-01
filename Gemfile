@@ -7,6 +7,7 @@ gem 'pg'
 gem 'activerecord'
 gem 'sinatra-activerecord'
 gem 'activesupport'
+gem 'httparty'
 
 group :development, :test do
   gem 'rspec'
