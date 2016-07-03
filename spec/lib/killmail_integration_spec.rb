@@ -1,4 +1,5 @@
 require 'spec_helper'
+
 include WithRollback
 
 describe KillmailIntegration do
@@ -18,7 +19,7 @@ describe KillmailIntegration do
     let(:km1) { Killmail.new(killmail_json: killmail_fixture) }
     let(:km2) { Killmail.new(killmail_json: killmail_fixture2) }
     context 'citadel already exists' do
-      it 'returns existing citadel record' do
+      it 'does not raise citadel count' do
         temporarily do
           km1.find_or_create_citadel
           fetcher = KillmailIntegration.new
@@ -40,6 +41,19 @@ describe KillmailIntegration do
         end
       end
     end
+    context 'receives valid data' do
+      it 'saves_if_relevant' do
+        temporarily do
+          fetcher = KillmailIntegration.new
+          expect do
+            fetcher.parse_killmail(killmail_fixture)
+          end.to change(Killmail, :count).to eq(1)
+        end
+      end
+    end
+  end
+
+  describe 'fetch_past_killmails' do
   end
 
 
@@ -52,4 +66,18 @@ describe KillmailIntegration do
   it 'saves if relevant // creates associated killmail instance'
 
   it 'retrieves old killmails'
+
+  # describe 'json_to_killmail' do
+  #   let(:json_data) { File.read('./spec/fixtures/past_mail.json') }
+  #   let(:killmail_fixture) { File.read('./spec/fixtures/past_mail_single.json') }
+  #   let(:target) { Killmail.new(killmail_json: killmail_fixture) }
+  #   context 'receives json with multiple km' do
+  #     it 'returns hash of killmail obj' do
+  #       temporarily do
+  #         fetch = KillmailIntegration.new
+  #         expect(fetch.json_to_killmail(json_data).first).to eq(target.killmail_json)
+  #       end
+  #     end
+  #   end
+  # end
 end

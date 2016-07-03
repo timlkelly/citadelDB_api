@@ -2,9 +2,6 @@ class CreateCitadelsTable < ActiveRecord::Migration
   def change
     create_table :citadels do |t|
       t.string :system
-      t.string :nearest_celestial_y_s
-      t.string :nearest_celestial_x_s
-      t.string :nearest_celestial_z_s
       t.string :citadel_type
       t.string :corporation
       t.string :alliance

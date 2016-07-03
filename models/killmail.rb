@@ -45,9 +45,6 @@ class Killmail < ActiveRecord::Base
         next unless self.class.valid_citadel_types.include?(attacker['shipType']['name'])
         attacker_hash = {
           system: killmail_data['solarSystem']['name'],
-          nearest_celestial_y_s: killmail_data['victim']['position']['y'],
-          nearest_celestial_x_s: killmail_data['victim']['position']['x'],
-          nearest_celestial_z_s: killmail_data['victim']['position']['z'],
           citadel_type: attacker['shipType']['name'],
           corporation: attacker['corporation']['name'],
           killed_at: nil
@@ -67,12 +64,6 @@ class Killmail < ActiveRecord::Base
   def create_victim_hash
     victim_hash = {
       system: killmail_data['solarSystem']['name'],
-      # nearest_celestial_y_s: killmail_data['victim']['position']['y'],
-      # nearest_celestial_x_s: killmail_data['victim']['position']['x'],
-      # nearest_celestial_z_s: killmail_data['victim']['position']['z'],
-      nearest_celestial_y_s: nil,
-      nearest_celestial_x_s: nil,
-      nearest_celestial_z_s: nil,
       citadel_type: killmail_data['victim']['shipType']['name'],
       corporation: killmail_data['victim']['corporation']['name'],
       killed_at: killmail_data['killTime']
@@ -85,7 +76,27 @@ class Killmail < ActiveRecord::Base
     victim_hash
   end
 
+  # def generate_victim_hash_past
+  #   victim_hash = {}
+  #   json_data.each do |killmail|
+  #     victim_hash = {
+  #       system:
+  #       citadel_type:
+  #       corporation:
+  #       alliance:
+  #       killed_at: 
+  #     }
+  #     if killmail['victim']['allianceName']
+  #       victim_hash[:alliance] = killmail['victim']['allianceName']
+  #     else
+  #       victim_hash[:alliance] = nil
+  #     end
+  #   end
+  #   victim_hash
+  # end
+
   def find_or_create_citadel
+    # return false if killmail_data['package'] == nil
     citadel = Citadel.where(generate_citadel_hash).first
     unless citadel
       citadel = Citadel.create(generate_citadel_hash)

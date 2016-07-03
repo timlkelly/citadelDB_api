@@ -18,15 +18,12 @@ ActiveRecord::Schema.define(version: 20160629161944) do
 
   create_table "citadels", force: :cascade do |t|
     t.string   "system"
-    t.string   "nearest_celestial_y_s"
-    t.string   "nearest_celestial_x_s"
-    t.string   "nearest_celestial_z_s"
     t.string   "citadel_type"
     t.string   "corporation"
     t.string   "alliance"
     t.string   "killed_at"
-    t.datetime "created_at",            null: false
-    t.datetime "updated_at",            null: false
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
   end
 
   create_table "killmails", force: :cascade do |t|
