@@ -11,13 +11,14 @@ class KillmailIntegration
     km.find_or_create_citadel
     km.save_if_relevant
   end
-  
+
 
   def json_to_killmail(json_data)
     pp json_data
-    pp json_data.kind_of?(String)
     killmail_hash = {}
     json_data.each do |km|
+      pp '*** START ARRAY ***'
+      pp km
       killmail_hash = Killmail.new(killmail_json: km)
     end
     pp killmail_hash
@@ -25,6 +26,8 @@ class KillmailIntegration
   end
 end
 
+# is interpreted as a string because the other comes in
+# as a table field set to JSON.
 
 # Astrahus : 35832
 # Fortizar : 35833

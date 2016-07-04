@@ -123,7 +123,7 @@ describe 'Killmail model' do
       let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
       it 'and doesnt freak out' do
         expect do
-          pp killmail.killmail_data
+          # pp killmail.killmail_data['package']
           killmail.find_or_create_citadel
         end.to change(Citadel, :count).by 0
       end

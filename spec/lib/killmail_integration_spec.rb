@@ -67,17 +67,19 @@ describe KillmailIntegration do
 
   it 'retrieves old killmails'
 
-  # describe 'json_to_killmail' do
-  #   let(:json_data) { File.read('./spec/fixtures/past_mail.json') }
-  #   let(:killmail_fixture) { File.read('./spec/fixtures/past_mail_single.json') }
-  #   let(:target) { Killmail.new(killmail_json: killmail_fixture) }
-  #   context 'receives json with multiple km' do
-  #     it 'returns hash of killmail obj' do
-  #       temporarily do
-  #         fetch = KillmailIntegration.new
-  #         expect(fetch.json_to_killmail(json_data).first).to eq(target.killmail_json)
-  #       end
-  #     end
-  #   end
-  # end
+  describe 'json_to_killmail' do
+    let(:json_data) { File.read('./spec/fixtures/past_mail.json') }
+    let(:killmail_fixture) { File.read('./spec/fixtures/past_mail_single.json') }
+    let(:target) { Killmail.new(killmail_json: killmail_fixture) }
+    context 'receives json with multiple km' do
+      it 'returns hash of killmail obj' do
+        temporarily do
+          json = allow(HTTParty).to receive(:get).and_return(json_data)
+          pp json
+          fetch = KillmailIntegration.new
+          expect(fetch.json_to_killmail(json).first).to eq(target.killmail_json)
+        end
+      end
+    end
+  end
 end
