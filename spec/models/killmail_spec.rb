@@ -7,6 +7,7 @@ describe 'Killmail model' do
       let(:killmail_fixture) { { package: { 'killID' => 22 } } }
       let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
       it 'returns data' do
+        pp killmail.killmail_data
         expect(killmail.killmail_data['killID']).to eq(22)
       end
     end
@@ -15,6 +16,13 @@ describe 'Killmail model' do
       let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
       it 'returns data' do
         expect(killmail.killmail_data['killID']).to eq(22)
+      end
+    end
+    context 'null package' do
+      let(:killmail_fixture) { File.read('./spec/fixtures/null_package.json') }
+      let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
+      it 'returns nil' do
+        expect(killmail.killmail_data).to eq(nil)
       end
     end
   end
@@ -121,9 +129,9 @@ describe 'Killmail model' do
     context 'it receives a null package' do
       let(:killmail_fixture) { File.read('./spec/fixtures/null_package.json') }
       let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
-      it 'and doesnt freak out' do
+      it 'does not generate citadel' do
         expect do
-          # pp killmail.killmail_data['package']
+          pp killmail.killmail_data
           killmail.find_or_create_citadel
         end.to change(Citadel, :count).by 0
       end

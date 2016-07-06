@@ -9,7 +9,11 @@ class Killmail < ActiveRecord::Base
   end
 
   def killmail_data
-    killmail_json['package'] || killmail_json
+    if killmail_json.keys.include?('package')
+      killmail_json['package']
+    else
+      killmail_json
+    end
   end
 
   def citadel?
@@ -96,7 +100,7 @@ class Killmail < ActiveRecord::Base
   # end
 
   def find_or_create_citadel
-    # return false if killmail_data['package'] == nil
+    return false if killmail_data.nil?
     citadel = Citadel.where(generate_citadel_hash).first
     unless citadel
       citadel = Citadel.create(generate_citadel_hash)
