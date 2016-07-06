@@ -4,6 +4,8 @@ class CreateKillmailsTable < ActiveRecord::Migration
       t.references :citadel
       t.integer :killmail_id
       t.json :killmail_json
+      
+      t.timestamps null: false
     end
   end
 end

@@ -1,5 +1,4 @@
 require 'spec_helper'
-
 include WithRollback
 
 describe KillmailIntegration do
@@ -62,14 +61,14 @@ describe KillmailIntegration do
 
   it 'retrieves old killmails'
 
-  describe 'json_to_killmail' do
-    let(:json_data) { File.read('./spec/fixtures/past_mail.json') }
-    context 'it receives json with multiple Killmails' do
-      it 'creates multiple killmail objects' do
-        expect do
+  # describe 'json_to_killmail' do
+  #   let(:json_data) { File.read('./spec/fixtures/past_mail.json') }
+  #   context 'it receives json with multiple Killmails' do
+  #     it 'creates multiple killmail objects' do
+  #       expect do
 
-        end.to change()
-      end
-    end
-  end
+  #       end.to change()
+  #     end
+  #   end
+  # end
 end

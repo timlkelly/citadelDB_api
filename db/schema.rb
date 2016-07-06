@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160629161944) do
+ActiveRecord::Schema.define(version: 20160706211951) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -27,9 +27,26 @@ ActiveRecord::Schema.define(version: 20160629161944) do
   end
 
   create_table "killmails", force: :cascade do |t|
-    t.integer "citadel_id"
-    t.integer "killmail_id"
-    t.json    "killmail_json"
+    t.integer  "citadel_id"
+    t.integer  "killmail_id"
+    t.json     "killmail_json"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
+  end
+
+  create_table "regions", force: :cascade do |t|
+    t.integer  "region_id"
+    t.string   "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "systems", force: :cascade do |t|
+    t.integer  "region"
+    t.integer  "system_id"
+    t.string   "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end

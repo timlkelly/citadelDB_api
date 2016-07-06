@@ -26,6 +26,14 @@ describe 'Killmail model' do
     end
   end
 
+  describe 'system_id_lookup' do
+    context 'given a valid system ID' do
+      it 'returns the system name' do
+        expect(system_id_lookup(30001291)).to eq('Y-4CFK')
+      end
+    end
+  end
+
   describe 'check_if_citadel' do
     context 'Astrahus killmail' do
       let(:killmail_fixture) { File.read('./spec/fixtures/astrahus_killmail.json') }
@@ -136,6 +144,29 @@ describe 'Killmail model' do
     end
   end
 
+  describe 'generate_citadel_hash_past' do
+    it 'receives valid killmail'
+
+    context 'receives valid deathmail' do
+      let(:killmail_fixture) { File.read('./spec/fixtures/past_mail_single.json') }
+      let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
+      let(:target) do
+        {
+          system: '93PI-4',
+          citadel_type: 'Astrahas',
+          corporation: 'Pandemic Horde Inc.',
+          alliance: 'Pandemic Horde',
+          killed_at: '2016-07-03 05:39:24'
+        }
+      end
+      it 'creates a hash to create a new citadel' do
+        expect(killmail.generate_citadel_hash_past).to eq(target)
+      end
+    end
+
+    it 'receives null package'
+  end
+
   describe 'find_or_create_citadel' do
     let(:killmail_fixture) { File.read('./spec/fixtures/astrahus_killmail.json') }
     let(:killmail_fixture2) { File.read('./spec/fixtures/astrahus_killmail.json') }
@@ -209,14 +240,8 @@ describe 'Killmail model' do
     end
   end
 
-  it "doesn't freak out with package:null"
-
-  it "doesn't create duplicate citadels with different attacker coordinates"
-
-  it 'can parse multiple killmails in a single json'
-
   describe 'generate_victim_hash_past' do
-    let(:killmail_fixture) { File.read('./spec/fixtures/past_mails.json') }
+    # let(:killmail_fixture) { File.read('./spec/fixtures/past_mails.json') }
     # context 'receives json with multiple mails' do
     #   let(:target) do
     #     {

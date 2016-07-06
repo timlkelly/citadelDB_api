@@ -11,11 +11,11 @@ class KillmailIntegration
 
 
   # has to create killmail data differently
-  
+
   def json_to_killmail(json_data)
     json_parsed = JSON.parse(json_data)
     json_parsed.each do |km|
-      parse_killmail(km)
+      Killmail.new(killmail_json: km).generate_citadel_hash_past
     end
   end
 end

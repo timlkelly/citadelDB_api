@@ -8,6 +8,10 @@ class Killmail < ActiveRecord::Base
     ['Astrahus', 'Fortizar', 'Keepstar', 'Upwell Palatine Keepstar']
   end
 
+  def self.valid_citadel_types_past
+    [35832, 35833, 35834, 35835]
+  end
+
   def killmail_data
     if killmail_json.keys.include?('package')
       killmail_json['package']
@@ -22,6 +26,10 @@ class Killmail < ActiveRecord::Base
 
   def citadel_victim?
     self.class.valid_citadel_types.include?(killmail_data['victim']['shipType']['name'])
+  end
+
+  def citadel_victim_past?
+    self.class.valid_citadel_types_past.include?(killmail_data['victim']['shipTypeID'])
   end
 
   def citadel_attacker?
@@ -39,6 +47,14 @@ class Killmail < ActiveRecord::Base
       create_victim_hash
     else
       create_attacker_hash
+    end
+  end
+
+  def generate_citadel_hash_past
+    if citadel_victim_past?
+      create_victim_hash_past
+    else
+      create_attacker_hash_past
     end
   end
 
@@ -80,24 +96,21 @@ class Killmail < ActiveRecord::Base
     victim_hash
   end
 
-  # def generate_victim_hash_past
-  #   victim_hash = {}
-  #   json_data.each do |killmail|
-  #     victim_hash = {
-  #       system:
-  #       citadel_type:
-  #       corporation:
-  #       alliance:
-  #       killed_at: 
-  #     }
-  #     if killmail['victim']['allianceName']
-  #       victim_hash[:alliance] = killmail['victim']['allianceName']
-  #     else
-  #       victim_hash[:alliance] = nil
-  #     end
-  #   end
-  #   victim_hash
-  # end
+  def create_victim_hash_past
+    victim_hash = {}
+    victim_hash = {
+      system: system_id_lookup(killmail_data['solarSystemID']),
+      citadel_type: citadel_type_lookup,
+      corporation: killmail_data['victim']['corporationName'],
+      killed_at: killmail_data['killTime']
+    }
+    if killmail['victim']['allianceName']
+      victim_hash[:alliance] = killmail['victim']['allianceName']
+    else
+      victim_hash[:alliance] = nil
+    end
+    victim_hash
+  end
 
   def find_or_create_citadel
     return false if killmail_data.nil?
