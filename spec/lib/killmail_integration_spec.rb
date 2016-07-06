@@ -4,13 +4,13 @@ include WithRollback
 
 describe KillmailIntegration do
   describe 'fetch_killmail' do
-    context 'it receives a valid killmail' do
-      fetch = KillmailIntegration.new
-      json_data = fetch.fetch_killmail
-      it 'has one package' do
-        expect(json_data.first.first).to eq('package')
-      end
-    end
+    # context 'it receives a valid killmail' do
+    #   fetch = KillmailIntegration.new
+    #   json_data = fetch.fetch_killmail
+    #   it 'has one package' do
+    #     expect(json_data.first.first).to eq('package')
+    #   end
+    # end
   end
 
   describe 'parse_killmail' do
@@ -56,11 +56,6 @@ describe KillmailIntegration do
   describe 'fetch_past_killmails' do
   end
 
-
-  # take retrieved json
-  # check if it is in citadel db or create
-  # associate the km to the citadel
-
   it 'finds or creates new citadel'
 
   it 'saves if relevant // creates associated killmail instance'
@@ -69,16 +64,11 @@ describe KillmailIntegration do
 
   describe 'json_to_killmail' do
     let(:json_data) { File.read('./spec/fixtures/past_mail.json') }
-    let(:killmail_fixture) { File.read('./spec/fixtures/past_mail_single.json') }
-    let(:target) { Killmail.new(killmail_json: killmail_fixture) }
-    context 'receives json with multiple km' do
-      it 'returns hash of killmail obj' do
-        temporarily do
-          json = allow(HTTParty).to receive(:get).and_return(json_data)
-          pp json
-          fetch = KillmailIntegration.new
-          expect(fetch.json_to_killmail(json).first).to eq(target.killmail_json)
-        end
+    context 'it receives json with multiple Killmails' do
+      it 'creates multiple killmail objects' do
+        expect do
+
+        end.to change()
       end
     end
   end

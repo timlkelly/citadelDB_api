@@ -7,7 +7,6 @@ describe 'Killmail model' do
       let(:killmail_fixture) { { package: { 'killID' => 22 } } }
       let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
       it 'returns data' do
-        pp killmail.killmail_data
         expect(killmail.killmail_data['killID']).to eq(22)
       end
     end
@@ -131,7 +130,6 @@ describe 'Killmail model' do
       let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
       it 'does not generate citadel' do
         expect do
-          pp killmail.killmail_data
           killmail.find_or_create_citadel
         end.to change(Citadel, :count).by 0
       end
@@ -211,9 +209,9 @@ describe 'Killmail model' do
     end
   end
 
-  it 'doesn\'t freak out with package:null'
+  it "doesn't freak out with package:null"
 
-  it 'doesn\'t create duplicate citadels with different attacker coordinates'
+  it "doesn't create duplicate citadels with different attacker coordinates"
 
   it 'can parse multiple killmails in a single json'
 

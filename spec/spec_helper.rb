@@ -1,5 +1,6 @@
 require 'rack/test'
 require 'rspec'
+require 'pp'
 require_relative '../citadel_app.rb'
 
 ENV['RACK_ENV'] ||= 'test'

@@ -1,28 +1,22 @@
 require 'httparty'
-require 'pp'
 
 class KillmailIntegration
   def fetch_killmail
     HTTParty.get('http://redisq.zkillboard.com/listen.php')
   end
 
-  def parse_killmail(package)
-    km = Killmail.new(killmail_json: package)
-    km.find_or_create_citadel
-    km.save_if_relevant
+  def parse_killmail(package = fetch_killmail)
+    Killmail.new(killmail_json: package).save_if_relevant
   end
 
 
+  # has to create killmail data differently
+  
   def json_to_killmail(json_data)
-    pp json_data
-    killmail_hash = {}
-    json_data.each do |km|
-      pp '*** START ARRAY ***'
-      pp km
-      killmail_hash = Killmail.new(killmail_json: km)
+    json_parsed = JSON.parse(json_data)
+    json_parsed.each do |km|
+      parse_killmail(km)
     end
-    pp killmail_hash
-    killmail_hash
   end
 end
 
