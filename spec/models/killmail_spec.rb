@@ -4,7 +4,7 @@ include WithRollback
 describe 'Killmail model' do
   describe 'killmail_data' do
     context 'with package' do
-      let(:killmail_fixture) { { package: { 'killID' => 22 } } }
+      let(:killmail_fixture) { { package: { 'killmail' => { 'killID' => 22 } } } }
       let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
       it 'returns data' do
         expect(killmail.killmail_data['killID']).to eq(22)
@@ -31,6 +31,15 @@ describe 'Killmail model' do
       let(:killmail) { Killmail.new }
       it 'returns the system name' do
         expect(killmail.system_id_lookup(30001291)).to eq('Y-4CFK')
+      end
+    end
+  end
+
+  describe 'region_lookup' do
+    context 'receives a systemID' do
+      let(:killmail) { Killmail.new }
+      it 'returns a region name' do
+        expect(killmail.region_lookup(30001291)).to eq('Venal')
       end
     end
   end
@@ -117,6 +126,7 @@ describe 'Killmail model' do
       let(:target) do
         {
           system: 'E8-YS9',
+          region: 'Immensea',
           citadel_type: 'Astrahus',
           corporation: 'Forge Industrial Command',
           alliance: 'FUBAR.'
@@ -132,6 +142,7 @@ describe 'Killmail model' do
       let(:target) do
         {
           system: 'Jaschercis',
+          region: 'Everyshore',
           citadel_type: 'Astrahus',
           corporation: 'Tokenada Technical Enterprises',
           alliance: nil,
@@ -160,6 +171,7 @@ describe 'Killmail model' do
       let(:target) do
         {
           system: '6-4V20',
+          region: 'Cloud Ring',
           citadel_type: 'Fortizar',
           corporation: 'Motiveless Malignity',
           alliance: ''
@@ -175,6 +187,7 @@ describe 'Killmail model' do
       let(:target) do
         {
           system: 'J115405',
+          region: 'E-R00028',
           citadel_type: 'Keepstar',
           corporation: 'Hard Knocks Inc.',
           alliance: ''
@@ -190,6 +203,7 @@ describe 'Killmail model' do
       let(:target) do
         {
           system: '93PI-4',
+          region: 'Pure Blind',
           citadel_type: 'Astrahus',
           corporation: 'Pandemic Horde Inc.',
           alliance: 'Pandemic Horde',
@@ -212,6 +226,7 @@ describe 'Killmail model' do
         temporarily do
           citadel = killmail.find_or_create_citadel
           expect(citadel.system).to eq('E8-YS9')
+          expect(citadel.region).to eq('Immensea')
           expect(citadel.citadel_type).to eq('Astrahus')
           expect(citadel.corporation).to eq('Forge Industrial Command')
           expect(citadel.alliance).to eq('FUBAR.')
@@ -227,6 +242,7 @@ describe 'Killmail model' do
           expect do
             citadel = killmail.find_or_create_citadel
             expect(citadel.system).to eq('E8-YS9')
+            expect(citadel.region).to eq('Immensea')
             expect(citadel.citadel_type).to eq('Astrahus')
             expect(citadel.corporation).to eq('Forge Industrial Command')
             expect(citadel.alliance).to eq('FUBAR.')
@@ -247,7 +263,7 @@ describe 'Killmail model' do
             killmail.find_or_create_citadel
             deathmail.find_or_create_citadel                    
           end.to change(Citadel, :count).by 1
-          citadel = killmail.find_or_create_citadel    
+          citadel = killmail.find_or_create_citadel
           expect(citadel.killed_at).to eq('2016.06.29 03:26:16')
         end
       end
@@ -265,6 +281,7 @@ describe 'Killmail model' do
           expect do
             citadel = killmail.find_or_create_citadel_past
             expect(citadel.system).to eq('93PI-4')
+            expect(citadel.region).to eq('Pure Blind')
             expect(citadel.citadel_type).to eq('Astrahus')
             expect(citadel.corporation).to eq('Pandemic Horde Inc.')
             expect(citadel.alliance).to eq('Pandemic Horde')
@@ -280,6 +297,7 @@ describe 'Killmail model' do
           expect do
             citadel = killmail.find_or_create_citadel_past
             expect(citadel.system).to eq('93PI-4')
+            expect(citadel.region).to eq('Pure Blind')
             expect(citadel.citadel_type).to eq('Astrahus')
             expect(citadel.corporation).to eq('Pandemic Horde Inc.')
             expect(citadel.alliance).to eq('Pandemic Horde')
@@ -379,6 +397,4 @@ describe 'Killmail model' do
       end
     end
   end
-
-  it 'add region?'
 end

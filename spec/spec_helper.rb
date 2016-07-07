@@ -1,9 +1,10 @@
 require 'rack/test'
 require 'rspec'
 require 'pp'
-require_relative '../citadel_app.rb'
 
 ENV['RACK_ENV'] ||= 'test'
+
+require_relative '../citadel_app.rb'
 
 RSpec.configure do |c|
   c.around(:each) do |example|

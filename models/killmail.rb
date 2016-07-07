@@ -13,7 +13,13 @@ class Killmail < ActiveRecord::Base
   end
 
   def system_id_lookup(id)
+    pp id
+    pp System.where(system_id: id)
     System.where(system_id: id).first.name
+  end
+
+  def region_lookup(id)
+    Region.where(region_id: System.where(system_id: id).first.region_id).first.name
   end
 
   def citadel_type_lookup(id)
@@ -28,7 +34,7 @@ class Killmail < ActiveRecord::Base
 
   def killmail_data
     if killmail_json.keys.include?('package')
-      killmail_json['package']
+      killmail_json['package'] && killmail_json['package']['killmail']
     else
       killmail_json
     end
@@ -79,6 +85,7 @@ class Killmail < ActiveRecord::Base
         next unless self.class.valid_citadel_types.include?(attacker['shipType']['name'])
         attacker_hash = {
           system: killmail_data['solarSystem']['name'],
+          region: region_lookup(killmail_data['solarSystem']['id']),
           citadel_type: attacker['shipType']['name'],
           corporation: attacker['corporation']['name']
         }
@@ -101,6 +108,7 @@ class Killmail < ActiveRecord::Base
         next unless self.class.valid_citadel_types_past.include?(attacker['shipTypeID'])
         attacker_hash = {
           system: system_id_lookup(killmail_data['solarSystemID']),
+          region: region_lookup(killmail_data['solarSystemID']),
           citadel_type: citadel_type_lookup(attacker['shipTypeID'].to_s),
           corporation: attacker['corporationName'],
           alliance: attacker['allianceName']
@@ -113,6 +121,7 @@ class Killmail < ActiveRecord::Base
   def create_victim_hash
     victim_hash = {
       system: killmail_data['solarSystem']['name'],
+      region: region_lookup(killmail_data['solarSystem']['id']),
       citadel_type: killmail_data['victim']['shipType']['name'],
       corporation: killmail_data['victim']['corporation']['name'],
       killed_at: killmail_data['killTime']
@@ -128,6 +137,7 @@ class Killmail < ActiveRecord::Base
   def create_victim_hash_past
     victim_hash = {
       system: system_id_lookup(killmail_data['solarSystemID']),
+      region: region_lookup(killmail_data['solarSystemID']),
       citadel_type: citadel_type_lookup(killmail_data['victim']['shipTypeID'].to_s),
       corporation: killmail_data['victim']['corporationName'],
       killed_at: killmail_data['killTime']

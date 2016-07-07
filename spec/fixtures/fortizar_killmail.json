@@ -2,688 +2,692 @@
 // https://crest-tq.eveonline.com/killmails/54859286/6dae740e36fbf29a180a621b150d25385b867faf/
 
 {
-  "solarSystem": {
-    "id_str": "30002114",
-    "href": "https://crest-tq.eveonline.com/solarsystems/30002114/",
-    "id": 30002114,
-    "name": "LN-56V"
-  },
-  "killID": 54859286,
-  "killTime": "2016.06.29 17:29:00",
-  "attackers": [
-    {
-      "alliance": {
-        "id_str": "99003995",
-        "href": "https://crest-tq.eveonline.com/alliances/99003995/",
-        "id": 99003995,
-        "name": "Invidia Gloriae Comes",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Alliance/99003995_128.png"
+  "package": {
+    "killmail": {  
+      "solarSystem": {
+        "id_str": "30002114",
+        "href": "https://crest-tq.eveonline.com/solarsystems/30002114/",
+        "id": 30002114,
+        "name": "LN-56V"
+      },
+      "killID": 54859286,
+      "killTime": "2016.06.29 17:29:00",
+      "attackers": [
+        {
+          "alliance": {
+            "id_str": "99003995",
+            "href": "https://crest-tq.eveonline.com/alliances/99003995/",
+            "id": 99003995,
+            "name": "Invidia Gloriae Comes",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Alliance/99003995_128.png"
+            }
+          },
+          "shipType": {
+            "id_str": "17738",
+            "href": "https://crest-tq.eveonline.com/inventory/types/17738/",
+            "id": 17738,
+            "name": "Machariel",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/17738_128.png"
+            }
+          },
+          "corporation": {
+            "id_str": "98219127",
+            "href": "https://crest-tq.eveonline.com/corporations/98219127/",
+            "id": 98219127,
+            "name": "Blackfield Industries",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Corporation/98219127_128.png"
+            }
+          },
+          "character": {
+            "id_str": "92648314",
+            "href": "https://crest-tq.eveonline.com/characters/92648314/",
+            "id": 92648314,
+            "name": "Gerol Stein",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Character/92648314_128.jpg"
+            }
+          },
+          "damageDone_str": "1508",
+          "weaponType": {
+            "id_str": "17738",
+            "href": "https://crest-tq.eveonline.com/inventory/types/17738/",
+            "id": 17738,
+            "name": "Machariel",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/17738_128.png"
+            }
+          },
+          "finalBlow": false,
+          "securityStatus": 5.0,
+          "damageDone": 1508
+        },
+        {
+          "shipType": {
+            "id_str": "35833",
+            "href": "https://crest-tq.eveonline.com/inventory/types/35833/",
+            "id": 35833,
+            "name": "Fortizar",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/35833_128.png"
+            }
+          },
+          "corporation": {
+            "id_str": "98044804",
+            "href": "https://crest-tq.eveonline.com/corporations/98044804/",
+            "id": 98044804,
+            "name": "Corporation of Monsters. Resurrection",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Corporation/98044804_128.png"
+            }
+          },
+          "damageDone_str": "1137",
+          "finalBlow": false,
+          "securityStatus": 0.0,
+          "damageDone": 1137
+        },
+        {
+          "alliance": {
+            "id_str": "933731581",
+            "href": "https://crest-tq.eveonline.com/alliances/933731581/",
+            "id": 933731581,
+            "name": "Triumvirate.",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Alliance/933731581_128.png"
+            }
+          },
+          "shipType": {
+            "id_str": "17738",
+            "href": "https://crest-tq.eveonline.com/inventory/types/17738/",
+            "id": 17738,
+            "name": "Machariel",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/17738_128.png"
+            }
+          },
+          "corporation": {
+            "id_str": "98340616",
+            "href": "https://crest-tq.eveonline.com/corporations/98340616/",
+            "id": 98340616,
+            "name": "Calibrated Chaos",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Corporation/98340616_128.png"
+            }
+          },
+          "character": {
+            "id_str": "92818229",
+            "href": "https://crest-tq.eveonline.com/characters/92818229/",
+            "id": 92818229,
+            "name": "Theft Baxxarallt",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Character/92818229_128.jpg"
+            }
+          },
+          "damageDone_str": "917",
+          "weaponType": {
+            "id_str": "2961",
+            "href": "https://crest-tq.eveonline.com/inventory/types/2961/",
+            "id": 2961,
+            "name": "1400mm Howitzer Artillery II",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/2961_128.png"
+            }
+          },
+          "finalBlow": true,
+          "securityStatus": -1.4,
+          "damageDone": 917
+        },
+        {
+          "alliance": {
+            "id_str": "933731581",
+            "href": "https://crest-tq.eveonline.com/alliances/933731581/",
+            "id": 933731581,
+            "name": "Triumvirate.",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Alliance/933731581_128.png"
+            }
+          },
+          "shipType": {
+            "id_str": "17738",
+            "href": "https://crest-tq.eveonline.com/inventory/types/17738/",
+            "id": 17738,
+            "name": "Machariel",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/17738_128.png"
+            }
+          },
+          "corporation": {
+            "id_str": "1975749457",
+            "href": "https://crest-tq.eveonline.com/corporations/1975749457/",
+            "id": 1975749457,
+            "name": "No.Mercy",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Corporation/1975749457_128.png"
+            }
+          },
+          "character": {
+            "id_str": "371563775",
+            "href": "https://crest-tq.eveonline.com/characters/371563775/",
+            "id": 371563775,
+            "name": "Kebabski",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Character/371563775_128.jpg"
+            }
+          },
+          "damageDone_str": "452",
+          "weaponType": {
+            "id_str": "17738",
+            "href": "https://crest-tq.eveonline.com/inventory/types/17738/",
+            "id": 17738,
+            "name": "Machariel",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/17738_128.png"
+            }
+          },
+          "finalBlow": false,
+          "securityStatus": 5.0,
+          "damageDone": 452
+        },
+        {
+          "alliance": {
+            "id_str": "99003995",
+            "href": "https://crest-tq.eveonline.com/alliances/99003995/",
+            "id": 99003995,
+            "name": "Invidia Gloriae Comes",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Alliance/99003995_128.png"
+            }
+          },
+          "shipType": {
+            "id_str": "11971",
+            "href": "https://crest-tq.eveonline.com/inventory/types/11971/",
+            "id": 11971,
+            "name": "Lachesis",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/11971_128.png"
+            }
+          },
+          "corporation": {
+            "id_str": "98355597",
+            "href": "https://crest-tq.eveonline.com/corporations/98355597/",
+            "id": 98355597,
+            "name": "Elkoss Combined Arsenal Group",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Corporation/98355597_128.png"
+            }
+          },
+          "character": {
+            "id_str": "94935311",
+            "href": "https://crest-tq.eveonline.com/characters/94935311/",
+            "id": 94935311,
+            "name": "Thor Falken",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Character/94935311_128.jpg"
+            }
+          },
+          "damageDone_str": "0",
+          "weaponType": {
+            "id_str": "3033",
+            "href": "https://crest-tq.eveonline.com/inventory/types/3033/",
+            "id": 3033,
+            "name": "Small Focused Beam Laser II",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/3033_128.png"
+            }
+          },
+          "finalBlow": false,
+          "securityStatus": 2.8,
+          "damageDone": 0
+        },
+        {
+          "alliance": {
+            "id_str": "933731581",
+            "href": "https://crest-tq.eveonline.com/alliances/933731581/",
+            "id": 933731581,
+            "name": "Triumvirate.",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Alliance/933731581_128.png"
+            }
+          },
+          "shipType": {
+            "id_str": "29990",
+            "href": "https://crest-tq.eveonline.com/inventory/types/29990/",
+            "id": 29990,
+            "name": "Loki",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/29990_128.png"
+            }
+          },
+          "corporation": {
+            "id_str": "1975749457",
+            "href": "https://crest-tq.eveonline.com/corporations/1975749457/",
+            "id": 1975749457,
+            "name": "No.Mercy",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Corporation/1975749457_128.png"
+            }
+          },
+          "character": {
+            "id_str": "301392751",
+            "href": "https://crest-tq.eveonline.com/characters/301392751/",
+            "id": 301392751,
+            "name": "FasTraGe",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Character/301392751_128.jpg"
+            }
+          },
+          "damageDone_str": "0",
+          "weaponType": {
+            "id_str": "2889",
+            "href": "https://crest-tq.eveonline.com/inventory/types/2889/",
+            "id": 2889,
+            "name": "200mm AutoCannon II",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/2889_128.png"
+            }
+          },
+          "finalBlow": false,
+          "securityStatus": 1.1,
+          "damageDone": 0
+        },
+        {
+          "alliance": {
+            "id_str": "99005360",
+            "href": "https://crest-tq.eveonline.com/alliances/99005360/",
+            "id": 99005360,
+            "name": "Prothean Alliance",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Alliance/99005360_128.png"
+            }
+          },
+          "shipType": {
+            "id_str": "17738",
+            "href": "https://crest-tq.eveonline.com/inventory/types/17738/",
+            "id": 17738,
+            "name": "Machariel",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/17738_128.png"
+            }
+          },
+          "corporation": {
+            "id_str": "98351896",
+            "href": "https://crest-tq.eveonline.com/corporations/98351896/",
+            "id": 98351896,
+            "name": "United Academy",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Corporation/98351896_128.png"
+            }
+          },
+          "character": {
+            "id_str": "94187342",
+            "href": "https://crest-tq.eveonline.com/characters/94187342/",
+            "id": 94187342,
+            "name": "Garry198",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Character/94187342_128.jpg"
+            }
+          },
+          "damageDone_str": "0",
+          "weaponType": {
+            "id_str": "9491",
+            "href": "https://crest-tq.eveonline.com/inventory/types/9491/",
+            "id": 9491,
+            "name": "1400mm 'Scout' Artillery I",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/9491_128.png"
+            }
+          },
+          "finalBlow": false,
+          "securityStatus": 5.0,
+          "damageDone": 0
+        },
+        {
+          "alliance": {
+            "id_str": "99005286",
+            "href": "https://crest-tq.eveonline.com/alliances/99005286/",
+            "id": 99005286,
+            "name": "Stella Nova",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Alliance/99005286_128.png"
+            }
+          },
+          "shipType": {
+            "id_str": "609",
+            "href": "https://crest-tq.eveonline.com/inventory/types/609/",
+            "id": 609,
+            "name": "Maulus",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/609_128.png"
+            }
+          },
+          "corporation": {
+            "id_str": "98325373",
+            "href": "https://crest-tq.eveonline.com/corporations/98325373/",
+            "id": 98325373,
+            "name": "Running with Dogs",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Corporation/98325373_128.png"
+            }
+          },
+          "character": {
+            "id_str": "1093456601",
+            "href": "https://crest-tq.eveonline.com/characters/1093456601/",
+            "id": 1093456601,
+            "name": "Xavier Flak",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Character/1093456601_128.jpg"
+            }
+          },
+          "damageDone_str": "0",
+          "weaponType": {
+            "id_str": "1968",
+            "href": "https://crest-tq.eveonline.com/inventory/types/1968/",
+            "id": 1968,
+            "name": "Remote Sensor Dampener I",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/1968_128.png"
+            }
+          },
+          "finalBlow": false,
+          "securityStatus": -0.7,
+          "damageDone": 0
+        },
+        {
+          "alliance": {
+            "id_str": "1411711376",
+            "href": "https://crest-tq.eveonline.com/alliances/1411711376/",
+            "id": 1411711376,
+            "name": "Legion of xXDEATHXx",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Alliance/1411711376_128.png"
+            }
+          },
+          "shipType": {
+            "id_str": "34562",
+            "href": "https://crest-tq.eveonline.com/inventory/types/34562/",
+            "id": 34562,
+            "name": "Svipul",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/34562_128.png"
+            }
+          },
+          "corporation": {
+            "id_str": "877122797",
+            "href": "https://crest-tq.eveonline.com/corporations/877122797/",
+            "id": 877122797,
+            "name": "The xDEATHx Squadron",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Corporation/877122797_128.png"
+            }
+          },
+          "character": {
+            "id_str": "1561768314",
+            "href": "https://crest-tq.eveonline.com/characters/1561768314/",
+            "id": 1561768314,
+            "name": "Black JIL",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Character/1561768314_128.jpg"
+            }
+          },
+          "damageDone_str": "0",
+          "weaponType": {
+            "id_str": "2977",
+            "href": "https://crest-tq.eveonline.com/inventory/types/2977/",
+            "id": 2977,
+            "name": "280mm Howitzer Artillery II",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/2977_128.png"
+            }
+          },
+          "finalBlow": false,
+          "securityStatus": 4.9,
+          "damageDone": 0
+        }
+      ],
+      "attackerCount": 9,
+      "victim": {
+        "alliance": {
+          "id_str": "99001730",
+          "href": "https://crest-tq.eveonline.com/alliances/99001730/",
+          "id": 99001730,
+          "name": "BLOOD UNION",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Alliance/99001730_128.png"
+          }
+        },
+        "damageTaken": 4014,
+        "items": [
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "31722",
+              "href": "https://crest-tq.eveonline.com/inventory/types/31722/",
+              "id": 31722,
+              "name": "Small Anti-EM Screen Reinforcer II",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/31722_128.png"
+              }
+            },
+            "quantityDestroyed_str": "1",
+            "flag": 92,
+            "flag_str": "92",
+            "singleton_str": "0",
+            "quantityDestroyed": 1
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "26929",
+              "href": "https://crest-tq.eveonline.com/inventory/types/26929/",
+              "id": 26929,
+              "name": "Small Processor Overclocking Unit I",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/26929_128.png"
+              }
+            },
+            "quantityDestroyed_str": "1",
+            "flag": 93,
+            "flag_str": "93",
+            "singleton_str": "0",
+            "quantityDestroyed": 1
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "11578",
+              "href": "https://crest-tq.eveonline.com/inventory/types/11578/",
+              "id": 11578,
+              "name": "Covert Ops Cloaking Device II",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/11578_128.png"
+              }
+            },
+            "quantityDestroyed_str": "1",
+            "flag": 27,
+            "flag_str": "27",
+            "singleton_str": "0",
+            "quantityDestroyed": 1
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "5973",
+              "href": "https://crest-tq.eveonline.com/inventory/types/5973/",
+              "id": 5973,
+              "name": "5MN Y-T8 Compact Microwarpdrive",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/5973_128.png"
+              }
+            },
+            "quantityDestroyed_str": "1",
+            "flag": 19,
+            "flag_str": "19",
+            "singleton_str": "0",
+            "quantityDestroyed": 1
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "8517",
+              "href": "https://crest-tq.eveonline.com/inventory/types/8517/",
+              "id": 8517,
+              "name": "Medium F-S9 Regolith Compact Shield Extender",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/8517_128.png"
+              }
+            },
+            "quantityDestroyed_str": "1",
+            "flag": 21,
+            "flag_str": "21",
+            "singleton_str": "0",
+            "quantityDestroyed": 1
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "2281",
+              "href": "https://crest-tq.eveonline.com/inventory/types/2281/",
+              "id": 2281,
+              "name": "Adaptive Invulnerability Field II",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/2281_128.png"
+              }
+            },
+            "quantityDestroyed_str": "1",
+            "flag": 20,
+            "flag_str": "20",
+            "singleton_str": "0",
+            "quantityDestroyed": 1
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "27918",
+              "href": "https://crest-tq.eveonline.com/inventory/types/27918/",
+              "id": 27918,
+              "name": "Shrapnel Bomb",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/27918_128.png"
+              }
+            },
+            "quantityDestroyed_str": "1",
+            "flag": 31,
+            "flag_str": "31",
+            "singleton_str": "0",
+            "quantityDestroyed": 1
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "27918",
+              "href": "https://crest-tq.eveonline.com/inventory/types/27918/",
+              "id": 27918,
+              "name": "Shrapnel Bomb",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/27918_128.png"
+              }
+            },
+            "quantityDestroyed_str": "1",
+            "flag": 5,
+            "flag_str": "5",
+            "singleton_str": "0",
+            "quantityDestroyed": 1
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "1405",
+              "href": "https://crest-tq.eveonline.com/inventory/types/1405/",
+              "id": 1405,
+              "name": "Inertial Stabilizers II",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/1405_128.png"
+              }
+            },
+            "quantityDropped_str": "1",
+            "flag": 11,
+            "singleton_str": "0",
+            "quantityDropped": 1,
+            "flag_str": "11"
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "27914",
+              "href": "https://crest-tq.eveonline.com/inventory/types/27914/",
+              "id": 27914,
+              "name": "Bomb Launcher I",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/27914_128.png"
+              }
+            },
+            "quantityDestroyed_str": "1",
+            "flag": 31,
+            "flag_str": "31",
+            "singleton_str": "0",
+            "quantityDestroyed": 1
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "10998",
+              "href": "https://crest-tq.eveonline.com/inventory/types/10998/",
+              "id": 10998,
+              "name": "Warp Core Stabilizer I",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/10998_128.png"
+              }
+            },
+            "quantityDropped_str": "1",
+            "flag": 12,
+            "singleton_str": "0",
+            "quantityDropped": 1,
+            "flag_str": "12"
+          }
+        ],
+        "damageTaken_str": "4014",
+        "character": {
+          "id_str": "91657162",
+          "href": "https://crest-tq.eveonline.com/characters/91657162/",
+          "id": 91657162,
+          "name": "Kori Sotken",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Character/91657162_128.jpg"
+          }
+        },
+        "shipType": {
+          "id_str": "12032",
+          "href": "https://crest-tq.eveonline.com/inventory/types/12032/",
+          "id": 12032,
+          "name": "Manticore",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/12032_128.png"
+          }
+        },
+        "corporation": {
+          "id_str": "98431483",
+          "href": "https://crest-tq.eveonline.com/corporations/98431483/",
+          "id": 98431483,
+          "name": "Inner Hell",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Corporation/98431483_128.png"
+          }
+        },
+        "position": {
+          "y": 21629657778.65166,
+          "x": 380861771818.7563,
+          "z": -579606498589.486
         }
       },
-      "shipType": {
-        "id_str": "17738",
-        "href": "https://crest-tq.eveonline.com/inventory/types/17738/",
-        "id": 17738,
-        "name": "Machariel",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/17738_128.png"
-        }
-      },
-      "corporation": {
-        "id_str": "98219127",
-        "href": "https://crest-tq.eveonline.com/corporations/98219127/",
-        "id": 98219127,
-        "name": "Blackfield Industries",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Corporation/98219127_128.png"
-        }
-      },
-      "character": {
-        "id_str": "92648314",
-        "href": "https://crest-tq.eveonline.com/characters/92648314/",
-        "id": 92648314,
-        "name": "Gerol Stein",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Character/92648314_128.jpg"
-        }
-      },
-      "damageDone_str": "1508",
-      "weaponType": {
-        "id_str": "17738",
-        "href": "https://crest-tq.eveonline.com/inventory/types/17738/",
-        "id": 17738,
-        "name": "Machariel",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/17738_128.png"
-        }
-      },
-      "finalBlow": false,
-      "securityStatus": 5.0,
-      "damageDone": 1508
-    },
-    {
-      "shipType": {
-        "id_str": "35833",
-        "href": "https://crest-tq.eveonline.com/inventory/types/35833/",
-        "id": 35833,
-        "name": "Fortizar",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/35833_128.png"
-        }
-      },
-      "corporation": {
-        "id_str": "98044804",
-        "href": "https://crest-tq.eveonline.com/corporations/98044804/",
-        "id": 98044804,
-        "name": "Corporation of Monsters. Resurrection",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Corporation/98044804_128.png"
-        }
-      },
-      "damageDone_str": "1137",
-      "finalBlow": false,
-      "securityStatus": 0.0,
-      "damageDone": 1137
-    },
-    {
-      "alliance": {
-        "id_str": "933731581",
-        "href": "https://crest-tq.eveonline.com/alliances/933731581/",
-        "id": 933731581,
-        "name": "Triumvirate.",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Alliance/933731581_128.png"
-        }
-      },
-      "shipType": {
-        "id_str": "17738",
-        "href": "https://crest-tq.eveonline.com/inventory/types/17738/",
-        "id": 17738,
-        "name": "Machariel",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/17738_128.png"
-        }
-      },
-      "corporation": {
-        "id_str": "98340616",
-        "href": "https://crest-tq.eveonline.com/corporations/98340616/",
-        "id": 98340616,
-        "name": "Calibrated Chaos",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Corporation/98340616_128.png"
-        }
-      },
-      "character": {
-        "id_str": "92818229",
-        "href": "https://crest-tq.eveonline.com/characters/92818229/",
-        "id": 92818229,
-        "name": "Theft Baxxarallt",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Character/92818229_128.jpg"
-        }
-      },
-      "damageDone_str": "917",
-      "weaponType": {
-        "id_str": "2961",
-        "href": "https://crest-tq.eveonline.com/inventory/types/2961/",
-        "id": 2961,
-        "name": "1400mm Howitzer Artillery II",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/2961_128.png"
-        }
-      },
-      "finalBlow": true,
-      "securityStatus": -1.4,
-      "damageDone": 917
-    },
-    {
-      "alliance": {
-        "id_str": "933731581",
-        "href": "https://crest-tq.eveonline.com/alliances/933731581/",
-        "id": 933731581,
-        "name": "Triumvirate.",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Alliance/933731581_128.png"
-        }
-      },
-      "shipType": {
-        "id_str": "17738",
-        "href": "https://crest-tq.eveonline.com/inventory/types/17738/",
-        "id": 17738,
-        "name": "Machariel",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/17738_128.png"
-        }
-      },
-      "corporation": {
-        "id_str": "1975749457",
-        "href": "https://crest-tq.eveonline.com/corporations/1975749457/",
-        "id": 1975749457,
-        "name": "No.Mercy",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Corporation/1975749457_128.png"
-        }
-      },
-      "character": {
-        "id_str": "371563775",
-        "href": "https://crest-tq.eveonline.com/characters/371563775/",
-        "id": 371563775,
-        "name": "Kebabski",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Character/371563775_128.jpg"
-        }
-      },
-      "damageDone_str": "452",
-      "weaponType": {
-        "id_str": "17738",
-        "href": "https://crest-tq.eveonline.com/inventory/types/17738/",
-        "id": 17738,
-        "name": "Machariel",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/17738_128.png"
-        }
-      },
-      "finalBlow": false,
-      "securityStatus": 5.0,
-      "damageDone": 452
-    },
-    {
-      "alliance": {
-        "id_str": "99003995",
-        "href": "https://crest-tq.eveonline.com/alliances/99003995/",
-        "id": 99003995,
-        "name": "Invidia Gloriae Comes",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Alliance/99003995_128.png"
-        }
-      },
-      "shipType": {
-        "id_str": "11971",
-        "href": "https://crest-tq.eveonline.com/inventory/types/11971/",
-        "id": 11971,
-        "name": "Lachesis",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/11971_128.png"
-        }
-      },
-      "corporation": {
-        "id_str": "98355597",
-        "href": "https://crest-tq.eveonline.com/corporations/98355597/",
-        "id": 98355597,
-        "name": "Elkoss Combined Arsenal Group",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Corporation/98355597_128.png"
-        }
-      },
-      "character": {
-        "id_str": "94935311",
-        "href": "https://crest-tq.eveonline.com/characters/94935311/",
-        "id": 94935311,
-        "name": "Thor Falken",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Character/94935311_128.jpg"
-        }
-      },
-      "damageDone_str": "0",
-      "weaponType": {
-        "id_str": "3033",
-        "href": "https://crest-tq.eveonline.com/inventory/types/3033/",
-        "id": 3033,
-        "name": "Small Focused Beam Laser II",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/3033_128.png"
-        }
-      },
-      "finalBlow": false,
-      "securityStatus": 2.8,
-      "damageDone": 0
-    },
-    {
-      "alliance": {
-        "id_str": "933731581",
-        "href": "https://crest-tq.eveonline.com/alliances/933731581/",
-        "id": 933731581,
-        "name": "Triumvirate.",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Alliance/933731581_128.png"
-        }
-      },
-      "shipType": {
-        "id_str": "29990",
-        "href": "https://crest-tq.eveonline.com/inventory/types/29990/",
-        "id": 29990,
-        "name": "Loki",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/29990_128.png"
-        }
-      },
-      "corporation": {
-        "id_str": "1975749457",
-        "href": "https://crest-tq.eveonline.com/corporations/1975749457/",
-        "id": 1975749457,
-        "name": "No.Mercy",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Corporation/1975749457_128.png"
-        }
-      },
-      "character": {
-        "id_str": "301392751",
-        "href": "https://crest-tq.eveonline.com/characters/301392751/",
-        "id": 301392751,
-        "name": "FasTraGe",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Character/301392751_128.jpg"
-        }
-      },
-      "damageDone_str": "0",
-      "weaponType": {
-        "id_str": "2889",
-        "href": "https://crest-tq.eveonline.com/inventory/types/2889/",
-        "id": 2889,
-        "name": "200mm AutoCannon II",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/2889_128.png"
-        }
-      },
-      "finalBlow": false,
-      "securityStatus": 1.1,
-      "damageDone": 0
-    },
-    {
-      "alliance": {
-        "id_str": "99005360",
-        "href": "https://crest-tq.eveonline.com/alliances/99005360/",
-        "id": 99005360,
-        "name": "Prothean Alliance",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Alliance/99005360_128.png"
-        }
-      },
-      "shipType": {
-        "id_str": "17738",
-        "href": "https://crest-tq.eveonline.com/inventory/types/17738/",
-        "id": 17738,
-        "name": "Machariel",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/17738_128.png"
-        }
-      },
-      "corporation": {
-        "id_str": "98351896",
-        "href": "https://crest-tq.eveonline.com/corporations/98351896/",
-        "id": 98351896,
-        "name": "United Academy",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Corporation/98351896_128.png"
-        }
-      },
-      "character": {
-        "id_str": "94187342",
-        "href": "https://crest-tq.eveonline.com/characters/94187342/",
-        "id": 94187342,
-        "name": "Garry198",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Character/94187342_128.jpg"
-        }
-      },
-      "damageDone_str": "0",
-      "weaponType": {
-        "id_str": "9491",
-        "href": "https://crest-tq.eveonline.com/inventory/types/9491/",
-        "id": 9491,
-        "name": "1400mm 'Scout' Artillery I",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/9491_128.png"
-        }
-      },
-      "finalBlow": false,
-      "securityStatus": 5.0,
-      "damageDone": 0
-    },
-    {
-      "alliance": {
-        "id_str": "99005286",
-        "href": "https://crest-tq.eveonline.com/alliances/99005286/",
-        "id": 99005286,
-        "name": "Stella Nova",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Alliance/99005286_128.png"
-        }
-      },
-      "shipType": {
-        "id_str": "609",
-        "href": "https://crest-tq.eveonline.com/inventory/types/609/",
-        "id": 609,
-        "name": "Maulus",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/609_128.png"
-        }
-      },
-      "corporation": {
-        "id_str": "98325373",
-        "href": "https://crest-tq.eveonline.com/corporations/98325373/",
-        "id": 98325373,
-        "name": "Running with Dogs",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Corporation/98325373_128.png"
-        }
-      },
-      "character": {
-        "id_str": "1093456601",
-        "href": "https://crest-tq.eveonline.com/characters/1093456601/",
-        "id": 1093456601,
-        "name": "Xavier Flak",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Character/1093456601_128.jpg"
-        }
-      },
-      "damageDone_str": "0",
-      "weaponType": {
-        "id_str": "1968",
-        "href": "https://crest-tq.eveonline.com/inventory/types/1968/",
-        "id": 1968,
-        "name": "Remote Sensor Dampener I",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/1968_128.png"
-        }
-      },
-      "finalBlow": false,
-      "securityStatus": -0.7,
-      "damageDone": 0
-    },
-    {
-      "alliance": {
-        "id_str": "1411711376",
-        "href": "https://crest-tq.eveonline.com/alliances/1411711376/",
-        "id": 1411711376,
-        "name": "Legion of xXDEATHXx",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Alliance/1411711376_128.png"
-        }
-      },
-      "shipType": {
-        "id_str": "34562",
-        "href": "https://crest-tq.eveonline.com/inventory/types/34562/",
-        "id": 34562,
-        "name": "Svipul",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/34562_128.png"
-        }
-      },
-      "corporation": {
-        "id_str": "877122797",
-        "href": "https://crest-tq.eveonline.com/corporations/877122797/",
-        "id": 877122797,
-        "name": "The xDEATHx Squadron",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Corporation/877122797_128.png"
-        }
-      },
-      "character": {
-        "id_str": "1561768314",
-        "href": "https://crest-tq.eveonline.com/characters/1561768314/",
-        "id": 1561768314,
-        "name": "Black JIL",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Character/1561768314_128.jpg"
-        }
-      },
-      "damageDone_str": "0",
-      "weaponType": {
-        "id_str": "2977",
-        "href": "https://crest-tq.eveonline.com/inventory/types/2977/",
-        "id": 2977,
-        "name": "280mm Howitzer Artillery II",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/2977_128.png"
-        }
-      },
-      "finalBlow": false,
-      "securityStatus": 4.9,
-      "damageDone": 0
+      "killID_str": "54859286",
+      "attackerCount_str": "9",
+      "war": {
+        "href": "https://crest-tq.eveonline.com/wars/0/",
+        "id": 0,
+        "id_str": "0"
+      }
     }
-  ],
-  "attackerCount": 9,
-  "victim": {
-    "alliance": {
-      "id_str": "99001730",
-      "href": "https://crest-tq.eveonline.com/alliances/99001730/",
-      "id": 99001730,
-      "name": "BLOOD UNION",
-      "icon": {
-        "href": "http://imageserver.eveonline.com/Alliance/99001730_128.png"
-      }
-    },
-    "damageTaken": 4014,
-    "items": [
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "31722",
-          "href": "https://crest-tq.eveonline.com/inventory/types/31722/",
-          "id": 31722,
-          "name": "Small Anti-EM Screen Reinforcer II",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/31722_128.png"
-          }
-        },
-        "quantityDestroyed_str": "1",
-        "flag": 92,
-        "flag_str": "92",
-        "singleton_str": "0",
-        "quantityDestroyed": 1
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "26929",
-          "href": "https://crest-tq.eveonline.com/inventory/types/26929/",
-          "id": 26929,
-          "name": "Small Processor Overclocking Unit I",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/26929_128.png"
-          }
-        },
-        "quantityDestroyed_str": "1",
-        "flag": 93,
-        "flag_str": "93",
-        "singleton_str": "0",
-        "quantityDestroyed": 1
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "11578",
-          "href": "https://crest-tq.eveonline.com/inventory/types/11578/",
-          "id": 11578,
-          "name": "Covert Ops Cloaking Device II",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/11578_128.png"
-          }
-        },
-        "quantityDestroyed_str": "1",
-        "flag": 27,
-        "flag_str": "27",
-        "singleton_str": "0",
-        "quantityDestroyed": 1
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "5973",
-          "href": "https://crest-tq.eveonline.com/inventory/types/5973/",
-          "id": 5973,
-          "name": "5MN Y-T8 Compact Microwarpdrive",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/5973_128.png"
-          }
-        },
-        "quantityDestroyed_str": "1",
-        "flag": 19,
-        "flag_str": "19",
-        "singleton_str": "0",
-        "quantityDestroyed": 1
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "8517",
-          "href": "https://crest-tq.eveonline.com/inventory/types/8517/",
-          "id": 8517,
-          "name": "Medium F-S9 Regolith Compact Shield Extender",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/8517_128.png"
-          }
-        },
-        "quantityDestroyed_str": "1",
-        "flag": 21,
-        "flag_str": "21",
-        "singleton_str": "0",
-        "quantityDestroyed": 1
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "2281",
-          "href": "https://crest-tq.eveonline.com/inventory/types/2281/",
-          "id": 2281,
-          "name": "Adaptive Invulnerability Field II",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/2281_128.png"
-          }
-        },
-        "quantityDestroyed_str": "1",
-        "flag": 20,
-        "flag_str": "20",
-        "singleton_str": "0",
-        "quantityDestroyed": 1
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "27918",
-          "href": "https://crest-tq.eveonline.com/inventory/types/27918/",
-          "id": 27918,
-          "name": "Shrapnel Bomb",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/27918_128.png"
-          }
-        },
-        "quantityDestroyed_str": "1",
-        "flag": 31,
-        "flag_str": "31",
-        "singleton_str": "0",
-        "quantityDestroyed": 1
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "27918",
-          "href": "https://crest-tq.eveonline.com/inventory/types/27918/",
-          "id": 27918,
-          "name": "Shrapnel Bomb",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/27918_128.png"
-          }
-        },
-        "quantityDestroyed_str": "1",
-        "flag": 5,
-        "flag_str": "5",
-        "singleton_str": "0",
-        "quantityDestroyed": 1
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "1405",
-          "href": "https://crest-tq.eveonline.com/inventory/types/1405/",
-          "id": 1405,
-          "name": "Inertial Stabilizers II",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/1405_128.png"
-          }
-        },
-        "quantityDropped_str": "1",
-        "flag": 11,
-        "singleton_str": "0",
-        "quantityDropped": 1,
-        "flag_str": "11"
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "27914",
-          "href": "https://crest-tq.eveonline.com/inventory/types/27914/",
-          "id": 27914,
-          "name": "Bomb Launcher I",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/27914_128.png"
-          }
-        },
-        "quantityDestroyed_str": "1",
-        "flag": 31,
-        "flag_str": "31",
-        "singleton_str": "0",
-        "quantityDestroyed": 1
-      },
-      {
-        "singleton": 0,
-        "itemType": {
-          "id_str": "10998",
-          "href": "https://crest-tq.eveonline.com/inventory/types/10998/",
-          "id": 10998,
-          "name": "Warp Core Stabilizer I",
-          "icon": {
-            "href": "http://imageserver.eveonline.com/Type/10998_128.png"
-          }
-        },
-        "quantityDropped_str": "1",
-        "flag": 12,
-        "singleton_str": "0",
-        "quantityDropped": 1,
-        "flag_str": "12"
-      }
-    ],
-    "damageTaken_str": "4014",
-    "character": {
-      "id_str": "91657162",
-      "href": "https://crest-tq.eveonline.com/characters/91657162/",
-      "id": 91657162,
-      "name": "Kori Sotken",
-      "icon": {
-        "href": "http://imageserver.eveonline.com/Character/91657162_128.jpg"
-      }
-    },
-    "shipType": {
-      "id_str": "12032",
-      "href": "https://crest-tq.eveonline.com/inventory/types/12032/",
-      "id": 12032,
-      "name": "Manticore",
-      "icon": {
-        "href": "http://imageserver.eveonline.com/Type/12032_128.png"
-      }
-    },
-    "corporation": {
-      "id_str": "98431483",
-      "href": "https://crest-tq.eveonline.com/corporations/98431483/",
-      "id": 98431483,
-      "name": "Inner Hell",
-      "icon": {
-        "href": "http://imageserver.eveonline.com/Corporation/98431483_128.png"
-      }
-    },
-    "position": {
-      "y": 21629657778.65166,
-      "x": 380861771818.7563,
-      "z": -579606498589.486
-    }
-  },
-  "killID_str": "54859286",
-  "attackerCount_str": "9",
-  "war": {
-    "href": "https://crest-tq.eveonline.com/wars/0/",
-    "id": 0,
-    "id_str": "0"
   }
 }
