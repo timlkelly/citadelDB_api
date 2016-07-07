@@ -1,0 +1,68 @@
+// 20160707115744
+// https://zkillboard.com/api/kills/shipID/35832/limit/1/
+
+
+{
+  "killID": 54988120,
+  "solarSystemID": 31000886,
+  "killTime": "2016-07-07 14:15:18",
+  "moonID": 0,
+  "victim": {
+    "shipTypeID": 670,
+    "characterID": 96110716,
+    "characterName": "gungar86",
+    "corporationID": 98462526,
+    "corporationName": "Trident.",
+    "allianceID": 99005149,
+    "allianceName": "Brothers in Arms Alliance",
+    "factionID": 0,
+    "factionName": "",
+    "damageTaken": 438
+  },
+  "attackers": [
+    {
+      "characterID": 96334442,
+      "characterName": "Edroh",
+      "corporationID": 98388312,
+      "corporationName": "Pandemic Horde Inc.",
+      "allianceID": 99005338,
+      "allianceName": "Pandemic Horde",
+      "factionID": 0,
+      "factionName": "",
+      "securityStatus": -0.4,
+      "damageDone": 438,
+      "finalBlow": 1,
+      "weaponTypeID": 3170,
+      "shipTypeID": 35683
+    },
+    {
+      "characterID": 96320964,
+      "characterName": "Snerken Vokan",
+      "corporationID": 98388312,
+      "corporationName": "Infernal Refuge",
+      "allianceID": 99005338,
+      "allianceName": "Ded End Conglomerates",
+      "factionID": 0,
+      "factionName": "",
+      "securityStatus": 5,
+      "damageDone": 0,
+      "finalBlow": 0,
+      "weaponTypeID": 26890,
+      "shipTypeID": 35832
+    }
+  ],
+  "items": [
+    
+  ],
+  "position": {
+    "y": 244070483278.78,
+    "x": 6511126974234.9,
+    "z": 430677458019.76
+  },
+  "zkb": {
+    "locationID": 50005321,
+    "hash": "887a0e3ca36a24667de24c8deda6d3ad29280558",
+    "totalValue": 10000,
+    "points": 1
+  }
+}

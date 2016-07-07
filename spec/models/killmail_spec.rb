@@ -119,8 +119,7 @@ describe 'Killmail model' do
           system: 'E8-YS9',
           citadel_type: 'Astrahus',
           corporation: 'Forge Industrial Command',
-          alliance: 'FUBAR.',
-          killed_at: nil
+          alliance: 'FUBAR.'
         }
       end
       it 'creates a hash for creating a new citadel' do
@@ -163,8 +162,7 @@ describe 'Killmail model' do
           system: '6-4V20',
           citadel_type: 'Fortizar',
           corporation: 'Motiveless Malignity',
-          alliance: '',
-          killed_at: nil
+          alliance: ''
         }
       end
       it 'creates a hash to create a new citadel' do
@@ -179,8 +177,7 @@ describe 'Killmail model' do
           system: 'J115405',
           citadel_type: 'Keepstar',
           corporation: 'Hard Knocks Inc.',
-          alliance: '',
-          killed_at: nil
+          alliance: ''
         }
       end
       it 'creates a hash to create a new citadel' do
@@ -239,6 +236,74 @@ describe 'Killmail model' do
         end
       end
     end
+    context 'citadel exists and is later destroyed' do
+      let(:killmail_fixture) { File.read('./spec/fixtures/astrahus_killmail_predeathmail.json') }
+      let(:deathmail_fixture) { File.read('./spec/fixtures/astrahus_deathmail.json') }
+      let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
+      let(:deathmail) { Killmail.new(killmail_json: deathmail_fixture) }
+      it 'updates the citadel' do
+        temporarily do
+          expect do
+            killmail.find_or_create_citadel
+            deathmail.find_or_create_citadel                    
+          end.to change(Citadel, :count).by 1
+          citadel = killmail.find_or_create_citadel    
+          expect(citadel.killed_at).to eq('2016.06.29 03:26:16')
+        end
+      end
+    end
+  end
+
+  describe 'find_or_create_citadel_past' do
+    let(:killmail_fixture) { File.read('./spec/fixtures/past_mail_single.json') }
+    let(:killmail_fixture2) { File.read('./spec/fixtures/past_mail_single.json') }
+    let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
+    let(:killmail2) { Killmail.new(killmail_json: killmail_fixture) }
+    context 'citadel does not exist' do
+      temporarily do
+        it 'raises the citadel count by 1' do
+          expect do
+            citadel = killmail.find_or_create_citadel_past
+            expect(citadel.system).to eq('93PI-4')
+            expect(citadel.citadel_type).to eq('Astrahus')
+            expect(citadel.corporation).to eq('Pandemic Horde Inc.')
+            expect(citadel.alliance).to eq('Pandemic Horde')
+            expect(citadel.killed_at).to eq('2016-07-03 05:39:24')
+          end.to change(Citadel, :count).by 1
+        end
+      end
+    end
+    context 'citadel already exists' do
+      temporarily do
+        it 'does not raise citadel count' do
+          Citadel.create(killmail2.generate_citadel_hash_past)
+          expect do
+            citadel = killmail.find_or_create_citadel_past
+            expect(citadel.system).to eq('93PI-4')
+            expect(citadel.citadel_type).to eq('Astrahus')
+            expect(citadel.corporation).to eq('Pandemic Horde Inc.')
+            expect(citadel.alliance).to eq('Pandemic Horde')
+            expect(citadel.killed_at).to eq('2016-07-03 05:39:24')
+          end.to change(Citadel, :count).by 0
+        end
+      end
+    end
+    context 'citadel exists and is later destroyed' do
+      let(:killmail_fixture) { File.read('./spec/fixtures/past_killmail_updated.json') }
+      let(:deathmail_fixture) { File.read('./spec/fixtures/past_deathmail.json') }
+      let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
+      let(:deathmail) { Killmail.new(killmail_json: deathmail_fixture) }
+      temporarily do
+        it 'updates the citadel' do
+          expect do
+            killmail.find_or_create_citadel_past
+            deathmail.find_or_create_citadel_past
+          end.to change(Citadel, :count).by 1
+          citadel = killmail.find_or_create_citadel_past
+          expect(citadel.killed_at).to eq('2016-07-07 00:49:58')
+        end
+      end
+    end
   end
 
   describe 'save_if_relevant' do
@@ -253,7 +318,7 @@ describe 'Killmail model' do
           killmail.save_if_relevant
           expect(killmail.citadel_id).to eq(citadel.id)
           expect(killmail.killmail_id).to eq(killmail.killmail_data['killID'])
-          expect(killmail.killmail_json).to eq(killmail.killmail_json)
+          expect(Killmail.count).to eq(1)
         end
       end
       context 'duplicate killmail' do
@@ -278,5 +343,42 @@ describe 'Killmail model' do
     end
   end
 
-  it 'updates citadel if destroyed'
+  describe 'save_if_relevant_past' do
+    let(:killmail_fixture) { File.read('./spec/fixtures/past_mail_single.json') }
+    let(:ship_killmail_fixture) { File.read('./spec/fixtures/past_mail_ship.json') }
+    let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
+    let(:killmail2) { Killmail.new(killmail_json: killmail_fixture) }
+    context 'new killmail' do
+      it 'saves to db' do
+        temporarily do
+          citadel = killmail.find_or_create_citadel_past
+          killmail.save_if_relevant_past
+          expect(killmail.citadel_id).to eq(citadel.id)
+          expect(killmail.killmail_id).to eq(killmail.killmail_data['killID'])
+          expect(Killmail.count).to eq(1)
+        end
+      end
+    end
+    context 'duplicate killmail' do
+      it 'does not save' do
+        temporarily do
+          killmail.save_if_relevant_past
+          killmail2.save_if_relevant_past
+          expect(Killmail.count).to eq(1)
+        end
+      end
+    end
+    context 'not relevant report' do
+      let(:ship_killmail) { Killmail.new(killmail_json: ship_killmail_fixture) }
+      it 'does not save' do
+        temporarily do
+          expect do
+            expect(ship_killmail.save_if_relevant_past).to be_falsey
+          end.to change(Killmail, :count).by 0
+        end
+      end
+    end
+  end
+
+  it 'add region?'
 end

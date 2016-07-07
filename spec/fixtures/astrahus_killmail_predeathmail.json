@@ -1,0 +1,910 @@
+// 20160628133714
+// https://crest-tq.eveonline.com/killmails/54822711/5da02096debfa3e1c9ca83d82958bafb5e4d3504/
+
+{
+  "solarSystem": {
+    "id_str": "30003029",
+    "href": "https://crest-tq.eveonline.com/solarsystems/30002163/",
+    "id": 30003029,
+    "name": "Jaschercis"
+  },
+  "killID": 54822711,
+  "killTime": "2016.06.27 00:37:37",
+  "attackers": [
+    {
+      "shipType": {
+        "id_str": "23061",
+        "href": "https://crest-tq.eveonline.com/inventory/types/23061/",
+        "id": 23061,
+        "name": "Einherji I",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/23061_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98386107",
+        "href": "https://crest-tq.eveonline.com/corporations/98386107/",
+        "id": 98386107,
+        "name": "Forge Industrial Command",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98386107_128.png"
+        }
+      },
+      "damageDone_str": "6838",
+      "finalBlow": false,
+      "securityStatus": 0.0,
+      "damageDone": 6838
+    },
+    {
+      "alliance": {
+        "id_str": "99005299",
+        "href": "https://crest-tq.eveonline.com/alliances/99005299/",
+        "id": 99005299,
+        "name": null,
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99005299_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "35832",
+        "href": "https://crest-tq.eveonline.com/inventory/types/35832/",
+        "id": 35832,
+        "name": "Astrahus",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/35832_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98386107",
+        "href": "https://crest-tq.eveonline.com/corporations/98386107/",
+        "id": 98386107,
+        "name": "Tokenada Technical Enterprises",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98386107_128.png"
+        }
+      },
+      "character": {
+        "id_str": "921012793",
+        "href": "https://crest-tq.eveonline.com/characters/921012793/",
+        "id": 921012793,
+        "name": "Jarkovin",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/921012793_128.jpg"
+        }
+      },
+      "damageDone_str": "0",
+      "weaponType": {
+        "id_str": "12200",
+        "href": "https://crest-tq.eveonline.com/inventory/types/12200/",
+        "id": 12200,
+        "name": "Mobile Large Warp Disruptor I",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/12200_128.png"
+        }
+      },
+      "finalBlow": true,
+      "securityStatus": 5.0,
+      "damageDone": 0
+    },
+    {
+      "alliance": {
+        "id_str": "99005299",
+        "href": "https://crest-tq.eveonline.com/alliances/99005299/",
+        "id": 99005299,
+        "name": "FUBAR.",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Alliance/99005299_128.png"
+        }
+      },
+      "shipType": {
+        "id_str": "17715",
+        "href": "https://crest-tq.eveonline.com/inventory/types/17715/",
+        "id": 17715,
+        "name": "Gila",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/17715_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "98458242",
+        "href": "https://crest-tq.eveonline.com/corporations/98458242/",
+        "id": 98458242,
+        "name": "Odin's Ravens.",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/98458242_128.png"
+        }
+      },
+      "character": {
+        "id_str": "92657064",
+        "href": "https://crest-tq.eveonline.com/characters/92657064/",
+        "id": 92657064,
+        "name": "Lando Sazas",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Character/92657064_128.jpg"
+        }
+      },
+      "damageDone_str": "0",
+      "weaponType": {
+        "id_str": "8089",
+        "href": "https://crest-tq.eveonline.com/inventory/types/8089/",
+        "id": 8089,
+        "name": "Arbalest Compact Light Missile Launcher",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/8089_128.png"
+        }
+      },
+      "finalBlow": false,
+      "securityStatus": 5.0,
+      "damageDone": 0
+    }
+  ],
+  "attackerCount": 3,
+  "victim": {
+    "alliance": {
+      "id_str": "673381830",
+      "href": "https://crest-tq.eveonline.com/alliances/673381830/",
+      "id": 673381830,
+      "name": "Intrepid Crossing",
+      "icon": {
+        "href": "http://imageserver.eveonline.com/Alliance/673381830_128.png"
+      }
+    },
+    "damageTaken": 6838,
+    "items": [
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "30013",
+          "href": "https://crest-tq.eveonline.com/inventory/types/30013/",
+          "id": 30013,
+          "name": "Core Scanner Probe I",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/30013_128.png"
+          }
+        },
+        "quantityDestroyed_str": "1",
+        "flag": 5,
+        "flag_str": "5",
+        "singleton_str": "0",
+        "quantityDestroyed": 1
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "30013",
+          "href": "https://crest-tq.eveonline.com/inventory/types/30013/",
+          "id": 30013,
+          "name": "Core Scanner Probe I",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/30013_128.png"
+          }
+        },
+        "quantityDropped_str": "344",
+        "flag": 5,
+        "singleton_str": "0",
+        "quantityDropped": 344,
+        "flag_str": "5"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "31055",
+          "href": "https://crest-tq.eveonline.com/inventory/types/31055/",
+          "id": 31055,
+          "name": "Medium Trimark Armor Pump I",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/31055_128.png"
+          }
+        },
+        "quantityDestroyed_str": "1",
+        "flag": 93,
+        "flag_str": "93",
+        "singleton_str": "0",
+        "quantityDestroyed": 1
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "2048",
+          "href": "https://crest-tq.eveonline.com/inventory/types/2048/",
+          "id": 2048,
+          "name": "Damage Control II",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/2048_128.png"
+          }
+        },
+        "quantityDropped_str": "1",
+        "flag": 14,
+        "singleton_str": "0",
+        "quantityDropped": 1,
+        "flag_str": "14"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "15331",
+          "href": "https://crest-tq.eveonline.com/inventory/types/15331/",
+          "id": 15331,
+          "name": "Metal Scraps",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/15331_128.png"
+          }
+        },
+        "quantityDropped_str": "11",
+        "flag": 5,
+        "singleton_str": "0",
+        "quantityDropped": 11,
+        "flag_str": "5"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "1957",
+          "href": "https://crest-tq.eveonline.com/inventory/types/1957/",
+          "id": 1957,
+          "name": "Multispectral ECM I",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/1957_128.png"
+          }
+        },
+        "quantityDropped_str": "1",
+        "flag": 21,
+        "singleton_str": "0",
+        "quantityDropped": 1,
+        "flag_str": "21"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "230",
+          "href": "https://crest-tq.eveonline.com/inventory/types/230/",
+          "id": 230,
+          "name": "Antimatter Charge M",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/230_128.png"
+          }
+        },
+        "quantityDropped_str": "17",
+        "flag": 30,
+        "singleton_str": "0",
+        "quantityDropped": 17,
+        "flag_str": "30"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "11577",
+          "href": "https://crest-tq.eveonline.com/inventory/types/11577/",
+          "id": 11577,
+          "name": "Improved Cloaking Device II",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/11577_128.png"
+          }
+        },
+        "quantityDropped_str": "1",
+        "flag": 29,
+        "singleton_str": "0",
+        "quantityDropped": 1,
+        "flag_str": "29"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "25595",
+          "href": "https://crest-tq.eveonline.com/inventory/types/25595/",
+          "id": 25595,
+          "name": "Alloyed Tritanium Bar",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/25595_128.png"
+          }
+        },
+        "quantityDestroyed_str": "19",
+        "flag": 5,
+        "flag_str": "5",
+        "singleton_str": "0",
+        "quantityDestroyed": 19
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "25600",
+          "href": "https://crest-tq.eveonline.com/inventory/types/25600/",
+          "id": 25600,
+          "name": "Burned Logic Circuit",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/25600_128.png"
+          }
+        },
+        "quantityDropped_str": "40",
+        "flag": 5,
+        "singleton_str": "0",
+        "quantityDropped": 40,
+        "flag_str": "5"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "3530",
+          "href": "https://crest-tq.eveonline.com/inventory/types/3530/",
+          "id": 3530,
+          "name": "Medium Armor Repairer II",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/3530_128.png"
+          }
+        },
+        "quantityDropped_str": "1",
+        "flag": 13,
+        "singleton_str": "0",
+        "quantityDropped": 1,
+        "flag_str": "13"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "2603",
+          "href": "https://crest-tq.eveonline.com/inventory/types/2603/",
+          "id": 2603,
+          "name": "Nanofiber Internal Structure I",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/2603_128.png"
+          }
+        },
+        "quantityDestroyed_str": "1",
+        "flag": 11,
+        "flag_str": "11",
+        "singleton_str": "0",
+        "quantityDestroyed": 1
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "2456",
+          "href": "https://crest-tq.eveonline.com/inventory/types/2456/",
+          "id": 2456,
+          "name": "Hobgoblin II",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/2456_128.png"
+          }
+        },
+        "quantityDestroyed_str": "4",
+        "flag": 87,
+        "flag_str": "87",
+        "singleton_str": "0",
+        "quantityDestroyed": 4
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "17938",
+          "href": "https://crest-tq.eveonline.com/inventory/types/17938/",
+          "id": 17938,
+          "name": "Core Probe Launcher I",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/17938_128.png"
+          }
+        },
+        "quantityDestroyed_str": "1",
+        "flag": 27,
+        "flag_str": "27",
+        "singleton_str": "0",
+        "quantityDestroyed": 1
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "189",
+          "href": "https://crest-tq.eveonline.com/inventory/types/189/",
+          "id": 189,
+          "name": "Depleted Uranium M",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/189_128.png"
+          }
+        },
+        "quantityDestroyed_str": "100",
+        "flag": 5,
+        "flag_str": "5",
+        "singleton_str": "0",
+        "quantityDestroyed": 100
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "25593",
+          "href": "https://crest-tq.eveonline.com/inventory/types/25593/",
+          "id": 25593,
+          "name": "Smashed Trigger Unit",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/25593_128.png"
+          }
+        },
+        "quantityDropped_str": "10",
+        "flag": 5,
+        "singleton_str": "0",
+        "quantityDropped": 10,
+        "flag_str": "5"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "25599",
+          "href": "https://crest-tq.eveonline.com/inventory/types/25599/",
+          "id": 25599,
+          "name": "Charred Micro Circuit",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/25599_128.png"
+          }
+        },
+        "quantityDestroyed_str": "31",
+        "flag": 5,
+        "flag_str": "5",
+        "singleton_str": "0",
+        "quantityDestroyed": 31
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "12198",
+          "href": "https://crest-tq.eveonline.com/inventory/types/12198/",
+          "id": 12198,
+          "name": "Mobile Small Warp Disruptor I",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/12198_128.png"
+          }
+        },
+        "quantityDestroyed_str": "4",
+        "flag": 5,
+        "flag_str": "5",
+        "singleton_str": "0",
+        "quantityDestroyed": 4
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "25598",
+          "href": "https://crest-tq.eveonline.com/inventory/types/25598/",
+          "id": 25598,
+          "name": "Tripped Power Circuit",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/25598_128.png"
+          }
+        },
+        "quantityDestroyed_str": "25",
+        "flag": 5,
+        "flag_str": "5",
+        "singleton_str": "0",
+        "quantityDestroyed": 25
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "30013",
+          "href": "https://crest-tq.eveonline.com/inventory/types/30013/",
+          "id": 30013,
+          "name": "Core Scanner Probe I",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/30013_128.png"
+          }
+        },
+        "quantityDropped_str": "8",
+        "flag": 27,
+        "singleton_str": "0",
+        "quantityDropped": 8,
+        "flag_str": "27"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "11640",
+          "href": "https://crest-tq.eveonline.com/inventory/types/11640/",
+          "id": 11640,
+          "name": "Warp Core Stabilizer II",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/11640_128.png"
+          }
+        },
+        "quantityDropped_str": "1",
+        "flag": 15,
+        "singleton_str": "0",
+        "quantityDropped": 1,
+        "flag_str": "15"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "14278",
+          "href": "https://crest-tq.eveonline.com/inventory/types/14278/",
+          "id": 14278,
+          "name": "200mm Prototype Gauss Gun",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/14278_128.png"
+          }
+        },
+        "quantityDropped_str": "1",
+        "flag": 28,
+        "singleton_str": "0",
+        "quantityDropped": 1,
+        "flag_str": "28"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "25602",
+          "href": "https://crest-tq.eveonline.com/inventory/types/25602/",
+          "id": 25602,
+          "name": "Thruster Console",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/25602_128.png"
+          }
+        },
+        "quantityDestroyed_str": "12",
+        "flag": 5,
+        "flag_str": "5",
+        "singleton_str": "0",
+        "quantityDestroyed": 12
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "12058",
+          "href": "https://crest-tq.eveonline.com/inventory/types/12058/",
+          "id": 12058,
+          "name": "10MN Afterburner II",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/12058_128.png"
+          }
+        },
+        "quantityDestroyed_str": "1",
+        "flag": 22,
+        "flag_str": "22",
+        "singleton_str": "0",
+        "quantityDestroyed": 1
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "17192",
+          "href": "https://crest-tq.eveonline.com/inventory/types/17192/",
+          "id": 17192,
+          "name": "Angel Diamond Tag",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/17192_128.png"
+          }
+        },
+        "quantityDropped_str": "1",
+        "flag": 5,
+        "singleton_str": "0",
+        "quantityDropped": 1,
+        "flag_str": "5"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "448",
+          "href": "https://crest-tq.eveonline.com/inventory/types/448/",
+          "id": 448,
+          "name": "Warp Scrambler II",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/448_128.png"
+          }
+        },
+        "quantityDestroyed_str": "1",
+        "flag": 19,
+        "flag_str": "19",
+        "singleton_str": "0",
+        "quantityDestroyed": 1
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "2185",
+          "href": "https://crest-tq.eveonline.com/inventory/types/2185/",
+          "id": 2185,
+          "name": "Hammerhead II",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/2185_128.png"
+          }
+        },
+        "quantityDestroyed_str": "1",
+        "flag": 87,
+        "flag_str": "87",
+        "singleton_str": "0",
+        "quantityDestroyed": 1
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "2185",
+          "href": "https://crest-tq.eveonline.com/inventory/types/2185/",
+          "id": 2185,
+          "name": "Hammerhead II",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/2185_128.png"
+          }
+        },
+        "quantityDropped_str": "1",
+        "flag": 87,
+        "singleton_str": "0",
+        "quantityDropped": 1,
+        "flag_str": "87"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "31055",
+          "href": "https://crest-tq.eveonline.com/inventory/types/31055/",
+          "id": 31055,
+          "name": "Medium Trimark Armor Pump I",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/31055_128.png"
+          }
+        },
+        "quantityDestroyed_str": "1",
+        "flag": 94,
+        "flag_str": "94",
+        "singleton_str": "0",
+        "quantityDestroyed": 1
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "25590",
+          "href": "https://crest-tq.eveonline.com/inventory/types/25590/",
+          "id": 25590,
+          "name": "Contaminated Nanite Compound",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/25590_128.png"
+          }
+        },
+        "quantityDestroyed_str": "1",
+        "flag": 5,
+        "flag_str": "5",
+        "singleton_str": "0",
+        "quantityDestroyed": 1
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "230",
+          "href": "https://crest-tq.eveonline.com/inventory/types/230/",
+          "id": 230,
+          "name": "Antimatter Charge M",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/230_128.png"
+          }
+        },
+        "quantityDestroyed_str": "17",
+        "flag": 28,
+        "flag_str": "28",
+        "singleton_str": "0",
+        "quantityDestroyed": 17
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "4027",
+          "href": "https://crest-tq.eveonline.com/inventory/types/4027/",
+          "id": 4027,
+          "name": "Fleeting Compact Stasis Webifier",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/4027_128.png"
+          }
+        },
+        "quantityDestroyed_str": "1",
+        "flag": 20,
+        "flag_str": "20",
+        "singleton_str": "0",
+        "quantityDestroyed": 1
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "25589",
+          "href": "https://crest-tq.eveonline.com/inventory/types/25589/",
+          "id": 25589,
+          "name": "Malfunctioning Shield Emitter",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/25589_128.png"
+          }
+        },
+        "quantityDestroyed_str": "5",
+        "flag": 5,
+        "flag_str": "5",
+        "singleton_str": "0",
+        "quantityDestroyed": 5
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "191",
+          "href": "https://crest-tq.eveonline.com/inventory/types/191/",
+          "id": 191,
+          "name": "Fusion M",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/191_128.png"
+          }
+        },
+        "quantityDropped_str": "100",
+        "flag": 5,
+        "singleton_str": "0",
+        "quantityDropped": 100,
+        "flag_str": "5"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "193",
+          "href": "https://crest-tq.eveonline.com/inventory/types/193/",
+          "id": 193,
+          "name": "EMP M",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/193_128.png"
+          }
+        },
+        "quantityDestroyed_str": "100",
+        "flag": 5,
+        "flag_str": "5",
+        "singleton_str": "0",
+        "quantityDestroyed": 100
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "230",
+          "href": "https://crest-tq.eveonline.com/inventory/types/230/",
+          "id": 230,
+          "name": "Antimatter Charge M",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/230_128.png"
+          }
+        },
+        "quantityDropped_str": "14394",
+        "flag": 5,
+        "singleton_str": "0",
+        "quantityDropped": 14394,
+        "flag_str": "5"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "31222",
+          "href": "https://crest-tq.eveonline.com/inventory/types/31222/",
+          "id": 31222,
+          "name": "Medium Gravity Capacitor Upgrade II",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/31222_128.png"
+          }
+        },
+        "quantityDestroyed_str": "1",
+        "flag": 92,
+        "flag_str": "92",
+        "singleton_str": "0",
+        "quantityDestroyed": 1
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "14278",
+          "href": "https://crest-tq.eveonline.com/inventory/types/14278/",
+          "id": 14278,
+          "name": "200mm Prototype Gauss Gun",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/14278_128.png"
+          }
+        },
+        "quantityDropped_str": "1",
+        "flag": 30,
+        "singleton_str": "0",
+        "quantityDropped": 1,
+        "flag_str": "30"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "11269",
+          "href": "https://crest-tq.eveonline.com/inventory/types/11269/",
+          "id": 11269,
+          "name": "Energized Adaptive Nano Membrane II",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/11269_128.png"
+          }
+        },
+        "quantityDropped_str": "1",
+        "flag": 12,
+        "singleton_str": "0",
+        "quantityDropped": 1,
+        "flag_str": "12"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "2488",
+          "href": "https://crest-tq.eveonline.com/inventory/types/2488/",
+          "id": 2488,
+          "name": "Warrior II",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/2488_128.png"
+          }
+        },
+        "quantityDestroyed_str": "5",
+        "flag": 87,
+        "flag_str": "87",
+        "singleton_str": "0",
+        "quantityDestroyed": 5
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "2488",
+          "href": "https://crest-tq.eveonline.com/inventory/types/2488/",
+          "id": 2488,
+          "name": "Warrior II",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/2488_128.png"
+          }
+        },
+        "quantityDropped_str": "8",
+        "flag": 87,
+        "singleton_str": "0",
+        "quantityDropped": 8,
+        "flag_str": "87"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "25601",
+          "href": "https://crest-tq.eveonline.com/inventory/types/25601/",
+          "id": 25601,
+          "name": "Fried Interface Circuit",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/25601_128.png"
+          }
+        },
+        "quantityDropped_str": "10",
+        "flag": 5,
+        "singleton_str": "0",
+        "quantityDropped": 10,
+        "flag_str": "5"
+      }
+    ],
+    "damageTaken_str": "6838",
+    "character": {
+      "id_str": "1509733736",
+      "href": "https://crest-tq.eveonline.com/characters/1509733736/",
+      "id": 1509733736,
+      "name": "AllenthatGuy1",
+      "icon": {
+        "href": "http://imageserver.eveonline.com/Character/1509733736_128.jpg"
+      }
+    },
+    "shipType": {
+      "id_str": "626",
+      "href": "https://crest-tq.eveonline.com/inventory/types/626/",
+      "id": 626,
+      "name": "Vexor",
+      "icon": {
+        "href": "http://imageserver.eveonline.com/Type/626_128.png"
+      }
+    },
+    "corporation": {
+      "id_str": "425219075",
+      "href": "https://crest-tq.eveonline.com/corporations/425219075/",
+      "id": 425219075,
+      "name": "PROGENITOR CORPORATION",
+      "icon": {
+        "href": "http://imageserver.eveonline.com/Corporation/425219075_128.png"
+      }
+    },
+    "position": {
+      "y": -3528973131527.2695,
+      "x": 1455528965291.3196,
+      "z": -307958392850.36145
+    }
+  },
+  "killID_str": "54822711",
+  "attackerCount_str": "3",
+  "war": {
+    "href": "https://crest-tq.eveonline.com/wars/0/",
+    "id": 0,
+    "id_str": "0"
+  }
+}

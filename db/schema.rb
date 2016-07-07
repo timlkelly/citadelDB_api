@@ -42,7 +42,7 @@ ActiveRecord::Schema.define(version: 20160706211951) do
   end
 
   create_table "systems", force: :cascade do |t|
-    t.integer  "region"
+    t.integer  "region_id"
     t.integer  "system_id"
     t.string   "name"
     t.datetime "created_at", null: false
