@@ -251,8 +251,6 @@ describe 'Killmail model' do
         it 'raises the citadel count by 1' do
           expect do
             citadel = killmail.find_or_create_citadel_past
-            pp "***********"
-            pp Citadel.count
             expect(citadel.system).to eq('93PI-4')
             expect(citadel.citadel_type).to eq('Astrahus')
             expect(citadel.corporation).to eq('Pandemic Horde Inc.')
@@ -291,7 +289,7 @@ describe 'Killmail model' do
           killmail.save_if_relevant
           expect(killmail.citadel_id).to eq(citadel.id)
           expect(killmail.killmail_id).to eq(killmail.killmail_data['killID'])
-          expect(killmail.killmail_json).to eq(killmail.killmail_json)
+          expect(Killmail.count).to eq(1)
         end
       end
       context 'duplicate killmail' do
@@ -316,7 +314,44 @@ describe 'Killmail model' do
     end
   end
 
-  it 'save_if_relevant_past'
+  describe 'save_if_relevant_past' do
+    let(:killmail_fixture) { File.read('./spec/fixtures/past_mail_single.json') }
+    let(:ship_killmail_fixture) { File.read('./spec/fixtures/past_mail_ship.json') }
+    let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
+    let(:killmail2) { Killmail.new(killmail_json: killmail_fixture) }
+    context 'new killmail' do
+      it 'saves to db' do
+        temporarily do
+          citadel = killmail.find_or_create_citadel_past
+          killmail.save_if_relevant_past
+          expect(killmail.citadel_id).to eq(citadel.id)
+          expect(killmail.killmail_id).to eq(killmail.killmail_data['killID'])
+          expect(Killmail.count).to eq(1)
+        end
+      end
+    end
+    context 'duplicate killmail' do
+      it 'does not save' do
+        temporarily do
+          killmail.save_if_relevant_past
+          killmail2.save_if_relevant_past
+          expect(Killmail.count).to eq(1)
+        end
+      end
+    end
+    context 'not relevant report' do
+      let(:ship_killmail) { Killmail.new(killmail_json: ship_killmail_fixture) }
+      it 'does not save' do
+        temporarily do
+          expect do
+            expect(ship_killmail.save_if_relevant_past).to be_falsey
+          end.to change(Killmail, :count).by 0
+        end
+      end
+    end
+  end
+
+  it 'parses large api return'
 
   it 'updates citadel if destroyed'
 

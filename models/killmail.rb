@@ -164,4 +164,12 @@ class Killmail < ActiveRecord::Base
     self.killmail_id = killmail_data['killID']
     save
   end
+
+  def save_if_relevant_past
+
+    pp find_or_create_citadel_past
+    self.citadel_id = find_or_create_citadel_past.id
+    self.killmail_id = killmail_data['killID']
+    save
+  end
 end

@@ -1,0 +1,200 @@
+// 20160706204344
+// https://zkillboard.com/api/losses/limit/1/
+
+
+{
+  "killID": 54982673,
+  "solarSystemID": 30004023,
+  "killTime": "2016-07-07 01:41:55",
+  "moonID": 0,
+  "victim": {
+    "shipTypeID": 11200,
+    "characterID": 94645352,
+    "characterName": "Halitosis Borodov",
+    "corporationID": 98447528,
+    "corporationName": "No Corporation for Old Spacemen",
+    "allianceID": 99006510,
+    "allianceName": "No Kill Too Small",
+    "factionID": 0,
+    "factionName": "",
+    "damageTaken": 2112
+  },
+  "attackers": [
+    {
+      "characterID": 96391692,
+      "characterName": "Lea Bastanold",
+      "corporationID": 98169165,
+      "corporationName": "Brave Newbies Inc.",
+      "allianceID": 99003214,
+      "allianceName": "Brave Collective",
+      "factionID": 0,
+      "factionName": "",
+      "securityStatus": 5,
+      "damageDone": 1447,
+      "finalBlow": 0,
+      "weaponTypeID": 4027,
+      "shipTypeID": 609
+    },
+    {
+      "characterID": 92467063,
+      "characterName": "Arkady Olenard",
+      "corporationID": 917701062,
+      "corporationName": "EVE University",
+      "allianceID": 937872513,
+      "allianceName": "Ivy League",
+      "factionID": 0,
+      "factionName": "",
+      "securityStatus": 0.1,
+      "damageDone": 665,
+      "finalBlow": 1,
+      "weaponTypeID": 2205,
+      "shipTypeID": 593
+    }
+  ],
+  "items": [
+    {
+      "typeID": 3170,
+      "flag": 29,
+      "qtyDropped": 1,
+      "qtyDestroyed": 0,
+      "singleton": 0
+    },
+    {
+      "typeID": 23009,
+      "flag": 27,
+      "qtyDropped": 0,
+      "qtyDestroyed": 120,
+      "singleton": 0
+    },
+    {
+      "typeID": 31358,
+      "flag": 93,
+      "qtyDropped": 0,
+      "qtyDestroyed": 1,
+      "singleton": 0
+    },
+    {
+      "typeID": 5973,
+      "flag": 19,
+      "qtyDropped": 0,
+      "qtyDestroyed": 1,
+      "singleton": 0
+    },
+    {
+      "typeID": 1405,
+      "flag": 13,
+      "qtyDropped": 0,
+      "qtyDestroyed": 1,
+      "singleton": 0
+    },
+    {
+      "typeID": 5443,
+      "flag": 21,
+      "qtyDropped": 0,
+      "qtyDestroyed": 1,
+      "singleton": 0
+    },
+    {
+      "typeID": 31159,
+      "flag": 92,
+      "qtyDropped": 0,
+      "qtyDestroyed": 1,
+      "singleton": 0
+    },
+    {
+      "typeID": 3170,
+      "flag": 27,
+      "qtyDropped": 0,
+      "qtyDestroyed": 1,
+      "singleton": 0
+    },
+    {
+      "typeID": 23707,
+      "flag": 87,
+      "qtyDropped": 0,
+      "qtyDestroyed": 1,
+      "singleton": 0
+    },
+    {
+      "typeID": 23707,
+      "flag": 87,
+      "qtyDropped": 1,
+      "qtyDestroyed": 0,
+      "singleton": 0
+    },
+    {
+      "typeID": 29007,
+      "flag": 20,
+      "qtyDropped": 1,
+      "qtyDestroyed": 0,
+      "singleton": 0
+    },
+    {
+      "typeID": 5320,
+      "flag": 20,
+      "qtyDropped": 0,
+      "qtyDestroyed": 1,
+      "singleton": 0
+    },
+    {
+      "typeID": 23009,
+      "flag": 29,
+      "qtyDropped": 120,
+      "qtyDestroyed": 0,
+      "singleton": 0
+    },
+    {
+      "typeID": 2048,
+      "flag": 12,
+      "qtyDropped": 1,
+      "qtyDestroyed": 0,
+      "singleton": 0
+    },
+    {
+      "typeID": 3170,
+      "flag": 28,
+      "qtyDropped": 1,
+      "qtyDestroyed": 0,
+      "singleton": 0
+    },
+    {
+      "typeID": 10190,
+      "flag": 11,
+      "qtyDropped": 1,
+      "qtyDestroyed": 0,
+      "singleton": 0
+    },
+    {
+      "typeID": 23009,
+      "flag": 28,
+      "qtyDropped": 0,
+      "qtyDestroyed": 120,
+      "singleton": 0
+    },
+    {
+      "typeID": 23009,
+      "flag": 5,
+      "qtyDropped": 559,
+      "qtyDestroyed": 0,
+      "singleton": 0
+    },
+    {
+      "typeID": 5137,
+      "flag": 30,
+      "qtyDropped": 1,
+      "qtyDestroyed": 0,
+      "singleton": 0
+    }
+  ],
+  "position": {
+    "y": 38963952810.856,
+    "x": 1782628857715.2,
+    "z": -1437632815846.9
+  },
+  "zkb": {
+    "locationID": 40254774,
+    "hash": "d6f6bbcceb49d3bff0c0930e5237a26325cd1870",
+    "totalValue": 26785393.93,
+    "points": 7
+  }
+}
