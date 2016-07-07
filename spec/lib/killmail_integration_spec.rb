@@ -72,8 +72,4 @@ describe KillmailIntegration do
   end
 
   it 'can parse large data file'
-
-  it 'finds or creates new citadel'
-
-  it 'retrieves old killmails'
 end
