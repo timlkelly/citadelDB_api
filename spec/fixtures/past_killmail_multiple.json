@@ -1,0 +1,64 @@
+  {
+    "killID": 54967580,
+    "solarSystemID": 31002238,
+    "killTime": "2016-07-06 02:07:55",
+    "moonID": 0,
+    "victim": {
+      "shipTypeID": 670,
+      "characterID": 90280627,
+      "characterName": "Timberwulf420",
+      "corporationID": 98341909,
+      "corporationName": "R3d Fire",
+      "allianceID": 99006390,
+      "allianceName": "Mouth Trumpet Cavalry",
+      "factionID": 0,
+      "factionName": "",
+      "damageTaken": 461
+    },
+    "attackers": [
+      {
+        "characterID": 0,
+        "characterName": "",
+        "corporationID": 98040755,
+        "corporationName": "Hard Knocks Inc.",
+        "allianceID": 0,
+        "allianceName": "",
+        "factionID": 0,
+        "factionName": "",
+        "securityStatus": 0,
+        "damageDone": 461,
+        "finalBlow": 0,
+        "weaponTypeID": 0,
+        "shipTypeID": 35834
+      },
+      {
+        "characterID": 1328637570,
+        "characterName": "TheBlueFox",
+        "corporationID": 595388333,
+        "corporationName": "Perpetua Umbra",
+        "allianceID": 2031941852,
+        "allianceName": "Interstellar Alcohol Conglomerate",
+        "factionID": 0,
+        "factionName": "",
+        "securityStatus": -2.1,
+        "damageDone": 0,
+        "finalBlow": 1,
+        "weaponTypeID": 15891,
+        "shipTypeID": 33673
+      }
+    ],
+    "items": [
+      
+    ],
+    "position": {
+      "y": -209243068.50834,
+      "x": -11435388276.651,
+      "z": 50987134868.135
+    },
+    "zkb": {
+      "locationID": 40474684,
+      "hash": "82c6284bfb59f87f148517cf2a49929a1f408524",
+      "totalValue": 10000,
+      "points": 1
+    }
+  }

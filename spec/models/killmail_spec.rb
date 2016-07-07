@@ -17,6 +17,31 @@ describe 'Killmail model' do
         expect(killmail.killmail_data['killID']).to eq(22)
       end
     end
+    context 'null package' do
+      let(:killmail_fixture) { File.read('./spec/fixtures/null_package.json') }
+      let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
+      it 'returns nil' do
+        expect(killmail.killmail_data).to eq(nil)
+      end
+    end
+  end
+
+  describe 'system_id_lookup' do
+    context 'given a valid system ID' do
+      let(:killmail) { Killmail.new }
+      it 'returns the system name' do
+        expect(killmail.system_id_lookup(30001291)).to eq('Y-4CFK')
+      end
+    end
+  end
+
+  describe 'citadel_type_lookup' do
+    context 'given shipTypeID' do
+      let(:killmail) { Killmail.new }
+      it 'returns the correct name' do
+        expect(killmail.citadel_type_lookup('35832')).to eq('Astrahus')
+      end
+    end
   end
 
   describe 'check_if_citadel' do
@@ -92,9 +117,6 @@ describe 'Killmail model' do
       let(:target) do
         {
           system: 'E8-YS9',
-          nearest_celestial_y_s: -3528973131527.2695,
-          nearest_celestial_x_s: 1455528965291.3196,
-          nearest_celestial_z_s: -307958392850.36145,
           citadel_type: 'Astrahus',
           corporation: 'Forge Industrial Command',
           alliance: 'FUBAR.',
@@ -111,9 +133,6 @@ describe 'Killmail model' do
       let(:target) do
         {
           system: 'Jaschercis',
-          nearest_celestial_y_s: 116721448927.0,
-          nearest_celestial_x_s: -808460360514.0,
-          nearest_celestial_z_s: -615629639132.0,
           citadel_type: 'Astrahus',
           corporation: 'Tokenada Technical Enterprises',
           alliance: nil,
@@ -124,31 +143,78 @@ describe 'Killmail model' do
         expect(killmail.generate_citadel_hash).to eq target
       end
     end
+    context 'it receives a null package' do
+      let(:killmail_fixture) { File.read('./spec/fixtures/null_package.json') }
+      let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
+      it 'does not generate citadel' do
+        expect do
+          killmail.find_or_create_citadel
+        end.to change(Citadel, :count).by 0
+      end
+    end
+  end
+
+  describe 'generate_citadel_hash_past' do
+    context 'receives valid killmail' do
+      let(:killmail_fixture) { File.read('./spec/fixtures/past_killmail.json') }
+      let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
+      let(:target) do
+        {
+          system: '6-4V20',
+          citadel_type: 'Fortizar',
+          corporation: 'Motiveless Malignity',
+          alliance: '',
+          killed_at: nil
+        }
+      end
+      it 'creates a hash to create a new citadel' do
+        expect(killmail.generate_citadel_hash_past).to eq(target)
+      end
+    end
+    context 'receives valid killmail with multiple attackers' do
+      let(:killmail_fixture) { File.read('./spec/fixtures/past_killmail_multiple.json') }
+      let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
+      let(:target) do
+        {
+          system: 'J115405',
+          citadel_type: 'Keepstar',
+          corporation: 'Hard Knocks Inc.',
+          alliance: '',
+          killed_at: nil
+        }
+      end
+      it 'creates a hash to create a new citadel' do
+        expect(killmail.generate_citadel_hash_past).to eq(target)
+      end
+    end
+    context 'receives valid deathmail' do
+      let(:killmail_fixture) { File.read('./spec/fixtures/past_mail_single.json') }
+      let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
+      let(:target) do
+        {
+          system: '93PI-4',
+          citadel_type: 'Astrahus',
+          corporation: 'Pandemic Horde Inc.',
+          alliance: 'Pandemic Horde',
+          killed_at: '2016-07-03 05:39:24'
+        }
+      end
+      it 'creates a hash to create a new citadel' do
+        expect(killmail.generate_citadel_hash_past).to eq(target)
+      end
+    end
   end
 
   describe 'find_or_create_citadel' do
-    let(:citadel_hash) do
-      {
-        system: 'E8-YS9',
-        nearest_celestial_y_s: -3528973131527.2695,
-        nearest_celestial_x_s: 1455528965291.3196,
-        nearest_celestial_z_s: -307958392850.36145,
-        citadel_type: 'Astrahus',
-        corporation: 'Forge Industrial Command',
-        alliance: 'FUBAR.',
-        killed_at: nil
-      }
-    end
-    let(:killmail) { Killmail.new }
+    let(:killmail_fixture) { File.read('./spec/fixtures/astrahus_killmail.json') }
+    let(:killmail_fixture2) { File.read('./spec/fixtures/astrahus_killmail.json') }
+    let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
+    let(:killmail2) { Killmail.new(killmail_json: killmail_fixture) }
     context 'citadel does not exist' do
       it 'creates a citadel instance' do
         temporarily do
-          allow(killmail).to receive(:generate_citadel_hash) { citadel_hash }
           citadel = killmail.find_or_create_citadel
           expect(citadel.system).to eq('E8-YS9')
-          expect(citadel.nearest_celestial_y).to eq(BigDecimal.new('-3528973131527.2695'))
-          expect(citadel.nearest_celestial_x).to eq(BigDecimal.new('1455528965291.3196'))
-          expect(citadel.nearest_celestial_z).to eq(BigDecimal.new('-307958392850.36145'))
           expect(citadel.citadel_type).to eq('Astrahus')
           expect(citadel.corporation).to eq('Forge Industrial Command')
           expect(citadel.alliance).to eq('FUBAR.')
@@ -160,14 +226,10 @@ describe 'Killmail model' do
     context 'citadel already exists' do
       it 'it does not create duplicate instance' do
         temporarily do
-          allow(killmail).to receive(:generate_citadel_hash) { citadel_hash }
-          Citadel.create(citadel_hash)
+          Citadel.create(killmail2.generate_citadel_hash)
           expect do
             citadel = killmail.find_or_create_citadel
             expect(citadel.system).to eq('E8-YS9')
-            expect(citadel.nearest_celestial_y).to eq(BigDecimal.new('-3528973131527.2695'))
-            expect(citadel.nearest_celestial_x).to eq(BigDecimal.new('1455528965291.3196'))
-            expect(citadel.nearest_celestial_z).to eq(BigDecimal.new('-307958392850.36145'))
             expect(citadel.citadel_type).to eq('Astrahus')
             expect(citadel.corporation).to eq('Forge Industrial Command')
             expect(citadel.alliance).to eq('FUBAR.')
@@ -215,4 +277,6 @@ describe 'Killmail model' do
       end
     end
   end
+
+  it 'updates citadel if destroyed'
 end

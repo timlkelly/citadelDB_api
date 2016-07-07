@@ -1,0 +1,1173 @@
+// 20160701155546
+// https://crest-tq.eveonline.com/killmails/54894005/b4fd10acae001361ad5bdce473036bbaa180777f/
+
+{
+  "solarSystem": {
+    "id_str": "30003691",
+    "href": "https://crest-tq.eveonline.com/solarsystems/30003691/",
+    "id": 30003691,
+    "name": "FIO1-8"
+  },
+  "killID": 54894005,
+  "killTime": "2016.07.01 20:35:58",
+  "attackers": [
+    {
+      "shipType": {
+        "id_str": "35833",
+        "href": "https://crest-tq.eveonline.com/inventory/types/35833/",
+        "id": 35833,
+        "name": "Fortizar",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Type/35833_128.png"
+        }
+      },
+      "corporation": {
+        "id_str": "1230876195",
+        "href": "https://crest-tq.eveonline.com/corporations/1230876195/",
+        "id": 1230876195,
+        "name": "Pwn 'N Play",
+        "icon": {
+          "href": "http://imageserver.eveonline.com/Corporation/1230876195_128.png"
+        }
+      },
+      "damageDone_str": "866",
+      "finalBlow": true,
+      "securityStatus": 0.0,
+      "damageDone": 866
+    }
+  ],
+  "attackerCount": 1,
+  "victim": {
+    "damageTaken": 866,
+    "items": [
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "30013",
+          "href": "https://crest-tq.eveonline.com/inventory/types/30013/",
+          "id": 30013,
+          "name": "Core Scanner Probe I",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/30013_128.png"
+          }
+        },
+        "quantityDestroyed_str": "62",
+        "flag": 5,
+        "flag_str": "5",
+        "singleton_str": "0",
+        "quantityDestroyed": 62
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "30013",
+          "href": "https://crest-tq.eveonline.com/inventory/types/30013/",
+          "id": 30013,
+          "name": "Core Scanner Probe I",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/30013_128.png"
+          }
+        },
+        "quantityDropped_str": "4",
+        "flag": 5,
+        "singleton_str": "0",
+        "quantityDropped": 4,
+        "flag_str": "5"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "25588",
+          "href": "https://crest-tq.eveonline.com/inventory/types/25588/",
+          "id": 25588,
+          "name": "Scorched Telemetry Processor",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/25588_128.png"
+          }
+        },
+        "quantityDropped_str": "33",
+        "flag": 5,
+        "singleton_str": "0",
+        "quantityDropped": 33,
+        "flag_str": "5"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "25607",
+          "href": "https://crest-tq.eveonline.com/inventory/types/25607/",
+          "id": 25607,
+          "name": "Telemetry Processor",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/25607_128.png"
+          }
+        },
+        "quantityDropped_str": "13",
+        "flag": 5,
+        "singleton_str": "0",
+        "quantityDropped": 13,
+        "flag_str": "5"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "34201",
+          "href": "https://crest-tq.eveonline.com/inventory/types/34201/",
+          "id": 34201,
+          "name": "Accelerant Decryptor",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/34201_128.png"
+          }
+        },
+        "quantityDestroyed_str": "1",
+        "flag": 5,
+        "flag_str": "5",
+        "singleton_str": "0",
+        "quantityDestroyed": 1
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "34201",
+          "href": "https://crest-tq.eveonline.com/inventory/types/34201/",
+          "id": 34201,
+          "name": "Accelerant Decryptor",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/34201_128.png"
+          }
+        },
+        "quantityDropped_str": "2",
+        "flag": 5,
+        "singleton_str": "0",
+        "quantityDropped": 2,
+        "flag_str": "5"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "23165",
+          "href": "https://crest-tq.eveonline.com/inventory/types/23165/",
+          "id": 23165,
+          "name": "Heat Depressor",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/23165_128.png"
+          }
+        },
+        "quantityDestroyed_str": "71",
+        "flag": 5,
+        "flag_str": "5",
+        "singleton_str": "0",
+        "quantityDestroyed": 71
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "23165",
+          "href": "https://crest-tq.eveonline.com/inventory/types/23165/",
+          "id": 23165,
+          "name": "Heat Depressor",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/23165_128.png"
+          }
+        },
+        "quantityDropped_str": "23",
+        "flag": 5,
+        "singleton_str": "0",
+        "quantityDropped": 23,
+        "flag_str": "5"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "20418",
+          "href": "https://crest-tq.eveonline.com/inventory/types/20418/",
+          "id": 20418,
+          "name": "Datacore - Electronic Engineering",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/20418_128.png"
+          }
+        },
+        "quantityDropped_str": "8",
+        "flag": 5,
+        "singleton_str": "0",
+        "quantityDropped": 8,
+        "flag_str": "5"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "1403",
+          "href": "https://crest-tq.eveonline.com/inventory/types/1403/",
+          "id": 1403,
+          "name": "Inertial Stabilizers I",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/1403_128.png"
+          }
+        },
+        "quantityDestroyed_str": "1",
+        "flag": 11,
+        "flag_str": "11",
+        "singleton_str": "0",
+        "quantityDestroyed": 1
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "34207",
+          "href": "https://crest-tq.eveonline.com/inventory/types/34207/",
+          "id": 34207,
+          "name": "Optimized Attainment Decryptor",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/34207_128.png"
+          }
+        },
+        "quantityDropped_str": "1",
+        "flag": 5,
+        "singleton_str": "0",
+        "quantityDropped": 1,
+        "flag_str": "5"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "23121",
+          "href": "https://crest-tq.eveonline.com/inventory/types/23121/",
+          "id": 23121,
+          "name": "Gallente Encryption Methods",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/23121_128.png"
+          }
+        },
+        "quantityDestroyed_str": "1",
+        "flag": 5,
+        "flag_str": "5",
+        "singleton_str": "0",
+        "quantityDestroyed": 1
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "23130",
+          "href": "https://crest-tq.eveonline.com/inventory/types/23130/",
+          "id": 23130,
+          "name": "Yan Jung Thunder Kite",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/23130_128.png"
+          }
+        },
+        "quantityDropped_str": "1",
+        "flag": 5,
+        "singleton_str": "0",
+        "quantityDropped": 1,
+        "flag_str": "5"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "25600",
+          "href": "https://crest-tq.eveonline.com/inventory/types/25600/",
+          "id": 25600,
+          "name": "Burned Logic Circuit",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/25600_128.png"
+          }
+        },
+        "quantityDropped_str": "286",
+        "flag": 5,
+        "singleton_str": "0",
+        "quantityDropped": 286,
+        "flag_str": "5"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "25619",
+          "href": "https://crest-tq.eveonline.com/inventory/types/25619/",
+          "id": 25619,
+          "name": "Logic Circuit",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/25619_128.png"
+          }
+        },
+        "quantityDropped_str": "13",
+        "flag": 5,
+        "singleton_str": "0",
+        "quantityDropped": 13,
+        "flag_str": "5"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "20412",
+          "href": "https://crest-tq.eveonline.com/inventory/types/20412/",
+          "id": 20412,
+          "name": "Datacore - Plasma Physics",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/20412_128.png"
+          }
+        },
+        "quantityDestroyed_str": "10",
+        "flag": 5,
+        "flag_str": "5",
+        "singleton_str": "0",
+        "quantityDestroyed": 10
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "25596",
+          "href": "https://crest-tq.eveonline.com/inventory/types/25596/",
+          "id": 25596,
+          "name": "Broken Drone Transceiver",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/25596_128.png"
+          }
+        },
+        "quantityDropped_str": "114",
+        "flag": 5,
+        "singleton_str": "0",
+        "quantityDropped": 114,
+        "flag_str": "5"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "33195",
+          "href": "https://crest-tq.eveonline.com/inventory/types/33195/",
+          "id": 33195,
+          "name": "Spatial Attunement Unit",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/33195_128.png"
+          }
+        },
+        "quantityDestroyed_str": "10",
+        "flag": 5,
+        "flag_str": "5",
+        "singleton_str": "0",
+        "quantityDestroyed": 10
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "25610",
+          "href": "https://crest-tq.eveonline.com/inventory/types/25610/",
+          "id": 25610,
+          "name": "Lorentz Fluid",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/25610_128.png"
+          }
+        },
+        "quantityDestroyed_str": "12",
+        "flag": 5,
+        "flag_str": "5",
+        "singleton_str": "0",
+        "quantityDestroyed": 12
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "17895",
+          "href": "https://crest-tq.eveonline.com/inventory/types/17895/",
+          "id": 17895,
+          "name": "High-Tech Manufacturing Tools",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/17895_128.png"
+          }
+        },
+        "quantityDropped_str": "1",
+        "flag": 5,
+        "singleton_str": "0",
+        "quantityDropped": 1,
+        "flag_str": "5"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "11577",
+          "href": "https://crest-tq.eveonline.com/inventory/types/11577/",
+          "id": 11577,
+          "name": "Improved Cloaking Device II",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/11577_128.png"
+          }
+        },
+        "quantityDropped_str": "1",
+        "flag": 27,
+        "singleton_str": "0",
+        "quantityDropped": 1,
+        "flag_str": "27"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "31153",
+          "href": "https://crest-tq.eveonline.com/inventory/types/31153/",
+          "id": 31153,
+          "name": "Small Low Friction Nozzle Joints I",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/31153_128.png"
+          }
+        },
+        "quantityDestroyed_str": "1",
+        "flag": 93,
+        "flag_str": "93",
+        "singleton_str": "0",
+        "quantityDestroyed": 1
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "17938",
+          "href": "https://crest-tq.eveonline.com/inventory/types/17938/",
+          "id": 17938,
+          "name": "Core Probe Launcher I",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/17938_128.png"
+          }
+        },
+        "quantityDropped_str": "1",
+        "flag": 28,
+        "singleton_str": "0",
+        "quantityDropped": 1,
+        "flag_str": "28"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "25599",
+          "href": "https://crest-tq.eveonline.com/inventory/types/25599/",
+          "id": 25599,
+          "name": "Charred Micro Circuit",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/25599_128.png"
+          }
+        },
+        "quantityDestroyed_str": "104",
+        "flag": 5,
+        "flag_str": "5",
+        "singleton_str": "0",
+        "quantityDestroyed": 104
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "25617",
+          "href": "https://crest-tq.eveonline.com/inventory/types/25617/",
+          "id": 25617,
+          "name": "Power Circuit",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/25617_128.png"
+          }
+        },
+        "quantityDestroyed_str": "4",
+        "flag": 5,
+        "flag_str": "5",
+        "singleton_str": "0",
+        "quantityDestroyed": 4
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "20424",
+          "href": "https://crest-tq.eveonline.com/inventory/types/20424/",
+          "id": 20424,
+          "name": "Datacore - Mechanical Engineering",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/20424_128.png"
+          }
+        },
+        "quantityDestroyed_str": "4",
+        "flag": 5,
+        "flag_str": "5",
+        "singleton_str": "0",
+        "quantityDestroyed": 4
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "20424",
+          "href": "https://crest-tq.eveonline.com/inventory/types/20424/",
+          "id": 20424,
+          "name": "Datacore - Mechanical Engineering",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/20424_128.png"
+          }
+        },
+        "quantityDropped_str": "28",
+        "flag": 5,
+        "singleton_str": "0",
+        "quantityDropped": 28,
+        "flag_str": "5"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "20410",
+          "href": "https://crest-tq.eveonline.com/inventory/types/20410/",
+          "id": 20410,
+          "name": "Datacore - Gallentean Starship Engineering",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/20410_128.png"
+          }
+        },
+        "quantityDestroyed_str": "8",
+        "flag": 5,
+        "flag_str": "5",
+        "singleton_str": "0",
+        "quantityDestroyed": 8
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "25604",
+          "href": "https://crest-tq.eveonline.com/inventory/types/25604/",
+          "id": 25604,
+          "name": "Conductive Polymer",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/25604_128.png"
+          }
+        },
+        "quantityDropped_str": "156",
+        "flag": 5,
+        "singleton_str": "0",
+        "quantityDropped": 156,
+        "flag_str": "5"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "25623",
+          "href": "https://crest-tq.eveonline.com/inventory/types/25623/",
+          "id": 25623,
+          "name": "Conductive Thermoplastic",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/25623_128.png"
+          }
+        },
+        "quantityDestroyed_str": "4",
+        "flag": 5,
+        "flag_str": "5",
+        "singleton_str": "0",
+        "quantityDestroyed": 4
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "34204",
+          "href": "https://crest-tq.eveonline.com/inventory/types/34204/",
+          "id": 34204,
+          "name": "Parity Decryptor",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/34204_128.png"
+          }
+        },
+        "quantityDestroyed_str": "2",
+        "flag": 5,
+        "flag_str": "5",
+        "singleton_str": "0",
+        "quantityDestroyed": 2
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "25597",
+          "href": "https://crest-tq.eveonline.com/inventory/types/25597/",
+          "id": 25597,
+          "name": "Damaged Artificial Neural Network",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/25597_128.png"
+          }
+        },
+        "quantityDropped_str": "230",
+        "flag": 5,
+        "singleton_str": "0",
+        "quantityDropped": 230,
+        "flag_str": "5"
+      },
+      {
+        "singleton": 2,
+        "itemType": {
+          "id_str": "32096",
+          "href": "https://crest-tq.eveonline.com/inventory/types/32096/",
+          "id": 32096,
+          "name": "Medium Stasis Drone Augmentor II Blueprint",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/32096_128.png"
+          }
+        },
+        "quantityDestroyed_str": "1",
+        "flag": 5,
+        "flag_str": "5",
+        "singleton_str": "2",
+        "quantityDestroyed": 1
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "15331",
+          "href": "https://crest-tq.eveonline.com/inventory/types/15331/",
+          "id": 15331,
+          "name": "Metal Scraps",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/15331_128.png"
+          }
+        },
+        "quantityDestroyed_str": "3",
+        "flag": 5,
+        "flag_str": "5",
+        "singleton_str": "0",
+        "quantityDestroyed": 3
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "25616",
+          "href": "https://crest-tq.eveonline.com/inventory/types/25616/",
+          "id": 25616,
+          "name": "Artificial Neural Network",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/25616_128.png"
+          }
+        },
+        "quantityDestroyed_str": "4",
+        "flag": 5,
+        "flag_str": "5",
+        "singleton_str": "0",
+        "quantityDestroyed": 4
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "34205",
+          "href": "https://crest-tq.eveonline.com/inventory/types/34205/",
+          "id": 34205,
+          "name": "Process Decryptor",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/34205_128.png"
+          }
+        },
+        "quantityDropped_str": "1",
+        "flag": 5,
+        "singleton_str": "0",
+        "quantityDropped": 1,
+        "flag_str": "5"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "22175",
+          "href": "https://crest-tq.eveonline.com/inventory/types/22175/",
+          "id": 22175,
+          "name": "Data Analyzer I",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/22175_128.png"
+          }
+        },
+        "quantityDestroyed_str": "1",
+        "flag": 19,
+        "flag_str": "19",
+        "singleton_str": "0",
+        "quantityDestroyed": 1
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "34206",
+          "href": "https://crest-tq.eveonline.com/inventory/types/34206/",
+          "id": 34206,
+          "name": "Symmetry Decryptor",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/34206_128.png"
+          }
+        },
+        "quantityDestroyed_str": "1",
+        "flag": 5,
+        "flag_str": "5",
+        "singleton_str": "0",
+        "quantityDestroyed": 1
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "30832",
+          "href": "https://crest-tq.eveonline.com/inventory/types/30832/",
+          "id": 30832,
+          "name": "Relic Analyzer II",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/30832_128.png"
+          }
+        },
+        "quantityDropped_str": "1",
+        "flag": 20,
+        "singleton_str": "0",
+        "quantityDropped": 1,
+        "flag_str": "20"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "31213",
+          "href": "https://crest-tq.eveonline.com/inventory/types/31213/",
+          "id": 31213,
+          "name": "Small Gravity Capacitor Upgrade I",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/31213_128.png"
+          }
+        },
+        "quantityDestroyed_str": "1",
+        "flag": 92,
+        "flag_str": "92",
+        "singleton_str": "0",
+        "quantityDestroyed": 1
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "25591",
+          "href": "https://crest-tq.eveonline.com/inventory/types/25591/",
+          "id": 25591,
+          "name": "Contaminated Lorentz Fluid",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/25591_128.png"
+          }
+        },
+        "quantityDestroyed_str": "56",
+        "flag": 5,
+        "flag_str": "5",
+        "singleton_str": "0",
+        "quantityDestroyed": 56
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "25606",
+          "href": "https://crest-tq.eveonline.com/inventory/types/25606/",
+          "id": 25606,
+          "name": "Ward Console",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/25606_128.png"
+          }
+        },
+        "quantityDropped_str": "34",
+        "flag": 5,
+        "singleton_str": "0",
+        "quantityDropped": 34,
+        "flag_str": "5"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "23164",
+          "href": "https://crest-tq.eveonline.com/inventory/types/23164/",
+          "id": 23164,
+          "name": "Second-hand Parts",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/23164_128.png"
+          }
+        },
+        "quantityDestroyed_str": "163",
+        "flag": 5,
+        "flag_str": "5",
+        "singleton_str": "0",
+        "quantityDestroyed": 163
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "23164",
+          "href": "https://crest-tq.eveonline.com/inventory/types/23164/",
+          "id": 23164,
+          "name": "Second-hand Parts",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/23164_128.png"
+          }
+        },
+        "quantityDropped_str": "119",
+        "flag": 5,
+        "singleton_str": "0",
+        "quantityDropped": 119,
+        "flag_str": "5"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "25615",
+          "href": "https://crest-tq.eveonline.com/inventory/types/25615/",
+          "id": 25615,
+          "name": "Drone Transceiver",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/25615_128.png"
+          }
+        },
+        "quantityDestroyed_str": "29",
+        "flag": 5,
+        "flag_str": "5",
+        "singleton_str": "0",
+        "quantityDestroyed": 29
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "2603",
+          "href": "https://crest-tq.eveonline.com/inventory/types/2603/",
+          "id": 2603,
+          "name": "Nanofiber Internal Structure I",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/2603_128.png"
+          }
+        },
+        "quantityDestroyed_str": "1",
+        "flag": 14,
+        "flag_str": "14",
+        "singleton_str": "0",
+        "quantityDestroyed": 1
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "30013",
+          "href": "https://crest-tq.eveonline.com/inventory/types/30013/",
+          "id": 30013,
+          "name": "Core Scanner Probe I",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/30013_128.png"
+          }
+        },
+        "quantityDropped_str": "8",
+        "flag": 28,
+        "singleton_str": "0",
+        "quantityDropped": 8,
+        "flag_str": "28"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "34202",
+          "href": "https://crest-tq.eveonline.com/inventory/types/34202/",
+          "id": 34202,
+          "name": "Attainment Decryptor",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/34202_128.png"
+          }
+        },
+        "quantityDestroyed_str": "2",
+        "flag": 5,
+        "flag_str": "5",
+        "singleton_str": "0",
+        "quantityDestroyed": 2
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "25620",
+          "href": "https://crest-tq.eveonline.com/inventory/types/25620/",
+          "id": 25620,
+          "name": "Interface Circuit",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/25620_128.png"
+          }
+        },
+        "quantityDropped_str": "8",
+        "flag": 5,
+        "singleton_str": "0",
+        "quantityDropped": 8,
+        "flag_str": "5"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "2603",
+          "href": "https://crest-tq.eveonline.com/inventory/types/2603/",
+          "id": 2603,
+          "name": "Nanofiber Internal Structure I",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/2603_128.png"
+          }
+        },
+        "quantityDestroyed_str": "1",
+        "flag": 13,
+        "flag_str": "13",
+        "singleton_str": "0",
+        "quantityDestroyed": 1
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "9826",
+          "href": "https://crest-tq.eveonline.com/inventory/types/9826/",
+          "id": 9826,
+          "name": "Carbon",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/9826_128.png"
+          }
+        },
+        "quantityDestroyed_str": "20",
+        "flag": 5,
+        "flag_str": "5",
+        "singleton_str": "0",
+        "quantityDestroyed": 20
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "9826",
+          "href": "https://crest-tq.eveonline.com/inventory/types/9826/",
+          "id": 9826,
+          "name": "Carbon",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/9826_128.png"
+          }
+        },
+        "quantityDropped_str": "4",
+        "flag": 5,
+        "singleton_str": "0",
+        "quantityDropped": 4,
+        "flag_str": "5"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "25589",
+          "href": "https://crest-tq.eveonline.com/inventory/types/25589/",
+          "id": 25589,
+          "name": "Malfunctioning Shield Emitter",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/25589_128.png"
+          }
+        },
+        "quantityDropped_str": "207",
+        "flag": 5,
+        "singleton_str": "0",
+        "quantityDropped": 207,
+        "flag_str": "5"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "23166",
+          "href": "https://crest-tq.eveonline.com/inventory/types/23166/",
+          "id": 23166,
+          "name": "Internal Bulkhead",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/23166_128.png"
+          }
+        },
+        "quantityDestroyed_str": "34",
+        "flag": 5,
+        "flag_str": "5",
+        "singleton_str": "0",
+        "quantityDestroyed": 34
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "25608",
+          "href": "https://crest-tq.eveonline.com/inventory/types/25608/",
+          "id": 25608,
+          "name": "Intact Shield Emitter",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/25608_128.png"
+          }
+        },
+        "quantityDropped_str": "3",
+        "flag": 5,
+        "singleton_str": "0",
+        "quantityDropped": 3,
+        "flag_str": "5"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "34203",
+          "href": "https://crest-tq.eveonline.com/inventory/types/34203/",
+          "id": 34203,
+          "name": "Augmentation Decryptor",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/34203_128.png"
+          }
+        },
+        "quantityDestroyed_str": "4",
+        "flag": 5,
+        "flag_str": "5",
+        "singleton_str": "0",
+        "quantityDestroyed": 4
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "34203",
+          "href": "https://crest-tq.eveonline.com/inventory/types/34203/",
+          "id": 34203,
+          "name": "Augmentation Decryptor",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/34203_128.png"
+          }
+        },
+        "quantityDropped_str": "2",
+        "flag": 5,
+        "singleton_str": "0",
+        "quantityDropped": 2,
+        "flag_str": "5"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "434",
+          "href": "https://crest-tq.eveonline.com/inventory/types/434/",
+          "id": 434,
+          "name": "5MN Microwarpdrive I",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/434_128.png"
+          }
+        },
+        "quantityDestroyed_str": "1",
+        "flag": 21,
+        "flag_str": "21",
+        "singleton_str": "0",
+        "quantityDestroyed": 1
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "25625",
+          "href": "https://crest-tq.eveonline.com/inventory/types/25625/",
+          "id": 25625,
+          "name": "Enhanced Ward Console",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/25625_128.png"
+          }
+        },
+        "quantityDropped_str": "5",
+        "flag": 5,
+        "singleton_str": "0",
+        "quantityDropped": 5,
+        "flag_str": "5"
+      },
+      {
+        "singleton": 2,
+        "itemType": {
+          "id_str": "31545",
+          "href": "https://crest-tq.eveonline.com/inventory/types/31545/",
+          "id": 31545,
+          "name": "Small Hybrid Collision Accelerator II Blueprint",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/31545_128.png"
+          }
+        },
+        "quantityDropped_str": "1",
+        "flag": 5,
+        "singleton_str": "2",
+        "quantityDropped": 1,
+        "flag_str": "5"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "25618",
+          "href": "https://crest-tq.eveonline.com/inventory/types/25618/",
+          "id": 25618,
+          "name": "Micro Circuit",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/25618_128.png"
+          }
+        },
+        "quantityDropped_str": "19",
+        "flag": 5,
+        "singleton_str": "0",
+        "quantityDropped": 19,
+        "flag_str": "5"
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "25598",
+          "href": "https://crest-tq.eveonline.com/inventory/types/25598/",
+          "id": 25598,
+          "name": "Tripped Power Circuit",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/25598_128.png"
+          }
+        },
+        "quantityDestroyed_str": "130",
+        "flag": 5,
+        "flag_str": "5",
+        "singleton_str": "0",
+        "quantityDestroyed": 130
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "25601",
+          "href": "https://crest-tq.eveonline.com/inventory/types/25601/",
+          "id": 25601,
+          "name": "Fried Interface Circuit",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/25601_128.png"
+          }
+        },
+        "quantityDestroyed_str": "88",
+        "flag": 5,
+        "flag_str": "5",
+        "singleton_str": "0",
+        "quantityDestroyed": 88
+      },
+      {
+        "singleton": 0,
+        "itemType": {
+          "id_str": "1403",
+          "href": "https://crest-tq.eveonline.com/inventory/types/1403/",
+          "id": 1403,
+          "name": "Inertial Stabilizers I",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/1403_128.png"
+          }
+        },
+        "quantityDropped_str": "1",
+        "flag": 12,
+        "singleton_str": "0",
+        "quantityDropped": 1,
+        "flag_str": "12"
+      }
+    ],
+    "damageTaken_str": "866",
+    "character": {
+      "id_str": "96380417",
+      "href": "https://crest-tq.eveonline.com/characters/96380417/",
+      "id": 96380417,
+      "name": "Animatie Amphal",
+      "icon": {
+        "href": "http://imageserver.eveonline.com/Character/96380417_128.jpg"
+      }
+    },
+    "shipType": {
+      "id_str": "29248",
+      "href": "https://crest-tq.eveonline.com/inventory/types/29248/",
+      "id": 29248,
+      "name": "Magnate",
+      "icon": {
+        "href": "http://imageserver.eveonline.com/Type/29248_128.png"
+      }
+    },
+    "corporation": {
+      "id_str": "98453375",
+      "href": "https://crest-tq.eveonline.com/corporations/98453375/",
+      "id": 98453375,
+      "name": "Longship Expeditions",
+      "icon": {
+        "href": "http://imageserver.eveonline.com/Corporation/98453375_128.png"
+      }
+    },
+    "position": {
+      "y": -54870179323.86591,
+      "x": 810066507730.3378,
+      "z": 992591755949.3457
+    }
+  },
+  "killID_str": "54894005",
+  "attackerCount_str": "1",
+  "war": {
+    "href": "https://crest-tq.eveonline.com/wars/0/",
+    "id": 0,
+    "id_str": "0"
+  }
+}

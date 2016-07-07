@@ -11,28 +11,42 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160629161944) do
+ActiveRecord::Schema.define(version: 20160706211951) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "citadels", force: :cascade do |t|
     t.string   "system"
-    t.string   "nearest_celestial_y_s"
-    t.string   "nearest_celestial_x_s"
-    t.string   "nearest_celestial_z_s"
     t.string   "citadel_type"
     t.string   "corporation"
     t.string   "alliance"
     t.string   "killed_at"
-    t.datetime "created_at",            null: false
-    t.datetime "updated_at",            null: false
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
   end
 
   create_table "killmails", force: :cascade do |t|
-    t.integer "citadel_id"
-    t.integer "killmail_id"
-    t.json    "killmail_json"
+    t.integer  "citadel_id"
+    t.integer  "killmail_id"
+    t.json     "killmail_json"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
+  end
+
+  create_table "regions", force: :cascade do |t|
+    t.integer  "region_id"
+    t.string   "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "systems", force: :cascade do |t|
+    t.integer  "region"
+    t.integer  "system_id"
+    t.string   "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end

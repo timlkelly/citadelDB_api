@@ -5,7 +5,6 @@ describe 'Citadel model' do
   let(:valid_attributes) do 
     { 
       system: 'Y-4CFK',
-      nearest_celestial: '6NJ stargate',
       citadel_type: 'Astrahus',
       corporation: 'TMLK'
     }
@@ -14,7 +13,8 @@ describe 'Citadel model' do
   it 'creates a new instance' do
     temporarily do  
       expect do
-        Citadel.create(valid_attributes)
+        test = Citadel.create(valid_attributes)
+        puts test.errors.full_messages
       end.to change(Citadel, :count).by 1
     end
   end
