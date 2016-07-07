@@ -51,25 +51,22 @@ describe KillmailIntegration do
     end
   end
   describe 'json_to_killmail' do
-    let(:json_data) { File.read('./spec/fixtures/past_mail.json') }
-    context 'it receives json with multiple Killmails' do
-      it 'creates multiple killmail objects' do
-        temporarily do
-          KillmailIntegration.new.json_to_killmail(json_data)
-          expect(Killmail.count).to be > 1
-          expect(Citadel.count).to be > 1
-        end
+    # let(:url) { ['https://zkillboard.com/api/kills/shipTypeID/35832/page/1/'] }
+    # context 'it receives json with multiple Killmails' do
+    #   it 'creates multiple killmail objects' do
+    #     temporarily do
+    #       KillmailIntegration.new.json_to_killmail(url)
+    #       expect(Killmail.count).to be > 1
+    #       expect(Citadel.count).to be > 1
+    #     end
+    #   end
+    # end
+  end
+  describe 'create_url_array' do
+    context 'creates urls for past api requests' do
+      it 'returns the first url' do
+        expect(KillmailIntegration.new.create_url_array.first).to eq('https://zkillboard.com/api/kills/shipTypeID/35832/page/1/')
       end
     end
   end
-  describe 'fetch_past_killmails' do
-    it 'Astrahus killmails'
-    it 'Astrahus deathmails'
-    it 'Fortizar killmails'
-    it 'Fortizar deathmails'
-    it 'Keepstar killmails'
-    it 'Keepstar deathmails'
-  end
-
-  it 'can parse large data file'
 end

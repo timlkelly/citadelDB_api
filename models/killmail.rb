@@ -13,8 +13,6 @@ class Killmail < ActiveRecord::Base
   end
 
   def system_id_lookup(id)
-    pp id
-    pp System.where(system_id: id)
     System.where(system_id: id).first.name
   end
 

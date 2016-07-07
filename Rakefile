@@ -28,21 +28,18 @@ namespace :fetch do
     puts 'listening...'
     log = ActiveSupport::Logger.new('./log/listen_service.log')
     start_time = Time.now
-    citadel_count = Citadel.count
-    killmail_count = Killmail.count
+    log.info 'Begin log:'
     log.info "Listen task started at #{start_time}."
     
-    t = KillmailIntegration.new
-    b = Killmail.new(killmail_json: t.fetch_killmail)
-    pp t.parse_killmail
-    # pp b.killmail_data
-    # pp b.killmail_data['killmail']['victim']['shipType']['name']
+    KillmailIntegration.new.parse_killmail
 
+    citadel_count = Citadel.count
+    killmail_count = Killmail.count
     end_time = Time.now
     duration = (start_time - end_time) / 1.minute
     log.info "Task finished at #{end_time} and last #{duration} minutes."
     log.close
-    put 'complete'
+    puts 'complete'
   end
 
   desc 'Pull past killmails'
