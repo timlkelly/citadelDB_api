@@ -12,7 +12,16 @@ class KillmailIntegration
   def json_to_killmail(json_data)
     json_parsed = JSON.parse(json_data)
     json_parsed.each do |km|
-      Killmail.new(killmail_json: km).generate_citadel_hash_past
+      Killmail.new(killmail_json: km).save_if_relevant_past
     end
   end
 end
+
+# 'http://zkillboard.com/api'
+# '/kills'
+# '/losses'
+# '/shipTypeID'
+# '/35832/'
+# '/35833/'
+# '/35834/'
+# '/35835/'

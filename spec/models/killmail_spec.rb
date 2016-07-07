@@ -119,8 +119,7 @@ describe 'Killmail model' do
           system: 'E8-YS9',
           citadel_type: 'Astrahus',
           corporation: 'Forge Industrial Command',
-          alliance: 'FUBAR.',
-          killed_at: nil
+          alliance: 'FUBAR.'
         }
       end
       it 'creates a hash for creating a new citadel' do
@@ -163,8 +162,7 @@ describe 'Killmail model' do
           system: '6-4V20',
           citadel_type: 'Fortizar',
           corporation: 'Motiveless Malignity',
-          alliance: '',
-          killed_at: nil
+          alliance: ''
         }
       end
       it 'creates a hash to create a new citadel' do
@@ -179,8 +177,7 @@ describe 'Killmail model' do
           system: 'J115405',
           citadel_type: 'Keepstar',
           corporation: 'Hard Knocks Inc.',
-          alliance: '',
-          killed_at: nil
+          alliance: ''
         }
       end
       it 'creates a hash to create a new citadel' do
@@ -239,6 +236,22 @@ describe 'Killmail model' do
         end
       end
     end
+    context 'citadel exists and is later destroyed' do
+      let(:killmail_fixture) { File.read('./spec/fixtures/astrahus_killmail_predeathmail.json') }
+      let(:deathmail_fixture) { File.read('./spec/fixtures/astrahus_deathmail.json') }
+      let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
+      let(:deathmail) { Killmail.new(killmail_json: deathmail_fixture) }
+      it 'updates the citadel' do
+        temporarily do
+          expect do
+            killmail.find_or_create_citadel
+            deathmail.find_or_create_citadel                    
+          end.to change(Citadel, :count).by 1
+          citadel = killmail.find_or_create_citadel    
+          expect(citadel.killed_at).to eq('2016.06.29 03:26:16')
+        end
+      end
+    end
   end
 
   describe 'find_or_create_citadel_past' do
@@ -272,6 +285,22 @@ describe 'Killmail model' do
             expect(citadel.alliance).to eq('Pandemic Horde')
             expect(citadel.killed_at).to eq('2016-07-03 05:39:24')
           end.to change(Citadel, :count).by 0
+        end
+      end
+    end
+    context 'citadel exists and is later destroyed' do
+      let(:killmail_fixture) { File.read('./spec/fixtures/past_killmail_updated.json') }
+      let(:deathmail_fixture) { File.read('./spec/fixtures/past_deathmail.json') }
+      let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
+      let(:deathmail) { Killmail.new(killmail_json: deathmail_fixture) }
+      temporarily do
+        it 'updates the citadel' do
+          expect do
+            killmail.find_or_create_citadel_past
+            deathmail.find_or_create_citadel_past
+          end.to change(Citadel, :count).by 1
+          citadel = killmail.find_or_create_citadel_past
+          expect(citadel.killed_at).to eq('2016-07-07 00:49:58')
         end
       end
     end
@@ -350,10 +379,6 @@ describe 'Killmail model' do
       end
     end
   end
-
-  it 'parses large api return'
-
-  it 'updates citadel if destroyed'
 
   it 'add region?'
 end

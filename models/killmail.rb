@@ -80,8 +80,7 @@ class Killmail < ActiveRecord::Base
         attacker_hash = {
           system: killmail_data['solarSystem']['name'],
           citadel_type: attacker['shipType']['name'],
-          corporation: attacker['corporation']['name'],
-          killed_at: nil
+          corporation: attacker['corporation']['name']
         }
         if attacker['alliance']
           attacker_hash[:alliance] = attacker['alliance']['name']
@@ -89,7 +88,7 @@ class Killmail < ActiveRecord::Base
           attacker_hash[:alliance] = nil
         end
       else
-        return false
+        return {}
       end
     end
     attacker_hash
@@ -104,8 +103,7 @@ class Killmail < ActiveRecord::Base
           system: system_id_lookup(killmail_data['solarSystemID']),
           citadel_type: citadel_type_lookup(attacker['shipTypeID'].to_s),
           corporation: attacker['corporationName'],
-          alliance: attacker['allianceName'],
-          killed_at: nil
+          alliance: attacker['allianceName']
         }
       end
     end
@@ -144,17 +142,23 @@ class Killmail < ActiveRecord::Base
 
   def find_or_create_citadel
     return false if killmail_data.nil?
-    citadel = Citadel.where(generate_citadel_hash).first
+    citadel = Citadel.where(generate_citadel_hash.except(:killed_at)).first
     unless citadel
       citadel = Citadel.create(generate_citadel_hash)
+    end
+    if citadel_victim?
+      citadel.update_attribute(:killed_at, killmail_data['killTime'])
     end
     citadel
   end
 
   def find_or_create_citadel_past
-    citadel = Citadel.where(generate_citadel_hash_past).first
+    citadel = Citadel.where(generate_citadel_hash_past.except(:killed_at)).first
     unless citadel
       citadel = Citadel.create(generate_citadel_hash_past)
+    end
+    if citadel_victim_past?
+      citadel.update_attribute(:killed_at, killmail_data['killTime'])
     end
     citadel
   end
@@ -166,8 +170,6 @@ class Killmail < ActiveRecord::Base
   end
 
   def save_if_relevant_past
-
-    pp find_or_create_citadel_past
     self.citadel_id = find_or_create_citadel_past.id
     self.killmail_id = killmail_data['killID']
     save

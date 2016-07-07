@@ -11,7 +11,6 @@ describe KillmailIntegration do
     #   end
     # end
   end
-
   describe 'parse_killmail' do
     let(:killmail_fixture) { File.read('./spec/fixtures/duplicate_killmail.json') }
     let(:killmail_fixture2) { File.read('./spec/fixtures/duplicate_killmail2.json') }
@@ -29,7 +28,7 @@ describe KillmailIntegration do
         end
       end
     end
-    context 'citadel doesn\'t exist' do
+    context "citadel doesn't exist" do
       it 'creates a new citadel' do
         temporarily do
           fetcher = KillmailIntegration.new
@@ -51,24 +50,30 @@ describe KillmailIntegration do
       end
     end
   end
-
-  describe 'fetch_past_killmails' do
+  describe 'json_to_killmail' do
+    let(:json_data) { File.read('./spec/fixtures/past_mail.json') }
+    context 'it receives json with multiple Killmails' do
+      it 'creates multiple killmail objects' do
+        temporarily do
+          KillmailIntegration.new.json_to_killmail(json_data)
+          expect(Killmail.count).to be > 1
+          expect(Citadel.count).to be > 1
+        end
+      end
+    end
   end
+  describe 'fetch_past_killmails' do
+    it 'Astrahus killmails'
+    it 'Astrahus deathmails'
+    it 'Fortizar killmails'
+    it 'Fortizar deathmails'
+    it 'Keepstar killmails'
+    it 'Keepstar deathmails'
+  end
+
+  it 'can parse large data file'
 
   it 'finds or creates new citadel'
 
-  it 'saves if relevant // creates associated killmail instance'
-
   it 'retrieves old killmails'
-
-  # describe 'json_to_killmail' do
-  #   let(:json_data) { File.read('./spec/fixtures/past_mail.json') }
-  #   context 'it receives json with multiple Killmails' do
-  #     it 'creates multiple killmail objects' do
-  #       expect do
-
-  #       end.to change()
-  #     end
-  #   end
-  # end
 end
