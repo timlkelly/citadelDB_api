@@ -12,6 +12,20 @@ class Killmail < ActiveRecord::Base
     [35832, 35833, 35834, 35835]
   end
 
+  def system_id_lookup(id)
+    System.where(system_id: id).first.name
+  end
+
+  def citadel_type_lookup(id)
+    citadel_types = {
+      '35832' => 'Astrahus',
+      '35833' => 'Fortizar',
+      '35834' => 'Keepstar',
+      '35835' => 'Upwell Palatine Keepstar'
+    }
+    citadel_types.values_at(id).first
+  end
+
   def killmail_data
     if killmail_json.keys.include?('package')
       killmail_json['package']
@@ -81,6 +95,23 @@ class Killmail < ActiveRecord::Base
     attacker_hash
   end
 
+  def create_attacker_hash_past
+    attacker_hash = {}
+    killmail_data['attackers'].each do |attacker|
+      if attacker['shipTypeID']
+        next unless self.class.valid_citadel_types_past.include?(attacker['shipTypeID'])
+        attacker_hash = {
+          system: system_id_lookup(killmail_data['solarSystemID']),
+          citadel_type: citadel_type_lookup(attacker['shipTypeID'].to_s),
+          corporation: attacker['corporationName'],
+          alliance: attacker['allianceName'],
+          killed_at: nil
+        }
+      end
+    end
+    attacker_hash
+  end
+
   def create_victim_hash
     victim_hash = {
       system: killmail_data['solarSystem']['name'],
@@ -97,15 +128,14 @@ class Killmail < ActiveRecord::Base
   end
 
   def create_victim_hash_past
-    victim_hash = {}
     victim_hash = {
       system: system_id_lookup(killmail_data['solarSystemID']),
-      citadel_type: citadel_type_lookup,
+      citadel_type: citadel_type_lookup(killmail_data['victim']['shipTypeID'].to_s),
       corporation: killmail_data['victim']['corporationName'],
       killed_at: killmail_data['killTime']
     }
-    if killmail['victim']['allianceName']
-      victim_hash[:alliance] = killmail['victim']['allianceName']
+    if killmail_data['victim']['allianceName']
+      victim_hash[:alliance] = killmail_data['victim']['allianceName']
     else
       victim_hash[:alliance] = nil
     end

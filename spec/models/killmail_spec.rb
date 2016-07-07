@@ -28,8 +28,18 @@ describe 'Killmail model' do
 
   describe 'system_id_lookup' do
     context 'given a valid system ID' do
+      let(:killmail) { Killmail.new }
       it 'returns the system name' do
-        expect(system_id_lookup(30001291)).to eq('Y-4CFK')
+        expect(killmail.system_id_lookup(30001291)).to eq('Y-4CFK')
+      end
+    end
+  end
+
+  describe 'citadel_type_lookup' do
+    context 'given shipTypeID' do
+      let(:killmail) { Killmail.new }
+      it 'returns the correct name' do
+        expect(killmail.citadel_type_lookup('35832')).to eq('Astrahus')
       end
     end
   end
@@ -145,15 +155,45 @@ describe 'Killmail model' do
   end
 
   describe 'generate_citadel_hash_past' do
-    it 'receives valid killmail'
-
+    context 'receives valid killmail' do
+      let(:killmail_fixture) { File.read('./spec/fixtures/past_killmail.json') }
+      let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
+      let(:target) do
+        {
+          system: '6-4V20',
+          citadel_type: 'Fortizar',
+          corporation: 'Motiveless Malignity',
+          alliance: '',
+          killed_at: nil
+        }
+      end
+      it 'creates a hash to create a new citadel' do
+        expect(killmail.generate_citadel_hash_past).to eq(target)
+      end
+    end
+    context 'receives valid killmail with multiple attackers' do
+      let(:killmail_fixture) { File.read('./spec/fixtures/past_killmail_multiple.json') }
+      let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
+      let(:target) do
+        {
+          system: 'J115405',
+          citadel_type: 'Keepstar',
+          corporation: 'Hard Knocks Inc.',
+          alliance: '',
+          killed_at: nil
+        }
+      end
+      it 'creates a hash to create a new citadel' do
+        expect(killmail.generate_citadel_hash_past).to eq(target)
+      end
+    end
     context 'receives valid deathmail' do
       let(:killmail_fixture) { File.read('./spec/fixtures/past_mail_single.json') }
       let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
       let(:target) do
         {
           system: '93PI-4',
-          citadel_type: 'Astrahas',
+          citadel_type: 'Astrahus',
           corporation: 'Pandemic Horde Inc.',
           alliance: 'Pandemic Horde',
           killed_at: '2016-07-03 05:39:24'
@@ -163,8 +203,6 @@ describe 'Killmail model' do
         expect(killmail.generate_citadel_hash_past).to eq(target)
       end
     end
-
-    it 'receives null package'
   end
 
   describe 'find_or_create_citadel' do
@@ -240,21 +278,5 @@ describe 'Killmail model' do
     end
   end
 
-  describe 'generate_victim_hash_past' do
-    # let(:killmail_fixture) { File.read('./spec/fixtures/past_mails.json') }
-    # context 'receives json with multiple mails' do
-    #   let(:target) do
-    #     {
-    #       system:
-    #       citadel_type:
-    #       corporation:
-    #       alliance:
-    #       killed_at:
-    #     }
-    #   end
-    #   it 'returns a hash of killmail models to create citadel' do
-    #     expect
-    #   end
-    # end
-  end
+  it 'updates citadel if destroyed'
 end

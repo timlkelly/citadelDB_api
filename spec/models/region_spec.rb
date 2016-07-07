@@ -5,18 +5,12 @@ describe 'Region model' do
   describe 'parse_csv' do
     context 'is given a csv file' do
       it 'adds to the database' do
-        temporarily do
-          Region.new.parse_csv
-          expect(Region.count).not_to be(0)
-        end
+        expect(Region.count).not_to be(0)
       end
     end
     context 'test region name' do
       it 'returns Derelik' do
-        temporarily do
-          Region.new.parse_csv
-          expect(Region.first.name).to eq('Derelik')
-        end
+        expect(Region.first.name).to eq('Derelik')
       end
     end
   end

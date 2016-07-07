@@ -1,0 +1,53 @@
+// 20160706183157
+// https://zkillboard.com/api/kill/shipID/35833/limit/1/
+
+
+{
+  "killID": 54981218,
+  "solarSystemID": 30004053,
+  "killTime": "2016-07-06 23:19:14",
+  "moonID": 0,
+  "victim": {
+    "shipTypeID": 670,
+    "characterID": 96233530,
+    "characterName": "ozuca",
+    "corporationID": 98388312,
+    "corporationName": "Pandemic Horde Inc.",
+    "allianceID": 99005338,
+    "allianceName": "Pandemic Horde",
+    "factionID": 0,
+    "factionName": "",
+    "damageTaken": 447
+  },
+  "attackers": [
+    {
+      "characterID": 0,
+      "characterName": "",
+      "corporationID": 98342438,
+      "corporationName": "Motiveless Malignity",
+      "allianceID": 0,
+      "allianceName": "",
+      "factionID": 0,
+      "factionName": "",
+      "securityStatus": 0,
+      "damageDone": 447,
+      "finalBlow": 1,
+      "weaponTypeID": 0,
+      "shipTypeID": 35833
+    }
+  ],
+  "items": [
+    
+  ],
+  "position": {
+    "y": 439491434818.55,
+    "x": -2421403725914.9,
+    "z": -1579102289261.3
+  },
+  "zkb": {
+    "locationID": 50011003,
+    "hash": "de171fb5ee0ddc25218178755bcfd5e77fff4b0e",
+    "totalValue": 10000,
+    "points": 1
+  }
+}
