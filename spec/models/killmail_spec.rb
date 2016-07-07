@@ -241,6 +241,44 @@ describe 'Killmail model' do
     end
   end
 
+  describe 'find_or_create_citadel_past' do
+    let(:killmail_fixture) { File.read('./spec/fixtures/past_mail_single.json') }
+    let(:killmail_fixture2) { File.read('./spec/fixtures/past_mail_single.json') }
+    let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
+    let(:killmail2) { Killmail.new(killmail_json: killmail_fixture) }
+    context 'citadel does not exist' do
+      temporarily do
+        it 'raises the citadel count by 1' do
+          expect do
+            citadel = killmail.find_or_create_citadel_past
+            pp "***********"
+            pp Citadel.count
+            expect(citadel.system).to eq('93PI-4')
+            expect(citadel.citadel_type).to eq('Astrahus')
+            expect(citadel.corporation).to eq('Pandemic Horde Inc.')
+            expect(citadel.alliance).to eq('Pandemic Horde')
+            expect(citadel.killed_at).to eq('2016-07-03 05:39:24')
+          end.to change(Citadel, :count).by 1
+        end
+      end
+    end
+    context 'citadel already exists' do
+      temporarily do
+        it 'does not raise citadel count' do
+          Citadel.create(killmail2.generate_citadel_hash_past)
+          expect do
+            citadel = killmail.find_or_create_citadel_past
+            expect(citadel.system).to eq('93PI-4')
+            expect(citadel.citadel_type).to eq('Astrahus')
+            expect(citadel.corporation).to eq('Pandemic Horde Inc.')
+            expect(citadel.alliance).to eq('Pandemic Horde')
+            expect(citadel.killed_at).to eq('2016-07-03 05:39:24')
+          end.to change(Citadel, :count).by 0
+        end
+      end
+    end
+  end
+
   describe 'save_if_relevant' do
     let(:killmail_fixture) { File.read('./spec/fixtures/astrahus_killmail.json') }
     let(:ship_killmail_fixture) { File.read('./spec/fixtures/ship_killmail.json') }
@@ -278,5 +316,9 @@ describe 'Killmail model' do
     end
   end
 
+  it 'save_if_relevant_past'
+
   it 'updates citadel if destroyed'
+
+  it 'add region?'
 end

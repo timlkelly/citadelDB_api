@@ -151,6 +151,14 @@ class Killmail < ActiveRecord::Base
     citadel
   end
 
+  def find_or_create_citadel_past
+    citadel = Citadel.where(generate_citadel_hash_past).first
+    unless citadel
+      citadel = Citadel.create(generate_citadel_hash_past)
+    end
+    citadel
+  end
+
   def save_if_relevant
     self.citadel_id = find_or_create_citadel.id
     self.killmail_id = killmail_data['killID']
