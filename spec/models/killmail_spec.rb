@@ -53,7 +53,7 @@ describe 'Killmail model' do
     end
   end
 
-  describe 'check_if_citadel' do
+  describe 'citadel?' do
     context 'Astrahus killmail' do
       let(:killmail_fixture) { File.read('./spec/fixtures/astrahus_killmail.json') }
       let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
@@ -115,6 +115,30 @@ describe 'Killmail model' do
       let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
       it 'returns false' do
         expect(killmail.citadel?).to eq false
+      end
+    end
+  end
+
+  describe 'citadel_attacker?' do
+    context 'citadel is attacker and is not first attacker' do
+      let(:killmail_fixture) { File.read('./spec/fixtures/astrahus_killmail.json') }
+      let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
+      it 'returns true' do
+        expect(killmail.citadel_attacker?).to eq(true)
+      end
+    end
+    context 'citadel is not attacker' do
+      let(:killmail_fixture) { File.read('./spec/fixtures/astrahus_deathmail.json') }
+      let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
+      it 'returns false' do
+        expect(killmail.citadel_attacker?).to eq(false)
+      end
+    end
+    context 'ship killmail' do
+      let(:shipmail_fixture) { File.read('./spec/fixtures/listen_ship_test.json') }
+      let(:ship_killmail) { Killmail.new(killmail_json: shipmail_fixture) }
+      it 'returns false' do
+        expect(ship_killmail.citadel_attacker?).to eq(false)
       end
     end
   end
@@ -354,6 +378,51 @@ describe 'Killmail model' do
           temporarily do
             expect do
               expect(ship_killmail.save_if_relevant).to be_falsey
+            end.to change(Killmail, :count).by 0
+          end
+        end
+      end
+      context 'ship killmail from listen' do
+        let(:citadel_target) do
+          {
+            system: 'J120619',
+            region: 'B-R00005',
+            citadel_type: 'Astrahus',
+            corporation: 'Robogen Inc',
+            alliance: 'The Firesale Nation',
+            killed_at: '2016-05-11 05:43:29'
+          }
+        end
+        let(:shipmail_fixture) { File.read('./spec/fixtures/ship_mail_listen.json') }
+        let(:ship_killmail) { Killmail.new(killmail_json: shipmail_fixture) }
+        it 'does not save' do
+          temporarily do
+            Citadel.create(citadel_target)
+            expect do
+              pp ship_killmail.citadel?
+              expect(ship_killmail.save_if_relevant).to be_falsey              
+            end.to change(Killmail, :count).by 0
+          end
+        end
+      end
+      context 'ship killmail from listen' do
+        let(:citadel_target) do
+          {
+            system: 'J120619',
+            region: 'B-R00005',
+            citadel_type: 'Astrahus',
+            corporation: 'Robogen Inc',
+            alliance: 'The Firesale Nation',
+            killed_at: '2016-05-11 05:43:29'
+          }
+        end
+        let(:shipmail_fixture) { File.read('./spec/fixtures/listen_ship_test.json') }
+        let(:ship_killmail) { Killmail.new(killmail_json: shipmail_fixture) }
+        it 'does not save' do
+          temporarily do
+            Citadel.create(citadel_target)
+            expect do
+              expect(ship_killmail.save_if_relevant).to be_falsey              
             end.to change(Killmail, :count).by 0
           end
         end

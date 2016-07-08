@@ -53,11 +53,11 @@ class Killmail < ActiveRecord::Base
   def citadel_attacker?
     killmail_data['attackers'].each do |attacker|
       if attacker['shipType']
-        return true if self.class.valid_citadel_types.include?(attacker['shipType']['name'])
-      else
-        return false
+        next unless self.class.valid_citadel_types.include?(attacker['shipType']['name'])
+        return true
       end
     end
+    false
   end
 
   def generate_citadel_hash
@@ -172,9 +172,13 @@ class Killmail < ActiveRecord::Base
   end
 
   def save_if_relevant
-    self.citadel_id = find_or_create_citadel.id
-    self.killmail_id = killmail_data['killID']
-    save
+    if citadel? == false
+      return false
+    else
+      self.citadel_id = find_or_create_citadel.id
+      self.killmail_id = killmail_data['killID']
+      save
+    end
   end
 
   def save_if_relevant_past

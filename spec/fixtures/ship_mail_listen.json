@@ -1,0 +1,557 @@
+// 20160708093427
+// http://redisq.zkillboard.com/listen.php
+
+{
+  "package": {
+    "killID": 55001929,
+    "killmail": {
+      "solarSystem": {
+        "id_str": "30045350",
+        "href": "https://crest-tq.eveonline.com/solarsystems/30045350/",
+        "id": 30045350,
+        "name": "Teimo"
+      },
+      "killID": 55001929,
+      "killTime": "2016.07.08 13:40:33",
+      "attackers": [
+        {
+          "alliance": {
+            "id_str": "99006625",
+            "href": "https://crest-tq.eveonline.com/alliances/99006625/",
+            "id": 99006625,
+            "name": "Pen Is Out",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Alliance/99006625_128.png"
+            }
+          },
+          "shipType": {
+            "id_str": "11190",
+            "href": "https://crest-tq.eveonline.com/inventory/types/11190/",
+            "id": 11190,
+            "name": "Sentinel",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/11190_128.png"
+            }
+          },
+          "faction": {
+            "id_str": "500004",
+            "href": "https://crest-tq.eveonline.com/factions/500004/",
+            "id": 500004,
+            "name": "Gallente Federation",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Alliance/500004_128.png"
+            }
+          },
+          "corporation": {
+            "id_str": "98177721",
+            "href": "https://crest-tq.eveonline.com/corporations/98177721/",
+            "id": 98177721,
+            "name": "Rapid Withdrawal",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Corporation/98177721_128.png"
+            }
+          },
+          "character": {
+            "id_str": "1180204700",
+            "href": "https://crest-tq.eveonline.com/characters/1180204700/",
+            "id": 1180204700,
+            "name": "Open Graves",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Character/1180204700_128.jpg"
+            }
+          },
+          "damageDone_str": "1150",
+          "weaponType": {
+            "id_str": "2456",
+            "href": "https://crest-tq.eveonline.com/inventory/types/2456/",
+            "id": 2456,
+            "name": "Hobgoblin II",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/2456_128.png"
+            }
+          },
+          "finalBlow": false,
+          "securityStatus": -9.7,
+          "damageDone": 1150
+        },
+        {
+          "shipType": {
+            "id_str": "608",
+            "href": "https://crest-tq.eveonline.com/inventory/types/608/",
+            "id": 608,
+            "name": "Atron",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/608_128.png"
+            }
+          },
+          "faction": {
+            "id_str": "500002",
+            "href": "https://crest-tq.eveonline.com/factions/500002/",
+            "id": 500002,
+            "name": "Minmatar Republic",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Alliance/500002_128.png"
+            }
+          },
+          "corporation": {
+            "id_str": "1000182",
+            "href": "https://crest-tq.eveonline.com/corporations/1000182/",
+            "id": 1000182,
+            "name": "Tribal Liberation Force",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Corporation/1000182_128.png"
+            }
+          },
+          "character": {
+            "id_str": "90639953",
+            "href": "https://crest-tq.eveonline.com/characters/90639953/",
+            "id": 90639953,
+            "name": "Jackyln Starduster",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Character/90639953_128.jpg"
+            }
+          },
+          "damageDone_str": "957",
+          "weaponType": {
+            "id_str": "564",
+            "href": "https://crest-tq.eveonline.com/inventory/types/564/",
+            "id": 564,
+            "name": "Light Neutron Blaster I",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/564_128.png"
+            }
+          },
+          "finalBlow": true,
+          "securityStatus": -1.7,
+          "damageDone": 957
+        },
+        {
+          "damageDone": 423,
+          "faction": {
+            "id_str": "500004",
+            "href": "https://crest-tq.eveonline.com/factions/500004/",
+            "id": 500004,
+            "name": "Gallente Federation",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Alliance/500004_128.png"
+            }
+          },
+          "damageDone_str": "423",
+          "shipType": {
+            "id_str": "32973",
+            "href": "https://crest-tq.eveonline.com/inventory/types/32973/",
+            "id": 32973,
+            "name": "Federation Battlecruiser",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/32973_128.png"
+            }
+          },
+          "finalBlow": false,
+          "securityStatus": 0
+        }
+      ],
+      "attackerCount": 3,
+      "victim": {
+        "damageTaken_str": "2530",
+        "faction": {
+          "id_str": "500001",
+          "href": "https://crest-tq.eveonline.com/factions/500001/",
+          "id": 500001,
+          "name": "Caldari State",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Alliance/500001_128.png"
+          }
+        },
+        "items": [
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "440",
+              "href": "https://crest-tq.eveonline.com/inventory/types/440/",
+              "id": 440,
+              "name": "5MN Microwarpdrive II",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/440_128.png"
+              }
+            },
+            "quantityDestroyed_str": "1",
+            "flag": 19,
+            "flag_str": "19",
+            "singleton_str": "0",
+            "quantityDestroyed": 1
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "23071",
+              "href": "https://crest-tq.eveonline.com/inventory/types/23071/",
+              "id": 23071,
+              "name": "Imperial Navy Multifrequency S",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/23071_128.png"
+              }
+            },
+            "quantityDestroyed_str": "5",
+            "flag": 5,
+            "flag_str": "5",
+            "singleton_str": "0",
+            "quantityDestroyed": 5
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "23071",
+              "href": "https://crest-tq.eveonline.com/inventory/types/23071/",
+              "id": 23071,
+              "name": "Imperial Navy Multifrequency S",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/23071_128.png"
+              }
+            },
+            "quantityDropped_str": "1",
+            "flag": 5,
+            "singleton_str": "0",
+            "quantityDropped": 1,
+            "flag_str": "5"
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "1987",
+              "href": "https://crest-tq.eveonline.com/inventory/types/1987/",
+              "id": 1987,
+              "name": "Signal Amplifier II",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/1987_128.png"
+              }
+            },
+            "quantityDropped_str": "1",
+            "flag": 12,
+            "singleton_str": "0",
+            "quantityDropped": 1,
+            "flag_str": "12"
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "2605",
+              "href": "https://crest-tq.eveonline.com/inventory/types/2605/",
+              "id": 2605,
+              "name": "Nanofiber Internal Structure II",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/2605_128.png"
+              }
+            },
+            "quantityDropped_str": "1",
+            "flag": 11,
+            "singleton_str": "0",
+            "quantityDropped": 1,
+            "flag_str": "11"
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "31370",
+              "href": "https://crest-tq.eveonline.com/inventory/types/31370/",
+              "id": 31370,
+              "name": "Small Capacitor Control Circuit I",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/31370_128.png"
+              }
+            },
+            "quantityDestroyed_str": "1",
+            "flag": 93,
+            "flag_str": "93",
+            "singleton_str": "0",
+            "quantityDestroyed": 1
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "12565",
+              "href": "https://crest-tq.eveonline.com/inventory/types/12565/",
+              "id": 12565,
+              "name": "Conflagration S",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/12565_128.png"
+              }
+            },
+            "quantityDropped_str": "8",
+            "flag": 5,
+            "singleton_str": "0",
+            "quantityDropped": 8,
+            "flag_str": "5"
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "3041",
+              "href": "https://crest-tq.eveonline.com/inventory/types/3041/",
+              "id": 3041,
+              "name": "Small Focused Pulse Laser II",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/3041_128.png"
+              }
+            },
+            "quantityDropped_str": "1",
+            "flag": 27,
+            "singleton_str": "0",
+            "quantityDropped": 1,
+            "flag_str": "27"
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "1248",
+              "href": "https://crest-tq.eveonline.com/inventory/types/1248/",
+              "id": 1248,
+              "name": "Capacitor Flux Coil II",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/1248_128.png"
+              }
+            },
+            "quantityDestroyed_str": "1",
+            "flag": 15,
+            "flag_str": "15",
+            "singleton_str": "0",
+            "quantityDestroyed": 1
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "2605",
+              "href": "https://crest-tq.eveonline.com/inventory/types/2605/",
+              "id": 2605,
+              "name": "Nanofiber Internal Structure II",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/2605_128.png"
+              }
+            },
+            "quantityDestroyed_str": "1",
+            "flag": 14,
+            "flag_str": "14",
+            "singleton_str": "0",
+            "quantityDestroyed": 1
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "3244",
+              "href": "https://crest-tq.eveonline.com/inventory/types/3244/",
+              "id": 3244,
+              "name": "Warp Disruptor II",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/3244_128.png"
+              }
+            },
+            "quantityDestroyed_str": "1",
+            "flag": 20,
+            "flag_str": "20",
+            "singleton_str": "0",
+            "quantityDestroyed": 1
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "31478",
+              "href": "https://crest-tq.eveonline.com/inventory/types/31478/",
+              "id": 31478,
+              "name": "Small Energy Locus Coordinator I",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/31478_128.png"
+              }
+            },
+            "quantityDestroyed_str": "1",
+            "flag": 94,
+            "flag_str": "94",
+            "singleton_str": "0",
+            "quantityDestroyed": 1
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "12563",
+              "href": "https://crest-tq.eveonline.com/inventory/types/12563/",
+              "id": 12563,
+              "name": "Scorch S",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/12563_128.png"
+              }
+            },
+            "quantityDestroyed_str": "2",
+            "flag": 5,
+            "flag_str": "5",
+            "singleton_str": "0",
+            "quantityDestroyed": 2
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "12563",
+              "href": "https://crest-tq.eveonline.com/inventory/types/12563/",
+              "id": 12563,
+              "name": "Scorch S",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/12563_128.png"
+              }
+            },
+            "quantityDropped_str": "4",
+            "flag": 5,
+            "singleton_str": "0",
+            "quantityDropped": 4,
+            "flag_str": "5"
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "12565",
+              "href": "https://crest-tq.eveonline.com/inventory/types/12565/",
+              "id": 12565,
+              "name": "Conflagration S",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/12565_128.png"
+              }
+            },
+            "quantityDestroyed_str": "1",
+            "flag": 28,
+            "flag_str": "28",
+            "singleton_str": "0",
+            "quantityDestroyed": 1
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "28668",
+              "href": "https://crest-tq.eveonline.com/inventory/types/28668/",
+              "id": 28668,
+              "name": "Nanite Repair Paste",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/28668_128.png"
+              }
+            },
+            "quantityDropped_str": "7",
+            "flag": 5,
+            "singleton_str": "0",
+            "quantityDropped": 7,
+            "flag_str": "5"
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "3041",
+              "href": "https://crest-tq.eveonline.com/inventory/types/3041/",
+              "id": 3041,
+              "name": "Small Focused Pulse Laser II",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/3041_128.png"
+              }
+            },
+            "quantityDestroyed_str": "1",
+            "flag": 28,
+            "flag_str": "28",
+            "singleton_str": "0",
+            "quantityDestroyed": 1
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "31454",
+              "href": "https://crest-tq.eveonline.com/inventory/types/31454/",
+              "id": 31454,
+              "name": "Small Energy Collision Accelerator I",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/31454_128.png"
+              }
+            },
+            "quantityDestroyed_str": "1",
+            "flag": 92,
+            "flag_str": "92",
+            "singleton_str": "0",
+            "quantityDestroyed": 1
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "1248",
+              "href": "https://crest-tq.eveonline.com/inventory/types/1248/",
+              "id": 1248,
+              "name": "Capacitor Flux Coil II",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/1248_128.png"
+              }
+            },
+            "quantityDestroyed_str": "1",
+            "flag": 13,
+            "flag_str": "13",
+            "singleton_str": "0",
+            "quantityDestroyed": 1
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "12565",
+              "href": "https://crest-tq.eveonline.com/inventory/types/12565/",
+              "id": 12565,
+              "name": "Conflagration S",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/12565_128.png"
+              }
+            },
+            "quantityDestroyed_str": "1",
+            "flag": 27,
+            "flag_str": "27",
+            "singleton_str": "0",
+            "quantityDestroyed": 1
+          }
+        ],
+        "damageTaken": 2530,
+        "character": {
+          "id_str": "95326441",
+          "href": "https://crest-tq.eveonline.com/characters/95326441/",
+          "id": 95326441,
+          "name": "A Maken",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Character/95326441_128.jpg"
+          }
+        },
+        "shipType": {
+          "id_str": "17703",
+          "href": "https://crest-tq.eveonline.com/inventory/types/17703/",
+          "id": 17703,
+          "name": "Imperial Navy Slicer",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/17703_128.png"
+          }
+        },
+        "corporation": {
+          "id_str": "98464487",
+          "href": "https://crest-tq.eveonline.com/corporations/98464487/",
+          "id": 98464487,
+          "name": "Kor'Amon Citizen",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Corporation/98464487_128.png"
+          }
+        },
+        "position": {
+          "y": 223906956984.22,
+          "x": 611163187136.57,
+          "z": 171273265575.99
+        }
+      },
+      "killID_str": "55001929",
+      "attackerCount_str": "3",
+      "war": {
+        "href": "https://crest-tq.eveonline.com/wars/0/",
+        "id": 0,
+        "id_str": "0"
+      }
+    },
+    "zkb": {
+      "locationID": 40350109,
+      "hash": "a52825024495ad6769368e0d72033fb20cf49bdc",
+      "totalValue": 22032372.48,
+      "points": 6,
+      "href": "https://crest-tq.eveonline.com/killmails/55001929/a52825024495ad6769368e0d72033fb20cf49bdc/"
+    }
+  }
+}

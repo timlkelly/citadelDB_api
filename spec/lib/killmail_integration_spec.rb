@@ -28,6 +28,27 @@ describe KillmailIntegration do
         end
       end
     end
+    context 'recieves ship killmail' do
+      let(:citadel_target) do
+        {
+          system: 'J120619',
+          region: 'B-R00005',
+          citadel_type: 'Astrahus',
+          corporation: 'Robogen Inc',
+          alliance: 'The Firesale Nation',
+          killed_at: '2016-05-11 05:43:29'
+        }
+      end
+      let(:shipmail_fixture) { File.read('./spec/fixtures/listen_ship_test.json')}
+      it 'does not raise killmail count' do
+        temporarily do
+          Citadel.create(citadel_target)
+          expect do
+            KillmailIntegration.new.parse_killmail(shipmail_fixture)
+          end.to change(Killmail, :count).by 0
+        end
+      end
+    end
     context "citadel doesn't exist" do
       it 'creates a new citadel' do
         temporarily do
