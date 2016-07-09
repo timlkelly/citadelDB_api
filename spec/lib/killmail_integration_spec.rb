@@ -3,13 +3,13 @@ include WithRollback
 
 describe KillmailIntegration do
   describe 'fetch_killmail' do
-    # context 'it receives a valid killmail' do
-    #   fetch = KillmailIntegration.new
-    #   json_data = fetch.fetch_killmail
-    #   it 'has one package' do
-    #     expect(json_data.first.first).to eq('package')
-    #   end
-    # end
+    context 'it receives a valid killmail' do
+      fetch = KillmailIntegration.new
+      json_data = fetch.fetch_killmail
+      it 'has one package' do
+        expect(json_data.first.first).to eq('package')
+      end
+    end
   end
   describe 'parse_killmail' do
     let(:killmail_fixture) { File.read('./spec/fixtures/duplicate_killmail.json') }
@@ -72,16 +72,16 @@ describe KillmailIntegration do
     end
   end
   describe 'json_to_killmail' do
-    # let(:url) { ['https://zkillboard.com/api/kills/shipTypeID/35832/page/1/'] }
-    # context 'it receives json with multiple Killmails' do
-    #   it 'creates multiple killmail objects' do
-    #     temporarily do
-    #       KillmailIntegration.new.json_to_killmail(url)
-    #       expect(Killmail.count).to be > 1
-    #       expect(Citadel.count).to be > 1
-    #     end
-    #   end
-    # end
+    let(:url) { ['https://zkillboard.com/api/kills/shipTypeID/35832/page/1/'] }
+    context 'it receives json with multiple Killmails' do
+      it 'creates multiple killmail objects' do
+        temporarily do
+          KillmailIntegration.new.json_to_killmail(url)
+          expect(Killmail.count).to be > 1
+          expect(Citadel.count).to be > 1
+        end
+      end
+    end
   end
   describe 'create_url_array' do
     context 'creates urls for past api requests' do
