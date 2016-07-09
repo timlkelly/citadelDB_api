@@ -8,7 +8,7 @@ require './models/citadel'
 require './models/killmail'
 require './models/system'
 require './models/region'
-require "./lib/api_pagination"
+require './lib/api_pagination'
 require_relative 'lib/killmail_integration'
 
 register ::Sinatra::Pagination

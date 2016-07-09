@@ -10,6 +10,7 @@ gem 'activesupport'
 gem 'httparty'
 gem 'will_paginate'
 gem 'thin' 
+gem 'heroku'
 
 group :development, :test do
   gem 'rspec'
