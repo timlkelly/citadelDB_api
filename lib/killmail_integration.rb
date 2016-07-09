@@ -25,8 +25,8 @@ class KillmailIntegration
 
   def create_url_array
     Array(1..10).map do |page|
-      Killmail.valid_citadel_types_past.map do |citadel|
-        %w(kills losses).map{ |type| "https://zkillboard.com/api/#{type}/shipTypeID/#{citadel}/page/#{page}/"}
+      Killmail.valid_citadel_types_ids.map do |citadel|
+        %w(kills losses).map{ |type| "https://zkillboard.com/api/#{type}/shipTypeID/#{citadel}/page/#{page}/" }
       end
     end.flatten
   end

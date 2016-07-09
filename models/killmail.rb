@@ -4,11 +4,11 @@ class Killmail < ActiveRecord::Base
 
   belongs_to :citadel
 
-  def self.valid_citadel_types
+  def self.valid_citadel_types_names
     ['Astrahus', 'Fortizar', 'Keepstar', 'Upwell Palatine Keepstar']
   end
 
-  def self.valid_citadel_types_past
+  def self.valid_citadel_types_ids
     [35832, 35833, 35834, 35835]
   end
 
@@ -43,17 +43,22 @@ class Killmail < ActiveRecord::Base
   end
 
   def citadel_victim?
-    self.class.valid_citadel_types.include?(killmail_data['victim']['shipType']['name'])
-  end
-
-  def citadel_victim_past?
-    self.class.valid_citadel_types_past.include?(killmail_data['victim']['shipTypeID'])
+    if killmail_data['victim']['shipTypeID']
+      self.class.valid_citadel_types_ids.include?(killmail_data['victim']['shipTypeID'])
+    elsif killmail_data['victim']['shipType']['name']
+      self.class.valid_citadel_types_names.include?(killmail_data['victim']['shipType']['name'])
+    else
+      false
+    end
   end
 
   def citadel_attacker?
     killmail_data['attackers'].each do |attacker|
       if attacker['shipType']
-        next unless self.class.valid_citadel_types.include?(attacker['shipType']['name'])
+        next unless self.class.valid_citadel_types_names.include?(attacker['shipType']['name'])
+        return true
+      elsif attacker['shipTypeID']
+        next unless self.class.valid_citadel_types_ids.include?(attacker['shipTypeID'])
         return true
       end
     end
@@ -68,19 +73,11 @@ class Killmail < ActiveRecord::Base
     end
   end
 
-  def generate_citadel_hash_past
-    if citadel_victim_past?
-      create_victim_hash_past
-    else
-      create_attacker_hash_past
-    end
-  end
-
   def create_attacker_hash
     attacker_hash = {}
     killmail_data['attackers'].each do |attacker|
       if attacker['shipType']
-        next unless self.class.valid_citadel_types.include?(attacker['shipType']['name'])
+        next unless self.class.valid_citadel_types_names.include?(attacker['shipType']['name'])
         attacker_hash = {
           system: killmail_data['solarSystem']['name'],
           region: region_lookup(killmail_data['solarSystem']['id']),
@@ -92,6 +89,19 @@ class Killmail < ActiveRecord::Base
         else
           attacker_hash[:alliance] = nil
         end
+      elsif attacker['shipTypeID']
+        next unless self.class.valid_citadel_types_ids.include?(attacker['shipTypeID'])
+        attacker_hash = {
+          system: system_id_lookup(killmail_data['solarSystemID']),
+          region: region_lookup(killmail_data['solarSystemID']),
+          citadel_type: citadel_type_lookup(attacker['shipTypeID'].to_s),
+          corporation: attacker['corporationName'],
+        }
+        if attacker['allianceName'] == ''
+          attacker_hash[:alliance] = nil
+        else
+          attacker_hash[:alliance] = attacker['allianceName']
+        end
       else
         return {}
       end
@@ -99,51 +109,33 @@ class Killmail < ActiveRecord::Base
     attacker_hash
   end
 
-  def create_attacker_hash_past
-    attacker_hash = {}
-    killmail_data['attackers'].each do |attacker|
-      if attacker['shipTypeID']
-        next unless self.class.valid_citadel_types_past.include?(attacker['shipTypeID'])
-        attacker_hash = {
-          system: system_id_lookup(killmail_data['solarSystemID']),
-          region: region_lookup(killmail_data['solarSystemID']),
-          citadel_type: citadel_type_lookup(attacker['shipTypeID'].to_s),
-          corporation: attacker['corporationName'],
-          alliance: attacker['allianceName']
-        }
-      end
-    end
-    attacker_hash
-  end
-
   def create_victim_hash
-    victim_hash = {
-      system: killmail_data['solarSystem']['name'],
-      region: region_lookup(killmail_data['solarSystem']['id']),
-      citadel_type: killmail_data['victim']['shipType']['name'],
-      corporation: killmail_data['victim']['corporation']['name'],
-      killed_at: killmail_data['killTime']
-    }
-    if killmail_data['victim']['alliance']
-      victim_hash[:alliance] = killmail_data['victim']['alliance']['name']
-    else
-      victim_hash[:alliance] = nil
-    end
-    victim_hash
-  end
-
-  def create_victim_hash_past
-    victim_hash = {
-      system: system_id_lookup(killmail_data['solarSystemID']),
-      region: region_lookup(killmail_data['solarSystemID']),
-      citadel_type: citadel_type_lookup(killmail_data['victim']['shipTypeID'].to_s),
-      corporation: killmail_data['victim']['corporationName'],
-      killed_at: killmail_data['killTime']
-    }
-    if killmail_data['victim']['allianceName']
-      victim_hash[:alliance] = killmail_data['victim']['allianceName']
-    else
-      victim_hash[:alliance] = nil
+    if killmail_data['victim']['shipType']
+      victim_hash = {
+        system: killmail_data['solarSystem']['name'],
+        region: region_lookup(killmail_data['solarSystem']['id']),
+        citadel_type: killmail_data['victim']['shipType']['name'],
+        corporation: killmail_data['victim']['corporation']['name'],
+        killed_at: killmail_data['killTime']
+      }
+      if killmail_data['victim']['alliance']
+        victim_hash[:alliance] = killmail_data['victim']['alliance']['name']
+      else
+        victim_hash[:alliance] = nil
+      end
+    elsif killmail_data['victim']['shipTypeID']
+      victim_hash = {
+        system: system_id_lookup(killmail_data['solarSystemID']),
+        region: region_lookup(killmail_data['solarSystemID']),
+        citadel_type: citadel_type_lookup(killmail_data['victim']['shipTypeID'].to_s),
+        corporation: killmail_data['victim']['corporationName'],
+        killed_at: killmail_data['killTime']
+      }
+      if killmail_data['victim']['allianceName']
+        victim_hash[:alliance] = killmail_data['victim']['allianceName']
+      else
+        victim_hash[:alliance] = nil
+      end
     end
     victim_hash
   end
@@ -160,17 +152,6 @@ class Killmail < ActiveRecord::Base
     citadel
   end
 
-  def find_or_create_citadel_past
-    citadel = Citadel.where(generate_citadel_hash_past.except(:killed_at)).first
-    unless citadel
-      citadel = Citadel.create(generate_citadel_hash_past)
-    end
-    if citadel_victim_past?
-      citadel.update_attribute(:killed_at, killmail_data['killTime'])
-    end
-    citadel
-  end
-
   def save_if_relevant
     if citadel? == false
       return false
@@ -179,11 +160,5 @@ class Killmail < ActiveRecord::Base
       self.killmail_id = killmail_data['killID']
       save
     end
-  end
-
-  def save_if_relevant_past
-    self.citadel_id = find_or_create_citadel_past.id
-    self.killmail_id = killmail_data['killID']
-    save
   end
 end
