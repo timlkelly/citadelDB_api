@@ -13,7 +13,7 @@ class KillmailIntegration
     url_array.each do |url|
       json_parsed = JSON.parse(fetch_past_killmails(url))
       json_parsed.each do |km|
-        Killmail.new(killmail_json: km).save_if_relevant_past
+        Killmail.new(killmail_json: km).save_if_relevant
       end
     end
   end

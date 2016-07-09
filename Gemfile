@@ -8,7 +8,8 @@ gem 'activerecord'
 gem 'sinatra-activerecord'
 gem 'activesupport'
 gem 'httparty'
-gem 'thin'
+gem 'will_paginate'
+gem 'thin' 
 
 group :development, :test do
   gem 'rspec'
@@ -18,5 +19,5 @@ group :development, :test do
 end
 
 group :test do
-  gem 'rack-test'
+  gem 'rack-test', :require => "rack/test"
 end

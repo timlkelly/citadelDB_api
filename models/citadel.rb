@@ -3,14 +3,14 @@ class Citadel < ActiveRecord::Base
 
   has_many :killmails
 
-  # def to_json
-  #   {
-  #     system: system,
-  #     region: region,
-  #     citadel_type: citadel_type,
-  #     corporation: corporation,
-  #     alliance: alliance,
-  #     killed_at: killed_at.to_i
-  #   }
-  # end
+  def api_hash
+    {
+      system: system,
+      region: region,
+      citadel_type: citadel_type,
+      corporation: corporation,
+      alliance: alliance,
+      killed_at: killed_at && killed_at.to_i
+    }
+  end
 end

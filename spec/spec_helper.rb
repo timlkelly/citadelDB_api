@@ -7,6 +7,7 @@ ENV['RACK_ENV'] ||= 'test'
 require_relative '../citadel_app.rb'
 
 RSpec.configure do |c|
+  c.include Rack::Test::Methods
   c.around(:each) do |example|
     ActiveRecord::Base.connection.transaction do
       example.run
