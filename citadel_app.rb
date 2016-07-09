@@ -1,18 +1,19 @@
 require 'rubygems'
 require 'sinatra'
 require 'sinatra/activerecord'
+require 'will_paginate'
+require 'will_paginate/active_record'
 require './config/environments'
 require './models/citadel'
 require './models/killmail'
 require './models/system'
 require './models/region'
+require "./lib/api_pagination"
 require_relative 'lib/killmail_integration'
 
+register ::Sinatra::Pagination
+
 get '/' do
-  # return paginated list of citadels
-  # return in json
-  # killed_at integer
-  # only return needed after
   content_type :json
-  return Citadel.first.to_json
+  ({ citadels: paginate(Citadel).map(&:api_hash) }).to_json
 end
