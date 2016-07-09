@@ -1,0 +1,626 @@
+// 20160708094830
+// https://crest-tq.eveonline.com/killmails/55002458/e26cc7fcec516b86f7618a86aaaa095423887bc3/
+
+{
+  "package": {
+    "killmail": {
+      "solarSystem": {
+        "id_str": "30045314",
+        "href": "https://crest-tq.eveonline.com/solarsystems/30045314/",
+        "id": 30045314,
+        "name": "Kinakka"
+      },
+      "killID": 55002458,
+      "killTime": "2016.07.08 14:34:27",
+      "attackers": [
+        {
+          "alliance": {
+            "id_str": "99005502",
+            "href": "https://crest-tq.eveonline.com/alliances/99005502/",
+            "id": 99005502,
+            "name": "No Handlebars.",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Alliance/99005502_128.png"
+            }
+          },
+          "shipType": {
+            "id_str": "37454",
+            "href": "https://crest-tq.eveonline.com/inventory/types/37454/",
+            "id": 37454,
+            "name": "Vigil Fleet Issue",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/37454_128.png"
+            }
+          },
+          "corporation": {
+            "id_str": "98267621",
+            "href": "https://crest-tq.eveonline.com/corporations/98267621/",
+            "id": 98267621,
+            "name": "The Congregation",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Corporation/98267621_128.png"
+            }
+          },
+          "character": {
+            "id_str": "90446389",
+            "href": "https://crest-tq.eveonline.com/characters/90446389/",
+            "id": 90446389,
+            "name": "Rita Jita",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Character/90446389_128.jpg"
+            }
+          },
+          "damageDone_str": "3281",
+          "weaponType": {
+            "id_str": "2456",
+            "href": "https://crest-tq.eveonline.com/inventory/types/2456/",
+            "id": 2456,
+            "name": "Hobgoblin II",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/2456_128.png"
+            }
+          },
+          "finalBlow": true,
+          "securityStatus": -10.0,
+          "damageDone": 3281
+        }
+      ],
+      "attackerCount": 1,
+      "victim": {
+        "damageTaken": 3281,
+        "items": [
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "12614",
+              "href": "https://crest-tq.eveonline.com/inventory/types/12614/",
+              "id": 12614,
+              "name": "Null S",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/12614_128.png"
+              }
+            },
+            "quantityDropped_str": "69",
+            "flag": 27,
+            "singleton_str": "0",
+            "quantityDropped": 69,
+            "flag_str": "27"
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "3178",
+              "href": "https://crest-tq.eveonline.com/inventory/types/3178/",
+              "id": 3178,
+              "name": "Light Neutron Blaster II",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/3178_128.png"
+              }
+            },
+            "quantityDestroyed_str": "1",
+            "flag": 34,
+            "flag_str": "34",
+            "singleton_str": "0",
+            "quantityDestroyed": 1
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "3178",
+              "href": "https://crest-tq.eveonline.com/inventory/types/3178/",
+              "id": 3178,
+              "name": "Light Neutron Blaster II",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/3178_128.png"
+              }
+            },
+            "quantityDestroyed_str": "1",
+            "flag": 29,
+            "flag_str": "29",
+            "singleton_str": "0",
+            "quantityDestroyed": 1
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "12614",
+              "href": "https://crest-tq.eveonline.com/inventory/types/12614/",
+              "id": 12614,
+              "name": "Null S",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/12614_128.png"
+              }
+            },
+            "quantityDestroyed_str": "40",
+            "flag": 5,
+            "flag_str": "5",
+            "singleton_str": "0",
+            "quantityDestroyed": 40
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "12614",
+              "href": "https://crest-tq.eveonline.com/inventory/types/12614/",
+              "id": 12614,
+              "name": "Null S",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/12614_128.png"
+              }
+            },
+            "quantityDestroyed_str": "69",
+            "flag": 33,
+            "flag_str": "33",
+            "singleton_str": "0",
+            "quantityDestroyed": 69
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "23009",
+              "href": "https://crest-tq.eveonline.com/inventory/types/23009/",
+              "id": 23009,
+              "name": "Caldari Navy Antimatter Charge S",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/23009_128.png"
+              }
+            },
+            "quantityDropped_str": "393",
+            "flag": 5,
+            "singleton_str": "0",
+            "quantityDropped": 393,
+            "flag_str": "5"
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "12614",
+              "href": "https://crest-tq.eveonline.com/inventory/types/12614/",
+              "id": 12614,
+              "name": "Null S",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/12614_128.png"
+              }
+            },
+            "quantityDropped_str": "69",
+            "flag": 31,
+            "singleton_str": "0",
+            "quantityDropped": 69,
+            "flag_str": "31"
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "12614",
+              "href": "https://crest-tq.eveonline.com/inventory/types/12614/",
+              "id": 12614,
+              "name": "Null S",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/12614_128.png"
+              }
+            },
+            "quantityDropped_str": "69",
+            "flag": 34,
+            "singleton_str": "0",
+            "quantityDropped": 69,
+            "flag_str": "34"
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "31532",
+              "href": "https://crest-tq.eveonline.com/inventory/types/31532/",
+              "id": 31532,
+              "name": "Small Hybrid Burst Aerator II",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/31532_128.png"
+              }
+            },
+            "quantityDestroyed_str": "1",
+            "flag": 94,
+            "flag_str": "94",
+            "singleton_str": "0",
+            "quantityDestroyed": 1
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "12612",
+              "href": "https://crest-tq.eveonline.com/inventory/types/12612/",
+              "id": 12612,
+              "name": "Void S",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/12612_128.png"
+              }
+            },
+            "quantityDestroyed_str": "806",
+            "flag": 5,
+            "flag_str": "5",
+            "singleton_str": "0",
+            "quantityDestroyed": 806
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "24471",
+              "href": "https://crest-tq.eveonline.com/inventory/types/24471/",
+              "id": 24471,
+              "name": "Scourge Rage Rocket",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/24471_128.png"
+              }
+            },
+            "quantityDestroyed_str": "100",
+            "flag": 5,
+            "flag_str": "5",
+            "singleton_str": "0",
+            "quantityDestroyed": 100
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "33890",
+              "href": "https://crest-tq.eveonline.com/inventory/types/33890/",
+              "id": 33890,
+              "name": "Small Transverse Bulkhead I",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/33890_128.png"
+              }
+            },
+            "quantityDestroyed_str": "1",
+            "flag": 92,
+            "flag_str": "92",
+            "singleton_str": "0",
+            "quantityDestroyed": 1
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "3178",
+              "href": "https://crest-tq.eveonline.com/inventory/types/3178/",
+              "id": 3178,
+              "name": "Light Neutron Blaster II",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/3178_128.png"
+              }
+            },
+            "quantityDropped_str": "1",
+            "flag": 31,
+            "singleton_str": "0",
+            "quantityDropped": 1,
+            "flag_str": "31"
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "5839",
+              "href": "https://crest-tq.eveonline.com/inventory/types/5839/",
+              "id": 5839,
+              "name": "IFFA Compact Damage Control",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/5839_128.png"
+              }
+            },
+            "quantityDestroyed_str": "1",
+            "flag": 11,
+            "flag_str": "11",
+            "singleton_str": "0",
+            "quantityDestroyed": 1
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "35658",
+              "href": "https://crest-tq.eveonline.com/inventory/types/35658/",
+              "id": 35658,
+              "name": "5MN Quad LiF Restrained Microwarpdrive",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/35658_128.png"
+              }
+            },
+            "quantityDropped_str": "1",
+            "flag": 19,
+            "singleton_str": "0",
+            "quantityDropped": 1,
+            "flag_str": "19"
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "12614",
+              "href": "https://crest-tq.eveonline.com/inventory/types/12614/",
+              "id": 12614,
+              "name": "Null S",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/12614_128.png"
+              }
+            },
+            "quantityDestroyed_str": "69",
+            "flag": 28,
+            "flag_str": "28",
+            "singleton_str": "0",
+            "quantityDestroyed": 69
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "448",
+              "href": "https://crest-tq.eveonline.com/inventory/types/448/",
+              "id": 448,
+              "name": "Warp Scrambler II",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/448_128.png"
+              }
+            },
+            "quantityDropped_str": "1",
+            "flag": 21,
+            "singleton_str": "0",
+            "quantityDropped": 1,
+            "flag_str": "21"
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "10631",
+              "href": "https://crest-tq.eveonline.com/inventory/types/10631/",
+              "id": 10631,
+              "name": "Rocket Launcher II",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/10631_128.png"
+              }
+            },
+            "quantityDropped_str": "1",
+            "flag": 30,
+            "singleton_str": "0",
+            "quantityDropped": 1,
+            "flag_str": "30"
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "3178",
+              "href": "https://crest-tq.eveonline.com/inventory/types/3178/",
+              "id": 3178,
+              "name": "Light Neutron Blaster II",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/3178_128.png"
+              }
+            },
+            "quantityDestroyed_str": "1",
+            "flag": 32,
+            "flag_str": "32",
+            "singleton_str": "0",
+            "quantityDestroyed": 1
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "3178",
+              "href": "https://crest-tq.eveonline.com/inventory/types/3178/",
+              "id": 3178,
+              "name": "Light Neutron Blaster II",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/3178_128.png"
+              }
+            },
+            "quantityDestroyed_str": "1",
+            "flag": 27,
+            "flag_str": "27",
+            "singleton_str": "0",
+            "quantityDestroyed": 1
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "28668",
+              "href": "https://crest-tq.eveonline.com/inventory/types/28668/",
+              "id": 28668,
+              "name": "Nanite Repair Paste",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/28668_128.png"
+              }
+            },
+            "quantityDestroyed_str": "20",
+            "flag": 5,
+            "flag_str": "5",
+            "singleton_str": "0",
+            "quantityDestroyed": 20
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "33890",
+              "href": "https://crest-tq.eveonline.com/inventory/types/33890/",
+              "id": 33890,
+              "name": "Small Transverse Bulkhead I",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/33890_128.png"
+              }
+            },
+            "quantityDestroyed_str": "1",
+            "flag": 93,
+            "flag_str": "93",
+            "singleton_str": "0",
+            "quantityDestroyed": 1
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "3178",
+              "href": "https://crest-tq.eveonline.com/inventory/types/3178/",
+              "id": 3178,
+              "name": "Light Neutron Blaster II",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/3178_128.png"
+              }
+            },
+            "quantityDropped_str": "1",
+            "flag": 28,
+            "singleton_str": "0",
+            "quantityDropped": 1,
+            "flag_str": "28"
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "27321",
+              "href": "https://crest-tq.eveonline.com/inventory/types/27321/",
+              "id": 27321,
+              "name": "Caldari Navy Mjolnir Rocket",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/27321_128.png"
+              }
+            },
+            "quantityDestroyed_str": "43",
+            "flag": 5,
+            "flag_str": "5",
+            "singleton_str": "0",
+            "quantityDestroyed": 43
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "27321",
+              "href": "https://crest-tq.eveonline.com/inventory/types/27321/",
+              "id": 27321,
+              "name": "Caldari Navy Mjolnir Rocket",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/27321_128.png"
+              }
+            },
+            "quantityDropped_str": "33",
+            "flag": 30,
+            "singleton_str": "0",
+            "quantityDropped": 33,
+            "flag_str": "30"
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "12614",
+              "href": "https://crest-tq.eveonline.com/inventory/types/12614/",
+              "id": 12614,
+              "name": "Null S",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/12614_128.png"
+              }
+            },
+            "quantityDestroyed_str": "69",
+            "flag": 29,
+            "flag_str": "29",
+            "singleton_str": "0",
+            "quantityDestroyed": 69
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "12614",
+              "href": "https://crest-tq.eveonline.com/inventory/types/12614/",
+              "id": 12614,
+              "name": "Null S",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/12614_128.png"
+              }
+            },
+            "quantityDestroyed_str": "69",
+            "flag": 32,
+            "flag_str": "32",
+            "singleton_str": "0",
+            "quantityDestroyed": 69
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "527",
+              "href": "https://crest-tq.eveonline.com/inventory/types/527/",
+              "id": 527,
+              "name": "Stasis Webifier II",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/527_128.png"
+              }
+            },
+            "quantityDropped_str": "1",
+            "flag": 20,
+            "singleton_str": "0",
+            "quantityDropped": 1,
+            "flag_str": "20"
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "3178",
+              "href": "https://crest-tq.eveonline.com/inventory/types/3178/",
+              "id": 3178,
+              "name": "Light Neutron Blaster II",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/3178_128.png"
+              }
+            },
+            "quantityDestroyed_str": "1",
+            "flag": 33,
+            "flag_str": "33",
+            "singleton_str": "0",
+            "quantityDestroyed": 1
+          },
+          {
+            "singleton": 0,
+            "itemType": {
+              "id_str": "10190",
+              "href": "https://crest-tq.eveonline.com/inventory/types/10190/",
+              "id": 10190,
+              "name": "Magnetic Field Stabilizer II",
+              "icon": {
+                "href": "http://imageserver.eveonline.com/Type/10190_128.png"
+              }
+            },
+            "quantityDropped_str": "1",
+            "flag": 12,
+            "singleton_str": "0",
+            "quantityDropped": 1,
+            "flag_str": "12"
+          }
+        ],
+        "damageTaken_str": "3281",
+        "character": {
+          "id_str": "95502537",
+          "href": "https://crest-tq.eveonline.com/characters/95502537/",
+          "id": 95502537,
+          "name": "John Ludik",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Character/95502537_128.jpg"
+          }
+        },
+        "shipType": {
+          "id_str": "16238",
+          "href": "https://crest-tq.eveonline.com/inventory/types/16238/",
+          "id": 16238,
+          "name": "Cormorant",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/16238_128.png"
+          }
+        },
+        "corporation": {
+          "id_str": "98467890",
+          "href": "https://crest-tq.eveonline.com/corporations/98467890/",
+          "id": 98467890,
+          "name": "Coitus Interruptus",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Corporation/98467890_128.png"
+          }
+        },
+        "position": {
+          "y": 36887591211.45693,
+          "x": -5737021819.940869,
+          "z": 90750326157.83244
+        }
+      },
+      "killID_str": "55002458",
+      "attackerCount_str": "1",
+      "war": {
+        "href": "https://crest-tq.eveonline.com/wars/0/",
+        "id": 0,
+        "id_str": "0"
+      }
+    }
+  }
+}

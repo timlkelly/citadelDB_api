@@ -2,970 +2,974 @@
 // https://crest-tq.eveonline.com/killmails/54853447/faf5f289d214aa575ff0974afaea0463c9653824/
 
 {
-  "solarSystem": {
-    "id_str": "30003029",
-    "href": "https://crest-tq.eveonline.com/solarsystems/30003029/",
-    "id": 30003029,
-    "name": "Jaschercis"
-  },
-  "killID": 54853447,
-  "killTime": "2016.06.29 03:26:16",
-  "attackers": [
-    {
-      "alliance": {
-        "id_str": "421038446",
-        "href": "https://crest-tq.eveonline.com/alliances/421038446/",
-        "id": 421038446,
-        "name": "General Tso's Alliance",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Alliance/421038446_128.png"
-        }
-      },
-      "shipType": {
-        "id_str": "24692",
-        "href": "https://crest-tq.eveonline.com/inventory/types/24692/",
-        "id": 24692,
-        "name": "Abaddon",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/24692_128.png"
-        }
-      },
-      "corporation": {
-        "id_str": "884181763",
-        "href": "https://crest-tq.eveonline.com/corporations/884181763/",
-        "id": 884181763,
-        "name": "Sardaukar Merc Guild",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Corporation/884181763_128.png"
-        }
-      },
-      "character": {
-        "id_str": "1162256308",
-        "href": "https://crest-tq.eveonline.com/characters/1162256308/",
-        "id": 1162256308,
-        "name": "Brusanan",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Character/1162256308_128.jpg"
-        }
-      },
-      "damageDone_str": "1033621",
-      "weaponType": {
-        "id_str": "2446",
-        "href": "https://crest-tq.eveonline.com/inventory/types/2446/",
-        "id": 2446,
-        "name": "Ogre II",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/2446_128.png"
-        }
-      },
-      "finalBlow": false,
-      "securityStatus": 1.5,
-      "damageDone": 1033621
-    },
-    {
-      "alliance": {
-        "id_str": "421038446",
-        "href": "https://crest-tq.eveonline.com/alliances/421038446/",
-        "id": 421038446,
-        "name": "General Tso's Alliance",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Alliance/421038446_128.png"
-        }
-      },
-      "shipType": {
-        "id_str": "641",
-        "href": "https://crest-tq.eveonline.com/inventory/types/641/",
-        "id": 641,
-        "name": "Megathron",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/641_128.png"
-        }
-      },
-      "corporation": {
-        "id_str": "884181763",
-        "href": "https://crest-tq.eveonline.com/corporations/884181763/",
-        "id": 884181763,
-        "name": "Sardaukar Merc Guild",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Corporation/884181763_128.png"
-        }
-      },
-      "character": {
-        "id_str": "1236929084",
-        "href": "https://crest-tq.eveonline.com/characters/1236929084/",
-        "id": 1236929084,
-        "name": "BE3DEXOD",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Character/1236929084_128.jpg"
-        }
-      },
-      "damageDone_str": "793605",
-      "weaponType": {
-        "id_str": "2478",
-        "href": "https://crest-tq.eveonline.com/inventory/types/2478/",
-        "id": 2478,
-        "name": "Berserker II",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/2478_128.png"
-        }
-      },
-      "finalBlow": false,
-      "securityStatus": -2.4,
-      "damageDone": 793605
-    },
-    {
-      "alliance": {
-        "id_str": "421038446",
-        "href": "https://crest-tq.eveonline.com/alliances/421038446/",
-        "id": 421038446,
-        "name": "General Tso's Alliance",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Alliance/421038446_128.png"
-        }
-      },
-      "shipType": {
-        "id_str": "17738",
-        "href": "https://crest-tq.eveonline.com/inventory/types/17738/",
-        "id": 17738,
-        "name": "Machariel",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/17738_128.png"
-        }
-      },
-      "corporation": {
-        "id_str": "884181763",
-        "href": "https://crest-tq.eveonline.com/corporations/884181763/",
-        "id": 884181763,
-        "name": "Sardaukar Merc Guild",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Corporation/884181763_128.png"
-        }
-      },
-      "character": {
-        "id_str": "91047491",
-        "href": "https://crest-tq.eveonline.com/characters/91047491/",
-        "id": 91047491,
-        "name": "James Trantor",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Character/91047491_128.jpg"
-        }
-      },
-      "damageDone_str": "633748",
-      "weaponType": {
-        "id_str": "31884",
-        "href": "https://crest-tq.eveonline.com/inventory/types/31884/",
-        "id": 31884,
-        "name": "Federation Navy Ogre",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/31884_128.png"
-        }
-      },
-      "finalBlow": false,
-      "securityStatus": -1.4,
-      "damageDone": 633748
-    },
-    {
-      "alliance": {
-        "id_str": "421038446",
-        "href": "https://crest-tq.eveonline.com/alliances/421038446/",
-        "id": 421038446,
-        "name": "General Tso's Alliance",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Alliance/421038446_128.png"
-        }
-      },
-      "shipType": {
-        "id_str": "33816",
-        "href": "https://crest-tq.eveonline.com/inventory/types/33816/",
-        "id": 33816,
-        "name": "Garmur",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/33816_128.png"
-        }
-      },
-      "corporation": {
-        "id_str": "884181763",
-        "href": "https://crest-tq.eveonline.com/corporations/884181763/",
-        "id": 884181763,
-        "name": "Sardaukar Merc Guild",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Corporation/884181763_128.png"
-        }
-      },
-      "character": {
-        "id_str": "1740815433",
-        "href": "https://crest-tq.eveonline.com/characters/1740815433/",
-        "id": 1740815433,
-        "name": "Xavior Harkonnen",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Character/1740815433_128.jpg"
-        }
-      },
-      "damageDone_str": "599349",
-      "weaponType": {
-        "id_str": "19739",
-        "href": "https://crest-tq.eveonline.com/inventory/types/19739/",
-        "id": 19739,
-        "name": "Cruise Missile Launcher II",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/19739_128.png"
-        }
-      },
-      "finalBlow": false,
-      "securityStatus": 1.6,
-      "damageDone": 599349
-    },
-    {
-      "alliance": {
-        "id_str": "421038446",
-        "href": "https://crest-tq.eveonline.com/alliances/421038446/",
-        "id": 421038446,
-        "name": "General Tso's Alliance",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Alliance/421038446_128.png"
-        }
-      },
-      "shipType": {
-        "id_str": "644",
-        "href": "https://crest-tq.eveonline.com/inventory/types/644/",
-        "id": 644,
-        "name": "Typhoon",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/644_128.png"
-        }
-      },
-      "corporation": {
-        "id_str": "884181763",
-        "href": "https://crest-tq.eveonline.com/corporations/884181763/",
-        "id": 884181763,
-        "name": "Sardaukar Merc Guild",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Corporation/884181763_128.png"
-        }
-      },
-      "character": {
-        "id_str": "95314906",
-        "href": "https://crest-tq.eveonline.com/characters/95314906/",
-        "id": 95314906,
-        "name": "Jreal's Son",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Character/95314906_128.jpg"
-        }
-      },
-      "damageDone_str": "595480",
-      "weaponType": {
-        "id_str": "31886",
-        "href": "https://crest-tq.eveonline.com/inventory/types/31886/",
-        "id": 31886,
-        "name": "Federation Navy Garde",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/31886_128.png"
-        }
-      },
-      "finalBlow": false,
-      "securityStatus": -1.3,
-      "damageDone": 595480
-    },
-    {
-      "alliance": {
-        "id_str": "421038446",
-        "href": "https://crest-tq.eveonline.com/alliances/421038446/",
-        "id": 421038446,
-        "name": "General Tso's Alliance",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Alliance/421038446_128.png"
-        }
-      },
-      "shipType": {
-        "id_str": "33820",
-        "href": "https://crest-tq.eveonline.com/inventory/types/33820/",
-        "id": 33820,
-        "name": "Barghest",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/33820_128.png"
-        }
-      },
-      "corporation": {
-        "id_str": "884181763",
-        "href": "https://crest-tq.eveonline.com/corporations/884181763/",
-        "id": 884181763,
-        "name": "Sardaukar Merc Guild",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Corporation/884181763_128.png"
-        }
-      },
-      "character": {
-        "id_str": "92497973",
-        "href": "https://crest-tq.eveonline.com/characters/92497973/",
-        "id": 92497973,
-        "name": "Nexus Omni",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Character/92497973_128.jpg"
-        }
-      },
-      "damageDone_str": "584845",
-      "weaponType": {
-        "id_str": "27435",
-        "href": "https://crest-tq.eveonline.com/inventory/types/27435/",
-        "id": 27435,
-        "name": "Caldari Navy Mjolnir Heavy Missile",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/27435_128.png"
-        }
-      },
-      "finalBlow": false,
-      "securityStatus": -1.8,
-      "damageDone": 584845
-    },
-    {
-      "alliance": {
-        "id_str": "421038446",
-        "href": "https://crest-tq.eveonline.com/alliances/421038446/",
-        "id": 421038446,
-        "name": "General Tso's Alliance",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Alliance/421038446_128.png"
-        }
-      },
-      "shipType": {
-        "id_str": "11377",
-        "href": "https://crest-tq.eveonline.com/inventory/types/11377/",
-        "id": 11377,
-        "name": "Nemesis",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/11377_128.png"
-        }
-      },
-      "corporation": {
-        "id_str": "884181763",
-        "href": "https://crest-tq.eveonline.com/corporations/884181763/",
-        "id": 884181763,
-        "name": "Sardaukar Merc Guild",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Corporation/884181763_128.png"
-        }
-      },
-      "character": {
-        "id_str": "94009669",
-        "href": "https://crest-tq.eveonline.com/characters/94009669/",
-        "id": 94009669,
-        "name": "Scisco Teabag",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Character/94009669_128.jpg"
-        }
-      },
-      "damageDone_str": "528946",
-      "weaponType": {
-        "id_str": "2811",
-        "href": "https://crest-tq.eveonline.com/inventory/types/2811/",
-        "id": 2811,
-        "name": "Inferno Rage Torpedo",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/2811_128.png"
-        }
-      },
-      "finalBlow": false,
-      "securityStatus": -2.4,
-      "damageDone": 528946
-    },
-    {
-      "alliance": {
-        "id_str": "421038446",
-        "href": "https://crest-tq.eveonline.com/alliances/421038446/",
-        "id": 421038446,
-        "name": "General Tso's Alliance",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Alliance/421038446_128.png"
-        }
-      },
-      "shipType": {
-        "id_str": "32307",
-        "href": "https://crest-tq.eveonline.com/inventory/types/32307/",
-        "id": 32307,
-        "name": "Dominix Navy Issue",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/32307_128.png"
-        }
-      },
-      "corporation": {
-        "id_str": "884181763",
-        "href": "https://crest-tq.eveonline.com/corporations/884181763/",
-        "id": 884181763,
-        "name": "Sardaukar Merc Guild",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Corporation/884181763_128.png"
-        }
-      },
-      "character": {
-        "id_str": "118166615",
-        "href": "https://crest-tq.eveonline.com/characters/118166615/",
-        "id": 118166615,
-        "name": "Burseg Sardaukar",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Character/118166615_128.jpg"
-        }
-      },
-      "damageDone_str": "480764",
-      "weaponType": {
-        "id_str": "28211",
-        "href": "https://crest-tq.eveonline.com/inventory/types/28211/",
-        "id": 28211,
-        "name": "Garde II",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/28211_128.png"
-        }
-      },
-      "finalBlow": false,
-      "securityStatus": -2.1,
-      "damageDone": 480764
-    },
-    {
-      "alliance": {
-        "id_str": "421038446",
-        "href": "https://crest-tq.eveonline.com/alliances/421038446/",
-        "id": 421038446,
-        "name": "General Tso's Alliance",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Alliance/421038446_128.png"
-        }
-      },
-      "shipType": {
-        "id_str": "12005",
-        "href": "https://crest-tq.eveonline.com/inventory/types/12005/",
-        "id": 12005,
-        "name": "Ishtar",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/12005_128.png"
-        }
-      },
-      "corporation": {
-        "id_str": "884181763",
-        "href": "https://crest-tq.eveonline.com/corporations/884181763/",
-        "id": 884181763,
-        "name": "Sardaukar Merc Guild",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Corporation/884181763_128.png"
-        }
-      },
-      "character": {
-        "id_str": "93091437",
-        "href": "https://crest-tq.eveonline.com/characters/93091437/",
-        "id": 93091437,
-        "name": "Korhall Asko",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Character/93091437_128.jpg"
-        }
-      },
-      "damageDone_str": "429949",
-      "weaponType": {
-        "id_str": "2436",
-        "href": "https://crest-tq.eveonline.com/inventory/types/2436/",
-        "id": 2436,
-        "name": "Wasp II",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/2436_128.png"
-        }
-      },
-      "finalBlow": false,
-      "securityStatus": 4.7,
-      "damageDone": 429949
-    },
-    {
-      "alliance": {
-        "id_str": "421038446",
-        "href": "https://crest-tq.eveonline.com/alliances/421038446/",
-        "id": 421038446,
-        "name": "General Tso's Alliance",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Alliance/421038446_128.png"
-        }
-      },
-      "shipType": {
-        "id_str": "16229",
-        "href": "https://crest-tq.eveonline.com/inventory/types/16229/",
-        "id": 16229,
-        "name": "Brutix",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/16229_128.png"
-        }
-      },
-      "corporation": {
-        "id_str": "884181763",
-        "href": "https://crest-tq.eveonline.com/corporations/884181763/",
-        "id": 884181763,
-        "name": "Sardaukar Merc Guild",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Corporation/884181763_128.png"
-        }
-      },
-      "character": {
-        "id_str": "802666540",
-        "href": "https://crest-tq.eveonline.com/characters/802666540/",
-        "id": 802666540,
-        "name": "Karissel",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Character/802666540_128.jpg"
-        }
-      },
-      "damageDone_str": "427918",
-      "weaponType": {
-        "id_str": "3146",
-        "href": "https://crest-tq.eveonline.com/inventory/types/3146/",
-        "id": 3146,
-        "name": "Heavy Neutron Blaster II",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/3146_128.png"
-        }
-      },
-      "finalBlow": true,
-      "securityStatus": -2.8,
-      "damageDone": 427918
-    },
-    {
-      "alliance": {
-        "id_str": "421038446",
-        "href": "https://crest-tq.eveonline.com/alliances/421038446/",
-        "id": 421038446,
-        "name": "General Tso's Alliance",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Alliance/421038446_128.png"
-        }
-      },
-      "shipType": {
-        "id_str": "17738",
-        "href": "https://crest-tq.eveonline.com/inventory/types/17738/",
-        "id": 17738,
-        "name": "Machariel",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/17738_128.png"
-        }
-      },
-      "corporation": {
-        "id_str": "884181763",
-        "href": "https://crest-tq.eveonline.com/corporations/884181763/",
-        "id": 884181763,
-        "name": "Sardaukar Merc Guild",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Corporation/884181763_128.png"
-        }
-      },
-      "character": {
-        "id_str": "92526430",
-        "href": "https://crest-tq.eveonline.com/characters/92526430/",
-        "id": 92526430,
-        "name": "Gene Maricadie",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Character/92526430_128.jpg"
-        }
-      },
-      "damageDone_str": "361449",
-      "weaponType": {
-        "id_str": "2961",
-        "href": "https://crest-tq.eveonline.com/inventory/types/2961/",
-        "id": 2961,
-        "name": "1400mm Howitzer Artillery II",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/2961_128.png"
-        }
-      },
-      "finalBlow": false,
-      "securityStatus": -2.4,
-      "damageDone": 361449
-    },
-    {
-      "alliance": {
-        "id_str": "421038446",
-        "href": "https://crest-tq.eveonline.com/alliances/421038446/",
-        "id": 421038446,
-        "name": "General Tso's Alliance",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Alliance/421038446_128.png"
-        }
-      },
-      "shipType": {
-        "id_str": "12019",
-        "href": "https://crest-tq.eveonline.com/inventory/types/12019/",
-        "id": 12019,
-        "name": "Sacrilege",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/12019_128.png"
-        }
-      },
-      "corporation": {
-        "id_str": "495131214",
-        "href": "https://crest-tq.eveonline.com/corporations/495131214/",
-        "id": 495131214,
-        "name": "VALHALLA'S Wrath",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Corporation/495131214_128.png"
-        }
-      },
-      "character": {
-        "id_str": "1401910443",
-        "href": "https://crest-tq.eveonline.com/characters/1401910443/",
-        "id": 1401910443,
-        "name": "Jove Dens",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Character/1401910443_128.jpg"
-        }
-      },
-      "damageDone_str": "163480",
-      "weaponType": {
-        "id_str": "24511",
-        "href": "https://crest-tq.eveonline.com/inventory/types/24511/",
-        "id": 24511,
-        "name": "Inferno Fury Heavy Missile",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/24511_128.png"
-        }
-      },
-      "finalBlow": false,
-      "securityStatus": 4.6,
-      "damageDone": 163480
-    },
-    {
-      "alliance": {
-        "id_str": "421038446",
-        "href": "https://crest-tq.eveonline.com/alliances/421038446/",
-        "id": 421038446,
-        "name": "General Tso's Alliance",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Alliance/421038446_128.png"
-        }
-      },
-      "shipType": {
-        "id_str": "644",
-        "href": "https://crest-tq.eveonline.com/inventory/types/644/",
-        "id": 644,
-        "name": "Typhoon",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/644_128.png"
-        }
-      },
-      "corporation": {
-        "id_str": "495131214",
-        "href": "https://crest-tq.eveonline.com/corporations/495131214/",
-        "id": 495131214,
-        "name": "VALHALLA'S Wrath",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Corporation/495131214_128.png"
-        }
-      },
-      "character": {
-        "id_str": "1130720987",
-        "href": "https://crest-tq.eveonline.com/characters/1130720987/",
-        "id": 1130720987,
-        "name": "PIJ1",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Character/1130720987_128.jpg"
-        }
-      },
-      "damageDone_str": "143970",
-      "weaponType": {
-        "id_str": "28211",
-        "href": "https://crest-tq.eveonline.com/inventory/types/28211/",
-        "id": 28211,
-        "name": "Garde II",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/28211_128.png"
-        }
-      },
-      "finalBlow": false,
-      "securityStatus": 2.2,
-      "damageDone": 143970
-    },
-    {
-      "alliance": {
-        "id_str": "421038446",
-        "href": "https://crest-tq.eveonline.com/alliances/421038446/",
-        "id": 421038446,
-        "name": "General Tso's Alliance",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Alliance/421038446_128.png"
-        }
-      },
-      "shipType": {
-        "id_str": "643",
-        "href": "https://crest-tq.eveonline.com/inventory/types/643/",
-        "id": 643,
-        "name": "Armageddon",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/643_128.png"
-        }
-      },
-      "corporation": {
-        "id_str": "884181763",
-        "href": "https://crest-tq.eveonline.com/corporations/884181763/",
-        "id": 884181763,
-        "name": "Sardaukar Merc Guild",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Corporation/884181763_128.png"
-        }
-      },
-      "character": {
-        "id_str": "1928848160",
-        "href": "https://crest-tq.eveonline.com/characters/1928848160/",
-        "id": 1928848160,
-        "name": "Roale Tharan",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Character/1928848160_128.jpg"
-        }
-      },
-      "damageDone_str": "143112",
-      "weaponType": {
-        "id_str": "28211",
-        "href": "https://crest-tq.eveonline.com/inventory/types/28211/",
-        "id": 28211,
-        "name": "Garde II",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/28211_128.png"
-        }
-      },
-      "finalBlow": false,
-      "securityStatus": -0.9,
-      "damageDone": 143112
-    },
-    {
-      "alliance": {
-        "id_str": "421038446",
-        "href": "https://crest-tq.eveonline.com/alliances/421038446/",
-        "id": 421038446,
-        "name": "General Tso's Alliance",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Alliance/421038446_128.png"
-        }
-      },
-      "shipType": {
-        "id_str": "12034",
-        "href": "https://crest-tq.eveonline.com/inventory/types/12034/",
-        "id": 12034,
-        "name": "Hound",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/12034_128.png"
-        }
-      },
-      "corporation": {
-        "id_str": "884181763",
-        "href": "https://crest-tq.eveonline.com/corporations/884181763/",
-        "id": 884181763,
-        "name": "Sardaukar Merc Guild",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Corporation/884181763_128.png"
-        }
-      },
-      "character": {
-        "id_str": "95705359",
-        "href": "https://crest-tq.eveonline.com/characters/95705359/",
-        "id": 95705359,
-        "name": "John Rydell",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Character/95705359_128.jpg"
-        }
-      },
-      "damageDone_str": "100964",
-      "weaponType": {
-        "id_str": "27359",
-        "href": "https://crest-tq.eveonline.com/inventory/types/27359/",
-        "id": 27359,
-        "name": "Caldari Navy Nova Torpedo",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/27359_128.png"
-        }
-      },
-      "finalBlow": false,
-      "securityStatus": -0.2,
-      "damageDone": 100964
-    },
-    {
-      "alliance": {
-        "id_str": "421038446",
-        "href": "https://crest-tq.eveonline.com/alliances/421038446/",
-        "id": 421038446,
-        "name": "General Tso's Alliance",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Alliance/421038446_128.png"
-        }
-      },
-      "shipType": {
-        "id_str": "16240",
-        "href": "https://crest-tq.eveonline.com/inventory/types/16240/",
-        "id": 16240,
-        "name": "Catalyst",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/16240_128.png"
-        }
-      },
-      "corporation": {
-        "id_str": "884181763",
-        "href": "https://crest-tq.eveonline.com/corporations/884181763/",
-        "id": 884181763,
-        "name": "Sardaukar Merc Guild",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Corporation/884181763_128.png"
-        }
-      },
-      "character": {
-        "id_str": "96561560",
-        "href": "https://crest-tq.eveonline.com/characters/96561560/",
-        "id": 96561560,
-        "name": "Jokeronthekill Jokesters",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Character/96561560_128.jpg"
-        }
-      },
-      "damageDone_str": "32642",
-      "weaponType": {
-        "id_str": "10678",
-        "href": "https://crest-tq.eveonline.com/inventory/types/10678/",
-        "id": 10678,
-        "name": "125mm Railgun I",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/10678_128.png"
-        }
-      },
-      "finalBlow": false,
-      "securityStatus": 0.1,
-      "damageDone": 32642
-    },
-    {
-      "alliance": {
-        "id_str": "421038446",
-        "href": "https://crest-tq.eveonline.com/alliances/421038446/",
-        "id": 421038446,
-        "name": "General Tso's Alliance",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Alliance/421038446_128.png"
-        }
-      },
-      "shipType": {
-        "id_str": "601",
-        "href": "https://crest-tq.eveonline.com/inventory/types/601/",
-        "id": 601,
-        "name": "Ibis",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/601_128.png"
-        }
-      },
-      "corporation": {
-        "id_str": "884181763",
-        "href": "https://crest-tq.eveonline.com/corporations/884181763/",
-        "id": 884181763,
-        "name": "Sardaukar Merc Guild",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Corporation/884181763_128.png"
-        }
-      },
-      "character": {
-        "id_str": "96579166",
-        "href": "https://crest-tq.eveonline.com/characters/96579166/",
-        "id": 96579166,
-        "name": "GayReal's Son",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Character/96579166_128.jpg"
-        }
-      },
-      "damageDone_str": "330",
-      "weaponType": {
-        "id_str": "601",
-        "href": "https://crest-tq.eveonline.com/inventory/types/601/",
-        "id": 601,
-        "name": "Ibis",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/601_128.png"
-        }
-      },
-      "finalBlow": false,
-      "securityStatus": 0.0,
-      "damageDone": 330
-    },
-    {
-      "alliance": {
-        "id_str": "99003285",
-        "href": "https://crest-tq.eveonline.com/alliances/99003285/",
-        "id": 99003285,
-        "name": "WarDogs League",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Alliance/99003285_128.png"
-        }
-      },
-      "shipType": {
-        "id_str": "33328",
-        "href": "https://crest-tq.eveonline.com/inventory/types/33328/",
-        "id": 33328,
-        "name": "Capsule - Genolution 'Auroral' 197-variant",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/33328_128.png"
-        }
-      },
-      "corporation": {
-        "id_str": "98267292",
-        "href": "https://crest-tq.eveonline.com/corporations/98267292/",
-        "id": 98267292,
-        "name": "WAR.DOG",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Corporation/98267292_128.png"
-        }
-      },
-      "character": {
-        "id_str": "90632972",
-        "href": "https://crest-tq.eveonline.com/characters/90632972/",
-        "id": 90632972,
-        "name": "Dmitry Lifanov",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Character/90632972_128.jpg"
-        }
-      },
-      "damageDone_str": "23",
-      "weaponType": {
-        "id_str": "596",
-        "href": "https://crest-tq.eveonline.com/inventory/types/596/",
-        "id": 596,
-        "name": "Impairor",
-        "icon": {
-          "href": "http://imageserver.eveonline.com/Type/596_128.png"
-        }
-      },
-      "finalBlow": false,
-      "securityStatus": 4.6,
-      "damageDone": 23
-    }
-  ],
-  "attackerCount": 18,
-  "victim": {
-    "damageTaken": 7054195,
-    "items": [
-      
-    ],
-    "damageTaken_str": "7054195",
-    "shipType": {
-      "id_str": "35832",
-      "href": "https://crest-tq.eveonline.com/inventory/types/35832/",
-      "id": 35832,
-      "name": "Astrahus",
-      "icon": {
-        "href": "http://imageserver.eveonline.com/Type/35832_128.png"
+  "package": {
+    "killmail": {
+      "solarSystem": {
+        "id_str": "30003029",
+        "href": "https://crest-tq.eveonline.com/solarsystems/30003029/",
+        "id": 30003029,
+        "name": "Jaschercis"
+      },
+      "killID": 54853447,
+      "killTime": "2016.06.29 03:26:16",
+      "attackers": [
+        {
+          "alliance": {
+            "id_str": "421038446",
+            "href": "https://crest-tq.eveonline.com/alliances/421038446/",
+            "id": 421038446,
+            "name": "General Tso's Alliance",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Alliance/421038446_128.png"
+            }
+          },
+          "shipType": {
+            "id_str": "24692",
+            "href": "https://crest-tq.eveonline.com/inventory/types/24692/",
+            "id": 24692,
+            "name": "Abaddon",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/24692_128.png"
+            }
+          },
+          "corporation": {
+            "id_str": "884181763",
+            "href": "https://crest-tq.eveonline.com/corporations/884181763/",
+            "id": 884181763,
+            "name": "Sardaukar Merc Guild",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Corporation/884181763_128.png"
+            }
+          },
+          "character": {
+            "id_str": "1162256308",
+            "href": "https://crest-tq.eveonline.com/characters/1162256308/",
+            "id": 1162256308,
+            "name": "Brusanan",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Character/1162256308_128.jpg"
+            }
+          },
+          "damageDone_str": "1033621",
+          "weaponType": {
+            "id_str": "2446",
+            "href": "https://crest-tq.eveonline.com/inventory/types/2446/",
+            "id": 2446,
+            "name": "Ogre II",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/2446_128.png"
+            }
+          },
+          "finalBlow": false,
+          "securityStatus": 1.5,
+          "damageDone": 1033621
+        },
+        {
+          "alliance": {
+            "id_str": "421038446",
+            "href": "https://crest-tq.eveonline.com/alliances/421038446/",
+            "id": 421038446,
+            "name": "General Tso's Alliance",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Alliance/421038446_128.png"
+            }
+          },
+          "shipType": {
+            "id_str": "641",
+            "href": "https://crest-tq.eveonline.com/inventory/types/641/",
+            "id": 641,
+            "name": "Megathron",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/641_128.png"
+            }
+          },
+          "corporation": {
+            "id_str": "884181763",
+            "href": "https://crest-tq.eveonline.com/corporations/884181763/",
+            "id": 884181763,
+            "name": "Sardaukar Merc Guild",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Corporation/884181763_128.png"
+            }
+          },
+          "character": {
+            "id_str": "1236929084",
+            "href": "https://crest-tq.eveonline.com/characters/1236929084/",
+            "id": 1236929084,
+            "name": "BE3DEXOD",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Character/1236929084_128.jpg"
+            }
+          },
+          "damageDone_str": "793605",
+          "weaponType": {
+            "id_str": "2478",
+            "href": "https://crest-tq.eveonline.com/inventory/types/2478/",
+            "id": 2478,
+            "name": "Berserker II",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/2478_128.png"
+            }
+          },
+          "finalBlow": false,
+          "securityStatus": -2.4,
+          "damageDone": 793605
+        },
+        {
+          "alliance": {
+            "id_str": "421038446",
+            "href": "https://crest-tq.eveonline.com/alliances/421038446/",
+            "id": 421038446,
+            "name": "General Tso's Alliance",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Alliance/421038446_128.png"
+            }
+          },
+          "shipType": {
+            "id_str": "17738",
+            "href": "https://crest-tq.eveonline.com/inventory/types/17738/",
+            "id": 17738,
+            "name": "Machariel",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/17738_128.png"
+            }
+          },
+          "corporation": {
+            "id_str": "884181763",
+            "href": "https://crest-tq.eveonline.com/corporations/884181763/",
+            "id": 884181763,
+            "name": "Sardaukar Merc Guild",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Corporation/884181763_128.png"
+            }
+          },
+          "character": {
+            "id_str": "91047491",
+            "href": "https://crest-tq.eveonline.com/characters/91047491/",
+            "id": 91047491,
+            "name": "James Trantor",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Character/91047491_128.jpg"
+            }
+          },
+          "damageDone_str": "633748",
+          "weaponType": {
+            "id_str": "31884",
+            "href": "https://crest-tq.eveonline.com/inventory/types/31884/",
+            "id": 31884,
+            "name": "Federation Navy Ogre",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/31884_128.png"
+            }
+          },
+          "finalBlow": false,
+          "securityStatus": -1.4,
+          "damageDone": 633748
+        },
+        {
+          "alliance": {
+            "id_str": "421038446",
+            "href": "https://crest-tq.eveonline.com/alliances/421038446/",
+            "id": 421038446,
+            "name": "General Tso's Alliance",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Alliance/421038446_128.png"
+            }
+          },
+          "shipType": {
+            "id_str": "33816",
+            "href": "https://crest-tq.eveonline.com/inventory/types/33816/",
+            "id": 33816,
+            "name": "Garmur",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/33816_128.png"
+            }
+          },
+          "corporation": {
+            "id_str": "884181763",
+            "href": "https://crest-tq.eveonline.com/corporations/884181763/",
+            "id": 884181763,
+            "name": "Sardaukar Merc Guild",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Corporation/884181763_128.png"
+            }
+          },
+          "character": {
+            "id_str": "1740815433",
+            "href": "https://crest-tq.eveonline.com/characters/1740815433/",
+            "id": 1740815433,
+            "name": "Xavior Harkonnen",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Character/1740815433_128.jpg"
+            }
+          },
+          "damageDone_str": "599349",
+          "weaponType": {
+            "id_str": "19739",
+            "href": "https://crest-tq.eveonline.com/inventory/types/19739/",
+            "id": 19739,
+            "name": "Cruise Missile Launcher II",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/19739_128.png"
+            }
+          },
+          "finalBlow": false,
+          "securityStatus": 1.6,
+          "damageDone": 599349
+        },
+        {
+          "alliance": {
+            "id_str": "421038446",
+            "href": "https://crest-tq.eveonline.com/alliances/421038446/",
+            "id": 421038446,
+            "name": "General Tso's Alliance",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Alliance/421038446_128.png"
+            }
+          },
+          "shipType": {
+            "id_str": "644",
+            "href": "https://crest-tq.eveonline.com/inventory/types/644/",
+            "id": 644,
+            "name": "Typhoon",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/644_128.png"
+            }
+          },
+          "corporation": {
+            "id_str": "884181763",
+            "href": "https://crest-tq.eveonline.com/corporations/884181763/",
+            "id": 884181763,
+            "name": "Sardaukar Merc Guild",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Corporation/884181763_128.png"
+            }
+          },
+          "character": {
+            "id_str": "95314906",
+            "href": "https://crest-tq.eveonline.com/characters/95314906/",
+            "id": 95314906,
+            "name": "Jreal's Son",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Character/95314906_128.jpg"
+            }
+          },
+          "damageDone_str": "595480",
+          "weaponType": {
+            "id_str": "31886",
+            "href": "https://crest-tq.eveonline.com/inventory/types/31886/",
+            "id": 31886,
+            "name": "Federation Navy Garde",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/31886_128.png"
+            }
+          },
+          "finalBlow": false,
+          "securityStatus": -1.3,
+          "damageDone": 595480
+        },
+        {
+          "alliance": {
+            "id_str": "421038446",
+            "href": "https://crest-tq.eveonline.com/alliances/421038446/",
+            "id": 421038446,
+            "name": "General Tso's Alliance",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Alliance/421038446_128.png"
+            }
+          },
+          "shipType": {
+            "id_str": "33820",
+            "href": "https://crest-tq.eveonline.com/inventory/types/33820/",
+            "id": 33820,
+            "name": "Barghest",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/33820_128.png"
+            }
+          },
+          "corporation": {
+            "id_str": "884181763",
+            "href": "https://crest-tq.eveonline.com/corporations/884181763/",
+            "id": 884181763,
+            "name": "Sardaukar Merc Guild",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Corporation/884181763_128.png"
+            }
+          },
+          "character": {
+            "id_str": "92497973",
+            "href": "https://crest-tq.eveonline.com/characters/92497973/",
+            "id": 92497973,
+            "name": "Nexus Omni",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Character/92497973_128.jpg"
+            }
+          },
+          "damageDone_str": "584845",
+          "weaponType": {
+            "id_str": "27435",
+            "href": "https://crest-tq.eveonline.com/inventory/types/27435/",
+            "id": 27435,
+            "name": "Caldari Navy Mjolnir Heavy Missile",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/27435_128.png"
+            }
+          },
+          "finalBlow": false,
+          "securityStatus": -1.8,
+          "damageDone": 584845
+        },
+        {
+          "alliance": {
+            "id_str": "421038446",
+            "href": "https://crest-tq.eveonline.com/alliances/421038446/",
+            "id": 421038446,
+            "name": "General Tso's Alliance",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Alliance/421038446_128.png"
+            }
+          },
+          "shipType": {
+            "id_str": "11377",
+            "href": "https://crest-tq.eveonline.com/inventory/types/11377/",
+            "id": 11377,
+            "name": "Nemesis",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/11377_128.png"
+            }
+          },
+          "corporation": {
+            "id_str": "884181763",
+            "href": "https://crest-tq.eveonline.com/corporations/884181763/",
+            "id": 884181763,
+            "name": "Sardaukar Merc Guild",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Corporation/884181763_128.png"
+            }
+          },
+          "character": {
+            "id_str": "94009669",
+            "href": "https://crest-tq.eveonline.com/characters/94009669/",
+            "id": 94009669,
+            "name": "Scisco Teabag",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Character/94009669_128.jpg"
+            }
+          },
+          "damageDone_str": "528946",
+          "weaponType": {
+            "id_str": "2811",
+            "href": "https://crest-tq.eveonline.com/inventory/types/2811/",
+            "id": 2811,
+            "name": "Inferno Rage Torpedo",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/2811_128.png"
+            }
+          },
+          "finalBlow": false,
+          "securityStatus": -2.4,
+          "damageDone": 528946
+        },
+        {
+          "alliance": {
+            "id_str": "421038446",
+            "href": "https://crest-tq.eveonline.com/alliances/421038446/",
+            "id": 421038446,
+            "name": "General Tso's Alliance",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Alliance/421038446_128.png"
+            }
+          },
+          "shipType": {
+            "id_str": "32307",
+            "href": "https://crest-tq.eveonline.com/inventory/types/32307/",
+            "id": 32307,
+            "name": "Dominix Navy Issue",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/32307_128.png"
+            }
+          },
+          "corporation": {
+            "id_str": "884181763",
+            "href": "https://crest-tq.eveonline.com/corporations/884181763/",
+            "id": 884181763,
+            "name": "Sardaukar Merc Guild",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Corporation/884181763_128.png"
+            }
+          },
+          "character": {
+            "id_str": "118166615",
+            "href": "https://crest-tq.eveonline.com/characters/118166615/",
+            "id": 118166615,
+            "name": "Burseg Sardaukar",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Character/118166615_128.jpg"
+            }
+          },
+          "damageDone_str": "480764",
+          "weaponType": {
+            "id_str": "28211",
+            "href": "https://crest-tq.eveonline.com/inventory/types/28211/",
+            "id": 28211,
+            "name": "Garde II",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/28211_128.png"
+            }
+          },
+          "finalBlow": false,
+          "securityStatus": -2.1,
+          "damageDone": 480764
+        },
+        {
+          "alliance": {
+            "id_str": "421038446",
+            "href": "https://crest-tq.eveonline.com/alliances/421038446/",
+            "id": 421038446,
+            "name": "General Tso's Alliance",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Alliance/421038446_128.png"
+            }
+          },
+          "shipType": {
+            "id_str": "12005",
+            "href": "https://crest-tq.eveonline.com/inventory/types/12005/",
+            "id": 12005,
+            "name": "Ishtar",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/12005_128.png"
+            }
+          },
+          "corporation": {
+            "id_str": "884181763",
+            "href": "https://crest-tq.eveonline.com/corporations/884181763/",
+            "id": 884181763,
+            "name": "Sardaukar Merc Guild",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Corporation/884181763_128.png"
+            }
+          },
+          "character": {
+            "id_str": "93091437",
+            "href": "https://crest-tq.eveonline.com/characters/93091437/",
+            "id": 93091437,
+            "name": "Korhall Asko",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Character/93091437_128.jpg"
+            }
+          },
+          "damageDone_str": "429949",
+          "weaponType": {
+            "id_str": "2436",
+            "href": "https://crest-tq.eveonline.com/inventory/types/2436/",
+            "id": 2436,
+            "name": "Wasp II",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/2436_128.png"
+            }
+          },
+          "finalBlow": false,
+          "securityStatus": 4.7,
+          "damageDone": 429949
+        },
+        {
+          "alliance": {
+            "id_str": "421038446",
+            "href": "https://crest-tq.eveonline.com/alliances/421038446/",
+            "id": 421038446,
+            "name": "General Tso's Alliance",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Alliance/421038446_128.png"
+            }
+          },
+          "shipType": {
+            "id_str": "16229",
+            "href": "https://crest-tq.eveonline.com/inventory/types/16229/",
+            "id": 16229,
+            "name": "Brutix",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/16229_128.png"
+            }
+          },
+          "corporation": {
+            "id_str": "884181763",
+            "href": "https://crest-tq.eveonline.com/corporations/884181763/",
+            "id": 884181763,
+            "name": "Sardaukar Merc Guild",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Corporation/884181763_128.png"
+            }
+          },
+          "character": {
+            "id_str": "802666540",
+            "href": "https://crest-tq.eveonline.com/characters/802666540/",
+            "id": 802666540,
+            "name": "Karissel",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Character/802666540_128.jpg"
+            }
+          },
+          "damageDone_str": "427918",
+          "weaponType": {
+            "id_str": "3146",
+            "href": "https://crest-tq.eveonline.com/inventory/types/3146/",
+            "id": 3146,
+            "name": "Heavy Neutron Blaster II",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/3146_128.png"
+            }
+          },
+          "finalBlow": true,
+          "securityStatus": -2.8,
+          "damageDone": 427918
+        },
+        {
+          "alliance": {
+            "id_str": "421038446",
+            "href": "https://crest-tq.eveonline.com/alliances/421038446/",
+            "id": 421038446,
+            "name": "General Tso's Alliance",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Alliance/421038446_128.png"
+            }
+          },
+          "shipType": {
+            "id_str": "17738",
+            "href": "https://crest-tq.eveonline.com/inventory/types/17738/",
+            "id": 17738,
+            "name": "Machariel",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/17738_128.png"
+            }
+          },
+          "corporation": {
+            "id_str": "884181763",
+            "href": "https://crest-tq.eveonline.com/corporations/884181763/",
+            "id": 884181763,
+            "name": "Sardaukar Merc Guild",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Corporation/884181763_128.png"
+            }
+          },
+          "character": {
+            "id_str": "92526430",
+            "href": "https://crest-tq.eveonline.com/characters/92526430/",
+            "id": 92526430,
+            "name": "Gene Maricadie",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Character/92526430_128.jpg"
+            }
+          },
+          "damageDone_str": "361449",
+          "weaponType": {
+            "id_str": "2961",
+            "href": "https://crest-tq.eveonline.com/inventory/types/2961/",
+            "id": 2961,
+            "name": "1400mm Howitzer Artillery II",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/2961_128.png"
+            }
+          },
+          "finalBlow": false,
+          "securityStatus": -2.4,
+          "damageDone": 361449
+        },
+        {
+          "alliance": {
+            "id_str": "421038446",
+            "href": "https://crest-tq.eveonline.com/alliances/421038446/",
+            "id": 421038446,
+            "name": "General Tso's Alliance",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Alliance/421038446_128.png"
+            }
+          },
+          "shipType": {
+            "id_str": "12019",
+            "href": "https://crest-tq.eveonline.com/inventory/types/12019/",
+            "id": 12019,
+            "name": "Sacrilege",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/12019_128.png"
+            }
+          },
+          "corporation": {
+            "id_str": "495131214",
+            "href": "https://crest-tq.eveonline.com/corporations/495131214/",
+            "id": 495131214,
+            "name": "VALHALLA'S Wrath",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Corporation/495131214_128.png"
+            }
+          },
+          "character": {
+            "id_str": "1401910443",
+            "href": "https://crest-tq.eveonline.com/characters/1401910443/",
+            "id": 1401910443,
+            "name": "Jove Dens",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Character/1401910443_128.jpg"
+            }
+          },
+          "damageDone_str": "163480",
+          "weaponType": {
+            "id_str": "24511",
+            "href": "https://crest-tq.eveonline.com/inventory/types/24511/",
+            "id": 24511,
+            "name": "Inferno Fury Heavy Missile",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/24511_128.png"
+            }
+          },
+          "finalBlow": false,
+          "securityStatus": 4.6,
+          "damageDone": 163480
+        },
+        {
+          "alliance": {
+            "id_str": "421038446",
+            "href": "https://crest-tq.eveonline.com/alliances/421038446/",
+            "id": 421038446,
+            "name": "General Tso's Alliance",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Alliance/421038446_128.png"
+            }
+          },
+          "shipType": {
+            "id_str": "644",
+            "href": "https://crest-tq.eveonline.com/inventory/types/644/",
+            "id": 644,
+            "name": "Typhoon",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/644_128.png"
+            }
+          },
+          "corporation": {
+            "id_str": "495131214",
+            "href": "https://crest-tq.eveonline.com/corporations/495131214/",
+            "id": 495131214,
+            "name": "VALHALLA'S Wrath",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Corporation/495131214_128.png"
+            }
+          },
+          "character": {
+            "id_str": "1130720987",
+            "href": "https://crest-tq.eveonline.com/characters/1130720987/",
+            "id": 1130720987,
+            "name": "PIJ1",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Character/1130720987_128.jpg"
+            }
+          },
+          "damageDone_str": "143970",
+          "weaponType": {
+            "id_str": "28211",
+            "href": "https://crest-tq.eveonline.com/inventory/types/28211/",
+            "id": 28211,
+            "name": "Garde II",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/28211_128.png"
+            }
+          },
+          "finalBlow": false,
+          "securityStatus": 2.2,
+          "damageDone": 143970
+        },
+        {
+          "alliance": {
+            "id_str": "421038446",
+            "href": "https://crest-tq.eveonline.com/alliances/421038446/",
+            "id": 421038446,
+            "name": "General Tso's Alliance",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Alliance/421038446_128.png"
+            }
+          },
+          "shipType": {
+            "id_str": "643",
+            "href": "https://crest-tq.eveonline.com/inventory/types/643/",
+            "id": 643,
+            "name": "Armageddon",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/643_128.png"
+            }
+          },
+          "corporation": {
+            "id_str": "884181763",
+            "href": "https://crest-tq.eveonline.com/corporations/884181763/",
+            "id": 884181763,
+            "name": "Sardaukar Merc Guild",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Corporation/884181763_128.png"
+            }
+          },
+          "character": {
+            "id_str": "1928848160",
+            "href": "https://crest-tq.eveonline.com/characters/1928848160/",
+            "id": 1928848160,
+            "name": "Roale Tharan",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Character/1928848160_128.jpg"
+            }
+          },
+          "damageDone_str": "143112",
+          "weaponType": {
+            "id_str": "28211",
+            "href": "https://crest-tq.eveonline.com/inventory/types/28211/",
+            "id": 28211,
+            "name": "Garde II",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/28211_128.png"
+            }
+          },
+          "finalBlow": false,
+          "securityStatus": -0.9,
+          "damageDone": 143112
+        },
+        {
+          "alliance": {
+            "id_str": "421038446",
+            "href": "https://crest-tq.eveonline.com/alliances/421038446/",
+            "id": 421038446,
+            "name": "General Tso's Alliance",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Alliance/421038446_128.png"
+            }
+          },
+          "shipType": {
+            "id_str": "12034",
+            "href": "https://crest-tq.eveonline.com/inventory/types/12034/",
+            "id": 12034,
+            "name": "Hound",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/12034_128.png"
+            }
+          },
+          "corporation": {
+            "id_str": "884181763",
+            "href": "https://crest-tq.eveonline.com/corporations/884181763/",
+            "id": 884181763,
+            "name": "Sardaukar Merc Guild",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Corporation/884181763_128.png"
+            }
+          },
+          "character": {
+            "id_str": "95705359",
+            "href": "https://crest-tq.eveonline.com/characters/95705359/",
+            "id": 95705359,
+            "name": "John Rydell",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Character/95705359_128.jpg"
+            }
+          },
+          "damageDone_str": "100964",
+          "weaponType": {
+            "id_str": "27359",
+            "href": "https://crest-tq.eveonline.com/inventory/types/27359/",
+            "id": 27359,
+            "name": "Caldari Navy Nova Torpedo",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/27359_128.png"
+            }
+          },
+          "finalBlow": false,
+          "securityStatus": -0.2,
+          "damageDone": 100964
+        },
+        {
+          "alliance": {
+            "id_str": "421038446",
+            "href": "https://crest-tq.eveonline.com/alliances/421038446/",
+            "id": 421038446,
+            "name": "General Tso's Alliance",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Alliance/421038446_128.png"
+            }
+          },
+          "shipType": {
+            "id_str": "16240",
+            "href": "https://crest-tq.eveonline.com/inventory/types/16240/",
+            "id": 16240,
+            "name": "Catalyst",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/16240_128.png"
+            }
+          },
+          "corporation": {
+            "id_str": "884181763",
+            "href": "https://crest-tq.eveonline.com/corporations/884181763/",
+            "id": 884181763,
+            "name": "Sardaukar Merc Guild",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Corporation/884181763_128.png"
+            }
+          },
+          "character": {
+            "id_str": "96561560",
+            "href": "https://crest-tq.eveonline.com/characters/96561560/",
+            "id": 96561560,
+            "name": "Jokeronthekill Jokesters",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Character/96561560_128.jpg"
+            }
+          },
+          "damageDone_str": "32642",
+          "weaponType": {
+            "id_str": "10678",
+            "href": "https://crest-tq.eveonline.com/inventory/types/10678/",
+            "id": 10678,
+            "name": "125mm Railgun I",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/10678_128.png"
+            }
+          },
+          "finalBlow": false,
+          "securityStatus": 0.1,
+          "damageDone": 32642
+        },
+        {
+          "alliance": {
+            "id_str": "421038446",
+            "href": "https://crest-tq.eveonline.com/alliances/421038446/",
+            "id": 421038446,
+            "name": "General Tso's Alliance",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Alliance/421038446_128.png"
+            }
+          },
+          "shipType": {
+            "id_str": "601",
+            "href": "https://crest-tq.eveonline.com/inventory/types/601/",
+            "id": 601,
+            "name": "Ibis",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/601_128.png"
+            }
+          },
+          "corporation": {
+            "id_str": "884181763",
+            "href": "https://crest-tq.eveonline.com/corporations/884181763/",
+            "id": 884181763,
+            "name": "Sardaukar Merc Guild",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Corporation/884181763_128.png"
+            }
+          },
+          "character": {
+            "id_str": "96579166",
+            "href": "https://crest-tq.eveonline.com/characters/96579166/",
+            "id": 96579166,
+            "name": "GayReal's Son",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Character/96579166_128.jpg"
+            }
+          },
+          "damageDone_str": "330",
+          "weaponType": {
+            "id_str": "601",
+            "href": "https://crest-tq.eveonline.com/inventory/types/601/",
+            "id": 601,
+            "name": "Ibis",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/601_128.png"
+            }
+          },
+          "finalBlow": false,
+          "securityStatus": 0.0,
+          "damageDone": 330
+        },
+        {
+          "alliance": {
+            "id_str": "99003285",
+            "href": "https://crest-tq.eveonline.com/alliances/99003285/",
+            "id": 99003285,
+            "name": "WarDogs League",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Alliance/99003285_128.png"
+            }
+          },
+          "shipType": {
+            "id_str": "33328",
+            "href": "https://crest-tq.eveonline.com/inventory/types/33328/",
+            "id": 33328,
+            "name": "Capsule - Genolution 'Auroral' 197-variant",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/33328_128.png"
+            }
+          },
+          "corporation": {
+            "id_str": "98267292",
+            "href": "https://crest-tq.eveonline.com/corporations/98267292/",
+            "id": 98267292,
+            "name": "WAR.DOG",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Corporation/98267292_128.png"
+            }
+          },
+          "character": {
+            "id_str": "90632972",
+            "href": "https://crest-tq.eveonline.com/characters/90632972/",
+            "id": 90632972,
+            "name": "Dmitry Lifanov",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Character/90632972_128.jpg"
+            }
+          },
+          "damageDone_str": "23",
+          "weaponType": {
+            "id_str": "596",
+            "href": "https://crest-tq.eveonline.com/inventory/types/596/",
+            "id": 596,
+            "name": "Impairor",
+            "icon": {
+              "href": "http://imageserver.eveonline.com/Type/596_128.png"
+            }
+          },
+          "finalBlow": false,
+          "securityStatus": 4.6,
+          "damageDone": 23
+        }
+      ],
+      "attackerCount": 18,
+      "victim": {
+        "damageTaken": 7054195,
+        "items": [
+          
+        ],
+        "damageTaken_str": "7054195",
+        "shipType": {
+          "id_str": "35832",
+          "href": "https://crest-tq.eveonline.com/inventory/types/35832/",
+          "id": 35832,
+          "name": "Astrahus",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Type/35832_128.png"
+          }
+        },
+        "corporation": {
+          "id_str": "98335854",
+          "href": "https://crest-tq.eveonline.com/corporations/98335854/",
+          "id": 98335854,
+          "name": "Tokenada Technical Enterprises",
+          "icon": {
+            "href": "http://imageserver.eveonline.com/Corporation/98335854_128.png"
+          }
+        },
+        "position": {
+          "y": 116721448927.0,
+          "x": -808460360514.0,
+          "z": -615629639132.0
+        }
+      },
+      "killID_str": "54853447",
+      "attackerCount_str": "18",
+      "war": {
+        "href": "https://crest-tq.eveonline.com/wars/495706/",
+        "id": 495706,
+        "id_str": "495706"
       }
-    },
-    "corporation": {
-      "id_str": "98335854",
-      "href": "https://crest-tq.eveonline.com/corporations/98335854/",
-      "id": 98335854,
-      "name": "Tokenada Technical Enterprises",
-      "icon": {
-        "href": "http://imageserver.eveonline.com/Corporation/98335854_128.png"
-      }
-    },
-    "position": {
-      "y": 116721448927.0,
-      "x": -808460360514.0,
-      "z": -615629639132.0
     }
-  },
-  "killID_str": "54853447",
-  "attackerCount_str": "18",
-  "war": {
-    "href": "https://crest-tq.eveonline.com/wars/495706/",
-    "id": 495706,
-    "id_str": "495706"
   }
 }

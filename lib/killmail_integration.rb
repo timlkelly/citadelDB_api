@@ -9,19 +9,25 @@ class KillmailIntegration
     Killmail.new(killmail_json: package).save_if_relevant
   end
 
-  def json_to_killmail(json_data)
-    json_parsed = JSON.parse(json_data)
-    json_parsed.each do |km|
-      Killmail.new(killmail_json: km).save_if_relevant_past
+  def json_to_killmail(url_array = create_url_array)
+    url_array.each do |url|
+      json_parsed = JSON.parse(fetch_past_killmails(url))
+      json_parsed.each do |km|
+        Killmail.new(killmail_json: km).save_if_relevant_past
+      end
     end
   end
-end
 
-# 'http://zkillboard.com/api'
-# '/kills'
-# '/losses'
-# '/shipTypeID'
-# '/35832/'
-# '/35833/'
-# '/35834/'
-# '/35835/'
+  def fetch_past_killmails(url)
+    puts url
+    HTTParty.get(url, :headers => { 'User-Agent:' => 'github.com/timlkelly/citadelDB Maintainer: Tim' }).body
+  end
+
+  def create_url_array
+    Array(1..10).map do |page|
+      Killmail.valid_citadel_types_ids.map do |citadel|
+        %w(kills losses).map{ |type| "https://zkillboard.com/api/#{type}/shipTypeID/#{citadel}/page/#{page}/" }
+      end
+    end.flatten
+  end
+end
