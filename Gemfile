@@ -9,7 +9,7 @@ gem 'sinatra-activerecord'
 gem 'activesupport'
 gem 'httparty'
 gem 'will_paginate'
-gem 'thin'
+gem 'puma'
 
 group :development, :test do
   gem 'rspec'
