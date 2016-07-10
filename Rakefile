@@ -42,7 +42,7 @@ namespace :fetch do
   desc 'Pull past killmails'
   task :pull do
     puts 'pulling mails...'
-    log = ActiveSupport::Logger.new('./log/pull_task.log')
+    # log = ActiveSupport::Logger.new('./log/pull_task.log')
     # start_time = Time.now
     # log.info 'Begin log:'
     # log.info "Pull task started at #{start_time}"
