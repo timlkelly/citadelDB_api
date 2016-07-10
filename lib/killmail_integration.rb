@@ -6,6 +6,7 @@ class KillmailIntegration
   end
 
   def parse_killmail(package = fetch_killmail)
+    puts "killmailID: #{package['package']['killID']}"
     Killmail.new(killmail_json: package).save_if_relevant
   end
 

@@ -9,8 +9,7 @@ gem 'sinatra-activerecord'
 gem 'activesupport'
 gem 'httparty'
 gem 'will_paginate'
-gem 'thin' 
-gem 'heroku'
+gem 'thin'
 
 group :development, :test do
   gem 'rspec'
