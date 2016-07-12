@@ -2,12 +2,27 @@ require 'spec_helper'
 include WithRollback
 
 describe 'Killmail model' do
+  describe 'killed_at_datetime' do
+    context 'time string' do
+      it "returns '2016.06.29 03:26:16' as a Time object"
+        # - must equal the time you want. 
+        # It's easier to check if the times are equivelant using .to_i,
+        # because milliseconds are cruel
+    end
+    context 'empty string' do
+      it 'returns nil'
+    end
+    context 'datetime' do
+      it 'returns the datetime'
+    end
+  end
+
   describe 'killmail_data' do
     context 'with package' do
-      let(:killmail_fixture) { { package: { 'killmail' => { 'killID' => 22 } } } }
+      let(:killmail_fixture) { File.read('./spec/fixtures/ship_killmail.json')}
       let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
       it 'returns data' do
-        expect(killmail.killmail_data['killID']).to eq(22)
+        expect(killmail.killmail_data['killID']).to eq(50228036)
       end
     end
     context 'without package' do

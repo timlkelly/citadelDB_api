@@ -20,6 +20,12 @@ class Killmail < ActiveRecord::Base
     Region.where(region_id: System.where(system_id: id).first.region_id).first.name
   end
 
+  def killed_at_datetime(killed_time = nil)
+    return nil unless killed_time and killed_time.to_s.length > 0
+    return killed_time if killed_time.is_a?(Time)
+    Time.parse(killed_time)
+  end
+
   def citadel_type_lookup(id)
     citadel_types = {
       '35832' => 'Astrahus',
@@ -31,10 +37,16 @@ class Killmail < ActiveRecord::Base
   end
 
   def killmail_data
-    if killmail_json.keys.include?('package')
-      killmail_json['package'] && killmail_json['package']['killmail']
+    if killmail_json.is_a?(String)
+      km_json = JSON.parse(killmail_json) 
     else
-      killmail_json
+      km_json = killmail_json
+    end
+    return nil unless killmail_json
+    if km_json.keys.include?('package') 
+      km_json['package'] && km_json['package']['killmail']
+    else
+      km_json
     end
   end
 
@@ -43,6 +55,7 @@ class Killmail < ActiveRecord::Base
   end
 
   def citadel_victim?
+    return false unless killmail_data && killmail_data['victim']
     if killmail_data['victim']['shipTypeID']
       self.class.valid_citadel_types_ids.include?(killmail_data['victim']['shipTypeID'])
     elsif killmail_data['victim']['shipType']['name']
@@ -53,6 +66,7 @@ class Killmail < ActiveRecord::Base
   end
 
   def citadel_attacker?
+    return false unless killmail_data
     killmail_data['attackers'].each do |attacker|
       if attacker['shipType']
         next unless self.class.valid_citadel_types_names.include?(attacker['shipType']['name'])

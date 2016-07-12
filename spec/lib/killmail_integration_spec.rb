@@ -72,8 +72,8 @@ describe KillmailIntegration do
     end
   end
   describe 'json_to_killmail' do
-    let(:url) { ['https://zkillboard.com/api/kills/shipTypeID/35832/page/1/'] }
     context 'it receives json with multiple Killmails' do
+    let(:url) { ['https://zkillboard.com/api/kills/shipTypeID/35832/page/1/'] }
       it 'creates multiple killmail objects' do
         temporarily do
           KillmailIntegration.new.json_to_killmail(url)
