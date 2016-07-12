@@ -3,17 +3,22 @@ include WithRollback
 
 describe 'Killmail model' do
   describe 'killed_at_datetime' do
+    let(:killmail) { Killmail.new }
     context 'time string' do
-      it "returns '2016.06.29 03:26:16' as a Time object"
-        # - must equal the time you want. 
-        # It's easier to check if the times are equivelant using .to_i,
-        # because milliseconds are cruel
+      it "returns '2016.06.29 03:26:16' as a Time object" do
+        expect(killmail.killed_at_datetime('2016.06.29 03:26:16')).to be_a(DateTime)
+      end
     end
     context 'empty string' do
-      it 'returns nil'
+      it 'returns nil' do
+        expect(killmail.killed_at_datetime).to eq(nil)
+      end
     end
     context 'datetime' do
-      it 'returns the datetime'
+      it 'returns the datetime' do
+        t = DateTime.parse('2016.06.29 03:26:16')
+        expect(killmail.killed_at_datetime(t)).to be_a(DateTime)
+      end
     end
   end
 
@@ -251,7 +256,7 @@ describe 'Killmail model' do
           citadel_type: 'Astrahus',
           corporation: 'Tokenada Technical Enterprises',
           alliance: nil,
-          killed_at: '2016.06.29 03:26:16'
+          killed_at: DateTime.parse('2016.06.29 03:26:16')
         }
       end
       it 'creates a hash for creating a new citadel' do
@@ -309,7 +314,7 @@ describe 'Killmail model' do
           citadel_type: 'Astrahus',
           corporation: 'Pandemic Horde Inc.',
           alliance: 'Pandemic Horde',
-          killed_at: '2016-07-03 05:39:24'
+          killed_at: DateTime.parse('2016-07-03 05:39:24')
         }
       end
       it 'creates a hash to create a new citadel' do
@@ -382,7 +387,7 @@ describe 'Killmail model' do
             expect(citadel.citadel_type).to eq('Astrahus')
             expect(citadel.corporation).to eq('Pandemic Horde Inc.')
             expect(citadel.alliance).to eq('Pandemic Horde')
-            expect(citadel.killed_at).to eq('2016-07-03 05:39:24')
+            expect(citadel.killed_at).to eq(DateTime.parse('2016-07-03 05:39:24'))
           end.to change(Citadel, :count).by 1
         end
       end
@@ -402,7 +407,7 @@ describe 'Killmail model' do
             expect(citadel.citadel_type).to eq('Astrahus')
             expect(citadel.corporation).to eq('Pandemic Horde Inc.')
             expect(citadel.alliance).to eq('Pandemic Horde')
-            expect(citadel.killed_at).to eq('2016-07-03 05:39:24')
+            expect(citadel.killed_at).to eq(DateTime.parse('2016-07-03 05:39:24'))
           end.to change(Citadel, :count).by 0
         end
       end
@@ -419,7 +424,7 @@ describe 'Killmail model' do
             deathmail.find_or_create_citadel
           end.to change(Citadel, :count).by 1
           citadel = killmail.find_or_create_citadel
-          expect(citadel.killed_at).to eq('2016-07-07 00:49:58')
+          expect(citadel.killed_at).to eq(DateTime.parse('2016-07-07 00:49:58'))
         end
       end
     end
