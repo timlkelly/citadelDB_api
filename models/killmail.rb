@@ -30,11 +30,23 @@ class Killmail < ActiveRecord::Base
     citadel_types.values_at(id).first
   end
 
+  def killed_at_datetime(killed_time = nil)
+    return nil unless killed_time and killed_time.to_s.length > 0
+    return killed_time if killed_time.is_a?(DateTime)
+    DateTime.parse(killed_time)
+  end
+
   def killmail_data
-    if killmail_json.keys.include?('package')
-      killmail_json['package'] && killmail_json['package']['killmail']
+    if killmail_json.is_a?(String)
+      km_json = JSON.parse(killmail_json) 
     else
-      killmail_json
+      km_json = killmail_json
+    end
+    return nil unless killmail_json
+    if km_json.keys.include?('package') 
+      km_json['package'] && km_json['package']['killmail']
+    else
+      km_json
     end
   end
 
@@ -43,6 +55,7 @@ class Killmail < ActiveRecord::Base
   end
 
   def citadel_victim?
+    return false unless killmail_data && killmail_data['victim']
     if killmail_data['victim']['shipTypeID']
       self.class.valid_citadel_types_ids.include?(killmail_data['victim']['shipTypeID'])
     elsif killmail_data['victim']['shipType']['name']
@@ -95,7 +108,7 @@ class Killmail < ActiveRecord::Base
           system: system_id_lookup(killmail_data['solarSystemID']),
           region: region_lookup(killmail_data['solarSystemID']),
           citadel_type: citadel_type_lookup(attacker['shipTypeID'].to_s),
-          corporation: attacker['corporationName'],
+          corporation: attacker['corporationName']
         }
         if attacker['allianceName'] == ''
           attacker_hash[:alliance] = nil
@@ -109,14 +122,14 @@ class Killmail < ActiveRecord::Base
     attacker_hash
   end
 
-  def create_victim_hash
+  def create_victim_hash   
     if killmail_data['victim']['shipType']
       victim_hash = {
         system: killmail_data['solarSystem']['name'],
         region: region_lookup(killmail_data['solarSystem']['id']),
         citadel_type: killmail_data['victim']['shipType']['name'],
         corporation: killmail_data['victim']['corporation']['name'],
-        killed_at: killmail_data['killTime']
+        killed_at: killed_at_datetime(killmail_data['killTime'])
       }
       if killmail_data['victim']['alliance']
         victim_hash[:alliance] = killmail_data['victim']['alliance']['name']
@@ -129,12 +142,12 @@ class Killmail < ActiveRecord::Base
         region: region_lookup(killmail_data['solarSystemID']),
         citadel_type: citadel_type_lookup(killmail_data['victim']['shipTypeID'].to_s),
         corporation: killmail_data['victim']['corporationName'],
-        killed_at: killmail_data['killTime']
+        killed_at: killed_at_datetime(killmail_data['killTime'])
       }
-      if killmail_data['victim']['allianceName']
-        victim_hash[:alliance] = killmail_data['victim']['allianceName']
-      else
+      if killmail_data['victim']['allianceName'] == ''
         victim_hash[:alliance] = nil
+      else
+        victim_hash[:alliance] = killmail_data['victim']['allianceName']
       end
     end
     victim_hash
@@ -147,7 +160,7 @@ class Killmail < ActiveRecord::Base
       citadel = Citadel.create(generate_citadel_hash)
     end
     if citadel_victim?
-      citadel.update_attribute(:killed_at, killmail_data['killTime'])
+      citadel.update_attribute(:killed_at, killed_at_datetime(killmail_data['killTime']))
     end
     citadel
   end
