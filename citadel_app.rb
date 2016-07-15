@@ -1,7 +1,6 @@
 require 'rubygems'
 require 'sinatra'
 require 'sinatra/activerecord'
-require 'sinatra/cross_origin'
 require 'will_paginate'
 require 'will_paginate/active_record'
 require './config/environments'
