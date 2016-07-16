@@ -17,3 +17,8 @@ get '/' do
   content_type :json
   ({ citadels: paginate(Citadel).map(&:api_hash) }).to_json
 end
+
+options '/' do
+  response.headers["Access-Control-Allow-Origin"] = "*"
+  response.headers["Access-Control-Allow-Methods"] = "GET"
+end
