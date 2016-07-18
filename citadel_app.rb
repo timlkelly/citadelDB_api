@@ -19,6 +19,7 @@ get '/' do
 end
 
 options '/' do
-  response.headers["Access-Control-Allow-Origin"] = "*"
-  response.headers["Access-Control-Allow-Methods"] = "GET"
+  response.headers['Access-Control-Allow-Origin'] = '*'
+  response.headers['Access-Control-Allow-Methods'] = 'GET'
+  response.headers['Access-Control-Allow-Headers'] = 'Access-Control-Allow-Origin, X-Requested-With, X-HTTP-Method-Override, Content-Type, Cache-Control, Accept'
 end
