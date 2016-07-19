@@ -37,7 +37,7 @@ module Sinatra
       # Default to 30 items per page
       # Permit up to 200 items per page, if more than 200 are requested, return 200
       def per_page
-        max = 200
+        max = 1000
         if per = params[:per_page].to_i
           if per.between?(1, max)
             per
