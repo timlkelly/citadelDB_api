@@ -1,6 +1,9 @@
-# CitadelDB
+# CitadelDB API
 
-[CitadelDB](http://citadeldb.herokuapp.com) records active citadels in Eve Online and provides an API to respond with citadel data
+[CitadelDB](http://timlkelly.github.io/citadelDB) is a database of citadels in Eve Online.
+This is the backend API for recording and serving the citadels.
+
+[CitadelDB API](http://citadeldb.herokuapp.com) records active citadels in Eve Online and provides an API to respond with citadel data
 
 ## Installation
 
