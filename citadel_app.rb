@@ -1,6 +1,7 @@
 require 'rubygems'
 require 'sinatra'
 require 'sinatra/activerecord'
+require 'honeybadger'
 require 'will_paginate'
 require 'will_paginate/active_record'
 require './config/environments'
