@@ -38,6 +38,7 @@ GEM
     guard-rubocop (1.2.0)
       guard (~> 2.0)
       rubocop (~> 0.20)
+    honeybadger (2.6.0)
     httparty (0.13.7)
       json (~> 1.8)
       multi_xml (>= 0.5.2)
@@ -125,6 +126,7 @@ DEPENDENCIES
   activesupport
   guard-rspec
   guard-rubocop
+  honeybadger
   httparty
   pg
   rack-cors
