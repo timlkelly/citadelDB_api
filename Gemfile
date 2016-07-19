@@ -11,6 +11,7 @@ gem 'httparty'
 gem 'will_paginate'
 gem 'thin'
 gem 'rack-cors', :require => 'rack/cors'
+gem 'honeybadger'
 
 group :development, :test do
   gem 'rspec'
