@@ -1,7 +1,7 @@
 require 'spec_helper'
 include WithRollback
 
-describe KillmailIntegration do
+describe 'KillmailIntegration' do
   describe 'fetch_killmail' do
     context 'it receives a valid killmail' do
       fetch = KillmailIntegration.new
