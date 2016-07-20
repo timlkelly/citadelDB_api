@@ -32,4 +32,7 @@ describe 'citadel_app' do
       end
     end
   end
+  context 'pagination' do
+    it 'returns 200'
+  end
 end

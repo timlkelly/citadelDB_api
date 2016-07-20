@@ -29,7 +29,7 @@ namespace :fetch do
     # start_time = Time.now
     # log.info 'Begin log:'
     # log.info "Listen task started at #{start_time}."
-    KillmailIntegration.new.parse_killmail
+    KillmailIntegration.new.listen
     # citadel_count = Citadel.count
     # killmail_count = Killmail.count
     # end_time = Time.now

@@ -5,9 +5,20 @@ class KillmailIntegration
     HTTParty.get('http://redisq.zkillboard.com/listen.php')
   end
 
-  def parse_killmail(package = fetch_killmail)
-    puts "killmailID: #{package['package']['killID']}"
+  def parse_killmail(package)
     Killmail.new(killmail_json: package).save_if_relevant
+  end
+
+  def listen
+    100.times do
+      km_json = JSON.parse(fetch_killmail.body)
+      if km_json['package'] && km_json['package']['killmail']
+        puts "killmailID: #{km_json['package']['killID']}"
+        parse_killmail(km_json)
+      else
+        break
+      end
+    end
   end
 
   def json_to_killmail(url_array = create_url_array)
