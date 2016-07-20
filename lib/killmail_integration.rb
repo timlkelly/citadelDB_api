@@ -10,7 +10,7 @@ class KillmailIntegration
   end
 
   def listen
-    100.times do
+    1000.times do
       km_json = JSON.parse(fetch_killmail.body)
       if km_json['package'] && km_json['package']['killmail']
         puts "killmailID: #{km_json['package']['killID']}"
