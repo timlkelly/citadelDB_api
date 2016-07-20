@@ -16,6 +16,7 @@ class KillmailIntegration
         puts "killmailID: #{km_json['package']['killID']}"
         parse_killmail(km_json)
       else
+        puts "received #{km_json}... breaking"
         break
       end
     end

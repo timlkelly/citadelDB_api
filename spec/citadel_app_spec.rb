@@ -33,6 +33,11 @@ describe 'citadel_app' do
     end
   end
   context 'pagination' do
-    it 'returns 200'
+    context 'receives invalid params' do
+      it 'returns 200' do
+        get '/', page: 10, abc: 123
+        expect(last_response.status).to eq 200
+      end
+    end
   end
 end

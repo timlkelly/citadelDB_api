@@ -9,7 +9,7 @@ gem 'sinatra-activerecord'
 gem 'activesupport'
 gem 'httparty'
 gem 'will_paginate'
-gem 'thin'
+gem 'puma'
 gem 'rack-cors', :require => 'rack/cors'
 gem 'honeybadger'
 
