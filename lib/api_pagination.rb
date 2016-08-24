@@ -1,22 +1,20 @@
-require "sinatra/base"
+require 'sinatra/base'
 
 # Reference: https://gist.github.com/bensie/4226520
 
 module Sinatra
   module Pagination
-
     module Helpers
-
       def paginate(relation)
         @paginated = relation.paginate(page: page, per_page: per_page)
         add_pagination_headers
-        return @paginated
+        @paginated
       end
 
       private
 
       def add_pagination_headers
-        request_url = request.url.split("?")[0]
+        request_url = request.url.split('?')[0]
 
         links = []
         links << %(<#{request_url}?page=#{@paginated.previous_page.to_s}&per_page=#{per_page}>; rel="prev") if @paginated.previous_page
@@ -24,7 +22,7 @@ module Sinatra
         links << %(<#{request_url}?page=1&per_page=#{per_page}>; rel="first")
         links << %(<#{request_url}?page=#{@paginated.total_pages.to_s}&per_page=#{per_page}>; rel="last")
 
-        headers "Link" => links.join(",")
+        headers 'Link' => links.join(',')
       end
 
       # Ensure that invalid page numbers just return the first page
@@ -50,13 +48,11 @@ module Sinatra
           30
         end
       end
-
     end
 
     def self.registered(app)
       app.helpers Pagination::Helpers
     end
-
   end
   register Pagination
 end

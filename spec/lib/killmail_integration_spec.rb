@@ -39,7 +39,7 @@ describe 'KillmailIntegration' do
           killed_at: '2016-05-11 05:43:29'
         }
       end
-      let(:shipmail_fixture) { File.read('./spec/fixtures/listen_ship_test.json')}
+      let(:shipmail_fixture) { File.read('./spec/fixtures/listen_ship_test.json') }
       it 'does not raise killmail count' do
         temporarily do
           Citadel.create(citadel_target)
@@ -73,7 +73,7 @@ describe 'KillmailIntegration' do
   end
   describe 'json_to_killmail' do
     context 'it receives json with multiple Killmails' do
-    let(:url) { ['https://zkillboard.com/api/kills/shipTypeID/35832/page/1/'] }
+      let(:url) { ['https://zkillboard.com/api/kills/shipTypeID/35832/page/1/'] }
       it 'creates multiple killmail objects' do
         temporarily do
           KillmailIntegration.new.json_to_killmail(url)

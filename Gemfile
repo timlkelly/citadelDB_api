@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.2.3'
+ruby '2.2.5'
 
 gem 'sinatra'
 gem 'pg'
@@ -10,7 +10,7 @@ gem 'activesupport'
 gem 'httparty'
 gem 'will_paginate'
 gem 'puma'
-gem 'rack-cors', :require => 'rack/cors'
+gem 'rack-cors', require: 'rack/cors'
 gem 'honeybadger'
 
 group :development, :test do
@@ -21,5 +21,5 @@ group :development, :test do
 end
 
 group :test do
-  gem 'rack-test', :require => "rack/test"
+  gem 'rack-test', require: 'rack/test'
 end

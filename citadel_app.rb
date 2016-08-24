@@ -17,7 +17,7 @@ register ::Sinatra::Pagination
 get '/' do
   response.headers['Access-Control-Allow-Origin'] = '*'
   content_type :json
-  ({ citadels: paginate(Citadel).map(&:api_hash) }).to_json
+  { citadels: paginate(Citadel).map(&:api_hash) }.to_json
 end
 
 options '/' do

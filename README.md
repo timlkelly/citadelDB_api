@@ -6,7 +6,7 @@ The backend API for [CitadelDB](http://timlkelly.github.io/citadelDB), a databas
 
 ## Installation
 
-CitadelDB is a Sinatra app and uses ruby version 2.2.3
+CitadelDB is a Sinatra app and uses ruby version 2.2.5
 
     1. bundle install
     2. rake db:create db:migrate db:seed

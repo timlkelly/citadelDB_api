@@ -19,7 +19,7 @@ end
 module WithRollback
   def temporarily(&block)
     ActiveRecord::Base.connection.transaction do
-      block.call
+      yield
       raise ActiveRecord::Rollback
     end
   end
