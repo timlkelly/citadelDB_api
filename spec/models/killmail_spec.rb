@@ -24,7 +24,7 @@ describe 'Killmail model' do
 
   describe 'killmail_data' do
     context 'with package' do
-      let(:killmail_fixture) { File.read('./spec/fixtures/ship_killmail.json')}
+      let(:killmail_fixture) { File.read('./spec/fixtures/ship_killmail.json') }
       let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
       it 'returns data' do
         expect(killmail.killmail_data['killID']).to eq(50228036)

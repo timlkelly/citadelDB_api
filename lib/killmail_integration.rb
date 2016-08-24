@@ -33,13 +33,13 @@ class KillmailIntegration
 
   def fetch_past_killmails(url)
     puts url
-    HTTParty.get(url, :headers => { 'User-Agent:' => 'github.com/timlkelly/citadelDB Maintainer: Tim' }).body
+    HTTParty.get(url, headers: { 'User-Agent:' => 'github.com/timlkelly/citadelDB Maintainer: Tim' }).body
   end
 
   def create_url_array
     Array(1..10).map do |page|
       Killmail.valid_citadel_types_ids.map do |citadel|
-        %w(kills losses).map{ |type| "https://zkillboard.com/api/#{type}/shipTypeID/#{citadel}/page/#{page}/" }
+        %w(kills losses).map { |type| "https://zkillboard.com/api/#{type}/shipTypeID/#{citadel}/page/#{page}/" }
       end
     end.flatten
   end

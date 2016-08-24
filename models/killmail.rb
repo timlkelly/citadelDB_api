@@ -38,12 +38,12 @@ class Killmail < ActiveRecord::Base
 
   def killmail_data
     if killmail_json.is_a?(String)
-      km_json = JSON.parse(killmail_json) 
+      km_json = JSON.parse(killmail_json)
     else
       km_json = killmail_json
     end
     return nil unless killmail_json
-    if km_json.keys.include?('package') 
+    if km_json.keys.include?('package')
       km_json['package'] && km_json['package']['killmail']
     else
       km_json
@@ -122,7 +122,7 @@ class Killmail < ActiveRecord::Base
     attacker_hash
   end
 
-  def create_victim_hash   
+  def create_victim_hash
     if killmail_data['victim']['shipType']
       victim_hash = {
         system: killmail_data['solarSystem']['name'],
