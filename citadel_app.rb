@@ -1,6 +1,8 @@
 require 'rubygems'
 require 'sinatra'
 require 'sinatra/activerecord'
+require 'rack'
+require 'rack/cors'
 require 'honeybadger' if ENV['HONEYBADGER_API_KEY'].present?
 require 'will_paginate'
 require 'will_paginate/active_record'
