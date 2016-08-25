@@ -4,6 +4,7 @@ ruby '2.2.5'
 
 gem 'sinatra'
 gem 'pg'
+gem 'rake'
 gem 'activerecord'
 gem 'sinatra-activerecord'
 gem 'activesupport'
