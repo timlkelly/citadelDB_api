@@ -8,7 +8,7 @@ class Citadel < ActiveRecord::Base
   def api_hash
     {
       system: system.name,
-      region: region,
+      region: region.name,
       citadel_type: citadel_type,
       corporation: corporation,
       alliance: alliance,

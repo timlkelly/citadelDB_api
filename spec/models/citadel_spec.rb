@@ -3,7 +3,7 @@ include WithRollback
 
 describe 'Citadel model' do
   let(:region) { Region.where(eveid: 10000015, name: 'Venal').first_or_create }
-  let(:system) { System.where(eveid: 30001291, region_eveid: region.eveid, name: 'Venal').first_or_create }
+  let(:system) { System.where(eveid: 30001291, region_eveid: region.eveid, name: 'Y-4CFK').first_or_create }
   let(:valid_attributes) do
     {
       system_eveid: system.eveid,
