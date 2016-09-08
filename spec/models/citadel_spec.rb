@@ -47,7 +47,7 @@ describe 'Citadel model' do
     end
   end
 
-  describe 'assocations' do
+  describe 'associations' do
     let(:citadel) { Citadel.create(valid_attributes) }
     context 'system' do
       it 'associates' do

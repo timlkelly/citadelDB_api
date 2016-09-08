@@ -1,8 +1,9 @@
 class System < ActiveRecord::Base
   validates_presence_of :region_eveid, :eveid, :name
+  validates_uniqueness_of :region_eveid, :eveid, :name
 
   belongs_to :region, primary_key: :eveid, foreign_key: :region_eveid
-  has_many :citadels
+  has_many :citadels, primary_key: :eveid, foreign_key: :system_eveid
 
   def parse_csv(csv_filename = nil)
     csv_filename ||= './lib/mapSolarSystems.csv'

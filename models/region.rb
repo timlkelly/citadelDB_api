@@ -1,7 +1,9 @@
 class Region < ActiveRecord::Base
   validates_presence_of :eveid, :name
+  validates_uniqueness_of :eveid, :name
 
-  has_many :systems
+  has_many :systems, primary_key: :eveid, foreign_key: :region_eveid
+  has_many :citadels, through: :systems
 
   def parse_csv(csv_filename = nil)
     csv_filename ||= './lib/mapRegions.csv'
