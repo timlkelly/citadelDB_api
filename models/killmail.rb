@@ -1,6 +1,6 @@
 class Killmail < ActiveRecord::Base
-  validates_presence_of :citadel_id, :killmail_id, :killmail_json
-  validates_uniqueness_of :killmail_id
+  validates_presence_of :citadel_id, :killmail_eveid, :killmail_json
+  validates_uniqueness_of :killmail_eveid
 
   belongs_to :citadel
 
@@ -10,14 +10,6 @@ class Killmail < ActiveRecord::Base
 
   def self.valid_citadel_types_ids
     [35832, 35833, 35834, 35835]
-  end
-
-  def system_id_lookup(id)
-    System.where(system_id: id).first.name
-  end
-
-  def region_lookup(id)
-    Region.where(region_id: System.where(system_id: id).first.region_id).first.name
   end
 
   def citadel_type_lookup(id)
@@ -86,14 +78,21 @@ class Killmail < ActiveRecord::Base
     end
   end
 
+  def system_eveid_from_json
+    if killmail_data['solarSystem']
+      killmail_data['solarSystem']['id']
+    else
+      killmail_data['solarSystemID']
+    end
+  end
+
   def create_attacker_hash
     attacker_hash = {}
     killmail_data['attackers'].each do |attacker|
       if attacker['shipType']
         next unless self.class.valid_citadel_types_names.include?(attacker['shipType']['name'])
         attacker_hash = {
-          system: killmail_data['solarSystem']['name'],
-          region: region_lookup(killmail_data['solarSystem']['id']),
+          system_eveid: system_eveid_from_json,
           citadel_type: attacker['shipType']['name'],
           corporation: attacker['corporation']['name']
         }
@@ -105,8 +104,7 @@ class Killmail < ActiveRecord::Base
       elsif attacker['shipTypeID']
         next unless self.class.valid_citadel_types_ids.include?(attacker['shipTypeID'])
         attacker_hash = {
-          system: system_id_lookup(killmail_data['solarSystemID']),
-          region: region_lookup(killmail_data['solarSystemID']),
+          system_eveid: system_eveid_from_json,
           citadel_type: citadel_type_lookup(attacker['shipTypeID'].to_s),
           corporation: attacker['corporationName']
         }
@@ -125,8 +123,7 @@ class Killmail < ActiveRecord::Base
   def create_victim_hash
     if killmail_data['victim']['shipType']
       victim_hash = {
-        system: killmail_data['solarSystem']['name'],
-        region: region_lookup(killmail_data['solarSystem']['id']),
+        system_eveid: system_eveid_from_json,
         citadel_type: killmail_data['victim']['shipType']['name'],
         corporation: killmail_data['victim']['corporation']['name'],
         killed_at: killed_at_datetime(killmail_data['killTime'])
@@ -138,8 +135,7 @@ class Killmail < ActiveRecord::Base
       end
     elsif killmail_data['victim']['shipTypeID']
       victim_hash = {
-        system: system_id_lookup(killmail_data['solarSystemID']),
-        region: region_lookup(killmail_data['solarSystemID']),
+        system_eveid: system_eveid_from_json,
         citadel_type: citadel_type_lookup(killmail_data['victim']['shipTypeID'].to_s),
         corporation: killmail_data['victim']['corporationName'],
         killed_at: killed_at_datetime(killmail_data['killTime'])
@@ -170,7 +166,7 @@ class Killmail < ActiveRecord::Base
       return false
     else
       self.citadel_id = find_or_create_citadel.id
-      self.killmail_id = killmail_data['killID']
+      self.killmail_eveid = killmail_data['killID']
       save
     end
   end

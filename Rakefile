@@ -36,3 +36,16 @@ namespace :fetch do
     puts 'complete'
   end
 end
+
+namespace :update do
+  desc 'update legacy citadels with system_eveid'
+  task :system_eveid do
+    puts 'begin updated system_eveid... '
+    Citadel.all.each do |citadel|
+      puts "Citadel # #{citadel.id}"
+      citadel.system_eveid = citadel.killmails.first.system_eveid_from_json
+      citadel.save
+    end
+    puts 'complete'
+  end
+end

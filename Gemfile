@@ -12,7 +12,10 @@ gem 'httparty'
 gem 'will_paginate'
 gem 'puma'
 gem 'rack-cors', require: 'rack/cors'
-gem 'honeybadger'
+
+group :production do
+  gem 'honeybadger'
+end
 
 group :development, :test do
   gem 'rspec'

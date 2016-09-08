@@ -1,12 +1,14 @@
 class Citadel < ActiveRecord::Base
-  validates_presence_of :system, :citadel_type, :corporation
+  validates_presence_of :system_eveid, :citadel_type, :corporation
 
   has_many :killmails
+  belongs_to :system, primary_key: :eveid, foreign_key: :system_eveid
+  delegate :region, to: :system
 
   def api_hash
     {
-      system: system,
-      region: region,
+      system: system.name,
+      region: region.name,
       citadel_type: citadel_type,
       corporation: corporation,
       alliance: alliance,

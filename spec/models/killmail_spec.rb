@@ -46,24 +46,6 @@ describe 'Killmail model' do
     end
   end
 
-  describe 'system_id_lookup' do
-    context 'given a valid system ID' do
-      let(:killmail) { Killmail.new }
-      it 'returns the system name' do
-        expect(killmail.system_id_lookup(30001291)).to eq('Y-4CFK')
-      end
-    end
-  end
-
-  describe 'region_lookup' do
-    context 'receives a systemID' do
-      let(:killmail) { Killmail.new }
-      it 'returns a region name' do
-        expect(killmail.region_lookup(30001291)).to eq('Venal')
-      end
-    end
-  end
-
   describe 'citadel_type_lookup' do
     context 'given shipTypeID' do
       let(:killmail) { Killmail.new }
@@ -229,14 +211,30 @@ describe 'Killmail model' do
     end
   end
 
+  describe 'system_eveid_from_json' do
+    context 'listen' do
+      let(:killmail_fixture) { File.read('./spec/fixtures/astrahus_killmail.json') }
+      let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
+      it 'returns the system_eveid' do
+        expect(killmail.system_eveid_from_json).to eq 30002163
+      end
+    end
+    context 'API pull, legacy mail' do
+      let(:killmail_fixture) { File.read('./spec/fixtures/past_killmail.json') }
+      let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
+      it 'returns the system_eveid' do
+        expect(killmail.system_eveid_from_json).to eq 30004053
+      end
+    end
+  end
+
   describe 'generate_citadel_hash' do
     context 'Listen: with a valid killmail' do
       let(:killmail_fixture) { File.read('./spec/fixtures/astrahus_killmail.json') }
       let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
       let(:target) do
         {
-          system: 'E8-YS9',
-          region: 'Immensea',
+          system_eveid: killmail.system_eveid_from_json,
           citadel_type: 'Astrahus',
           corporation: 'Forge Industrial Command',
           alliance: 'FUBAR.'
@@ -251,8 +249,7 @@ describe 'Killmail model' do
       let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
       let(:target) do
         {
-          system: 'Jaschercis',
-          region: 'Everyshore',
+          system_eveid: killmail.system_eveid_from_json,
           citadel_type: 'Astrahus',
           corporation: 'Tokenada Technical Enterprises',
           alliance: nil,
@@ -277,8 +274,7 @@ describe 'Killmail model' do
       let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
       let(:target) do
         {
-          system: '6-4V20',
-          region: 'Cloud Ring',
+          system_eveid: killmail.system_eveid_from_json,
           citadel_type: 'Fortizar',
           corporation: 'Motiveless Malignity',
           alliance: nil
@@ -293,8 +289,7 @@ describe 'Killmail model' do
       let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
       let(:target) do
         {
-          system: 'J115405',
-          region: 'E-R00028',
+          system_eveid: killmail.system_eveid_from_json,
           citadel_type: 'Keepstar',
           corporation: 'Hard Knocks Inc.',
           alliance: nil
@@ -309,8 +304,7 @@ describe 'Killmail model' do
       let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
       let(:target) do
         {
-          system: '93PI-4',
-          region: 'Pure Blind',
+          system_eveid: killmail.system_eveid_from_json,
           citadel_type: 'Astrahus',
           corporation: 'Pandemic Horde Inc.',
           alliance: 'Pandemic Horde',
@@ -332,8 +326,11 @@ describe 'Killmail model' do
       it 'creates a citadel instance' do
         temporarily do
           citadel = killmail.find_or_create_citadel
-          expect(citadel.system).to eq('E8-YS9')
-          expect(citadel.region).to eq('Immensea')
+          System.create(eveid: 30002163, region_eveid: 10000025, name: 'E8-YS9')
+          Region.create(eveid: 10000025, name: 'Immensea')
+          expect(citadel.system_eveid).to eq(30002163)
+          expect(citadel.system.name).to eq('E8-YS9')
+          expect(citadel.region.name).to eq('Immensea')
           expect(citadel.citadel_type).to eq('Astrahus')
           expect(citadel.corporation).to eq('Forge Industrial Command')
           expect(citadel.alliance).to eq('FUBAR.')
@@ -348,8 +345,11 @@ describe 'Killmail model' do
           Citadel.create(killmail2.generate_citadel_hash)
           expect do
             citadel = killmail.find_or_create_citadel
-            expect(citadel.system).to eq('E8-YS9')
-            expect(citadel.region).to eq('Immensea')
+            System.create(eveid: 30002163, region_eveid: 10000025, name: 'E8-YS9')
+            Region.create(eveid: 10000025, name: 'Immensea')
+            expect(citadel.system_eveid).to eq(30002163)
+            expect(citadel.system.name).to eq('E8-YS9')
+            expect(citadel.region.name).to eq('Immensea')
             expect(citadel.citadel_type).to eq('Astrahus')
             expect(citadel.corporation).to eq('Forge Industrial Command')
             expect(citadel.alliance).to eq('FUBAR.')
@@ -381,9 +381,12 @@ describe 'Killmail model' do
       temporarily do
         it 'raises the citadel count by 1' do
           expect do
+            System.create(eveid: 30001990, region_eveid: 10000023, name: '93PI-4')
+            Region.create(eveid: 10000023, name: 'Pure Blind')
             citadel = killmail.find_or_create_citadel
-            expect(citadel.system).to eq('93PI-4')
-            expect(citadel.region).to eq('Pure Blind')
+            expect(citadel.system_eveid).to eq(30001990)
+            expect(citadel.system.name).to eq('93PI-4')
+            expect(citadel.region.name).to eq('Pure Blind')
             expect(citadel.citadel_type).to eq('Astrahus')
             expect(citadel.corporation).to eq('Pandemic Horde Inc.')
             expect(citadel.alliance).to eq('Pandemic Horde')
@@ -401,9 +404,12 @@ describe 'Killmail model' do
         it 'does not raise citadel count' do
           Citadel.create(killmail2.generate_citadel_hash)
           expect do
+            System.create(eveid: 30001990, region_eveid: 10000023, name: '93PI-4')
+            Region.create(eveid: 10000023, name: 'Pure Blind')
             citadel = killmail.find_or_create_citadel
-            expect(citadel.system).to eq('93PI-4')
-            expect(citadel.region).to eq('Pure Blind')
+            expect(citadel.system_eveid).to eq(30001990)
+            expect(citadel.system.name).to eq('93PI-4')
+            expect(citadel.region.name).to eq('Pure Blind')
             expect(citadel.citadel_type).to eq('Astrahus')
             expect(citadel.corporation).to eq('Pandemic Horde Inc.')
             expect(citadel.alliance).to eq('Pandemic Horde')
@@ -441,7 +447,7 @@ describe 'Killmail model' do
           citadel = killmail.find_or_create_citadel
           killmail.save_if_relevant
           expect(killmail.citadel_id).to eq(citadel.id)
-          expect(killmail.killmail_id).to eq(killmail.killmail_data['killID'])
+          expect(killmail.killmail_eveid).to eq(killmail.killmail_data['killID'])
           expect(Killmail.count).to eq(1)
         end
       end
@@ -465,10 +471,10 @@ describe 'Killmail model' do
         end
       end
       context 'Listen: ship killmail from listen' do
+        let(:system) { System.where(name: 'J120619').first }
         let(:citadel_target) do
           {
-            system: 'J120619',
-            region: 'B-R00005',
+            system: system,
             citadel_type: 'Astrahus',
             corporation: 'Robogen Inc',
             alliance: 'The Firesale Nation',
@@ -487,10 +493,10 @@ describe 'Killmail model' do
         end
       end
       context 'Listen: ship killmail from listen' do
+        let(:system) { System.where(name: 'J120619').first }
         let(:citadel_target) do
           {
-            system: 'J120619',
-            region: 'B-R00005',
+            system: system,
             citadel_type: 'Astrahus',
             corporation: 'Robogen Inc',
             alliance: 'The Firesale Nation',
@@ -519,7 +525,7 @@ describe 'Killmail model' do
           citadel = killmail.find_or_create_citadel
           killmail.save_if_relevant
           expect(killmail.citadel_id).to eq(citadel.id)
-          expect(killmail.killmail_id).to eq(killmail.killmail_data['killID'])
+          expect(killmail.killmail_eveid).to eq(killmail.killmail_data['killID'])
           expect(Killmail.count).to eq(1)
         end
       end

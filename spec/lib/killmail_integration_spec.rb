@@ -29,10 +29,10 @@ describe 'KillmailIntegration' do
       end
     end
     context 'recieves ship killmail' do
+      let(:system) { System.where(name: 'J120619').first }
       let(:citadel_target) do
         {
-          system: 'J120619',
-          region: 'B-R00005',
+          system: system,
           citadel_type: 'Astrahus',
           corporation: 'Robogen Inc',
           alliance: 'The Firesale Nation',

@@ -2,9 +2,11 @@ require 'spec_helper'
 include WithRollback
 
 describe 'Citadel model' do
+  let(:region) { Region.where(eveid: 10000015, name: 'Venal').first_or_create }
+  let(:system) { System.where(eveid: 30001291, region_eveid: region.eveid, name: 'Y-4CFK').first_or_create }
   let(:valid_attributes) do
     {
-      system: 'Y-4CFK',
+      system_eveid: system.eveid,
       citadel_type: 'Astrahus',
       corporation: 'TMLK'
     }
@@ -24,7 +26,40 @@ describe 'Citadel model' do
       Citadel.all.map(&:destroy)
       expect(Citadel.count).to eq(0)
       Citadel.create(valid_attributes)
-      expect(Citadel.find_by(system: 'Y-4CFK')).to be_present
+      expect(Citadel.find_by(corporation: 'TMLK')).to be_present
+    end
+  end
+
+  describe 'validations' do
+    let(:citadel) { Citadel.new }
+    before do
+      citadel.validate
+    end
+
+    it 'should require system_id' do
+      expect citadel.errors.full_messages.include?('Requires system_eveid')
+    end
+    it 'should require citadel_type' do
+      expect citadel.errors.full_messages.include?('Requires citadel_type')
+    end
+    it 'should require corporation' do
+      expect citadel.errors.full_messages.include?('Requires corporation')
+    end
+  end
+
+  describe 'associations' do
+    let(:citadel) { Citadel.create(valid_attributes) }
+    context 'system' do
+      it 'associates' do
+        expect(citadel).to be_present
+        expect(citadel.system).to eq system
+      end
+    end
+    context 'region' do
+      it 'associates' do
+        expect(citadel).to be_present
+        expect(citadel.region).to eq region
+      end
     end
   end
 
@@ -44,6 +79,8 @@ describe 'Citadel model' do
       end
       it 'returns a correct hash' do
         temporarily do
+          System.create(eveid: 30001990, region_eveid: 10000023, name: '93PI-4')
+          Region.create(eveid: 10000023, name: 'Pure Blind')
           killmail.save_if_relevant
           expect(Citadel.first.api_hash).to eq(hash_target)
         end
