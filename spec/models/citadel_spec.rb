@@ -79,6 +79,8 @@ describe 'Citadel model' do
       end
       it 'returns a correct hash' do
         temporarily do
+          System.create(eveid: 30001990, region_eveid: 10000023, name: '93PI-4')
+          Region.create(eveid: 10000023, name: 'Pure Blind')
           killmail.save_if_relevant
           expect(Citadel.first.api_hash).to eq(hash_target)
         end
