@@ -10,16 +10,13 @@ class KillmailIntegration
   end
 
   def listen
-    1000.times do
-      km_json = JSON.parse(fetch_killmail.body)
-      if km_json['package'] && km_json['package']['killmail']
-        puts "killmailID: #{km_json['package']['killID']}"
-        parse_killmail(km_json)
-      else
-        puts "received #{km_json}... breaking"
-        break
-      end
+    km_json = JSON.parse(fetch_killmail.body)
+    if km_json['package'] && km_json['package']['killmail']
+      puts "killmailID: #{km_json['package']['killID']}"
+      parse_killmail(km_json)
+      listen
     end
+    puts "finished"
   end
 
   def json_to_killmail(url_array = create_url_array)
