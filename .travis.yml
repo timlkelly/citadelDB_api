@@ -8,5 +8,5 @@ addons:
 script:
 - bundle exec rake spec
 before_script:
-- bundle exec rake db:create ENV['RACK_ENV'] = 'test'
-- bundle exec rake db:schema:load ENV['RACK_ENV'] = 'test'
+- bundle exec rake db:create
+- bundle exec rake db:schema:load
