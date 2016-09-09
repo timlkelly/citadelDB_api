@@ -3,10 +3,10 @@ rvm:
 - 2.2.5
 env:
 - DB=postgresql
+addons:
+  postgres 9.5
 script:
 - bundle exec rake spec
 before_script:
-- bundle exec rake db:create
-- bundle exec rake db:schema:load
-addons:
-  postgres 9.5
+- bundle exec rake db:create ENV['RACK_ENV'] = 'test'
+- bundle exec rake db:schema:load ENV['RACK_ENV'] = 'test'
