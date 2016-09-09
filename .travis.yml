@@ -4,7 +4,7 @@ rvm:
 env:
 - DB=postgresql
 addons:
-  postgres 9.5
+  postgresql: 9.5
 script:
 - bundle exec rake spec
 before_script:
