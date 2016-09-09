@@ -6,9 +6,7 @@ env:
 script:
 - bundle exec rake spec
 before_script:
-- ENV=test bundle exec rake db:create
-- ENV=test bundle exec rake db:schema:load
+- bundle exec rake db:create
+- bundle exec rake db:schema:load
 addons:
   postgres 9.5
-  code_climate:
-    repo_token: ENV[code_climate]
