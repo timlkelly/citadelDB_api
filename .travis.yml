@@ -8,3 +8,7 @@ script:
 before_script:
 - RAILS_ENV=test bundle exec rake db:create
 - RAILS_ENV=test bundle exec rake db:schema:load
+addons:
+  postgres 9.5
+  code_climate:
+    repo_token: ENV[code_climate]
