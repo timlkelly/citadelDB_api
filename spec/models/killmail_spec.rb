@@ -85,14 +85,14 @@ describe 'Killmail model' do
       end
     end
     context 'Keepstar killmail' do
-      let(:killmail_fixture) { File.read('./spec/fixtures/keepstar_killmail.json') }
+      let(:killmail_fixture) { File.read('./spec/fixtures/Keepstar_killmail.json') }
       let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
       it 'returns true' do
         expect(killmail.citadel?).to eq true
       end
     end
     context 'Keepstar deathmail' do
-      let(:killmail_fixture) { File.read('./spec/fixtures/keepstar_deathmail.json') }
+      let(:killmail_fixture) { File.read('./spec/fixtures/Keepstar_deathmail.json') }
       let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
       it 'returns true' do
         expect(killmail.citadel?).to eq true
