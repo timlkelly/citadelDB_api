@@ -3,10 +3,8 @@ rvm:
   - 2.2.5
 env:
   - DB=postgresql
-services:
-  - postgresql
 addons:
-  postgresql: '9.5'
+  postgresql: '9.4'
   code_climate:
     repo_token: code_climate_token
 script:
