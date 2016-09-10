@@ -6,7 +6,7 @@ env:
 addons:
   postgresql: '9.4'
   code_climate:
-    repo_token: code_climate_token
+    repo_token: $CODECLIMATE_REPO_TOKEN
 script:
   - bundle exec rake spec
 before_script:
