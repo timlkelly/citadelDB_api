@@ -23,13 +23,13 @@ class Killmail < ActiveRecord::Base
   end
 
   def killed_at_datetime(killed_time = nil)
-    return nil unless killed_time and killed_time.to_s.length > 0
+    return nil unless killed_time and !killed_time.to_s.empty?
     return killed_time if killed_time.is_a?(DateTime)
     DateTime.parse(killed_time)
   end
 
   def killmail_data
-    killmail_json.is_a?(String) ? km_json = JSON.parse(killmail_json) : km_json = killmail_json
+    km_json = killmail_json.is_a?(String) ? JSON.parse(killmail_json) : killmail_json
     return nil unless killmail_json
     if km_json.keys.include?('package')
       km_json['package'] && km_json['package']['killmail']
@@ -80,10 +80,7 @@ class Killmail < ActiveRecord::Base
 
   def find_or_create_citadel
     return false if killmail_data.nil?
-    citadel = Citadel.where(generate_citadel_hash.except(:killed_at)).first
-    unless citadel
-      citadel = Citadel.create(generate_citadel_hash)
-    end
+    citadel = Citadel.where(generate_citadel_hash.except(:killed_at)).first || Citadel.create(generate_citadel_hash)
     if citadel_victim?
       citadel.update_attribute(:killed_at, killed_at_datetime(killmail_data['killTime']))
     end
@@ -91,13 +88,10 @@ class Killmail < ActiveRecord::Base
   end
 
   def save_if_relevant
-    if citadel? == false
-      return false
-    else
-      self.citadel_id = find_or_create_citadel.id
-      self.killmail_eveid = killmail_data['killID']
-      save
-    end
+    return false unless citadel?
+    self.citadel_id = find_or_create_citadel.id
+    self.killmail_eveid = killmail_data['killID']
+    save
   end
 
   private
