@@ -29,11 +29,7 @@ class Killmail < ActiveRecord::Base
   end
 
   def killmail_data
-    if killmail_json.is_a?(String)
-      km_json = JSON.parse(killmail_json)
-    else
-      km_json = killmail_json
-    end
+    killmail_json.is_a?(String) ? km_json = JSON.parse(killmail_json) : km_json = killmail_json
     return nil unless killmail_json
     if km_json.keys.include?('package')
       km_json['package'] && km_json['package']['killmail']
@@ -58,24 +54,20 @@ class Killmail < ActiveRecord::Base
   end
 
   def citadel_attacker?
-    killmail_data['attackers'].each do |attacker|
-      if attacker['shipType']
-        next unless self.class.valid_citadel_types_names.include?(attacker['shipType']['name'])
-        return true
-      elsif attacker['shipTypeID']
-        next unless self.class.valid_citadel_types_ids.include?(attacker['shipTypeID'])
-        return true
-      end
-    end
-    false
+    killmail_data['attackers'].detect { |attacker| valid_attacker_type?(attacker) }
   end
 
   def generate_citadel_hash
+    citadel_hash = { system_eveid: system_eveid_from_json }
     if citadel_victim?
-      create_victim_hash
+      citadel_hash.merge!(killmail_data['victim']['shipType'] ? listening_victim_hash : legacy_victim_hash)
     else
-      create_attacker_hash
+      killmail_data['attackers'].each do |attacker|
+        citadel_hash.merge!(attacker['shipType'] ? listening_attacker_hash(attacker) : legacy_attacker_hash(attacker))
+      end
     end
+    citadel_hash[:alliance] = nil if citadel_hash[:alliance] == ''
+    citadel_hash
   end
 
   def system_eveid_from_json
@@ -84,69 +76,6 @@ class Killmail < ActiveRecord::Base
     else
       killmail_data['solarSystemID']
     end
-  end
-
-  def create_attacker_hash
-    attacker_hash = {}
-    killmail_data['attackers'].each do |attacker|
-      if attacker['shipType']
-        next unless self.class.valid_citadel_types_names.include?(attacker['shipType']['name'])
-        attacker_hash = {
-          system_eveid: system_eveid_from_json,
-          citadel_type: attacker['shipType']['name'],
-          corporation: attacker['corporation']['name']
-        }
-        if attacker['alliance']
-          attacker_hash[:alliance] = attacker['alliance']['name']
-        else
-          attacker_hash[:alliance] = nil
-        end
-      elsif attacker['shipTypeID']
-        next unless self.class.valid_citadel_types_ids.include?(attacker['shipTypeID'])
-        attacker_hash = {
-          system_eveid: system_eveid_from_json,
-          citadel_type: citadel_type_lookup(attacker['shipTypeID'].to_s),
-          corporation: attacker['corporationName']
-        }
-        if attacker['allianceName'] == ''
-          attacker_hash[:alliance] = nil
-        else
-          attacker_hash[:alliance] = attacker['allianceName']
-        end
-      else
-        return {}
-      end
-    end
-    attacker_hash
-  end
-
-  def create_victim_hash
-    if killmail_data['victim']['shipType']
-      victim_hash = {
-        system_eveid: system_eveid_from_json,
-        citadel_type: killmail_data['victim']['shipType']['name'],
-        corporation: killmail_data['victim']['corporation']['name'],
-        killed_at: killed_at_datetime(killmail_data['killTime'])
-      }
-      if killmail_data['victim']['alliance']
-        victim_hash[:alliance] = killmail_data['victim']['alliance']['name']
-      else
-        victim_hash[:alliance] = nil
-      end
-    elsif killmail_data['victim']['shipTypeID']
-      victim_hash = {
-        system_eveid: system_eveid_from_json,
-        citadel_type: citadel_type_lookup(killmail_data['victim']['shipTypeID'].to_s),
-        corporation: killmail_data['victim']['corporationName'],
-        killed_at: killed_at_datetime(killmail_data['killTime'])
-      }
-      if killmail_data['victim']['allianceName'] == ''
-        victim_hash[:alliance] = nil
-      else
-        victim_hash[:alliance] = killmail_data['victim']['allianceName']
-      end
-    end
-    victim_hash
   end
 
   def find_or_create_citadel
@@ -169,5 +98,51 @@ class Killmail < ActiveRecord::Base
       self.killmail_eveid = killmail_data['killID']
       save
     end
+  end
+
+  private
+
+  def valid_attacker_type?(attacker)
+    if attacker['shipType']
+      self.class.valid_citadel_types_names.include?(attacker['shipType']['name'])
+    elsif attacker['shipTypeID']
+      self.class.valid_citadel_types_ids.include?(attacker['shipTypeID'])
+    end
+  end
+
+  def listening_attacker_hash(attacker)
+    return {} unless valid_attacker_type?(attacker)
+    {
+      citadel_type: attacker['shipType']['name'],
+      corporation: attacker['corporation']['name'],
+      alliance: attacker['alliance'] && attacker['alliance']['name']
+    }
+  end
+
+  def legacy_attacker_hash(attacker)
+    return {} unless attacker['shipTypeID'] && valid_attacker_type?(attacker)
+    {
+      citadel_type: citadel_type_lookup(attacker['shipTypeID'].to_s),
+      corporation: attacker['corporationName'],
+      alliance: attacker['allianceName']
+    }
+  end
+
+  def listening_victim_hash
+    {
+      citadel_type: killmail_data['victim']['shipType']['name'],
+      corporation: killmail_data['victim']['corporation']['name'],
+      killed_at: killed_at_datetime(killmail_data['killTime']),
+      alliance: killmail_data['victim']['alliance'] && killmail_data['victim']['alliance']['name']
+    }
+  end
+
+  def legacy_victim_hash
+    {
+      citadel_type: citadel_type_lookup(killmail_data['victim']['shipTypeID'].to_s),
+      corporation: killmail_data['victim']['corporationName'],
+      killed_at: killed_at_datetime(killmail_data['killTime']),
+      alliance: killmail_data['victim']['allianceName']
+    }
   end
 end

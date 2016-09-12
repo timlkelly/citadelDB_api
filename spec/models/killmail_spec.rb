@@ -60,63 +60,63 @@ describe 'Killmail model' do
       let(:killmail_fixture) { File.read('./spec/fixtures/astrahus_killmail.json') }
       let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
       it 'returns true' do
-        expect(killmail.citadel?).to eq true
+        expect(killmail.citadel?).to be_truthy
       end
     end
     context 'Astrahus deathmail' do
       let(:killmail_fixture) { File.read('./spec/fixtures/astrahus_deathmail.json') }
       let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
       it 'returns true' do
-        expect(killmail.citadel?).to eq true
+        expect(killmail.citadel?).to be_truthy
       end
     end
     context 'Fortizar killmail' do
       let(:killmail_fixture) { File.read('./spec/fixtures/fortizar_killmail.json') }
       let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
       it 'returns true' do
-        expect(killmail.citadel?).to eq true
+        expect(killmail.citadel?).to be_truthy
       end
     end
     context 'Fortizar deathmail' do
       let(:killmail_fixture) { File.read('./spec/fixtures/fortizar_deathmail.json') }
       let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
       it 'returns true' do
-        expect(killmail.citadel?).to eq true
+        expect(killmail.citadel?).to be_truthy
       end
     end
     context 'Keepstar killmail' do
       let(:killmail_fixture) { File.read('./spec/fixtures/Keepstar_killmail.json') }
       let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
       it 'returns true' do
-        expect(killmail.citadel?).to eq true
+        expect(killmail.citadel?).to be_truthy
       end
     end
     context 'Keepstar deathmail' do
       let(:killmail_fixture) { File.read('./spec/fixtures/Keepstar_deathmail.json') }
       let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
       it 'returns true' do
-        expect(killmail.citadel?).to eq true
+        expect(killmail.citadel?).to be_truthy
       end
     end
     context 'upwell killmail' do
       let(:killmail_fixture) { File.read('./spec/fixtures/upwell_killmail.json') }
       let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
       it 'returns true' do
-        expect(killmail.citadel?).to eq true
+        expect(killmail.citadel?).to be_truthy
       end
     end
     context 'upwell deathmail' do
       let(:killmail_fixture) { File.read('./spec/fixtures/upwell_deathmail.json') }
       let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
       it 'returns true' do
-        expect(killmail.citadel?).to eq true
+        expect(killmail.citadel?).to be_truthy
       end
     end
     context 'is not a citadel' do
       let(:killmail_fixture) { File.read('./spec/fixtures/ship_killmail.json') }
       let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
       it 'returns false' do
-        expect(killmail.citadel?).to eq false
+        expect(killmail.citadel?).to be_falsey
       end
     end
   end
@@ -126,42 +126,42 @@ describe 'Killmail model' do
       let(:killmail_fixture) { File.read('./spec/fixtures/astrahus_deathmail.json') }
       let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
       it 'returns true' do
-        expect(killmail.citadel_victim?).to eq(true)
+        expect(killmail.citadel_victim?).to be_truthy
       end
     end
     context 'Listen: invalid mail (citadel kill)' do
       let(:killmail_fixture) { File.read('./spec/fixtures/astrahus_killmail.json') }
       let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
       it 'returns false' do
-        expect(killmail.citadel_victim?).to eq(false)
+        expect(killmail.citadel_victim?).to be_falsey
       end
     end
     context 'Listen: invalid mail (ship killmail)' do
       let(:killmail_fixture) { File.read('./spec/fixtures/ship_killmail.json') }
       let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
       it 'returns false' do
-        expect(killmail.citadel_victim?).to eq(false)
+        expect(killmail.citadel_victim?).to be_falsey
       end
     end
     context 'API pull: valid mail (citadel death)' do
       let(:killmail_fixture) { File.read('./spec/fixtures/past_deathmail.json') }
       let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
       it 'returns true' do
-        expect(killmail.citadel_victim?).to eq(true)
+        expect(killmail.citadel_victim?).to be_truthy
       end
     end
     context 'API pull: invalid mail (citadel kill)' do
       let(:killmail_fixture) { File.read('./spec/fixtures/past_killmail.json') }
       let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
       it 'returns false' do
-        expect(killmail.citadel_victim?).to eq(false)
+        expect(killmail.citadel_victim?).to be_falsey
       end
     end
     context 'API pull: invalid mail (ship killmail)' do
       let(:killmail_fixture) { File.read('./spec/fixtures/past_mail_ship.json') }
       let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
       it 'returns false' do
-        expect(killmail.citadel_victim?).to eq(false)
+        expect(killmail.citadel_victim?).to be_falsey
       end
     end
   end
@@ -171,42 +171,42 @@ describe 'Killmail model' do
       let(:killmail_fixture) { File.read('./spec/fixtures/astrahus_killmail.json') }
       let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
       it 'returns true' do
-        expect(killmail.citadel_attacker?).to eq(true)
+        expect(killmail.citadel_attacker?).to be_truthy
       end
     end
     context 'Listen: citadel is not attacker' do
       let(:killmail_fixture) { File.read('./spec/fixtures/astrahus_deathmail.json') }
       let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
       it 'returns false' do
-        expect(killmail.citadel_attacker?).to eq(false)
+        expect(killmail.citadel_attacker?).to be_falsey
       end
     end
     context 'Listen: ship killmail' do
       let(:shipmail_fixture) { File.read('./spec/fixtures/listen_ship_test.json') }
       let(:ship_killmail) { Killmail.new(killmail_json: shipmail_fixture) }
       it 'returns false' do
-        expect(ship_killmail.citadel_attacker?).to eq(false)
+        expect(ship_killmail.citadel_attacker?).to be_falsey
       end
     end
     context 'API pull: citadel is attacker' do
       let(:killmail_fixture) { File.read('./spec/fixtures/past_killmail.json') }
       let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
       it 'returns true' do
-        expect(killmail.citadel_attacker?).to eq(true)
+        expect(killmail.citadel_attacker?).to be_truthy
       end
     end
     context 'API pull: citadel is not attacker' do
       let(:killmail_fixture) { File.read('./spec/fixtures/past_deathmail.json') }
       let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
       it 'returns false' do
-        expect(killmail.citadel_attacker?).to eq(false)
+        expect(killmail.citadel_attacker?).to be_falsey
       end
     end
     context 'API pull: ship killmail' do
       let(:killmail_fixture) { File.read('./spec/fixtures/past_mail_ship.json') }
       let(:killmail) { Killmail.new(killmail_json: killmail_fixture) }
       it 'returns false' do
-        expect(killmail.citadel_attacker?).to eq(false)
+        expect(killmail.citadel_attacker?).to be_falsey
       end
     end
   end
